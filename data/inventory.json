@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "updated": null,
+  "finance": {
+    "net_worth": {
+      "value": null,
+      "unit": "KRW",
+      "as_of": null
+    },
+    "savings_rate": {
+      "value": null,
+      "unit": "ratio",
+      "as_of": null
+    },
+    "runway_months": {
+      "value": null,
+      "unit": "months",
+      "as_of": null
+    }
+  },
+  "degrees": [],
+  "certifications": [],
+  "works": [],
+  "career": []
+}

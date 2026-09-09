@@ -1,0 +1,365 @@
+{
+  "title": "Public Figure AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The Surface",
+      "sections": [
+        {
+          "no": 1,
+          "title": "How You Are Read",
+          "anchor": "1-how-you-are-read",
+          "subs": [],
+          "items": [
+            {
+              "t": "Thin-slice Judgment / 첫 몇 초에 굳는 분류"
+            },
+            {
+              "t": "Self-Other Perception Gap / 의도한 인상과 전달된 인상의 격차"
+            },
+            {
+              "t": "Halo and Horn Effects / 단일 특질이 전체 평가를 물들이는 구조"
+            },
+            {
+              "t": "Observation",
+              "delegate": "social/skill-based/Reading/observation"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Surface Signals",
+          "anchor": "2-surface-signals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Vocal Delivery / 말속도·성량·억양이 만드는 인상"
+            },
+            {
+              "t": "Posture and Spatial Occupancy / 자세와 점유 공간"
+            },
+            {
+              "t": "Name and Handle Consistency / 이름·계정의 동일성이 수행하는 기능"
+            },
+            {
+              "t": "Conspicuous Consumption / 과시적 소비와 유한계급 (Veblen)"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            },
+            {
+              "t": "Status Signaling",
+              "delegate": "social/skill-based/Presence/status-signaling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "A Consistent Image",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Choosing the Image",
+          "anchor": "3-choosing-the-image",
+          "subs": [],
+          "items": [
+            {
+              "t": "Target Impression / 상황별로 원하는 읽힘의 좌표"
+            },
+            {
+              "t": "Positioning / 남들과 구별되는 자리 잡기"
+            },
+            {
+              "t": "Axis Trade-off / 상충하는 인상을 동시에 노릴 때의 대가"
+            },
+            {
+              "t": "Authenticity Range / 연기가 아니라 자기 안에서 고르는 범위"
+            },
+            {
+              "t": "Acquisitive versus Protective Motives / 획득형과 방어형 자기제시의 구분"
+            },
+            {
+              "t": "Authenticity Paradox / 연출된 진정성이 진정성으로 소비되는 구조"
+            },
+            {
+              "t": "Self-Verification versus Enhancement / 정확히 읽히기와 좋게 읽히기의 충돌 (Swann)"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            },
+            {
+              "t": "Reputation",
+              "delegate": "social/skill-based/Presence/reputation"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Consistency",
+          "anchor": "4-consistency",
+          "subs": [],
+          "items": [
+            {
+              "t": "Signature Repetition / 반복되는 표현·형식이 식별자가 되는 구조"
+            },
+            {
+              "t": "Image Drift / 상이 서서히 어긋나는 것의 감지"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            },
+            {
+              "t": "Reputation",
+              "delegate": "social/skill-based/Presence/reputation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Trust",
+      "sections": [
+        {
+          "no": 5,
+          "title": "How Reputation Forms",
+          "anchor": "5-how-reputation-forms",
+          "subs": [],
+          "items": [
+            {
+              "t": "Status Hierarchy Dynamics / 지위 서열의 형성과 이동"
+            },
+            {
+              "t": "Reputation as Asset / 기회가 먼저 찾아오는 상태의 경제적 성격"
+            },
+            {
+              "t": "Reputation",
+              "delegate": "social/skill-based/Presence/reputation"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Trust Accumulation",
+          "anchor": "6-trust-accumulation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Track Record Legibility / 실적이 읽히는 형태로 남아야 하는 이유"
+            },
+            {
+              "t": "Signaling Theory / 관찰 불가능한 질을 신호로 전달하는 구조 (Spence)"
+            },
+            {
+              "t": "Credential as Signal / 자격·소속이 검증 절차를 대체하는 방식"
+            },
+            {
+              "t": "Reputation Transfer / 제휴·추천으로 평판이 옮겨 붙는 기제"
+            },
+            {
+              "t": "Affiliation Risk / 빌려온 평판이 함께 무너지는 구조"
+            },
+            {
+              "t": "Reputation",
+              "delegate": "social/skill-based/Presence/reputation"
+            },
+            {
+              "t": "Status Signaling",
+              "delegate": "social/skill-based/Presence/status-signaling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Exposure and Channels",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Channels",
+          "anchor": "7-channels",
+          "subs": [],
+          "items": [
+            {
+              "t": "Owned versus Earned Attention / 내 채널과 남이 실어주는 노출의 차이"
+            },
+            {
+              "t": "Platform Affordance / 매체 형식이 상을 규정하는 방식"
+            },
+            {
+              "t": "Cadence / 발신 주기가 만드는 존재감"
+            },
+            {
+              "t": "Format Fit / 글·영상·발표 중 내 신호가 가장 잘 실리는 형태"
+            },
+            {
+              "t": "Algorithmic Distribution / 추천 분배가 노출을 결정하는 구조"
+            },
+            {
+              "t": "Media Strategy",
+              "delegate": "social/skill-based/GroupInfluence/media-strategy"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Audience",
+          "anchor": "8-audience",
+          "subs": [],
+          "items": [
+            {
+              "t": "Audience Composition / 누가 보고 있는지가 발신을 규정한다"
+            },
+            {
+              "t": "Parasocial Relationship / 일방적 친밀감이 형성되는 기제 (Horton-Wohl)"
+            },
+            {
+              "t": "Audience Expectation Lock / 청중의 기대가 변화를 막는 구조"
+            },
+            {
+              "t": "Overexposure / 노출 과다로 인한 마모"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Reputation Management",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Asymmetry",
+          "anchor": "9-asymmetry",
+          "subs": [],
+          "items": [
+            {
+              "t": "Recovery Asymmetry / 회복이 훼손보다 느린 이유"
+            },
+            {
+              "t": "Forgiveness Conditions / 대중이 회복을 허용하는 조건"
+            },
+            {
+              "t": "Digital Permanence / 온라인 기록의 영속성과 잊힐 권리"
+            },
+            {
+              "t": "Reputation",
+              "delegate": "social/skill-based/Presence/reputation"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Damage Handling",
+          "anchor": "10-damage-handling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Damage Diagnosis / 무엇이 훼손됐는지 특정하기"
+            },
+            {
+              "t": "Silence as Strategy / 대응하지 않는 편이 나은 조건"
+            },
+            {
+              "t": "Streisand Effect / 억누르려는 시도가 확산을 키우는 역설"
+            },
+            {
+              "t": "Situational Crisis Communication Theory / 위기 유형별 책임 귀인과 대응 전략 (Coombs)"
+            },
+            {
+              "t": "Crisis Response Typology / 부인·축소·재건·강화의 선택 기준"
+            },
+            {
+              "t": "Image Repair Strategies / 이미지 회복 담화의 분류 (Benoit)"
+            },
+            {
+              "t": "Non-apology Detection / 사과의 형식만 취한 발화의 식별"
+            },
+            {
+              "t": "Reputation",
+              "delegate": "social/skill-based/Presence/reputation"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Monitoring and Preparedness",
+          "anchor": "11-monitoring-and-preparedness",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sentiment Tracking / 평판 상태를 관측 가능한 지표로 두기"
+            },
+            {
+              "t": "Reputation Shock Forecast / 사고 유형별 평판 하락 폭의 예측"
+            },
+            {
+              "t": "Crisis Playbook / 유형별 사전 대응 각본의 구성 요건"
+            },
+            {
+              "t": "Spokesperson Delegation / 대변 권한을 넘길 때의 위험 관리"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Impression Management",
+      "ref": "social/skill-based/Presence/impression-management"
+    },
+    {
+      "label": "Reputation",
+      "ref": "social/skill-based/Presence/reputation"
+    },
+    {
+      "label": "Status Signaling",
+      "ref": "social/skill-based/Presence/status-signaling"
+    },
+    {
+      "label": "Charisma",
+      "ref": "social/skill-based/Presence/charisma"
+    },
+    {
+      "label": "Media Strategy",
+      "ref": "social/skill-based/GroupInfluence/media-strategy"
+    },
+    {
+      "label": "Networking",
+      "ref": "social/skill-based/Relating/networking"
+    },
+    {
+      "label": "Delivery",
+      "ref": "social/skill-based/Speaking/delivery"
+    },
+    {
+      "label": "Video Production",
+      "ref": "creative/role-based/video-production"
+    }
+  ]
+}

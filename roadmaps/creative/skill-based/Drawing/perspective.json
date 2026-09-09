@@ -1,0 +1,103 @@
+{
+  "title": "Perspective AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Ground Rules",
+          "anchor": "1-ground-rules",
+          "subs": [],
+          "items": [
+            {
+              "t": "Horizon and Eye Level / 사진 한 장에 지평선·시선 높이 표시"
+            },
+            {
+              "t": "Vanishing Point Trace / 사진 위에 소실점까지 선 그어 분석 한 장"
+            },
+            {
+              "t": "Cone of Vision / 왜곡 없는 화각 안에 담아 다시 그린 한 장"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "One, Two, Three Point",
+          "anchor": "2-one-two-three-point",
+          "subs": [],
+          "items": [
+            {
+              "t": "One-Point Corridor / 1점 투시로 복도 한 장"
+            },
+            {
+              "t": "Two-Point Interior / 2점 투시로 실내 공간 한 장"
+            },
+            {
+              "t": "Two-Point Street / 2점 투시로 건물 늘어선 거리 한 장"
+            },
+            {
+              "t": "Three-Point Upshot / 3점 투시로 올려다본 고층 한 장"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Constructing in Space",
+          "anchor": "3-constructing-in-space",
+          "subs": [],
+          "items": [
+            {
+              "t": "Box in Perspective / 임의 각도 상자 20개 한 장"
+            },
+            {
+              "t": "Dividing and Multiplying / 대각선으로 면 등분해 창문 배열 한 장"
+            },
+            {
+              "t": "Ellipses in Perspective / 투시에 맞춘 원기둥·바퀴 한 장"
+            },
+            {
+              "t": "Inclined Planes / 계단과 경사 지붕 한 장"
+            },
+            {
+              "t": "Cast Shadow Construction / 광원 잡고 그림자까지 작도한 한 장"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Freehand and Application",
+          "anchor": "4-freehand-and-application",
+          "subs": [],
+          "items": [
+            {
+              "t": "Freehand Estimation / 자 없이 눈대중으로 투시 한 장"
+            },
+            {
+              "t": "Photo Reconstruction / 사진 보고 공간을 다시 작도한 한 장"
+            },
+            {
+              "t": "Figures on the Ground Plane / 인물 3명을 같은 바닥에 세운 한 장"
+            },
+            {
+              "t": "Imagined Environment / 참고 없이 상상 공간 한 장 완성"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Figure",
+      "ref": "creative/skill-based/Drawing/figure"
+    },
+    {
+      "label": "Composition",
+      "ref": "creative/skill-based/Drawing/composition"
+    }
+  ]
+}

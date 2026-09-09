@@ -1,0 +1,440 @@
+{
+  "title": "Operative AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Identity",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Cover Fundamentals",
+          "anchor": "1-cover-fundamentals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cover for Status / 왜 그 자리에 있는가를 설명하는 신분"
+            },
+            {
+              "t": "Cover for Action / 왜 그 행동을 하는가를 설명하는 명분"
+            },
+            {
+              "t": "Official vs Non-official Cover / 공직 가장과 비공직 가장의 위험 비대칭"
+            },
+            {
+              "t": "Cover Story",
+              "delegate": "social/skill-based/Deception/cover-story"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Legend Construction",
+          "anchor": "2-legend-construction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Legend Depth / 배경 서사를 어느 층까지 만들 것인가"
+            },
+            {
+              "t": "Pocket Litter / 소지품이 만드는 일관성의 층"
+            },
+            {
+              "t": "Biometric Irreversibility / 생체 등록이 신분 재사용을 불가능하게 만드는 제약"
+            },
+            {
+              "t": "Metadata Trail / 통신 메타데이터가 서사보다 먼저 신분을 깨는 구조"
+            },
+            {
+              "t": "False Identity",
+              "delegate": "social/skill-based/Deception/false-identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Access",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Spotting and Access",
+          "anchor": "3-spotting-and-access",
+          "subs": [],
+          "items": [
+            {
+              "t": "Spotting / 접근 가치가 있는 인물을 식별하는 단계"
+            },
+            {
+              "t": "Placement and Access / 직위가 아니라 실제 접근 권한이 가치라는 기준"
+            },
+            {
+              "t": "Cold Approach Risk / 직접 접근이 남기는 흔적과 그 비용"
+            },
+            {
+              "t": "Approach",
+              "delegate": "social/skill-based/Relating/approach"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Assessment and Development",
+          "anchor": "4-assessment-and-development",
+          "subs": [],
+          "items": [
+            {
+              "t": "Assessment Phase / 포섭 가능성을 재는 관찰 구간"
+            },
+            {
+              "t": "Vulnerability Mapping / 재정·경력·관계의 압력점 파악"
+            },
+            {
+              "t": "Access Verification / 주장하는 접근 권한의 실재 확인"
+            },
+            {
+              "t": "Development Timeline / 관계가 익는 데 드는 시간의 구조"
+            },
+            {
+              "t": "Dangle Recognition / 상대가 먼저 다가오는 경우의 함정 가능성"
+            },
+            {
+              "t": "Provocation and Dangle / 상대의 포섭 시도를 유도해 노출시키는 수법"
+            },
+            {
+              "t": "Elicitation",
+              "delegate": "social/skill-based/Reading/elicitation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Recruitment",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Motivation Frames",
+          "anchor": "5-motivation-frames",
+          "subs": [],
+          "items": [
+            {
+              "t": "MICE Framework / 돈·이념·약점·자아라는 고전 동기 분류"
+            },
+            {
+              "t": "MICE Limits / 단일 동기 가정이 실제 사례를 설명하지 못하는 지점"
+            },
+            {
+              "t": "RASCLS / 상호성·부족성·권위·일관성·호감·사회적 증거의 포섭 응용 (Burkett, Cialdini)"
+            },
+            {
+              "t": "Grievance over Ideology / 조직에 대한 원한이 이념보다 강한 동기가 되는 경우"
+            },
+            {
+              "t": "Ego and Recognition / 인정 결핍이 만드는 지속형 동기"
+            },
+            {
+              "t": "Coercion Fragility / 약점 압박으로 얻은 협조가 오래가지 못하는 이유"
+            },
+            {
+              "t": "Persuasion Principles",
+              "delegate": "social/skill-based/Influence/principles"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "The Pitch",
+          "anchor": "6-the-pitch",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pitch Timing / 제안을 꺼내는 시점의 판단 기준"
+            },
+            {
+              "t": "Soft Pitch / 명시적 제안 없이 협조 관계로 미끄러지는 경로"
+            },
+            {
+              "t": "False Flag Recruitment / 다른 국적·조직으로 가장한 포섭"
+            },
+            {
+              "t": "Compensation Structure / 보상의 형태와 주기가 관계를 규정하는 방식"
+            },
+            {
+              "t": "Refusal Contingency / 거절당했을 때의 노출 관리"
+            },
+            {
+              "t": "Persuasion Principles",
+              "delegate": "social/skill-based/Influence/principles"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Handling Relationship",
+          "anchor": "7-handling-relationship",
+          "subs": [],
+          "items": [
+            {
+              "t": "Case Officer and Asset / 조종이 아니라 관리인 관계로 규정되는 성격"
+            },
+            {
+              "t": "Asset Validation / 자산이 진짜인지 지속 검증하는 절차"
+            },
+            {
+              "t": "Tasking Discipline / 요구가 자산의 안전 한계를 넘지 않게 하는 통제"
+            },
+            {
+              "t": "Handover Continuity / 담당자 교체가 관계에 주는 충격"
+            },
+            {
+              "t": "Asset Burnout / 장기 운용이 만드는 심리적 소모와 이탈 신호"
+            },
+            {
+              "t": "Walk-in Validation / 자발적 제보자의 진위 판정 문제"
+            },
+            {
+              "t": "Insider Threat Indicators / 내부자 이탈의 행동·재정 징후"
+            },
+            {
+              "t": "Double Agent Operation / 이중첩자 운용의 구조와 그 통제 비용"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Running the Operation",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Tradecraft",
+          "anchor": "8-tradecraft",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dead Drop / 대면 없이 물자를 주고받는 방식"
+            },
+            {
+              "t": "Brush Pass / 순간 접촉으로 이루어지는 전달"
+            },
+            {
+              "t": "Signal Site / 접선 여부를 알리는 사전 신호"
+            },
+            {
+              "t": "Surveillance Detection Route / 미행 확인을 위한 이동 설계"
+            },
+            {
+              "t": "Cover for Meeting / 접선 자체에 붙이는 명분"
+            },
+            {
+              "t": "Pattern of Life / 일상 패턴이 곧 노출 표면인 이유"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Communication Security",
+          "anchor": "9-communication-security",
+          "subs": [],
+          "items": [
+            {
+              "t": "Covert Channel / 내용보다 존재 자체를 숨기는 통신"
+            },
+            {
+              "t": "One-time Pad Principle / 이론적 완전 비밀성과 운용상의 취약점"
+            },
+            {
+              "t": "Steganography / 메시지의 존재를 감추는 은닉 통신"
+            },
+            {
+              "t": "Traffic Analysis / 내용 없이 관계망을 드러내는 통신량 분석"
+            },
+            {
+              "t": "Device Attribution / 기기·위치·시각이 신원으로 수렴하는 경로"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Compartmentation",
+          "anchor": "10-compartmentation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Need to Know / 아는 사람을 최소화하는 원칙"
+            },
+            {
+              "t": "Compartmentation / 정보 구획화가 손실을 국지화하는 구조"
+            },
+            {
+              "t": "Cell Structure / 세포 구조가 얻는 안전과 잃는 정보 효율"
+            },
+            {
+              "t": "Cutout / 중개자를 두어 연결을 끊는 방식"
+            },
+            {
+              "t": "Barium Meal / 표식 정보를 흘려 누출 경로를 특정하는 기법"
+            },
+            {
+              "t": "Information Control",
+              "delegate": "social/skill-based/Manipulation/information-control"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Collection and Analysis",
+          "anchor": "11-collection-and-analysis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Intelligence Cycle / 요구·수집·처리·분석·배포로 도는 순환"
+            },
+            {
+              "t": "Collection Requirement / 무엇을 왜 알아야 하는가가 수집을 규정하는 구조"
+            },
+            {
+              "t": "HUMINT among Disciplines / 신호·영상·공개출처 사이에서 인간정보가 갖는 위치"
+            },
+            {
+              "t": "OSINT Position / 공개출처가 대체하는 영역과 대체하지 못하는 영역"
+            },
+            {
+              "t": "Admiralty Code / 출처 신뢰도와 정보 신빙성을 분리해 등급화하는 체계"
+            },
+            {
+              "t": "Analysis of Competing Hypotheses / 가설을 반증 증거로 걸러내는 분석 절차 (Heuer)"
+            },
+            {
+              "t": "Analytic Bias Catalog / 거울상 사고·앵커링·집단사고가 분석을 왜곡하는 방식"
+            },
+            {
+              "t": "Source Grading Record / 출처별 판정과 사후 정확도를 대조하는 기록"
+            },
+            {
+              "t": "Calibration Curve / 확신도와 실제 적중률의 대응"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Deception Operations",
+          "anchor": "12-deception-operations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deception Operation Structure / 상대의 분석 체계를 표적으로 삼는 기만의 구조"
+            },
+            {
+              "t": "Channel Credibility / 기만은 이미 신뢰된 경로로만 성립한다는 조건"
+            },
+            {
+              "t": "Confirmation Feeding / 상대가 이미 믿는 것을 강화하는 기만이 가장 값싼 이유"
+            },
+            {
+              "t": "Double-Cross System / 적 요원을 전면 통제해 기만 경로로 전환한 사례의 구조"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Exposure",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Surveillance and Detection",
+          "anchor": "13-surveillance-and-detection",
+          "subs": [],
+          "items": [
+            {
+              "t": "Physical Surveillance / 미행과 정지 감시의 기본 형태"
+            },
+            {
+              "t": "Counter-surveillance / 감시 유무를 판별하는 관찰"
+            },
+            {
+              "t": "Anti-surveillance / 감시를 떨쳐내는 행동과 그것이 드러내는 것"
+            },
+            {
+              "t": "Technical Surveillance / 도청·영상·신호 감시의 범위"
+            },
+            {
+              "t": "Digital Correlation / 흩어진 데이터의 상관으로 신원이 재구성되는 방식"
+            },
+            {
+              "t": "Counterintelligence Function / 상대 정보활동을 탐지·차단·이용하는 기능"
+            },
+            {
+              "t": "Tell Management",
+              "delegate": "social/skill-based/Deception/tell-management"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Compromise and Exfiltration",
+          "anchor": "14-compromise-and-exfiltration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Compromise Indicators / 노출이 진행 중임을 알리는 징후"
+            },
+            {
+              "t": "Damage Assessment / 무엇이 새어나갔는가를 산정하는 절차"
+            },
+            {
+              "t": "Exfiltration Planning / 이탈 경로와 시점의 사전 설계"
+            },
+            {
+              "t": "Asset Protection Duty / 노출 시 자산 보호가 우선하는 이유"
+            },
+            {
+              "t": "Mole Hunt Pathology / 내부 배신자 색출이 조직 자체를 마비시키는 기제"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Cover Story",
+      "ref": "social/skill-based/Deception/cover-story"
+    },
+    {
+      "label": "False Identity",
+      "ref": "social/skill-based/Deception/false-identity"
+    },
+    {
+      "label": "Tell Management",
+      "ref": "social/skill-based/Deception/tell-management"
+    },
+    {
+      "label": "Information Control",
+      "ref": "social/skill-based/Manipulation/information-control"
+    },
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Elicitation",
+      "ref": "social/skill-based/Reading/elicitation"
+    },
+    {
+      "label": "Approach",
+      "ref": "social/skill-based/Relating/approach"
+    },
+    {
+      "label": "Persuasion Principles",
+      "ref": "social/skill-based/Influence/principles"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "title": "Leader AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Setting Direction",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Direction and Judgment",
+          "anchor": "1-direction-and-judgment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Intent over Instruction / 지시가 아니라 의도를 내리는 지휘 (Auftragstaktik)"
+            },
+            {
+              "t": "Hubris Syndrome / 권력 보유 자체가 판단을 왜곡하는 후천적 변화 (Owen)"
+            },
+            {
+              "t": "Romance of Leadership / 성과를 리더 개인에게 과잉 귀인하는 편향 (Meindl)"
+            },
+            {
+              "t": "Survivorship in Leadership Lore / 성공한 리더만 남아 만들어지는 조언 편향"
+            },
+            {
+              "t": "Direction",
+              "delegate": "social/skill-based/Leading/direction"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Decision Architecture",
+          "anchor": "2-decision-architecture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Consensus vs Consent / 전원 동의와 반대 없음의 차이"
+            },
+            {
+              "t": "Escalation Path / 막힌 결정이 올라가는 경로"
+            },
+            {
+              "t": "Advice Process / 결정권자가 관련자 의견을 의무적으로 구하는 구조"
+            },
+            {
+              "t": "Team",
+              "delegate": "social/skill-based/Leading/team"
+            },
+            {
+              "t": "Direction",
+              "delegate": "social/skill-based/Leading/direction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "People",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Selection and Placement",
+          "anchor": "3-selection-and-placement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hiring Signal / 이력이 아니라 신호를 읽는 관점"
+            },
+            {
+              "t": "Bench Depth / 대체 가능성을 미리 확보하는 것"
+            },
+            {
+              "t": "Peter Principle / 무능해지는 층까지 승진하게 되는 구조"
+            },
+            {
+              "t": "Misplacement Cost / 잘못 배치한 사람을 오래 두는 비용"
+            },
+            {
+              "t": "Trait to Behavior Shift / 특성론에서 행동론으로 넘어간 연구사"
+            },
+            {
+              "t": "Destructive Leadership / 유능하면서 동시에 파괴적인 리더가 가능한 구조"
+            },
+            {
+              "t": "Culture through Selection / 문화가 선발·승진·이탈로 각인되는 경로 (ASA 모형)"
+            },
+            {
+              "t": "Succession Planning / 후임 후보군을 미리 만드는 설계"
+            },
+            {
+              "t": "Leadership Pipeline / 차세대 리더를 조직 안에서 길러내는 구조"
+            },
+            {
+              "t": "Hiring and Team",
+              "delegate": "business/skill-based/Operations/hiring-team"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Development and Feedback",
+          "anchor": "4-development-and-feedback",
+          "subs": [],
+          "items": [
+            {
+              "t": "Feedback Specificity / 행동 단위로 좁힌 피드백이 작동하는 이유"
+            },
+            {
+              "t": "Self-Determination / 자율·유능·관계가 내적 동기를 만든다 (Deci-Ryan)"
+            },
+            {
+              "t": "Overjustification Effect / 외적 보상이 내적 동기를 밀어내는 현상"
+            },
+            {
+              "t": "Hard Conversation Structure / 성과·태도 문제를 다루는 대화의 구조"
+            },
+            {
+              "t": "Transactional Leadership / 교환과 조건부 보상에 기반한 지휘 (Bass)"
+            },
+            {
+              "t": "Transformational Leadership / 이상적 영향·영감·지적 자극·개별 배려의 4요소 (Bass)"
+            },
+            {
+              "t": "Path-Goal Theory / 목표까지의 경로를 치워 주는 역할로서의 리더 (House)"
+            },
+            {
+              "t": "People",
+              "delegate": "social/skill-based/Leading/people"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Team",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Team Conditions",
+          "anchor": "5-team-conditions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Safety and Standards / 안전감과 높은 기준이 함께 가야 하는 이유"
+            },
+            {
+              "t": "Team Norms / 명시된 규범이 암묵 규범을 이기는 조건"
+            },
+            {
+              "t": "Social Loafing / 집단이 커질수록 개인 기여가 줄어드는 현상 (Ringelmann)"
+            },
+            {
+              "t": "Task Interdependence / 일이 얽힌 정도가 팀 설계를 정한다는 것"
+            },
+            {
+              "t": "Meeting as Decision Device / 회의를 전달이 아니라 결정 장치로 보는 관점"
+            },
+            {
+              "t": "Leader-Member Exchange / 리더가 만드는 내집단과 외집단의 격차"
+            },
+            {
+              "t": "Team",
+              "delegate": "social/skill-based/Leading/team"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Authority and Delegation",
+          "anchor": "6-authority-and-delegation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Span of Control / 한 사람이 직접 관리할 수 있는 인원의 한계"
+            },
+            {
+              "t": "Delegation Levels / 보고·상의·통보·전권으로 나뉘는 위임 단계"
+            },
+            {
+              "t": "Accountability without Authority / 책임만 주고 권한을 안 주는 실패 구조"
+            },
+            {
+              "t": "Micromanagement Trap / 통제가 역량 성장을 막는 경로"
+            },
+            {
+              "t": "Leader Bottleneck / 지도자 본인이 병목이 되는 지점"
+            },
+            {
+              "t": "Reversible Delegation / 위임을 회수할 때 치르는 신뢰 비용"
+            },
+            {
+              "t": "Situational Leadership / 성숙도에 따라 지시와 위임을 바꾸는 모형 (Hersey-Blanchard)"
+            },
+            {
+              "t": "Contingency Model / 상황 호의성과 리더 성향의 적합 (Fiedler)"
+            },
+            {
+              "t": "Servant Leadership / 권위를 봉사에서 끌어오는 계열 (Greenleaf)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Scale",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Scaling Structure",
+          "anchor": "7-scaling-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dunbar Number / 관계 유지 한계가 조직 계층을 만드는 이유"
+            },
+            {
+              "t": "Layer Distortion / 계층이 늘 때 정보가 왜곡되는 비율"
+            },
+            {
+              "t": "Conway's Law / 조직의 소통 구조가 산출물 구조를 결정한다"
+            },
+            {
+              "t": "Inverse Conway Maneuver / 원하는 산출 구조에 맞춰 조직을 먼저 바꾸는 설계"
+            },
+            {
+              "t": "Coordination Overhead / 인원이 늘 때 소통 경로가 제곱으로 느는 문제 (Brooks)"
+            },
+            {
+              "t": "Autonomy-Alignment Tradeoff / 자율과 정렬 사이의 교환 곡선"
+            },
+            {
+              "t": "Founder Transition / 창업자에서 전문 경영으로 넘어가는 국면"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Leading Through Others",
+          "anchor": "8-leading-through-others",
+          "subs": [],
+          "items": [
+            {
+              "t": "Leader of Leaders / 실무자가 아니라 리더를 통해 움직이는 전환"
+            },
+            {
+              "t": "Skip-level Signal / 한 단계 건너 듣는 정보의 가치와 위험"
+            },
+            {
+              "t": "Cascade Distortion / 메시지가 층을 내려가며 변형되는 현상"
+            },
+            {
+              "t": "Management Mirror / 중간 리더가 상급자의 행동을 복제하는 구조"
+            },
+            {
+              "t": "Tolerated Minimum / 지도자가 용인한 최저 수준이 곧 기준이 된다는 것"
+            },
+            {
+              "t": "Attention as Signal / 무엇을 묻는지가 조직의 우선순위를 만드는 기제"
+            },
+            {
+              "t": "Three Levels of Culture / 인공물·표방 가치·기저 가정의 층 (Schein)"
+            },
+            {
+              "t": "Espoused vs Enacted Values / 내건 가치와 실제로 보상되는 행동의 괴리"
+            },
+            {
+              "t": "Ritual and Artifact / 반복 의례가 규범을 제도로 굳히는 방식"
+            },
+            {
+              "t": "Post-departure Persistence / 지도자 부재 후에도 규범이 남는 조건"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Crisis and Change",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Crisis Command",
+          "anchor": "9-crisis-command",
+          "subs": [],
+          "items": [
+            {
+              "t": "Crisis Tempo / 평시와 다른 결정 주기로의 전환"
+            },
+            {
+              "t": "Incident Command Structure / 위기에 지휘 계통을 단일화하는 설계"
+            },
+            {
+              "t": "Information Triage / 불확실한 정보의 등급 구분"
+            },
+            {
+              "t": "Crisis Communication / 사실·조치·다음 시점을 나눠 말하는 원칙"
+            },
+            {
+              "t": "Bad News Velocity / 나쁜 소식이 빨리 올라오게 만드는 조건"
+            },
+            {
+              "t": "Normalization of Deviance / 작은 일탈이 표준으로 굳는 누적 (Vaughan)"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Change Management",
+          "anchor": "10-change-management",
+          "subs": [],
+          "items": [
+            {
+              "t": "Technical vs Adaptive Challenge / 해법이 있는 문제와 사람이 변해야 하는 문제 (Heifetz)"
+            },
+            {
+              "t": "Productive Disequilibrium / 견딜 만한 불편 수준을 유지하는 조절"
+            },
+            {
+              "t": "Giving Work Back / 문제를 당사자에게 되돌리는 개입"
+            },
+            {
+              "t": "Resistance as Information / 저항을 손실 예고로 읽는 관점"
+            },
+            {
+              "t": "Loss Accounting / 변화가 누구에게서 무엇을 빼앗는지의 계산"
+            },
+            {
+              "t": "Change Fatigue / 연속된 변화가 수용력을 소진시키는 현상"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Direction",
+      "ref": "social/skill-based/Leading/direction"
+    },
+    {
+      "label": "People",
+      "ref": "social/skill-based/Leading/people"
+    },
+    {
+      "label": "Team",
+      "ref": "social/skill-based/Leading/team"
+    },
+    {
+      "label": "De-escalation",
+      "ref": "social/skill-based/Conflict/de-escalation"
+    },
+    {
+      "label": "Group Dynamics",
+      "ref": "social/skill-based/GroupInfluence/group-dynamics"
+    },
+    {
+      "label": "Charisma",
+      "ref": "social/skill-based/Presence/charisma"
+    },
+    {
+      "label": "Hiring and Team",
+      "ref": "business/skill-based/Operations/hiring-team"
+    }
+  ]
+}

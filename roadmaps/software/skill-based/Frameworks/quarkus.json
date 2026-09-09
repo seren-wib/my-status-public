@@ -1,0 +1,600 @@
+{
+  "title": "Quarkus AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Quarkus",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Quarkus?",
+          "anchor": "1-what-is-quarkus",
+          "subs": [
+            {
+              "title": "Overview",
+              "items": [
+                {
+                  "t": "Kubernetes-Native Java Framework / 컨테이너에 얹을 것을 전제로 만든 자바 틀"
+                },
+                {
+                  "t": "Build-Time Processing / 런타임에 할 배선을 빌드 단계로 옮기는 처리"
+                },
+                {
+                  "t": "Startup Time · Memory Footprint Characteristics / 뜨는 시간과 상주 메모리가 작아지는 이유"
+                },
+                {
+                  "t": "Imperative · Reactive Dual Support / 명령형과 리액티브를 한 앱에 같이 두는 지원"
+                },
+                {
+                  "t": "Jakarta EE · MicroProfile Standards Adoption / 자체 API 대신 표준 규격을 가져다 쓰는 선택"
+                },
+                {
+                  "t": "Differences from Spring Boot / 런타임 리플렉션 배선을 빌드로 옮긴 차이"
+                }
+              ]
+            },
+            {
+              "title": "When to Use",
+              "items": [
+                {
+                  "t": "Serverless · FaaS / 첫 요청 지연이 곧 비용이 되는 실행 환경"
+                },
+                {
+                  "t": "Container Density / 같은 노드에 인스턴스를 더 많이 꽂는 이점"
+                },
+                {
+                  "t": "Migration Decision Criteria / 돌아가는 앱을 옮길지 가르는 판단 기준"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Project Creation",
+              "items": [
+                {
+                  "t": "code.quarkus.io / 확장을 골라 초기 프로젝트를 받는 웹 생성기",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Quarkus CLI / 생성·확장 추가·실행을 터미널에서 하는 도구"
+                },
+                {
+                  "t": "Maven · Gradle Plugin / 쓰던 빌드 도구로 프로젝트를 만드는 방법"
+                },
+                {
+                  "t": "Project Structure / 소스·자원·설정 파일이 나뉘어 놓이는 배치"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Dev Mode",
+              "items": [
+                {
+                  "t": "quarkus dev / 코드를 고치면 다음 요청에 바로 반영되는 실행"
+                },
+                {
+                  "t": "Continuous Testing / 고친 코드에 걸린 테스트만 저절로 다시 도는 기능"
+                },
+                {
+                  "t": "Dev UI / 깔린 확장의 상태와 설정을 브라우저에서 보는 화면"
+                },
+                {
+                  "t": "Dev Services / 필요한 DB·브로커 컨테이너를 알아서 띄우는 기능"
+                },
+                {
+                  "t": "Remote Dev Mode / 원격에 띄운 앱에 로컬 변경을 밀어 넣는 방식",
+                  "tags": [
+                    "선택"
+                  ]
+                },
+                {
+                  "t": "Debugging / 개발 모드가 열어 둔 디버그 포트에 붙는 방법"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Build-time Optimization",
+          "anchor": "3-build-time-optimization",
+          "subs": [],
+          "items": [
+            {
+              "t": "Augmentation Phase / 애너테이션 훑기와 배선을 빌드에서 끝내는 단계"
+            },
+            {
+              "t": "Bytecode Recording / 빌드에서 정한 일을 시작 코드로 찍어 두는 방식"
+            },
+            {
+              "t": "Build Item · Build Step / 확장이 빌드 과정에 끼어드는 입출력 단위"
+            },
+            {
+              "t": "Closed-World Assumption / 빌드 뒤로는 클래스가 안 늘어난다고 보는 전제"
+            },
+            {
+              "t": "Class Scanning / Jandex 색인으로 애너테이션을 미리 찾아 두는 처리"
+            },
+            {
+              "t": "Runtime vs Build-time Configuration / 다시 빌드해야 바뀌는 설정을 가르는 기준"
+            },
+            {
+              "t": "Reflection Reduction Rationale / 리플렉션을 걷어 기동을 앞당기는 이유"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Extension System",
+          "anchor": "4-extension-system",
+          "subs": [],
+          "items": [
+            {
+              "t": "Extension Concept / 라이브러리에 빌드타임 처리를 입혀 붙이는 단위"
+            },
+            {
+              "t": "Adding Extensions / 필요한 확장을 골라 의존성에 넣는 명령"
+            },
+            {
+              "t": "Quarkus Platform BOM / 확장 버전을 한 묶음으로 맞춰 주는 목록"
+            },
+            {
+              "t": "Quarkiverse / 코어 밖 커뮤니티 확장이 모인 저장소"
+            },
+            {
+              "t": "Risks of Libraries Without Extensions / 확장 없는 라이브러리가 네이티브에서 깨지는 이유"
+            },
+            {
+              "t": "Custom Extension Authoring Overview / 직접 확장을 만들 때 거치는 단계",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Application Development",
+      "sections": [
+        {
+          "no": 5,
+          "title": "CDI and Configuration",
+          "anchor": "5-cdi-and-configuration",
+          "subs": [],
+          "items": [
+            {
+              "t": "ArC / 프록시와 주입을 빌드 때 만들어 두는 CDI 구현"
+            },
+            {
+              "t": "CDI Annotations / 어떤 빈으로 등록할지 클래스에 다는 표식"
+            },
+            {
+              "t": "Scope / 빈 하나가 살아 있는 범위를 정하는 구분"
+            },
+            {
+              "t": "Producer Method / 직접 못 만드는 객체를 메서드로 내주는 방법"
+            },
+            {
+              "t": "Qualifier / 같은 타입 빈 여럿 중 하나를 고르는 표식"
+            },
+            {
+              "t": "Interceptor · Decorator / 호출 앞뒤에 공통 처리를 끼우는 방법"
+            },
+            {
+              "t": "Unremovable Bean / 안 쓰는 줄 알고 빌드에서 잘리는 빈을 남기는 표시"
+            },
+            {
+              "t": "MicroProfile Config / 설정 값 하나를 필드에 바로 꽂아 받는 표준"
+            },
+            {
+              "t": "Config Source Priority / 여러 곳에 적힌 같은 키의 승자를 정하는 순서"
+            },
+            {
+              "t": "Config Mapping / 접두사가 같은 설정을 인터페이스로 묶는 방법"
+            },
+            {
+              "t": "Profile / 환경마다 다른 설정을 한 파일에 나눠 적는 방식"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "REST Endpoints",
+          "anchor": "6-rest-endpoints",
+          "subs": [],
+          "items": [
+            {
+              "t": "Quarkus REST / 경로 배선을 빌드에 굳혀 리플렉션을 없앤 구현"
+            },
+            {
+              "t": "Resource Annotations / 경로와 HTTP 메서드를 클래스에 다는 선언"
+            },
+            {
+              "t": "Parameter Binding / 주소·질의·헤더 값을 함수 인자로 받는 표식"
+            },
+            {
+              "t": "Request · Response Body / 본문 JSON을 객체로 바꿔 주고받는 처리"
+            },
+            {
+              "t": "Jackson vs JSON-B Selection / 직렬화 라이브러리 둘을 가르는 기준"
+            },
+            {
+              "t": "Exception Mapper / 예외를 정해진 오류 응답으로 바꾸는 자리"
+            },
+            {
+              "t": "Bean Validation / 입력 조건을 표식으로 적어 검사하는 방법"
+            },
+            {
+              "t": "Content Negotiation / 요청 헤더에 맞춰 응답 형식을 고르는 규칙"
+            },
+            {
+              "t": "OpenAPI · Swagger UI / 코드에서 명세와 시험 화면을 뽑아내는 기능"
+            },
+            {
+              "t": "REST Client / 인터페이스 선언만으로 바깥 API를 부르는 방법"
+            },
+            {
+              "t": "Execution Mode Designation / 이 메서드를 워커 스레드로 넘길지 정하는 표식"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Reactive with Mutiny",
+          "anchor": "7-reactive-with-mutiny",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rationale for Reactive / 스레드를 적게 쓰고 연결을 많이 받는 이유"
+            },
+            {
+              "t": "Uni · Multi / 값 하나와 흐르는 값을 나눠 담는 두 타입"
+            },
+            {
+              "t": "Mutiny Operators / 결과를 바꾸고 잇고 실패를 다루는 연산자"
+            },
+            {
+              "t": "Blocking Code Isolation / 막히는 호출을 워커 풀로 밀어내는 방법"
+            },
+            {
+              "t": "Vert.x-Based Underlying Runtime / 밑에서 이벤트 루프를 돌리는 엔진"
+            },
+            {
+              "t": "Server-Sent Events / 서버가 한 방향으로 계속 밀어 보내는 응답"
+            },
+            {
+              "t": "When Not to Use Reactive / 명령형으로 두는 편이 나은 경우"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Data Access",
+          "anchor": "8-data-access",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hibernate ORM / 테이블과 클래스를 짝지어 다루는 표준 ORM"
+            },
+            {
+              "t": "Panache / 엔티티에 조회·저장 메서드를 직접 다는 단축 방식"
+            },
+            {
+              "t": "Panache Repository Pattern / 엔티티를 안 건드리고 조회를 따로 두는 구성"
+            },
+            {
+              "t": "Panache Query / where 절 조각만 적어 조회를 줄이는 문법"
+            },
+            {
+              "t": "Transaction / 메서드 하나를 통째로 커밋 단위로 묶는 표식"
+            },
+            {
+              "t": "Datasource Configuration / 접속 정보와 커넥션 풀을 설정에 적는 방법"
+            },
+            {
+              "t": "Migration / 스키마 변경을 버전 스크립트로 쌓아 올리는 도구"
+            },
+            {
+              "t": "Hibernate Reactive / 세션까지 논블로킹으로 돌리는 ORM 방식",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "MongoDB · Redis Client / 문서 DB와 캐시에 붙는 전용 확장",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Caching / 메서드 결과를 키로 남겨 다시 쓰는 표식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Integration and Quality",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Messaging and Integration",
+          "anchor": "9-messaging-and-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "SmallRye Reactive Messaging / 메서드에 표식을 달아 채널에 잇는 방식"
+            },
+            {
+              "t": "Kafka Connector / 채널을 카프카 토픽에 매다는 확장"
+            },
+            {
+              "t": "AMQP · MQTT / 큐와 경량 기기 통신에 붙는 커넥터",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Channel · Emitter / 코드에서 직접 메시지를 밀어 넣는 통로"
+            },
+            {
+              "t": "gRPC Service · Client / 스키마에서 뽑은 코드로 함수처럼 부르는 방식"
+            },
+            {
+              "t": "Scheduler / 정해진 주기마다 메서드를 돌리는 표식"
+            },
+            {
+              "t": "Fault Tolerance / 재시도·시간 제한·차단기를 표식으로 거는 방법"
+            },
+            {
+              "t": "Mailer · Qute Template / 메일 발송과 빌드에서 검사되는 템플릿",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Security",
+          "anchor": "10-security",
+          "subs": [],
+          "items": [
+            {
+              "t": "Identity Provider Model / 자격 증명을 신원 객체로 바꾸는 내부 구조"
+            },
+            {
+              "t": "Authentication Mechanisms / 누구인지 확인하는 방식의 종류"
+            },
+            {
+              "t": "SmallRye JWT / 서명한 토큰을 검증해 신원으로 삼는 확장"
+            },
+            {
+              "t": "OIDC · Keycloak Integration / 로그인을 외부 인증 서버에 맡기는 연동"
+            },
+            {
+              "t": "Authorization / 역할과 경로로 접근을 가르는 정책"
+            },
+            {
+              "t": "SecurityIdentity Injection / 지금 요청한 사람 정보를 코드에서 꺼내는 방법"
+            },
+            {
+              "t": "Secret Management / 비밀 값을 코드 밖 금고에서 받아 오는 방식",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "TLS Configuration / 인증서를 걸어 암호화 연결을 여는 설정"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Testing",
+          "anchor": "11-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "@QuarkusTest / 앱을 한 번 띄워 두고 도는 테스트 표식"
+            },
+            {
+              "t": "Test Profile / 테스트에만 다른 설정을 물리는 방법"
+            },
+            {
+              "t": "REST Assured / 실제 요청을 보내 응답을 검증하는 도구"
+            },
+            {
+              "t": "Mocking / 빈 하나만 가짜로 갈아 끼우는 방법"
+            },
+            {
+              "t": "Dev Services-Based Integration Testing / 진짜 DB 컨테이너를 띄워 붙이는 테스트"
+            },
+            {
+              "t": "@QuarkusIntegrationTest / 빌드된 산출물을 그대로 띄워 재는 테스트"
+            },
+            {
+              "t": "Native Test / 네이티브 바이너리로도 같은 검증을 돌리는 시험"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Native and Operations",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Native Image",
+          "anchor": "12-native-image",
+          "subs": [],
+          "items": [
+            {
+              "t": "GraalVM · Mandrel Differences / 네이티브 빌드용으로 깎아 낸 배포판의 차이"
+            },
+            {
+              "t": "Ahead-of-Time Compilation Concepts / 실행 전에 기계어로 다 컴파일해 두는 방식"
+            },
+            {
+              "t": "Native Build / 컨테이너 안에서 실행 파일을 뽑아내는 방법"
+            },
+            {
+              "t": "Native Constraints / 실행 중에 클래스를 만들어 내는 코드가 막히는 제약"
+            },
+            {
+              "t": "@RegisterForReflection / 리플렉션으로 쓸 클래스를 미리 알리는 표식"
+            },
+            {
+              "t": "Resource Inclusion Configuration / 실행 파일에 넣을 자원 파일을 지정하는 설정"
+            },
+            {
+              "t": "Build Time · Memory Requirements / 빌드가 오래 걸리고 램을 크게 먹는 대가"
+            },
+            {
+              "t": "Native Build Failure Diagnosis / 어느 클래스에서 막혔는지 되짚는 방법"
+            },
+            {
+              "t": "JVM Mode vs Native / 처리량과 기동 시간을 맞바꾸는 선택 기준"
+            },
+            {
+              "t": "Class Data Sharing / JVM 모드에서 클래스 적재를 앞당기는 방법",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Observability",
+          "anchor": "13-observability",
+          "subs": [],
+          "items": [
+            {
+              "t": "Health Check / 살아있음과 받을 준비를 따로 알리는 엔드포인트"
+            },
+            {
+              "t": "Micrometer Metrics / 수집기가 긁어 갈 수치를 노출하는 방법"
+            },
+            {
+              "t": "OpenTelemetry Tracing / 요청 하나가 지나간 구간을 이어 보는 방법"
+            },
+            {
+              "t": "Logging / 카테고리별 수준과 JSON 출력을 정하는 설정"
+            },
+            {
+              "t": "Dev UI Diagnostics / 개발 중 빈과 설정 상태를 들여다보는 화면"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Container and Kubernetes",
+          "anchor": "14-container-and-kubernetes",
+          "subs": [],
+          "items": [
+            {
+              "t": "Image Build Extensions / 도커 파일 없이 컨테이너 이미지를 굽는 확장"
+            },
+            {
+              "t": "Kubernetes Extension / 배포 매니페스트를 빌드에서 뽑아내는 확장"
+            },
+            {
+              "t": "ConfigMap · Secret Injection / 클러스터에 둔 값을 설정 소스로 읽는 방법"
+            },
+            {
+              "t": "Knative · Serverless Deployment / 요청이 없으면 0으로 줄이는 배포 방식",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "AWS Lambda Extension / 함수 런타임 규격에 맞춰 앱을 싸는 확장",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Helm · OpenShift / 차트 패키징과 사내 배포판용 산출물",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Production Concerns",
+          "anchor": "15-production-concerns",
+          "subs": [],
+          "items": [
+            {
+              "t": "Packaging Types / 산출물을 어떤 형태로 뽑을지 고르는 종류"
+            },
+            {
+              "t": "Startup Time · Memory Measurement / 뜨는 시간과 상주 메모리를 실제로 재는 방법"
+            },
+            {
+              "t": "JVM Tuning / 컨테이너 메모리 한도에 힙을 맞추는 설정"
+            },
+            {
+              "t": "Graceful Shutdown / 처리 중인 요청을 마치고 내려가는 절차"
+            },
+            {
+              "t": "Lifecycle Event / 앱이 뜨고 질 때 한 번씩 도는 자리"
+            },
+            {
+              "t": "Version Upgrade / 확장과 코드까지 같이 올려 주는 명령"
+            },
+            {
+              "t": "Limits of Spring Compatibility Extensions / 스프링 애너테이션 일부만 받아 주는 한계"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Java",
+      "ref": "software/skill-based/Languages/java"
+    },
+    {
+      "label": "Spring Boot",
+      "ref": "software/skill-based/Frameworks/spring-boot"
+    },
+    {
+      "label": "Ktor",
+      "ref": "software/skill-based/Frameworks/ktor"
+    },
+    {
+      "label": "Maven",
+      "ref": "software/skill-based/Build-Tools/maven"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    },
+    {
+      "label": "Backend",
+      "ref": "software/role-based/backend"
+    }
+  ]
+}

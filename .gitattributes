@@ -1,0 +1,10 @@
+# 저장소 안에서는 LF로 통일, 체크아웃 시 OS에 맞춤
+* text=auto eol=lf
+
+# 한글 문서 diff가 깨지지 않게
+*.md text diff=markdown
+*.json text
+
+# 실행 파일 — bat은 CRLF여야 cmd가 label/goto를 제대로 읽음
+*.bat text eol=crlf
+*.command text eol=lf

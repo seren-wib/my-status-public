@@ -1,0 +1,5753 @@
+{
+  "version": 1,
+  "weights": {
+    "1": 0.05,
+    "2": 0.2,
+    "3": 0.6,
+    "4": 1.0
+  },
+  "axes": [
+    {
+      "id": "KNOWLEDGE",
+      "label": "지식",
+      "measures": "아는 것의 축적",
+      "kind": "gauge",
+      "sources": [
+        "checkbox"
+      ],
+      "percent": 0.0,
+      "done": 0,
+      "theory": 0,
+      "total": 1981,
+      "skills": [
+        {
+          "id": "History",
+          "label": "역사·시대",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 337,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "academics/history/ancient/overview",
+              "total": 69,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/history/contemporary/overview",
+              "total": 47,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/history/early-modern/overview",
+              "total": 49,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/history/korea/overview",
+              "total": 59,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/history/medieval/overview",
+              "total": 63,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/history/modern/overview",
+              "total": 50,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Human",
+          "label": "심리·사회",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 261,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "academics/psychology/cognitive",
+              "total": 70,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/psychology/developmental",
+              "total": 59,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/psychology/personality",
+              "total": 62,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/psychology/social-psychology",
+              "total": 70,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Economy",
+          "label": "경제·금융",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 321,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "academics/economics/behavioral-economics",
+              "total": 55,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/economics/macroeconomics",
+              "total": 60,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/economics/microeconomics",
+              "total": 66,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/accounting/bookkeeping",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/accounting/financial-statements",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/investing/etf",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/investing/foundations",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/investing/portfolio",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/investing/stocks",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/investing/trading",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/tax/business-tax",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/tax/income-tax",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Formal",
+          "label": "수리 — 수·논리로 사고",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 255,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "academics/math/calculus",
+              "total": 62,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/math/discrete-math",
+              "total": 63,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/math/linear-algebra",
+              "total": 60,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "academics/math/statistics",
+              "total": 70,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Technical",
+          "label": "CS 이론",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        },
+        {
+          "id": "Linguistic",
+          "label": "외국어",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 807,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "language/english/foundations",
+              "total": 45,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/english/grammar",
+              "total": 83,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/english/listening",
+              "total": 60,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/english/reading",
+              "total": 59,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/english/speaking",
+              "total": 65,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/english/writing",
+              "total": 60,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/foundations",
+              "total": 41,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/grammar",
+              "total": 75,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/kanji",
+              "total": 72,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/listening",
+              "total": 63,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/reading",
+              "total": 62,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/speaking",
+              "total": 62,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "language/japanese/writing",
+              "total": 60,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CRAFT",
+      "label": "제작",
+      "measures": "만들어내는 것",
+      "kind": "gauge",
+      "sources": [
+        "checkbox",
+        "works"
+      ],
+      "percent": 0.0,
+      "done": 0,
+      "theory": 0,
+      "total": 10497,
+      "skills": [
+        {
+          "id": "Engineering",
+          "label": "코드로 만듦",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 5393,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "software/skill-based/AI/chroma",
+              "total": 70,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/langchain",
+              "total": 128,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/llamaindex",
+              "total": 124,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/pinecone",
+              "total": 89,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/pytorch",
+              "total": 123,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/qdrant",
+              "total": 91,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/tensorflow",
+              "total": 124,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/AI/weaviate",
+              "total": 89,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Blockchain/ethersjs",
+              "total": 80,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Blockchain/foundry",
+              "total": 106,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Blockchain/hardhat",
+              "total": 100,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Blockchain/solidity",
+              "total": 129,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Blockchain/web3js",
+              "total": 76,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/airflow",
+              "total": 120,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/bigquery",
+              "total": 121,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/cassandra",
+              "total": 105,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/couchdb",
+              "total": 97,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/databricks",
+              "total": 123,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/dbt",
+              "total": 100,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/kafka",
+              "total": 123,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/mariadb",
+              "total": 93,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/ms-sql",
+              "total": 124,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/mysql",
+              "total": 126,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/neo4j",
+              "total": 114,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/oracle",
+              "total": 127,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/rabbitmq",
+              "total": 118,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/snowflake",
+              "total": 117,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/spark",
+              "total": 122,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Data-DB/sqlite",
+              "total": 80,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/astro",
+              "total": 104,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/chakra-ui",
+              "total": 81,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/express",
+              "total": 99,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/fastapi",
+              "total": 93,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/flask",
+              "total": 98,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/ktor",
+              "total": 98,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/material-ui",
+              "total": 86,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/mobx",
+              "total": 71,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/nestjs",
+              "total": 97,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/prisma",
+              "total": 102,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/quarkus",
+              "total": 119,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/redux",
+              "total": 92,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/remix",
+              "total": 121,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/sass",
+              "total": 88,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/sequelize",
+              "total": 103,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/shadcn-ui",
+              "total": 72,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/symfony",
+              "total": 122,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/tailwind",
+              "total": 96,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/typeorm",
+              "total": 97,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Frameworks/zustand",
+              "total": 55,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Game-Dev/godot",
+              "total": 107,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Game-Dev/unity",
+              "total": 126,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Game-Dev/unreal-engine",
+              "total": 127,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Interfacing",
+          "label": "도구·시스템을 다룸",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 2698,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "software/skill-based/Build-Tools/cmake",
+              "total": 106,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Build-Tools/esbuild",
+              "total": 66,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Build-Tools/gradle",
+              "total": 123,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Build-Tools/maven",
+              "total": 121,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Build-Tools/vite",
+              "total": 112,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Build-Tools/webpack",
+              "total": 116,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/apache-httpd",
+              "total": 115,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/argocd",
+              "total": 92,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/azure",
+              "total": 123,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/caddy",
+              "total": 80,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/circleci",
+              "total": 97,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/datadog",
+              "total": 121,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/digitalocean",
+              "total": 75,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/gcp",
+              "total": 120,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/gitlab-ci",
+              "total": 95,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/grafana",
+              "total": 122,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/heroku",
+              "total": 80,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/jenkins",
+              "total": 105,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/new-relic",
+              "total": 121,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/nginx",
+              "total": 114,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/opentelemetry",
+              "total": 122,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/prometheus",
+              "total": 121,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/sentry",
+              "total": 105,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/teamcity",
+              "total": 104,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/travis-ci",
+              "total": 63,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Infra-DevOps/vercel",
+              "total": 79,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Diagnosis",
+          "label": "고장난 걸 고침",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 1239,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "software/skill-based/Testing/appium",
+              "total": 101,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/cypress",
+              "total": 106,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/detox",
+              "total": 100,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/jest",
+              "total": 105,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/junit",
+              "total": 102,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/phpunit",
+              "total": 95,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/playwright",
+              "total": 113,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/puppeteer",
+              "total": 102,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/pytest",
+              "total": 107,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/rspec",
+              "total": 104,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/selenium",
+              "total": 104,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Testing/vitest",
+              "total": 100,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Composition",
+          "label": "글로 만듦 (작법)",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 137,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "creative/role-based/fiction",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Writing/character",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Writing/dialogue-scene",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Writing/interactive-narrative",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Writing/prose-style",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Writing/revision",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Writing/story-structure",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Visual",
+          "label": "이미지로 만듦",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 455,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "creative/role-based/comics",
+              "total": 28,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/role-based/illustration",
+              "total": 29,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Drawing/composition",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Drawing/figure",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Drawing/light-and-color",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Drawing/perspective",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Drawing/sketching",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Design/adobe-xd",
+              "total": 70,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Design/balsamiq",
+              "total": 58,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Design/figma",
+              "total": 109,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "software/skill-based/Design/sketch",
+              "total": 76,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Sonic",
+          "label": "소리·영상으로 만듦",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 225,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "creative/role-based/song",
+              "total": 27,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/role-based/video-production",
+              "total": 31,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Sound/arrangement",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Sound/composing",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Sound/mixing",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Sound/music-fundamentals",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Sound/sound-design",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Video/color-grading",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Video/editing",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Video/motion-graphics",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "creative/skill-based/Video/shooting",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Venture",
+          "label": "사업 — 팔리는 구조를 만듦",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 350,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "business/role-based/founder",
+              "total": 44,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/role-based/freelancer",
+              "total": 39,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/role-based/solopreneur",
+              "total": 48,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Marketing/content-marketing",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Marketing/copywriting",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Marketing/growth-analytics",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Marketing/paid-acquisition",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Marketing/positioning",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Operations/fundraising",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Operations/legal",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Operations/operations",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Sales/client-management",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Sales/partnerships",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Sales/sales-process",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Validation/customer-research",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Validation/market-testing",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "business/skill-based/Validation/pricing",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CHARACTER",
+      "label": "성격",
+      "measures": "자기조절·의지·회복탄력성",
+      "kind": "gauge",
+      "sources": [
+        "behavior"
+      ],
+      "percent": 0.0,
+      "done": 0,
+      "theory": 0,
+      "total": 162,
+      "skills": [
+        {
+          "id": "Volition",
+          "label": "의지력·일관성",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 54,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "meta/habits/habit-breaking",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "meta/habits/habit-formation",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "meta/habits/tracking-recovery",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Composure",
+          "label": "압박·실패를 견딤",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        },
+        {
+          "id": "Temporal",
+          "label": "시간·자원 배분",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 108,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "finance/personal-finance/budgeting",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/personal-finance/insurance",
+              "total": 14,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "finance/personal-finance/pension",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "meta/time-management/focus",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "meta/time-management/planning",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "meta/time-management/prioritization",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Focus",
+          "label": "주의 지속",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        }
+      ]
+    },
+    {
+      "id": "SOCIAL",
+      "label": "사회성",
+      "measures": "대인 영향력·관계",
+      "kind": "gauge",
+      "sources": [
+        "checkbox",
+        "behavior"
+      ],
+      "percent": 0.0,
+      "done": 0,
+      "theory": 0,
+      "total": 2148,
+      "skills": [
+        {
+          "id": "Rhetoric",
+          "label": "말로 사람을 움직임",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 1236,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "social/role-based/coercer",
+              "total": 54,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/con-artist",
+              "total": 88,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/cult-leader",
+              "total": 88,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/demagogue",
+              "total": 84,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/manipulator",
+              "total": 59,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/mediator",
+              "total": 86,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/negotiator",
+              "total": 85,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/operative",
+              "total": 83,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/orator",
+              "total": 78,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Coercion/leverage",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Coercion/threat",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Coercion/ultimatum",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Conflict/boundary-defense",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Conflict/counterattack",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Conflict/de-escalation",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Deception/cover-story",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Deception/false-identity",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Deception/tell-management",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/GroupInfluence/crowd-psychology",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/GroupInfluence/group-dynamics",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/GroupInfluence/media-strategy",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/GroupInfluence/techniques",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Influence/argumentation",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Influence/framing",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Influence/negotiation",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Influence/principles",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/cognitive-load",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/dark-patterns",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/defense",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/execution",
+              "total": 25,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/information-control",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/relational-exploitation",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Manipulation/target-assessment",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Speaking/conversation",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Speaking/delivery",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Speaking/structure",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Empathy",
+          "label": "정서 공명 — 상대의 상태를 느낌",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 160,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "social/role-based/connector",
+              "total": 75,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Relating/approach",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Relating/bonding",
+              "total": 18,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Relating/empathy",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Relating/listening",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Relating/networking",
+              "total": 16,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Insight",
+          "label": "간파 — 상대의 의도·이해관계를 읽음",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 236,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "social/role-based/interrogator",
+              "total": 73,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/cold-reading",
+              "total": 15,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/elicitation",
+              "total": 26,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/group-reading",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/inference",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/lie-detection",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/nonverbal",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/observation",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Reading/traces",
+              "total": 17,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Presence",
+          "label": "존재감 — 내가 읽히는 방식을 다룸",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 285,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "social/role-based/public-figure",
+              "total": 62,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/seducer",
+              "total": 71,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Presence/charisma",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Presence/impression-management",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Presence/reputation",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Presence/status-signaling",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Seduction/attraction",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Seduction/escalation",
+              "total": 22,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Seduction/tension",
+              "total": 23,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        },
+        {
+          "id": "Authority",
+          "label": "사람을 움직이고 책임짐",
+          "percent": 0.0,
+          "done": 0,
+          "theory": 0,
+          "total": 231,
+          "doing": 0,
+          "roadmaps": [
+            {
+              "path": "business/skill-based/Operations/hiring-team",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/leader",
+              "total": 73,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/role-based/political-operator",
+              "total": 79,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Leading/direction",
+              "total": 20,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Leading/people",
+              "total": 21,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            },
+            {
+              "path": "social/skill-based/Leading/team",
+              "total": 19,
+              "done": 0,
+              "theory": 0,
+              "doing": 0,
+              "delegate_state": null,
+              "delegate_doing": false,
+              "delegate_mastery": 0.0,
+              "percent": 0.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PHYSIQUE",
+      "label": "신체",
+      "measures": "몸",
+      "kind": "gauge",
+      "sources": [
+        "measurement"
+      ],
+      "percent": null,
+      "done": 0,
+      "theory": 0,
+      "total": 0,
+      "skills": [
+        {
+          "id": "Strength",
+          "label": "최대 근력",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        },
+        {
+          "id": "Endurance",
+          "label": "심폐지구력",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        },
+        {
+          "id": "Stamina",
+          "label": "근지구력",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        },
+        {
+          "id": "Mobility",
+          "label": "유연성·가동범위",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        },
+        {
+          "id": "Recovery",
+          "label": "회복·수면 질",
+          "percent": null,
+          "done": 0,
+          "theory": 0,
+          "total": 0,
+          "doing": 0,
+          "roadmaps": []
+        }
+      ]
+    },
+    {
+      "id": "INVENTORY",
+      "label": "소유",
+      "measures": "돈·증명·작업물·경력",
+      "kind": "panel",
+      "sources": [
+        "manual"
+      ],
+      "percent": null,
+      "done": 0,
+      "theory": 0,
+      "total": 0,
+      "skills": []
+    }
+  ],
+  "roadmaps": {
+    "academics/economics/behavioral-economics": {
+      "total": 55,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/economics/macroeconomics": {
+      "total": 60,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/economics/microeconomics": {
+      "total": 66,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/history/ancient/overview": {
+      "total": 69,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/history/contemporary/overview": {
+      "total": 47,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/history/early-modern/overview": {
+      "total": 49,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/history/korea/overview": {
+      "total": 59,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/history/medieval/overview": {
+      "total": 63,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/history/modern/overview": {
+      "total": 50,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/math/calculus": {
+      "total": 62,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/math/discrete-math": {
+      "total": 63,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/math/linear-algebra": {
+      "total": 60,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/math/statistics": {
+      "total": 70,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/psychology/cognitive": {
+      "total": 70,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/psychology/developmental": {
+      "total": 59,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/psychology/personality": {
+      "total": 62,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "academics/psychology/social-psychology": {
+      "total": 70,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/role-based/founder": {
+      "total": 44,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/role-based/freelancer": {
+      "total": 39,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/role-based/solopreneur": {
+      "total": 48,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Marketing/content-marketing": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Marketing/copywriting": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Marketing/growth-analytics": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Marketing/paid-acquisition": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Marketing/positioning": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Operations/fundraising": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Operations/hiring-team": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Operations/legal": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Operations/operations": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Sales/client-management": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Sales/partnerships": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Sales/sales-process": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Validation/customer-research": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Validation/market-testing": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "business/skill-based/Validation/pricing": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/role-based/comics": {
+      "total": 28,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/role-based/fiction": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/role-based/illustration": {
+      "total": 29,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/role-based/song": {
+      "total": 27,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/role-based/video-production": {
+      "total": 31,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Drawing/composition": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Drawing/figure": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Drawing/light-and-color": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Drawing/perspective": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Drawing/sketching": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Sound/arrangement": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Sound/composing": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Sound/mixing": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Sound/music-fundamentals": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Sound/sound-design": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Video/color-grading": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Video/editing": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Video/motion-graphics": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Video/shooting": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Writing/character": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Writing/dialogue-scene": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Writing/interactive-narrative": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Writing/prose-style": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Writing/revision": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "creative/skill-based/Writing/story-structure": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/accounting/bookkeeping": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/accounting/financial-statements": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/investing/etf": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/investing/foundations": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/investing/portfolio": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/investing/stocks": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/investing/trading": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/personal-finance/budgeting": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/personal-finance/insurance": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/personal-finance/pension": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/tax/business-tax": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "finance/tax/income-tax": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/fitness/cardio-running": {
+      "total": 13,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/fitness/mobility": {
+      "total": 11,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/fitness/program-design": {
+      "total": 10,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/fitness/strength-training": {
+      "total": 14,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/nutrition/meal-planning": {
+      "total": 10,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/nutrition/nutrition-basics": {
+      "total": 12,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "health/sleep/sleep-hygiene": {
+      "total": 12,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/english/foundations": {
+      "total": 45,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/english/grammar": {
+      "total": 83,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/english/listening": {
+      "total": 60,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/english/reading": {
+      "total": 59,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/english/speaking": {
+      "total": 65,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/english/writing": {
+      "total": 60,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/foundations": {
+      "total": 41,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/grammar": {
+      "total": 75,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/kanji": {
+      "total": 72,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/listening": {
+      "total": 63,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/reading": {
+      "total": 62,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/speaking": {
+      "total": 62,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "language/japanese/writing": {
+      "total": 60,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/habits/habit-breaking": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/habits/habit-formation": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/habits/tracking-recovery": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/learning/deliberate-practice": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/learning/memory-retention": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/learning/metacognition": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/learning/reading-notes": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/time-management/focus": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/time-management/planning": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "meta/time-management/prioritization": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/coercer": {
+      "total": 54,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/con-artist": {
+      "total": 88,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/connector": {
+      "total": 75,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/cult-leader": {
+      "total": 88,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/demagogue": {
+      "total": 84,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/interrogator": {
+      "total": 73,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/leader": {
+      "total": 73,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/manipulator": {
+      "total": 59,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/mediator": {
+      "total": 86,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/negotiator": {
+      "total": 85,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/operative": {
+      "total": 83,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/orator": {
+      "total": 78,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/political-operator": {
+      "total": 79,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/public-figure": {
+      "total": 62,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/role-based/seducer": {
+      "total": 71,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Coercion/leverage": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Coercion/threat": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Coercion/ultimatum": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Conflict/boundary-defense": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Conflict/counterattack": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Conflict/de-escalation": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Deception/cover-story": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Deception/false-identity": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Deception/tell-management": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/GroupInfluence/crowd-psychology": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/GroupInfluence/group-dynamics": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/GroupInfluence/media-strategy": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/GroupInfluence/techniques": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Influence/argumentation": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Influence/framing": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Influence/negotiation": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Influence/principles": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Leading/direction": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Leading/people": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Leading/team": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/cognitive-load": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/dark-patterns": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/defense": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/execution": {
+      "total": 25,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/information-control": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/relational-exploitation": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Manipulation/target-assessment": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Presence/charisma": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Presence/impression-management": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Presence/reputation": {
+      "total": 20,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Presence/status-signaling": {
+      "total": 21,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/cold-reading": {
+      "total": 15,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/elicitation": {
+      "total": 26,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/group-reading": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/inference": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/lie-detection": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/nonverbal": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/observation": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Reading/traces": {
+      "total": 17,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Relating/approach": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Relating/bonding": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Relating/empathy": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Relating/listening": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Relating/networking": {
+      "total": 16,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Seduction/attraction": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Seduction/escalation": {
+      "total": 22,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Seduction/tension": {
+      "total": 23,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Speaking/conversation": {
+      "total": 19,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Speaking/delivery": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "social/skill-based/Speaking/structure": {
+      "total": 18,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/chroma": {
+      "total": 70,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/langchain": {
+      "total": 128,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/llamaindex": {
+      "total": 124,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/pinecone": {
+      "total": 89,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/pytorch": {
+      "total": 123,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/qdrant": {
+      "total": 91,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/tensorflow": {
+      "total": 124,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/AI/weaviate": {
+      "total": 89,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Blockchain/ethersjs": {
+      "total": 80,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Blockchain/foundry": {
+      "total": 106,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Blockchain/hardhat": {
+      "total": 100,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Blockchain/solidity": {
+      "total": 129,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Blockchain/web3js": {
+      "total": 76,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Build-Tools/cmake": {
+      "total": 106,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Build-Tools/esbuild": {
+      "total": 66,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Build-Tools/gradle": {
+      "total": 123,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Build-Tools/maven": {
+      "total": 121,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Build-Tools/vite": {
+      "total": 112,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Build-Tools/webpack": {
+      "total": 116,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/airflow": {
+      "total": 120,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/bigquery": {
+      "total": 121,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/cassandra": {
+      "total": 105,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/couchdb": {
+      "total": 97,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/databricks": {
+      "total": 123,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/dbt": {
+      "total": 100,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/kafka": {
+      "total": 123,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/mariadb": {
+      "total": 93,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/ms-sql": {
+      "total": 124,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/mysql": {
+      "total": 126,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/neo4j": {
+      "total": 114,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/oracle": {
+      "total": 127,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/rabbitmq": {
+      "total": 118,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/snowflake": {
+      "total": 117,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/spark": {
+      "total": 122,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Data-DB/sqlite": {
+      "total": 80,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Design/adobe-xd": {
+      "total": 70,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Design/balsamiq": {
+      "total": 58,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Design/figma": {
+      "total": 109,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Design/sketch": {
+      "total": 76,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/astro": {
+      "total": 104,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/chakra-ui": {
+      "total": 81,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/express": {
+      "total": 99,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/fastapi": {
+      "total": 93,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/flask": {
+      "total": 98,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/ktor": {
+      "total": 98,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/material-ui": {
+      "total": 86,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/mobx": {
+      "total": 71,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/nestjs": {
+      "total": 97,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/prisma": {
+      "total": 102,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/quarkus": {
+      "total": 119,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/redux": {
+      "total": 92,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/remix": {
+      "total": 121,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/sass": {
+      "total": 88,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/sequelize": {
+      "total": 103,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/shadcn-ui": {
+      "total": 72,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/symfony": {
+      "total": 122,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/tailwind": {
+      "total": 96,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/typeorm": {
+      "total": 97,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Frameworks/zustand": {
+      "total": 55,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Game-Dev/godot": {
+      "total": 107,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Game-Dev/unity": {
+      "total": 126,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Game-Dev/unreal-engine": {
+      "total": 127,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/apache-httpd": {
+      "total": 115,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/argocd": {
+      "total": 92,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/azure": {
+      "total": 123,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/caddy": {
+      "total": 80,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/circleci": {
+      "total": 97,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/datadog": {
+      "total": 121,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/digitalocean": {
+      "total": 75,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/gcp": {
+      "total": 120,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/gitlab-ci": {
+      "total": 95,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/grafana": {
+      "total": 122,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/heroku": {
+      "total": 80,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/jenkins": {
+      "total": 105,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/new-relic": {
+      "total": 121,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/nginx": {
+      "total": 114,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/opentelemetry": {
+      "total": 122,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/prometheus": {
+      "total": 121,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/sentry": {
+      "total": 105,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/teamcity": {
+      "total": 104,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/travis-ci": {
+      "total": 63,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Infra-DevOps/vercel": {
+      "total": 79,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/appium": {
+      "total": 101,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/cypress": {
+      "total": 106,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/detox": {
+      "total": 100,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/jest": {
+      "total": 105,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/junit": {
+      "total": 102,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/phpunit": {
+      "total": 95,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/playwright": {
+      "total": 113,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/puppeteer": {
+      "total": 102,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/pytest": {
+      "total": 107,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/rspec": {
+      "total": 104,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/selenium": {
+      "total": 104,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    },
+    "software/skill-based/Testing/vitest": {
+      "total": 100,
+      "done": 0,
+      "theory": 0,
+      "doing": 0,
+      "delegate_state": null,
+      "delegate_doing": false,
+      "delegate_mastery": 0.0,
+      "percent": 0.0
+    }
+  }
+}

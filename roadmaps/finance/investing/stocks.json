@@ -1,0 +1,116 @@
+{
+  "title": "Stocks AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Reading Disclosures",
+          "anchor": "1-reading-disclosures",
+          "subs": [],
+          "items": [
+            {
+              "t": "Annual Report Read / 관심 기업 사업보고서 한 편 읽고 사업·위험 요약 한 장"
+            },
+            {
+              "t": "Disclosure Alert / 공시 알림 걸어두고 한 달간 뜬 공시 3건을 해석해 기록"
+            },
+            {
+              "t": "Dilution Factors / 최대주주 지분과 전환사채 등 희석 요인 조회해 정리"
+            },
+            {
+              "t": "Earnings Note / 실적발표 자료 하나 보고 회사 전망과 실제 결과의 차이 기록"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Business Model",
+          "anchor": "2-business-model",
+          "subs": [],
+          "items": [
+            {
+              "t": "Revenue Breakdown / 매출을 사업부·지역별로 쪼개 표로 정리"
+            },
+            {
+              "t": "Competitor Compare / 같은 산업 3개 기업의 점유율·마진 비교표 작성"
+            },
+            {
+              "t": "Moat Statement / 이 기업이 왜 안 무너지는지 한 문단으로 써보기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Valuation",
+          "anchor": "3-valuation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Multiple Calc / 관심 종목의 PER·PBR·ROE를 최신 재무로 직접 계산"
+            },
+            {
+              "t": "Peer Multiple Band / 동종 기업 5개 배수와 비교해 고평가·저평가 판단 기록"
+            },
+            {
+              "t": "Dividend Check / 배당수익률·배당성향 계산하고 지속 가능성 판단"
+            },
+            {
+              "t": "Simple DCF / 단순 가정으로 현금흐름 할인해 적정가 한 번 산출"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Decision and Record",
+          "anchor": "4-decision-and-record",
+          "subs": [],
+          "items": [
+            {
+              "t": "One-page Thesis / 한 종목 분석 리포트 한 장 작성하고 목표가·근거 명시"
+            },
+            {
+              "t": "Buy Execution / 리포트에 쓴 근거대로 실제 매수 실행하고 체결 기록"
+            },
+            {
+              "t": "Sell Criteria / 매도할 조건을 미리 문장으로 못 박고 위반 시 실행"
+            },
+            {
+              "t": "Thesis Review / 3개월 뒤 가정이 맞았는지 다시 써서 처음 리포트와 비교"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Financial Statements",
+      "ref": "finance/accounting/financial-statements"
+    },
+    {
+      "label": "Trading",
+      "ref": "finance/investing/trading"
+    },
+    {
+      "label": "Portfolio",
+      "ref": "finance/investing/portfolio"
+    },
+    {
+      "label": "Income Tax",
+      "ref": "finance/tax/income-tax"
+    },
+    {
+      "label": "Microeconomics",
+      "ref": "academics/economics/microeconomics"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    }
+  ]
+}

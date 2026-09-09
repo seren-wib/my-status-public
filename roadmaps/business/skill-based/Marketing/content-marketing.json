@@ -1,0 +1,121 @@
+{
+  "title": "Content Marketing AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Channel and Cadence",
+          "anchor": "1-channel-and-cadence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Primary Channel / 뉴스레터, 블로그, X, 인스타그램, 유튜브",
+              "choice_inline": true
+            },
+            {
+              "t": "Publishing Cadence / 주 몇 회 낼지 정하고 8주 발행 일정 확정"
+            },
+            {
+              "t": "Topic Pillars / 반복해 다룰 주제 축 3개 정하기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Production Routine",
+          "anchor": "2-production-routine",
+          "subs": [],
+          "items": [
+            {
+              "t": "Idea Backlog / 소재 30개 목록 만들고 상시 채워두기"
+            },
+            {
+              "t": "Twelve Published Pieces / 실제로 12편 발행 완료"
+            },
+            {
+              "t": "Batch Production Day / 하루에 4편 몰아 만들어 예약 발행"
+            },
+            {
+              "t": "Repurposing Chain / 긴 글 한 편을 짧은 포스트 5개로 잘라 재발행"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Newsletter",
+          "anchor": "3-newsletter",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Hundred Subscribers / 구독자 100명까지 실제로 모으기"
+            },
+            {
+              "t": "Welcome Email / 가입 직후 자동 발송 메일 한 통 세팅"
+            },
+            {
+              "t": "Open Rate Baseline / 10회 발송해 오픈·클릭 평균 기록"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Social Operation",
+          "anchor": "4-social-operation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Daily Posting Streak / 30일 연속 발행 완주"
+            },
+            {
+              "t": "Reply Routine / 댓글·DM에 하루 15분 답하기 4주 유지"
+            },
+            {
+              "t": "Collaboration Post / 다른 계정과 합작 콘텐츠 1건 발행"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Growth Check",
+          "anchor": "5-growth-check",
+          "subs": [],
+          "items": [
+            {
+              "t": "Top Performer Autopsy / 반응 좋은 3편의 공통점 뽑아 다음 편에 반영"
+            },
+            {
+              "t": "Channel Kill Decision / 8주 성과로 채널 유지·폐기 결론 한 장"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Media Strategy",
+      "ref": "social/skill-based/GroupInfluence/media-strategy"
+    },
+    {
+      "label": "Editing",
+      "ref": "creative/skill-based/Video/editing"
+    },
+    {
+      "label": "Prose Style",
+      "ref": "creative/skill-based/Writing/prose-style"
+    },
+    {
+      "label": "Copywriting",
+      "ref": "business/skill-based/Marketing/copywriting"
+    },
+    {
+      "label": "Growth Analytics",
+      "ref": "business/skill-based/Marketing/growth-analytics"
+    }
+  ]
+}

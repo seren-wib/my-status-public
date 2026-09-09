@@ -1,0 +1,138 @@
+{
+  "title": "Charisma AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "What Charisma Is",
+          "anchor": "1-what-charisma-is",
+          "subs": [],
+          "items": [
+            {
+              "t": "Charisma as Attribution / 내 속성이 아니라 상대가 붙이는 해석"
+            },
+            {
+              "t": "Presence, Power, Warmth / 세 요소의 조합"
+            },
+            {
+              "t": "Charismatic Authority / 비범함에 부여되는 정당성, Weber"
+            },
+            {
+              "t": "Situational Dependence / 위기·불확실이 카리스마를 키운다"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Presence",
+          "anchor": "2-presence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Full Attention / 지금 이 사람에게만 있는 상태"
+            },
+            {
+              "t": "Slowing Down / 반응 속도를 늦춰 만드는 무게"
+            },
+            {
+              "t": "Emotional Steadiness / 흔들리지 않는 정서 기준선"
+            },
+            {
+              "t": "Distraction Leakage / 딴 데 가 있음이 새어나가는 신호"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Charismatic Tactics",
+          "anchor": "3-charismatic-tactics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Charismatic Leadership Tactics / 학습 가능한 언어·비언어 전술 묶음, Antonakis"
+            },
+            {
+              "t": "Metaphor and Story / 은유·일화로 추상을 몸에 붙이기"
+            },
+            {
+              "t": "Contrast and Rhetorical Question / 대비·수사의문으로 각인"
+            },
+            {
+              "t": "Moral Conviction / 신념과 '우리'의 언어"
+            },
+            {
+              "t": "Confidence Expression / 확신을 전달하는 방식"
+            },
+            {
+              "t": "Delivery",
+              "delegate": "social/skill-based/Speaking/delivery"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Energy and Attention",
+          "anchor": "4-energy-and-attention",
+          "subs": [],
+          "items": [
+            {
+              "t": "Emotional Contagion / 감정은 옮는다"
+            },
+            {
+              "t": "Energy Calibration / 자리에 맞는 에너지 크기"
+            },
+            {
+              "t": "Attention Management / 주목을 모으고 넘기는 조절"
+            },
+            {
+              "t": "Warmth Signals / 유능함만으로는 카리스마가 안 된다"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Limits",
+          "anchor": "5-limits",
+          "subs": [],
+          "items": [
+            {
+              "t": "Measurement Problem / 정의·측정이 취약한 연구 영역"
+            },
+            {
+              "t": "Success Attribution / 성과가 난 뒤에 붙는 사후 해석"
+            },
+            {
+              "t": "Dark Side / 카리스마와 착취적 리더십"
+            },
+            {
+              "t": "Substitutes / 신뢰·일관성으로 대체되는 부분"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Delivery",
+      "ref": "social/skill-based/Speaking/delivery"
+    },
+    {
+      "label": "Structure",
+      "ref": "social/skill-based/Speaking/structure"
+    },
+    {
+      "label": "Impression Management",
+      "ref": "social/skill-based/Presence/impression-management"
+    },
+    {
+      "label": "People",
+      "ref": "social/skill-based/Leading/people"
+    }
+  ]
+}

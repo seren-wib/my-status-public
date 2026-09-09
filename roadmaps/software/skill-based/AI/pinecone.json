@@ -1,0 +1,533 @@
+{
+  "title": "Pinecone AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Pinecone",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Pinecone?",
+          "anchor": "1-what-is-pinecone",
+          "subs": [
+            {
+              "title": "Vector Search Core Concepts",
+              "items": [
+                {
+                  "t": "Embedding / 텍스트·데이터를 밀집 벡터로 바꾸는 것"
+                },
+                {
+                  "t": "Similarity Metric / cosine·dotproduct 등 벡터 거리 계산 기준"
+                },
+                {
+                  "t": "ANN vs Exact Search / 정확도와 속도를 맞바꾸는 검색 방식 선택"
+                },
+                {
+                  "t": "Vector DB Role in RAG / RAG 파이프라인에서 벡터DB의 위치"
+                }
+              ]
+            },
+            {
+              "title": "What Is Pinecone",
+              "items": [
+                {
+                  "t": "Fully Managed Vector Database / 서버 운영 없이 벡터 DB를 통째로 위탁하는 서비스"
+                },
+                {
+                  "t": "Cloud-only / 온프레미스 설치 없이 클라우드에서만 제공되는 방식"
+                },
+                {
+                  "t": "Zero Infrastructure Ops / 서버·스케일링·패치를 직접 안 챙기는 구조"
+                }
+              ]
+            },
+            {
+              "title": "Selection Criteria",
+              "items": [
+                {
+                  "t": "Pinecone vs Self-hosted / 서버 운용을 맡길지 직접 할지 가르는 기준"
+                },
+                {
+                  "t": "Managed Service Tradeoff / 운영 부담을 줄이는 대신 비용과 종속을 떠안는 것"
+                },
+                {
+                  "t": "When To Choose Pinecone / 직접 운영보다 관리형이 유리한 상황 판단"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Account Structure",
+              "items": [
+                {
+                  "t": "Organization and Project / 계정 조직과 그 안 프로젝트 단위 구조"
+                },
+                {
+                  "t": "API Key Issuance / 프로젝트별로 발급받는 인증 키"
+                },
+                {
+                  "t": "Console Walkthrough / 웹 콘솔에서 인덱스·키를 관리하는 화면"
+                }
+              ]
+            },
+            {
+              "title": "Clients",
+              "items": [
+                {
+                  "t": "Python SDK / 가장 많이 쓰는 공식 클라이언트",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Node.js SDK / JS·TS 백엔드용 공식 클라이언트"
+                },
+                {
+                  "t": "REST API / SDK 없이 HTTP로 직접 호출하는 방식"
+                },
+                {
+                  "t": "Java and Go SDK / 자바·Go용 공식 클라이언트",
+                  "tags": [
+                    "선택"
+                  ]
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "First Exercise",
+              "items": [
+                {
+                  "t": "Index Creation / 이름·차원·메트릭을 정해 인덱스를 만드는 절차"
+                },
+                {
+                  "t": "Single Upsert / 벡터 하나를 넣거나 갱신하는 호출"
+                },
+                {
+                  "t": "First Query / 넣은 벡터로 첫 유사도 검색을 실행하는 것"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Architecture",
+          "anchor": "3-architecture",
+          "subs": [
+            {
+              "title": "Architecture Generations",
+              "items": [
+                {
+                  "t": "Serverless / 사용량만큼만 과금되는 최신 아키텍처",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Pod-based (Legacy) / 고정 용량 서버를 미리 할당하는 구세대 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Serverless Internals",
+              "items": [
+                {
+                  "t": "Storage-Compute Separation / 저장은 오브젝트 스토리지, 연산은 별도로 분리한 구조"
+                },
+                {
+                  "t": "Read Unit and Write Unit / 읽기·쓰기를 각각 따로 과금하는 단위"
+                },
+                {
+                  "t": "Freshness Delay / 쓴 직후 검색에 바로 안 잡힐 수 있는 지연"
+                },
+                {
+                  "t": "Cold Start Behavior / 오래 안 쓴 인덱스가 첫 요청에 느려지는 현상"
+                }
+              ]
+            },
+            {
+              "title": "Pod-based Architecture",
+              "items": [
+                {
+                  "t": "Pod Type / s1·p1·p2 중 저장·속도 특성으로 고르는 종류"
+                },
+                {
+                  "t": "Pod Size and Replicas / 용량과 이중화 개수를 미리 정하는 값"
+                },
+                {
+                  "t": "Collection / Pod 인덱스를 멈춘 채 저장하는 정적 스냅샷"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Data Model",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Index",
+          "anchor": "4-index",
+          "subs": [],
+          "items": [
+            {
+              "t": "Index Attributes / 이름·차원·메트릭 등 생성 시 정하는 값"
+            },
+            {
+              "t": "Cloud and Region Selection / 데이터를 둘 클라우드·리전을 고르는 것"
+            },
+            {
+              "t": "Index Management / 생성·조회·삭제 등 인덱스 관리 명령"
+            },
+            {
+              "t": "Integrated Embedding Index / 임베딩 모델을 내장해 자동 변환하는 인덱스"
+            },
+            {
+              "t": "Sparse Index / 키워드 매칭용 희소 벡터 전용 인덱스"
+            },
+            {
+              "t": "Deletion Protection / 실수로 인덱스가 지워지지 않게 잠그는 설정"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Namespace",
+          "anchor": "5-namespace",
+          "subs": [],
+          "items": [
+            {
+              "t": "Namespace / 인덱스 안에서 데이터를 논리적으로 나누는 파티션"
+            },
+            {
+              "t": "Multi-tenancy Pattern / 테넌트마다 Namespace를 따로 두는 설계"
+            },
+            {
+              "t": "Namespace-Scoped Query and Delete / 특정 Namespace로 좁혀 검색·삭제하는 것"
+            },
+            {
+              "t": "Cross-Namespace Query Limit / 여러 Namespace를 한 번에 조회할 때의 제약"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Record Structure",
+          "anchor": "6-record-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Record Structure / id·values·metadata로 구성된 저장 단위"
+            },
+            {
+              "t": "Sparse Values / 키워드 가중치를 담는 희소 벡터 값",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Metadata Value Types / 메타데이터에 넣을 수 있는 값의 종류"
+            },
+            {
+              "t": "Metadata Size Limit / 레코드당 메타데이터 용량에 걸린 상한"
+            },
+            {
+              "t": "ID Design and Idempotency / 같은 id로 upsert해도 중복 안 되게 짜는 설계"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Ingestion and Search",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Data Ingestion",
+          "anchor": "7-data-ingestion",
+          "subs": [
+            {
+              "title": "Write Operations",
+              "items": [
+                {
+                  "t": "Vector CRUD / 넣기·조회·갱신·삭제 등 기본 쓰기 연산"
+                },
+                {
+                  "t": "Batch Upsert Size Limit / 한 번의 upsert 요청에 걸리는 크기 상한"
+                },
+                {
+                  "t": "Parallel and Async Upsert / 여러 배치를 동시·비동기로 밀어넣는 방법"
+                },
+                {
+                  "t": "Namespace-Targeted Write / 특정 Namespace를 지정해 쓰는 것"
+                }
+              ]
+            },
+            {
+              "title": "Bulk Ingestion",
+              "items": [
+                {
+                  "t": "Bulk Import from Object Storage / S3·GCS의 대량 데이터를 한 번에 적재하는 기능"
+                },
+                {
+                  "t": "Retry and Deduplication / 적재 실패 재시도와 중복 제거 처리"
+                },
+                {
+                  "t": "Post-Ingest Verification / 반영 지연 고려한 적재 후 검증"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 8,
+          "title": "Query",
+          "anchor": "8-query",
+          "subs": [],
+          "items": [
+            {
+              "t": "Query by Vector / 벡터 값 자체로 유사한 항목을 찾는 검색"
+            },
+            {
+              "t": "Query by ID / 저장된 id의 벡터를 기준으로 하는 유사 검색"
+            },
+            {
+              "t": "top_k Configuration / 검색 결과를 몇 개 받을지 정하는 값"
+            },
+            {
+              "t": "Response Options / 값·메타데이터 포함 여부를 고르는 옵션"
+            },
+            {
+              "t": "Score Interpretation / 메트릭마다 높낮이 방향이 다른 점수 해석법"
+            },
+            {
+              "t": "List and Pagination by ID Prefix / id 접두사로 저장된 벡터를 나열해 조회하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Metadata Filtering",
+          "anchor": "9-metadata-filtering",
+          "subs": [],
+          "items": [
+            {
+              "t": "Filter Expression / MongoDB 쿼리처럼 조건을 중첩해 쓰는 필터 문법"
+            },
+            {
+              "t": "Comparison Operators / 같다·크다·작다를 비교하는 연산자"
+            },
+            {
+              "t": "Set Operators / 값이 목록에 포함되는지 확인하는 연산자"
+            },
+            {
+              "t": "Logical Operators / 여러 조건을 그리고·또는으로 묶는 연산자"
+            },
+            {
+              "t": "Filter-Recall Tradeoff / 필터를 좁힐수록 검색 재현율이 줄어드는 관계"
+            },
+            {
+              "t": "High-Cardinality Field Caution / 값 종류가 많은 필드를 필터링할 때의 성능 주의"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Hybrid Search & Reranking",
+          "anchor": "10-hybrid-search-reranking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dense-Sparse Combination / 의미 검색과 키워드 검색을 함께 쓰는 방식"
+            },
+            {
+              "t": "Sparse Encoding / BM25·SPLADE로 키워드를 희소 벡터로 바꾸는 것"
+            },
+            {
+              "t": "Alpha Weight Tuning / dense·sparse 점수 비중을 조절하는 값"
+            },
+            {
+              "t": "Rerank API / 1차 검색 결과를 다시 정렬해주는 호스팅 기능"
+            },
+            {
+              "t": "Inference API / Pinecone이 호스팅하는 임베딩 모델을 직접 호출하는 기능"
+            },
+            {
+              "t": "Two-Stage Retrieval Design / 넓게 뽑은 뒤 재정렬로 좁히는 2단계 검색"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Integration and Operations",
+      "sections": [
+        {
+          "no": 11,
+          "title": "Integration",
+          "anchor": "11-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "LangChain PineconeVectorStore / LangChain에서 Pinecone을 벡터스토어로 쓰는 연동"
+            },
+            {
+              "t": "LlamaIndex PineconeVectorStore / LlamaIndex에서 Pinecone을 벡터스토어로 쓰는 연동"
+            },
+            {
+              "t": "Pinecone Assistant / 파일 업로드만으로 RAG를 구성해주는 호스팅 기능",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Application-Layer Caching / 반복 쿼리를 앱단에서 캐싱해 비용을 줄이는 방법"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Performance",
+          "anchor": "12-performance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Latency Factors / top_k·필터 복잡도·차원 수가 지연에 미치는 영향"
+            },
+            {
+              "t": "Search Scope Reduction / Namespace 분할로 검색 범위 축소"
+            },
+            {
+              "t": "Dimensionality Reduction / Matryoshka Embedding으로 벡터 차원을 줄이는 기법"
+            },
+            {
+              "t": "Batch Size Tuning / 처리량과 지연을 맞추려 배치 크기를 조절하는 것"
+            },
+            {
+              "t": "Client Connection Reuse / 요청마다 새로 연결 않고 커넥션을 재사용하는 것"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Cost",
+          "anchor": "13-cost",
+          "subs": [],
+          "items": [
+            {
+              "t": "Serverless Billing / 읽기·쓰기·저장량 단위로 쓴 만큼 과금하는 방식"
+            },
+            {
+              "t": "Pod-based Billing / 사용량과 무관하게 Pod를 켜둔 시간만큼 과금하는 방식"
+            },
+            {
+              "t": "Cost Reduction / 안 쓰는 리소스를 정리해 과금을 줄이는 방법"
+            },
+            {
+              "t": "Usage Monitoring and Alerts / 사용량을 지켜보다 한도에 가까우면 알리는 기능"
+            },
+            {
+              "t": "Plan Tiers / 규모별로 나뉜 요금제 등급"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Security & Operations",
+          "anchor": "14-security-operations",
+          "subs": [
+            {
+              "title": "Security",
+              "items": [
+                {
+                  "t": "API Key Management and Rotation / 키를 관리하고 주기적으로 교체하는 것"
+                },
+                {
+                  "t": "RBAC / 역할에 따라 Project 단위로 권한을 나누는 것"
+                },
+                {
+                  "t": "Private Endpoint / AWS PrivateLink로 공인망을 안 거치고 접속하는 방법"
+                },
+                {
+                  "t": "CMEK / 고객이 직접 관리하는 키로 암호화하는 기능",
+                  "tags": [
+                    "선택"
+                  ]
+                },
+                {
+                  "t": "Compliance / SOC 2·GDPR·HIPAA 등 규제 준수 인증"
+                }
+              ]
+            },
+            {
+              "title": "Operations",
+              "items": [
+                {
+                  "t": "Backup and Restore / 인덱스를 백업하고 복구하는 절차"
+                },
+                {
+                  "t": "Index Rebuild / 임베딩 모델을 바꿀 때 인덱스를 새로 만드는 마이그레이션"
+                },
+                {
+                  "t": "Rate Limit and Quota / 요청 빈도와 사용량에 걸린 상한"
+                },
+                {
+                  "t": "Error Handling / 429·5xx 응답을 재시도로 처리하는 전략"
+                },
+                {
+                  "t": "Monitoring Integration / Prometheus·Datadog 등 외부 도구와 연동하는 것"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Ai Engineer",
+      "ref": "software/role-based/ai-engineer"
+    },
+    {
+      "label": "Ai Agents",
+      "ref": "software/skill-based/AI/ai-agents"
+    },
+    {
+      "label": "Python",
+      "ref": "software/skill-based/Languages/python"
+    },
+    {
+      "label": "Chroma",
+      "ref": "software/skill-based/AI/chroma"
+    },
+    {
+      "label": "Qdrant",
+      "ref": "software/skill-based/AI/qdrant"
+    },
+    {
+      "label": "Elasticsearch",
+      "ref": "software/skill-based/Data-DB/elasticsearch"
+    }
+  ]
+}

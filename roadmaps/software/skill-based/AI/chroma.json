@@ -1,0 +1,408 @@
+{
+  "title": "Chroma AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Chroma",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Chroma?",
+          "anchor": "1-what-is-chroma",
+          "subs": [
+            {
+              "title": "Vector Search Core Concepts",
+              "items": [
+                {
+                  "t": "Embedding / 텍스트·이미지를 실수 벡터로 바꾼 표현"
+                },
+                {
+                  "t": "Distance Function / l2·cosine·ip 중 하나로 유사도를 재는 기준"
+                },
+                {
+                  "t": "ANN Index / HNSW 그래프로 근사 최근접 이웃을 빠르게 찾는 구조"
+                }
+              ]
+            },
+            {
+              "title": "What Is Chroma",
+              "items": [
+                {
+                  "t": "Open-source Embedding Database / 소스가 공개된 임베딩 전용 DB"
+                },
+                {
+                  "t": "Local-first / 서버 없이 로컬 프로세스 안에서 바로 도는 방식"
+                },
+                {
+                  "t": "Python-Native API / 파이썬 객체로 바로 쓰는 클라이언트 인터페이스"
+                },
+                {
+                  "t": "Prototype-Scale RAG Focus / 대규모보다 빠른 RAG 프로토타이핑에 초점"
+                }
+              ]
+            },
+            {
+              "title": "Selection Criteria",
+              "items": [
+                {
+                  "t": "When To Use Chroma / 프로토타입, 단일 노드, 로컬 개발"
+                },
+                {
+                  "t": "Limitations / 분산 미지원, 대규모 부적합"
+                },
+                {
+                  "t": "Chroma vs Managed And Distributed Alternatives / pinecone·qdrant 같은 대안과 갈리는 지점"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Run Modes",
+          "anchor": "2-run-modes",
+          "subs": [],
+          "items": [
+            {
+              "t": "EphemeralClient / 메모리에만 떠서 종료하면 사라지는 방식",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "PersistentClient / 로컬 디스크 경로에 저장해 재시작해도 남는 방식"
+            },
+            {
+              "t": "HttpClient / 별도로 뜬 Chroma 서버에 접속해 쓰는 방식"
+            },
+            {
+              "t": "AsyncHttpClient / HttpClient를 비동기로 쓰는 방식"
+            },
+            {
+              "t": "Chroma Cloud / 매니지드로 호스팅되는 Chroma 서비스",
+              "tags": [
+                "선택"
+              ]
+            }
+          ],
+          "choice": true
+        },
+        {
+          "no": 3,
+          "title": "Getting Started",
+          "anchor": "3-getting-started",
+          "subs": [],
+          "items": [
+            {
+              "t": "Installation / pip install chromadb 한 줄로 끝나는 설치 방법"
+            },
+            {
+              "t": "Client Instantiation / 코드에서 Client 객체를 만들어 연결하는 단계"
+            },
+            {
+              "t": "First Collection And Add / 컬렉션을 만들고 데이터를 처음 넣는 흐름"
+            },
+            {
+              "t": "First Query / 넣은 데이터를 검색해 결과를 확인하는 단계"
+            },
+            {
+              "t": "Persistence Path Layout / SQLite 파일, 인덱스 디렉터리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Data Model",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Collection",
+          "anchor": "4-collection",
+          "subs": [],
+          "items": [
+            {
+              "t": "Collection Management / 생성·조회·목록·삭제로 컬렉션을 다루는 함수들"
+            },
+            {
+              "t": "Collection Metadata / 컬렉션 단위로 붙이는 설정·태그 정보"
+            },
+            {
+              "t": "Distance Configuration / hnsw:space로 거리 함수를 지정하는 설정"
+            },
+            {
+              "t": "Collection Naming Rules / 길이·문자 제한 등 이름 짓는 규칙"
+            },
+            {
+              "t": "Collection Inspection / count·peek로 내용을 미리 훑는 방법"
+            },
+            {
+              "t": "Collection Partitioning Strategy / 데이터를 여러 컬렉션으로 나누는 기준"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Record Structure",
+          "anchor": "5-record-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Record Composition / id·문서·임베딩·메타데이터로 이뤄진 레코드 구조"
+            },
+            {
+              "t": "Document / 검색 결과로 그대로 돌려줄 원문 텍스트"
+            },
+            {
+              "t": "Metadata Value Types / 문자열·정수·실수·불리언만 허용하는 제약"
+            },
+            {
+              "t": "URIs / 문서 대신 외부 리소스 위치를 저장하는 필드",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "ID Design / 중복 방지와 멱등 재적재"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Embedding Function",
+          "anchor": "6-embedding-function",
+          "subs": [],
+          "items": [
+            {
+              "t": "Default Embedding Model / all-MiniLM-L6-v2(ONNX)가 기본으로 도는 모델"
+            },
+            {
+              "t": "SentenceTransformer Embedding Function / 다른 ST 모델로 바꿔 끼우는 방법"
+            },
+            {
+              "t": "API-Based Embedding Function / OpenAI·Cohere 등 외부 API로 임베딩하는 방식"
+            },
+            {
+              "t": "Custom Embedding Function Implementation / 인터페이스를 구현해 직접 만드는 방법"
+            },
+            {
+              "t": "Precomputed Embedding Passthrough / 미리 계산한 벡터를 그대로 넣는 방식"
+            },
+            {
+              "t": "Embedding Function Consistency / 넣을 때와 검색할 때 같은 함수를 써야 하는 이유"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Ingestion and Search",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Data Ingestion",
+          "anchor": "7-data-ingestion",
+          "subs": [],
+          "items": [
+            {
+              "t": "Record CRUD / 추가·조회·수정·upsert·삭제하는 기본 연산"
+            },
+            {
+              "t": "Batch Ingestion And max_batch_size / 한 번에 넣을 수 있는 최대 건수 제한"
+            },
+            {
+              "t": "ID and Filter Query / get(ids), get(where)로 조건에 맞는 항목만 꺼내는 방법"
+            },
+            {
+              "t": "Document Chunking Strategy / 긴 문서를 검색 단위로 잘게 나누는 기준"
+            },
+            {
+              "t": "Document Re-Ingestion Pattern / 같은 문서를 다시 넣을 때 중복을 막는 방식"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Query",
+          "anchor": "8-query",
+          "subs": [],
+          "items": [
+            {
+              "t": "query_texts and query_embeddings / 텍스트로 넣을지 벡터로 직접 넣을지 정하는 방식"
+            },
+            {
+              "t": "n_results / 검색 결과를 몇 개 돌려줄지 정하는 개수"
+            },
+            {
+              "t": "include Option / 결과에 어떤 필드를 포함할지 고르는 옵션"
+            },
+            {
+              "t": "Concurrent Multi-Query / 한 번의 호출에 여러 쿼리를 동시에 넣는 방법"
+            },
+            {
+              "t": "Distance Interpretation / 값이 작을수록 더 유사하다는 반대 방향 해석"
+            },
+            {
+              "t": "Result Post-Processing / 거리 임계값으로 결과를 한 번 더 거르는 처리"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Filtering",
+          "anchor": "9-filtering",
+          "subs": [],
+          "items": [
+            {
+              "t": "Metadata Filter / where 인자로 메타데이터 조건을 거는 방법"
+            },
+            {
+              "t": "Comparison And Set Operators / 같다·크다·포함 등을 표현하는 비교 연산자"
+            },
+            {
+              "t": "Logical Operators / 조건 여러 개를 and·or로 묶는 연산자"
+            },
+            {
+              "t": "Document Filter / 문서 본문에 특정 문자열이 있는지 거르는 필터"
+            },
+            {
+              "t": "Filter And n_results Interaction / 필터링 후 남은 것 중에서 상위 n개를 뽑는 순서"
+            },
+            {
+              "t": "Pre-Filter Mechanics And Performance / 검색 전에 걸러 후보를 줄이는 방식과 비용"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Integration and Operations",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Integration",
+          "anchor": "10-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "LangChain Chroma VectorStore / LangChain에서 Chroma를 벡터 저장소로 쓰는 연동"
+            },
+            {
+              "t": "LlamaIndex ChromaVectorStore / LlamaIndex에서 Chroma를 붙여 쓰는 연동"
+            },
+            {
+              "t": "RAG Assembly / 청킹 → 임베딩 → 검색 → 프롬프트"
+            },
+            {
+              "t": "Jupyter / Streamlit 프로토타입 워크플로"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Server Operations",
+          "anchor": "11-server-operations",
+          "subs": [],
+          "items": [
+            {
+              "t": "chroma run / 호스트·포트·경로를 지정해 서버로 띄우는 명령"
+            },
+            {
+              "t": "Environment Variables / CHROMA_SERVER_* 접두사로 서버 설정을 넣는 방법"
+            },
+            {
+              "t": "Docker and Docker Compose / 컨테이너로 Chroma 서버를 배포하는 방법"
+            },
+            {
+              "t": "Authentication / 토큰이나 기본 인증으로 접근을 제한하는 방법"
+            },
+            {
+              "t": "Tenant And Database / 하나의 서버 안에서 논리적으로 데이터를 나누는 단위"
+            },
+            {
+              "t": "CORS Configuration / 브라우저에서 다른 출처의 요청을 허용하는 설정"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Persistence & Migration",
+          "anchor": "12-persistence-migration",
+          "subs": [],
+          "items": [
+            {
+              "t": "SQLite Metadata Store / 컬렉션·메타데이터를 담는 SQLite 파일"
+            },
+            {
+              "t": "HNSW Index File Layout / 벡터 인덱스가 디스크에 저장되는 구조"
+            },
+            {
+              "t": "Backup And Restore / 영속화 디렉터리를 통째로 복사해 옮기는 방법"
+            },
+            {
+              "t": "Version Upgrade Migration / Chroma 버전을 올릴 때 데이터를 옮기는 절차"
+            },
+            {
+              "t": "Collection Rebuild / 임베딩 모델을 바꾸면 인덱스를 재생성해야 하는 이유"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Performance & Limits",
+          "anchor": "13-performance-limits",
+          "subs": [],
+          "items": [
+            {
+              "t": "HNSW Parameters / M·construction_ef·search_ef로 정밀도와 속도를 조절"
+            },
+            {
+              "t": "Memory Footprint Estimation / 벡터 수×차원으로 메모리 사용량을 어림잡는 방법"
+            },
+            {
+              "t": "Single-Node Scaling Limit / 노드 하나로 감당 가능한 데이터량의 한계"
+            },
+            {
+              "t": "Batch Insert Tuning / 배치 크기를 조절해 삽입 속도를 높이는 방법"
+            },
+            {
+              "t": "Migration Target Evaluation / 규모가 커지면 어떤 DB로 옮길지 판단하는 기준"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Ai Engineer",
+      "ref": "software/role-based/ai-engineer"
+    },
+    {
+      "label": "Ai Agents",
+      "ref": "software/skill-based/AI/ai-agents"
+    },
+    {
+      "label": "Python",
+      "ref": "software/skill-based/Languages/python"
+    },
+    {
+      "label": "Pinecone",
+      "ref": "software/skill-based/AI/pinecone"
+    },
+    {
+      "label": "Qdrant",
+      "ref": "software/skill-based/AI/qdrant"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+ "domain": "language",
+ "title": "외국어 자격증",
+ "count": 9,
+ "categories": [
+  {
+   "title": "영어 — 공인 시험",
+   "certs": [
+    {
+     "id": "toeic",
+     "name": "TOEIC",
+     "roadmaps": [
+      "language/english/listening",
+      "language/english/reading",
+      "language/english/grammar"
+     ],
+     "note": "국내 채용에서 가장 널리 요구되는 점수. 말하기·쓰기는 안 재므로 단독으로는 실력 증명이 안 됨",
+     "issuer": "ETS (국내 시행 YBM)",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "듣기 100문항 + 읽기 100문항 · 월 2회 내외",
+     "renewal": "성적 유효 2년"
+    },
+    {
+     "id": "toeic-speaking",
+     "name": "TOEIC Speaking",
+     "roadmaps": [
+      "language/english/speaking"
+     ],
+     "note": "실증(s:1)이 녹음으로 남는 항목과 직결 — speaking 로드맵의 외부 눈금 역할",
+     "issuer": "ETS (국내 시행 YBM)",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "컴퓨터 기반 발화 11문항 · 월 2회 내외",
+     "renewal": "성적 유효 2년"
+    },
+    {
+     "id": "opic",
+     "name": "OPIc",
+     "roadmaps": [
+      "language/english/speaking"
+     ],
+     "note": null,
+     "issuer": "ACTFL (국내 시행 크레듀)",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "컴퓨터 기반 인터뷰형 발화 · 상시",
+     "renewal": "성적 유효 2년"
+    },
+    {
+     "id": "teps",
+     "name": "TEPS",
+     "roadmaps": [
+      "language/english/listening",
+      "language/english/reading",
+      "language/english/grammar"
+     ],
+     "note": null,
+     "issuer": "서울대학교 TEPS관리위원회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "청해·어휘·문법·독해 · 월 1~2회",
+     "renewal": "성적 유효 2년"
+    },
+    {
+     "id": "ielts",
+     "name": "IELTS Academic",
+     "roadmaps": [
+      "language/english"
+     ],
+     "note": "4영역을 다 재는 몇 안 되는 시험. 유학·이민용이지만 실력 눈금으로도 정확함",
+     "issuer": "British Council · IDP · Cambridge",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "읽기·듣기·쓰기·말하기 4영역(말하기는 대면 인터뷰) · 월 4회 내외",
+     "renewal": "성적 유효 2년"
+    },
+    {
+     "id": "toefl-ibt",
+     "name": "TOEFL iBT",
+     "roadmaps": [
+      "language/english"
+     ],
+     "note": null,
+     "issuer": "ETS",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "읽기·듣기·말하기·쓰기 4영역 · 상시",
+     "renewal": "성적 유효 2년"
+    }
+   ]
+  },
+  {
+   "title": "일본어 — 공인 시험",
+   "certs": [
+    {
+     "id": "jlpt",
+     "name": "JLPT 일본어능력시험",
+     "roadmaps": [
+      "language/japanese/grammar",
+      "language/japanese/kanji",
+      "language/japanese/reading",
+      "language/japanese/listening"
+     ],
+     "note": "로드맵 PART 축이 N5→N1으로 짜여 있어 급수가 곧 진도 눈금. 말하기·쓰기는 안 잼",
+     "issuer": "일본국제교류기금 · 일본국제교육지원협회",
+     "region": "해외",
+     "eligibility": "제한 없음(N5~N1 중 응시 급수 자유 선택)",
+     "exam": "언어지식(문자·어휘·문법)·독해·청해 · 연 2회(7월·12월)",
+     "renewal": "없음"
+    },
+    {
+     "id": "jpt",
+     "name": "JPT 일본어능력시험",
+     "roadmaps": [
+      "language/japanese/listening",
+      "language/japanese/reading"
+     ],
+     "note": "급수제인 JLPT와 달리 점수제라 연 2회 일정을 안 기다려도 됨",
+     "issuer": "YBM",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "청해 100문항 + 독해 100문항, 990점 만점 · 월 1회",
+     "renewal": "성적 유효 2년"
+    },
+    {
+     "id": "bjt",
+     "name": "BJT 비즈니스일본어능력시험",
+     "roadmaps": [
+      "language/japanese/listening",
+      "language/japanese/reading"
+     ],
+     "note": "실무 상황 중심. N1 이후에 실력을 더 갈 곳이 필요할 때의 다음 눈금",
+     "issuer": "일본한자능력검정협회",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "청해·청독해·독해, 800점 만점 · 상시(CBT)",
+     "renewal": "없음"
+    }
+   ]
+  }
+ ]
+}

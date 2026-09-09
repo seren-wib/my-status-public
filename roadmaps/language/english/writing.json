@@ -1,0 +1,362 @@
+{
+  "title": "Writing AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Warming Up the Hand (A1~A2)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Copying Sentences",
+          "anchor": "1-copying-sentences",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Copy Set / 쉬운 문장 열 개 그대로 베껴쓰기"
+            },
+            {
+              "t": "Daily Copy Week / 하루 다섯 문장 베껴쓰기 1주 연속"
+            },
+            {
+              "t": "Full Page Copy / 짧은 지문 하나를 한 페이지 통째로 베껴쓰기"
+            },
+            {
+              "t": "Pattern Swap / 베낀 문장의 단어 하나씩 바꿔 새 문장 만들기"
+            },
+            {
+              "t": "Dictation Check / 들은 문장 받아 적고 원문과 대조해 틀린 곳 표시"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "My Own Sentences",
+          "anchor": "2-my-own-sentences",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fill-in Sentences / 이름·나이·사는 곳 빈칸 문장을 내 정보로 완성"
+            },
+            {
+              "t": "Three Sentence Intro / 세 문장 자기소개 쓰기"
+            },
+            {
+              "t": "Daily One-Liner / 오늘 한 일 한 문장씩 1주간 쓰기"
+            },
+            {
+              "t": "Ten Things I Like / 좋아하는 것 열 가지를 완전한 문장으로 쓰기"
+            },
+            {
+              "t": "Question Sentences / 궁금한 것 다섯 개를 의문문으로 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Everyday Writing (B1)",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Diary",
+          "anchor": "3-diary",
+          "subs": [],
+          "items": [
+            {
+              "t": "Diary Week / 영어 일기 하루 세 문장 이상 1주 연속"
+            },
+            {
+              "t": "Feelings Entry / 사실 나열 말고 감정과 이유가 든 일기 한 편"
+            },
+            {
+              "t": "Past and Future / 어제 일과 내일 계획을 한 편에 같이 쓰기"
+            },
+            {
+              "t": "Weekly Highlight / 한 주에서 가장 기억나는 일 한 편으로 쓰기"
+            },
+            {
+              "t": "Diary Month / 일기 루틴 한 달 유지",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Messages and Comments",
+          "anchor": "4-messages-and-comments",
+          "subs": [],
+          "items": [
+            {
+              "t": "Text Message Set / 약속 잡기·거절·감사 문자 세 통 쓰기"
+            },
+            {
+              "t": "Real Comments / 영어 영상·글에 실제 댓글 세 개 달기"
+            },
+            {
+              "t": "Reply Thread / 받은 메시지를 가정하고 답장 주고받기 이어 쓰기"
+            },
+            {
+              "t": "Social Post / SNS용 짧은 영어 글 하나 완성"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Summaries",
+          "anchor": "5-summaries",
+          "subs": [],
+          "items": [
+            {
+              "t": "Story Summary / 읽거나 본 이야기 한 편을 다섯 문장으로 요약"
+            },
+            {
+              "t": "News Recap / 기사 하나를 세 문장으로 요약"
+            },
+            {
+              "t": "Video Summary / 본 영상 하나 내용을 한 문단으로 정리"
+            },
+            {
+              "t": "One Sentence Shrink / 다섯 문장 요약을 다시 한 문장으로 압축"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Structured Writing (B2)",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Paragraph Structure",
+          "anchor": "6-paragraph-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Opinion Paragraph / 좋아하는 것 하나에 대해 찬성 근거 세 개로 한 문단 쓰기"
+            },
+            {
+              "t": "Topic Sentence Drill / 주제문 하나 쓰고 뒷받침 문장 세 개 붙이기"
+            },
+            {
+              "t": "Example Insertion / 주장에 구체 예시 하나 이상 넣어 문단 완성"
+            },
+            {
+              "t": "Counter Paragraph / 같은 주제를 반대 입장에서 한 문단 더 쓰기"
+            },
+            {
+              "t": "Paragraph Rewrite / 예전에 쓴 문단 하나 골라 구조 잡아 다시 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Formal Email",
+          "anchor": "7-formal-email",
+          "subs": [],
+          "items": [
+            {
+              "t": "Inquiry Email / 문의 이메일 격식체로 한 통 쓰기"
+            },
+            {
+              "t": "Request Email / 부탁·요청 이메일을 완곡한 표현으로 쓰기"
+            },
+            {
+              "t": "Complaint Email / 항의 이메일을 정중한 톤 유지하며 쓰기"
+            },
+            {
+              "t": "Apology and Thanks / 사과 이메일·감사 이메일 각 한 통 쓰기"
+            },
+            {
+              "t": "Cover Message / 지원·자기소개 메일 한 통 완성"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Reviews",
+          "anchor": "8-reviews",
+          "subs": [],
+          "items": [
+            {
+              "t": "Product Review / 실제 쓰는 물건 리뷰 한 편 쓰기"
+            },
+            {
+              "t": "Media Review / 영화나 책 리뷰를 스포일러 없이 한 편 쓰기"
+            },
+            {
+              "t": "Place Review / 가 본 곳 리뷰를 장단점 나눠 쓰기"
+            },
+            {
+              "t": "Posted Review / 쓴 리뷰 하나를 실제 사이트에 올리기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Long-Form Writing (C1)",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Essay",
+          "anchor": "9-essay",
+          "subs": [],
+          "items": [
+            {
+              "t": "Essay Outline / 주제 정해 서론-본론-결론 개요 짜기"
+            },
+            {
+              "t": "Five Paragraph Essay / 개요대로 5문단 에세이 한 편 완성"
+            },
+            {
+              "t": "Argument Essay / 반론 소개와 재반박까지 포함한 찬반 에세이 쓰기"
+            },
+            {
+              "t": "Timed Essay / 30분 제한 걸고 에세이 한 편 완성"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Revision",
+          "anchor": "10-revision",
+          "subs": [],
+          "items": [
+            {
+              "t": "Feedback Round / 쓴 글 하나를 사람이나 AI에게 첨삭 받기"
+            },
+            {
+              "t": "Rewrite After Feedback / 지적 사항 반영해 같은 글 고쳐쓰기",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Self Edit Pass / 하루 묵힌 글을 스스로 세 군데 이상 고치기"
+            },
+            {
+              "t": "Sentence Variety Pass / 길이·구조가 단조로운 문장 찾아 바꿔 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Register Control",
+          "anchor": "11-register-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "Formal and Casual Pair / 같은 내용을 격식·비격식 두 버전으로 쓰기"
+            },
+            {
+              "t": "Audience Shift / 같은 소식을 친구용·상사용으로 각각 다르게 쓰기"
+            },
+            {
+              "t": "Tone Softening / 직설적인 문장 다섯 개를 완곡하게 바꿔 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "A Native Pen (C2)",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Style Imitation",
+          "anchor": "12-style-imitation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Author Imitation / 좋아하는 작가나 칼럼 문체 흉내내 한 문단 쓰기"
+            },
+            {
+              "t": "Style Swap / 같은 내용을 서로 다른 두 작가 문체로 각각 쓰기"
+            },
+            {
+              "t": "Idiom Weaving / 관용구·구어 표현 자연스럽게 섞은 글 한 편 쓰기"
+            },
+            {
+              "t": "Genre Pastiche / 같은 사건을 뉴스·광고·소설 톤으로 각각 쓰기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Humor and Satire",
+          "anchor": "13-humor-and-satire",
+          "subs": [],
+          "items": [
+            {
+              "t": "Humor Piece / 웃기려고 작정한 짧은 글 한 편 쓰기"
+            },
+            {
+              "t": "Satire Piece / 익숙한 것 하나를 풍자하는 글 쓰기"
+            },
+            {
+              "t": "Punchline Editing / 유머 글의 마무리 문장 세 번 갈아끼워 비교"
+            },
+            {
+              "t": "Meme Caption / 이미지 하나에 영어 캡션으로 웃음 포인트 만들기"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Long-form",
+          "anchor": "14-long-form",
+          "subs": [],
+          "items": [
+            {
+              "t": "Long-form Outline / 2000단어 이상 글의 주제와 구조 설계"
+            },
+            {
+              "t": "Long-form Draft / 초고를 끝까지 완성"
+            },
+            {
+              "t": "Long-form Final / 퇴고 거쳐 2000단어 이상 완성본 만들기"
+            },
+            {
+              "t": "Public Publishing / 완성 글을 블로그 등 공개 채널에 게시",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Grammar",
+      "ref": "language/english/grammar"
+    },
+    {
+      "label": "Reading",
+      "ref": "language/english/reading"
+    },
+    {
+      "label": "Foundations",
+      "ref": "language/english/foundations"
+    },
+    {
+      "label": "Speaking",
+      "ref": "language/english/speaking"
+    }
+  ]
+}

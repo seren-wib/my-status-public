@@ -1,0 +1,146 @@
+[
+  {
+    "path": "role-based/founder",
+    "title": "Founder AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 32
+  },
+  {
+    "path": "role-based/freelancer",
+    "title": "Freelancer AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 9,
+    "items": 30
+  },
+  {
+    "path": "role-based/solopreneur",
+    "title": "Solopreneur AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 36
+  },
+  {
+    "path": "skill-based/Marketing/content-marketing",
+    "title": "Content Marketing AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Marketing/copywriting",
+    "title": "Copywriting AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Marketing/growth-analytics",
+    "title": "Growth Analytics AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Marketing/paid-acquisition",
+    "title": "Paid Acquisition AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Marketing/positioning",
+    "title": "Positioning AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 14
+  },
+  {
+    "path": "skill-based/Operations/fundraising",
+    "title": "Fundraising AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Operations/hiring-team",
+    "title": "Hiring and Team AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Operations/legal",
+    "title": "Legal AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 17
+  },
+  {
+    "path": "skill-based/Operations/operations",
+    "title": "Operations AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Sales/client-management",
+    "title": "Client Management AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 17
+  },
+  {
+    "path": "skill-based/Sales/partnerships",
+    "title": "Partnerships AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 14
+  },
+  {
+    "path": "skill-based/Sales/sales-process",
+    "title": "Sales Process AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/Validation/customer-research",
+    "title": "Customer Research AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 14
+  },
+  {
+    "path": "skill-based/Validation/market-testing",
+    "title": "Market Testing AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 14
+  },
+  {
+    "path": "skill-based/Validation/pricing",
+    "title": "Pricing AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  }
+]

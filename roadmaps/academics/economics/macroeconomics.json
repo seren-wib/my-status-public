@@ -1,0 +1,313 @@
+{
+  "title": "Macroeconomics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Measuring Aggregates",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Measuring the Economy",
+          "anchor": "1-measuring-the-economy",
+          "subs": [],
+          "items": [
+            {
+              "t": "National Accounts / GDP·GNI의 정의와 그 한계"
+            },
+            {
+              "t": "Three Approaches / 생산·지출·소득 접근이 일치하는 이유"
+            },
+            {
+              "t": "Real vs Nominal / 디플레이터로 물가 효과를 걷어내기"
+            },
+            {
+              "t": "Price Indices / CPI와 지출물가지수의 산정 방식과 편의"
+            },
+            {
+              "t": "Unemployment Measurement / 실업률·경제활동참가율의 정의와 사각지대"
+            },
+            {
+              "t": "Stock vs Flow / 유량과 저량을 섞지 않기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "The Long-run Benchmark",
+          "anchor": "2-the-long-run-benchmark",
+          "subs": [],
+          "items": [
+            {
+              "t": "Aggregate Production Function / 노동·자본·기술이 결합해 산출을 만드는 틀"
+            },
+            {
+              "t": "Labor Market Equilibrium / 실질임금이 고용량을 정하는 경로"
+            },
+            {
+              "t": "Natural Rate of Unemployment / 마찰적·구조적 실업과 자연실업률"
+            },
+            {
+              "t": "Output Gap and Okun's Law / 산출 갭과 실업의 경험적 대응"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Money and Finance",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Money and Banking",
+          "anchor": "3-money-and-banking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Functions of Money / 교환수단·가치저장·계산단위"
+            },
+            {
+              "t": "Monetary Aggregates / 본원통화와 통화량의 층위"
+            },
+            {
+              "t": "Money Creation / 지급준비와 승수로 예금이 불어나는 구조"
+            },
+            {
+              "t": "Money Demand / 거래·예비·투기 동기의 분해"
+            },
+            {
+              "t": "Quantity Theory / MV=PY가 말하는 것과 말하지 못하는 것"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Interest and Financial Markets",
+          "anchor": "4-interest-and-financial-markets",
+          "subs": [],
+          "items": [
+            {
+              "t": "Nominal vs Real Interest Rate / 기대 인플레이션을 뺀 진짜 금리"
+            },
+            {
+              "t": "Term Structure / 수익률 곡선에 담긴 기대와 위험 프리미엄"
+            },
+            {
+              "t": "Loanable Funds / 저축과 투자가 만나 금리를 정하는 시장"
+            },
+            {
+              "t": "Discounting and Asset Prices / 현재가치가 자산가격을 규정하는 원리"
+            },
+            {
+              "t": "Financial Intermediation / 만기·유동성 변환과 거기서 오는 취약성"
+            },
+            {
+              "t": "Financial Crises / 레버리지와 뱅크런이 증폭되는 메커니즘"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Inflation",
+          "anchor": "5-inflation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sources of Inflation / 수요견인과 비용인상의 구분"
+            },
+            {
+              "t": "Inflation Expectations / 기대가 실제 물가를 움직이는 경로"
+            },
+            {
+              "t": "Phillips Curve / 단기 상충 관계와 장기 수직성"
+            },
+            {
+              "t": "Costs of Inflation / 메뉴비용·구두창비용·재분배 효과"
+            },
+            {
+              "t": "Hyperinflation and Deflation / 양극단이 발생하는 조건과 파괴 경로"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Business Cycles and Policy",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Short-run Fluctuations",
+          "anchor": "6-short-run-fluctuations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Aggregate Demand / 총수요 곡선이 우하향하는 세 경로"
+            },
+            {
+              "t": "Aggregate Supply / 단기와 장기 총공급이 갈리는 이유"
+            },
+            {
+              "t": "Keynesian Cross / 지출 승수와 균형 소득의 결정"
+            },
+            {
+              "t": "IS-LM Framework / 재화시장과 화폐시장의 동시 균형"
+            },
+            {
+              "t": "Nominal Rigidity / 가격·임금 경직성이 충격을 실물로 옮기는 구조"
+            },
+            {
+              "t": "Business Cycle Facts / 경기변동의 공행성·지속성·비대칭성"
+            },
+            {
+              "t": "Competing Cycle Theories / 실물충격론과 신케인지언의 대립점"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Fiscal Policy",
+          "anchor": "7-fiscal-policy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Government Budget Constraint / 지출·조세·국채를 잇는 회계 항등식"
+            },
+            {
+              "t": "Fiscal Multiplier / 승수 크기를 좌우하는 조건들"
+            },
+            {
+              "t": "Automatic Stabilizers / 재량 없이 작동하는 완충 장치"
+            },
+            {
+              "t": "Crowding Out / 재정 확장이 민간 투자를 밀어내는 경로"
+            },
+            {
+              "t": "Debt Sustainability / 이자율-성장률 격차가 정하는 부채 경로"
+            },
+            {
+              "t": "Ricardian Equivalence / 미래 조세 기대가 정책을 무력화하는 조건"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Monetary Policy",
+          "anchor": "8-monetary-policy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Central Bank Mandate / 물가·고용 책무와 독립성의 근거"
+            },
+            {
+              "t": "Transmission Channels / 정책금리가 실물로 전달되는 통로"
+            },
+            {
+              "t": "Rules vs Discretion / 준칙과 재량, 그리고 시간 비일관성 문제"
+            },
+            {
+              "t": "Inflation Targeting / 목표제가 기대를 고정하는 방식"
+            },
+            {
+              "t": "Zero Lower Bound / 금리 하한에서 수단이 고갈되는 상황"
+            },
+            {
+              "t": "Balance Sheet Policy / 양적완화가 기대는 작동 가정"
+            },
+            {
+              "t": "Policy Lags / 인식·결정·효과 시차가 만드는 오차"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Open Economy and Growth",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Open Economy",
+          "anchor": "9-open-economy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Balance of Payments / 경상수지와 금융계정이 맞물리는 항등 관계"
+            },
+            {
+              "t": "Exchange Rate Determination / 구매력평가와 이자율평가"
+            },
+            {
+              "t": "Fixed vs Floating / 환율제도 선택이 치르는 대가"
+            },
+            {
+              "t": "Impossible Trinity / 자본이동·환율 고정·통화 자율의 삼자택이"
+            },
+            {
+              "t": "Policy under Open Economy / 환율제도에 따라 갈리는 재정·통화정책 유효성"
+            },
+            {
+              "t": "Comparative Advantage / 비교우위가 만드는 무역 이득과 분배 갈등"
+            },
+            {
+              "t": "Trade Policy Effects / 관세·쿼터의 후생 효과 계산"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Growth",
+          "anchor": "10-growth",
+          "subs": [],
+          "items": [
+            {
+              "t": "Neoclassical Growth Model / 자본축적·정상상태·수렴"
+            },
+            {
+              "t": "Golden Rule Saving / 장기 소비를 극대화하는 저축률"
+            },
+            {
+              "t": "Growth Accounting / 성장을 요인별로 분해하고 잔차를 읽기"
+            },
+            {
+              "t": "Technological Progress / 지속 성장이 기술에 걸려 있는 이유"
+            },
+            {
+              "t": "Endogenous Growth / 지식·인적자본이 수익체감을 깨는 경로"
+            },
+            {
+              "t": "Institutions and Growth / 제도가 장기 성장률을 가르는 메커니즘"
+            },
+            {
+              "t": "Convergence Debate / 소득 격차가 좁혀지지 않는 조건"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Microeconomics",
+      "ref": "academics/economics/microeconomics"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    },
+    {
+      "label": "Calculus",
+      "ref": "academics/math/calculus"
+    },
+    {
+      "label": "Modern",
+      "ref": "academics/history/modern/overview"
+    }
+  ]
+}

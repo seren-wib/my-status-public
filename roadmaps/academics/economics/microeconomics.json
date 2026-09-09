@@ -1,0 +1,343 @@
+{
+  "title": "Microeconomics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "How Markets Work",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Foundations",
+          "anchor": "1-foundations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Scarcity and Tradeoff / 희소성이 선택을 강제하는 구조"
+            },
+            {
+              "t": "Opportunity Cost / 포기한 차선의 가치로 비용을 다시 정의"
+            },
+            {
+              "t": "Marginal Thinking / 총량이 아니라 한 단위 증분으로 판단"
+            },
+            {
+              "t": "Sunk Cost / 회수 불가 비용을 의사결정에서 제외하는 규칙"
+            },
+            {
+              "t": "Positive vs Normative / 사실 진술과 당위 진술의 분리"
+            },
+            {
+              "t": "Ceteris Paribus / 다른 조건 고정이라는 모형의 전제와 대가"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Demand and Supply",
+          "anchor": "2-demand-and-supply",
+          "subs": [],
+          "items": [
+            {
+              "t": "Demand Curve / 곡선 위의 이동과 곡선 자체의 이동 구분"
+            },
+            {
+              "t": "Supply Curve / 한계비용이 공급 곡선을 만드는 경로"
+            },
+            {
+              "t": "Market Equilibrium / 초과수요·초과공급이 가격으로 해소되는 과정"
+            },
+            {
+              "t": "Comparative Statics / 충격 하나에 균형이 어디로 움직이는지 추적"
+            },
+            {
+              "t": "Consumer and Producer Surplus / 거래에서 남는 잉여의 측정"
+            },
+            {
+              "t": "Price Controls / 가격상한·하한이 만드는 초과수요와 배급"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Elasticity",
+          "anchor": "3-elasticity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Price Elasticity of Demand / 탄력성 계산과 총수입 변화 예측"
+            },
+            {
+              "t": "Determinants of Elasticity / 대체재·시간·소득 비중이 탄력성을 정한다"
+            },
+            {
+              "t": "Cross and Income Elasticity / 대체·보완, 정상재·열등재 판별"
+            },
+            {
+              "t": "Elasticity of Supply / 단기와 장기의 공급 반응 차이"
+            },
+            {
+              "t": "Tax Incidence / 세금 부담이 탄력성에 따라 갈리는 원리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Consumers and Producers",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Consumer Theory",
+          "anchor": "4-consumer-theory",
+          "subs": [],
+          "items": [
+            {
+              "t": "Preference and Utility / 선호 순서를 함수로 옮기는 절차와 가정"
+            },
+            {
+              "t": "Indifference Curve / 곡선의 형태에 담긴 대체 가능성"
+            },
+            {
+              "t": "Budget Constraint / 예산선의 기울기가 곧 상대가격"
+            },
+            {
+              "t": "Utility Maximization / 한계대체율=상대가격 조건 도출"
+            },
+            {
+              "t": "Income and Substitution Effect / 가격 변화의 분해와 기펜재"
+            },
+            {
+              "t": "From Individual to Market Demand / 개별 수요의 수평 합산"
+            },
+            {
+              "t": "Intertemporal Choice / 이자율이 현재·미래 소비를 교환하는 가격"
+            },
+            {
+              "t": "Choice under Risk / 기대효용과 위험회피 성향의 표현"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Production and Cost",
+          "anchor": "5-production-and-cost",
+          "subs": [],
+          "items": [
+            {
+              "t": "Production Function / 투입-산출 관계와 한계생산 체감"
+            },
+            {
+              "t": "Short vs Long Run / 고정투입 유무가 가르는 두 기간"
+            },
+            {
+              "t": "Cost Curves / 평균비용과 한계비용 곡선이 맞물리는 지점"
+            },
+            {
+              "t": "Returns to Scale / 규모수익 체증·불변·체감의 판별"
+            },
+            {
+              "t": "Economies of Scale and Scope / 규모·범위의 경제와 최소효율규모"
+            },
+            {
+              "t": "Profit Maximization / MR=MC 조건과 조업 중단점"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Market Structure",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Perfect Competition",
+          "anchor": "6-perfect-competition",
+          "subs": [],
+          "items": [
+            {
+              "t": "Price Taking / 가격수용자가 직면하는 수평 수요곡선"
+            },
+            {
+              "t": "Short-run Equilibrium / 단기 이윤·손실 국면의 판정"
+            },
+            {
+              "t": "Entry and Exit / 진입과 퇴출이 장기 이윤을 0으로 미는 과정"
+            },
+            {
+              "t": "Allocative Efficiency / 완전경쟁이 잉여를 극대화하는 이유"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Monopoly",
+          "anchor": "7-monopoly",
+          "subs": [],
+          "items": [
+            {
+              "t": "Barriers to Entry / 독점이 유지되는 진입장벽의 유형"
+            },
+            {
+              "t": "Monopoly Pricing / MR<P에서 나오는 이윤극대화 산출량"
+            },
+            {
+              "t": "Deadweight Loss / 독점이 태우는 잉여의 크기"
+            },
+            {
+              "t": "Price Discrimination / 1·2·3급 가격차별의 성립 조건과 효과"
+            },
+            {
+              "t": "Natural Monopoly and Regulation / 규모의 경제 아래의 가격 규제 딜레마"
+            },
+            {
+              "t": "Measuring Market Power / 마크업과 러너지수로 지배력 계량"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Imperfect Competition",
+          "anchor": "8-imperfect-competition",
+          "subs": [],
+          "items": [
+            {
+              "t": "Monopolistic Competition / 제품 차별화가 남기는 초과설비"
+            },
+            {
+              "t": "Oligopoly Interdependence / 소수 기업의 상호 의존 구조"
+            },
+            {
+              "t": "Quantity vs Price Competition / 수량 경쟁과 가격 경쟁이 낳는 결과 차이"
+            },
+            {
+              "t": "Cartel and Collusion / 담합의 유인과 이탈 압력"
+            },
+            {
+              "t": "Contestable Markets / 진입 위협만으로 가격이 눌리는 조건"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Strategy and Market Failure",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Game Theory Basics",
+          "anchor": "9-game-theory-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Normal Form Game / 상황을 보수행렬로 옮기기"
+            },
+            {
+              "t": "Dominant Strategy / 지배전략과 열등전략 반복 제거"
+            },
+            {
+              "t": "Nash Equilibrium / 상호 최적 반응이 맞물린 상태"
+            },
+            {
+              "t": "Prisoner's Dilemma / 개별 합리성이 공동 손실을 낳는 구조"
+            },
+            {
+              "t": "Mixed Strategy / 확률적 선택이 균형이 되는 경우"
+            },
+            {
+              "t": "Sequential Games / 게임 트리와 후방귀납"
+            },
+            {
+              "t": "Credible Commitment / 선택지를 스스로 없애 위협을 믿게 만들기"
+            },
+            {
+              "t": "Repeated Games / 반복이 협조를 지탱하는 메커니즘"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Externality and Public Goods",
+          "anchor": "10-externality-and-public-goods",
+          "subs": [],
+          "items": [
+            {
+              "t": "Externalities / 사적 비용과 사회적 비용이 벌어지는 지점"
+            },
+            {
+              "t": "Corrective Instruments / 교정과세와 배출권 거래의 비교"
+            },
+            {
+              "t": "Coase Theorem / 재산권과 거래비용이 정하는 협상 해법"
+            },
+            {
+              "t": "Public Goods / 비배제성·비경합성과 무임승차"
+            },
+            {
+              "t": "Common Resources / 공유지의 비극과 이를 막는 관리 규칙"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Information and Institutions",
+          "anchor": "11-information-and-institutions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Asymmetric Information / 감춰진 특성과 감춰진 행동의 구분"
+            },
+            {
+              "t": "Adverse Selection / 역선택이 시장을 무너뜨리는 경로"
+            },
+            {
+              "t": "Moral Hazard / 계약 후 행동 변화와 이를 누르는 장치"
+            },
+            {
+              "t": "Signaling and Screening / 신호를 보내는 쪽과 걸러내는 쪽"
+            },
+            {
+              "t": "Principal-Agent Problem / 유인 설계로 이해관계를 정렬"
+            },
+            {
+              "t": "Transaction Cost / 거래비용이 기업의 경계를 정한다"
+            },
+            {
+              "t": "Welfare Theorems / 효율과 분배가 분리되는 지점"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Macroeconomics",
+      "ref": "academics/economics/macroeconomics"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    },
+    {
+      "label": "Calculus",
+      "ref": "academics/math/calculus"
+    },
+    {
+      "label": "Linear Algebra",
+      "ref": "academics/math/linear-algebra"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    }
+  ]
+}

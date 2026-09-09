@@ -1,0 +1,137 @@
+{
+  "title": "Fundraising AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Getting the Numbers Ready",
+          "anchor": "1-getting-the-numbers-ready",
+          "subs": [],
+          "items": [
+            {
+              "t": "Traction Sheet / 매출·사용자·재구매 같은 실제 지표를 월별 표로 정리"
+            },
+            {
+              "t": "Use of Funds / 조달액을 항목별로 쪼개 무엇에 얼마를 쓸지 한 장으로 작성"
+            },
+            {
+              "t": "Runway Calculation / 현재 소진 속도로 몇 달 버티는지 계산해 목표 조달액 확정"
+            },
+            {
+              "t": "Metric Defense / 내 숫자에서 가장 약한 지표를 찾아 설명 논리 준비"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "The Deck",
+          "anchor": "2-the-deck",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pitch Deck Build / 문제·해법·시장·지표·팀·요청을 담은 피치덱 한 벌 완성"
+            },
+            {
+              "t": "One-Line Hook / 첫 슬라이드 한 줄을 다섯 가지로 써보고 하나 고르기"
+            },
+            {
+              "t": "Appendix Pack / 예상 질문용 상세 자료를 부록으로 따로 묶기"
+            },
+            {
+              "t": "Deck Feedback Round / 창업자나 현업 3명에게 덱을 보여주고 지적 반영해 개정"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Investor Pipeline",
+          "anchor": "3-investor-pipeline",
+          "subs": [],
+          "items": [
+            {
+              "t": "Funding Route / 엔젤·VC 투자, 정부지원사업, 대출, 자체 조달",
+              "choice_inline": true
+            },
+            {
+              "t": "Investor List / 내 단계·업종에 맞는 투자자 20곳을 포트폴리오까지 확인해 정리"
+            },
+            {
+              "t": "Warm Intro Attempt / 소개로 연결되는 경로를 찾아 실제 소개 1건 성사"
+            },
+            {
+              "t": "Outreach and Tracking / 투자자 10곳에 연락하고 단계별 진행 상황 표로 관리"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Pitching",
+          "anchor": "4-pitching",
+          "subs": [],
+          "items": [
+            {
+              "t": "Mock Pitch / 타이머 켜고 10분 피칭을 녹화해 다시 보고 고치기"
+            },
+            {
+              "t": "Live Pitch / 실제 투자자나 심사 자리에서 피칭 1회 수행"
+            },
+            {
+              "t": "Q&A Drill / 예상 질문 20개를 뽑아 답변을 만들고 소리 내어 연습"
+            },
+            {
+              "t": "Follow-up Package / 미팅 후 24시간 안에 자료와 답변을 정리해 발송"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Terms and Closing",
+          "anchor": "5-terms-and-closing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dilution Math / 투자 조건을 넣어 지분 희석을 직접 계산해보기"
+            },
+            {
+              "t": "Term Sheet Read / 텀시트 샘플 하나에서 불리한 조항 3개 찾아 표시"
+            },
+            {
+              "t": "Investor Update / 기존 또는 잠재 투자자에게 월간 업데이트 메일 1회 발송"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Delivery",
+      "ref": "social/skill-based/Speaking/delivery"
+    },
+    {
+      "label": "Argumentation",
+      "ref": "social/skill-based/Influence/argumentation"
+    },
+    {
+      "label": "Negotiation",
+      "ref": "social/skill-based/Influence/negotiation"
+    },
+    {
+      "label": "Legal",
+      "ref": "business/skill-based/Operations/legal"
+    },
+    {
+      "label": "Financial Statements",
+      "ref": "finance/accounting/financial-statements"
+    },
+    {
+      "label": "Business Tax",
+      "ref": "finance/tax/business-tax"
+    }
+  ]
+}

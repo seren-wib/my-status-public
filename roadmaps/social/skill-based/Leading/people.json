@@ -1,0 +1,122 @@
+{
+  "title": "People AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Delegation",
+          "anchor": "1-delegation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Delegation / 권한 위임과 통제의 균형"
+            },
+            {
+              "t": "Task vs Ownership / 일 넘기기와 책임 넘기기 구분"
+            },
+            {
+              "t": "Matching / 사람의 강점과 일 맞추기"
+            },
+            {
+              "t": "Autonomy and Support / 맡기되 방치하지 않기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Feedback",
+          "anchor": "2-feedback",
+          "subs": [],
+          "items": [
+            {
+              "t": "Corrective Feedback / 교정 피드백"
+            },
+            {
+              "t": "Recognition / 인정과 칭찬"
+            },
+            {
+              "t": "SBI Model / 상황-행동-영향으로 전달"
+            },
+            {
+              "t": "Timing / 미루지 않고 가까이서"
+            },
+            {
+              "t": "Receiving Feedback / 나에 대한 피드백도 받기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Motivation",
+          "anchor": "3-motivation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Individual Drivers / 사람마다 다른 동기"
+            },
+            {
+              "t": "Intrinsic over Extrinsic / 보상보다 자율·숙달·의미"
+            },
+            {
+              "t": "Meaning Connection / 일과 의미를 연결"
+            },
+            {
+              "t": "De-motivators / 의욕을 꺾는 것부터 제거"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "One-on-Ones",
+          "anchor": "4-one-on-ones",
+          "subs": [],
+          "items": [
+            {
+              "t": "Regular Cadence / 정기 1:1의 리듬"
+            },
+            {
+              "t": "Their Agenda / 내 보고가 아니라 상대의 시간"
+            },
+            {
+              "t": "Listening / 신호를 듣는 자리"
+            },
+            {
+              "t": "Follow-through / 말한 것을 실제로 처리"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Growth and Expectations",
+          "anchor": "5-growth-and-expectations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Expectation Setting / 기대·기준의 명시"
+            },
+            {
+              "t": "Growth Support / 성장 경로·기회 제공"
+            },
+            {
+              "t": "Stretch Assignments / 조금 벅찬 일로 키우기"
+            },
+            {
+              "t": "Accountability Without Blame / 책임은 묻되 비난하지 않기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Hiring and Team",
+      "ref": "business/skill-based/Operations/hiring-team"
+    }
+  ]
+}

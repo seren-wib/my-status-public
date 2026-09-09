@@ -1,0 +1,106 @@
+{
+  "title": "Light and Color AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Value",
+          "anchor": "1-value",
+          "subs": [],
+          "items": [
+            {
+              "t": "Value Scale / 9단계 그레이스케일 한 장"
+            },
+            {
+              "t": "Notan Study / 흑백 2단계로 단순화한 한 장"
+            },
+            {
+              "t": "Value Thumbnails / 같은 장면 명암 배분 3안"
+            },
+            {
+              "t": "Grayscale Copy / 사진 한 장을 흑백 명암으로 모사"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Light on Form",
+          "anchor": "2-light-on-form",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sphere Light Anatomy / 구 하나에 하이라이트·중간톤·코어섀도·반사광 표기"
+            },
+            {
+              "t": "Single Source Still Life / 광원 하나로 정물 한 장"
+            },
+            {
+              "t": "Form vs Cast Shadow / 두 그림자 구분해 그린 한 장"
+            },
+            {
+              "t": "Two Light Sources / 광원 둘 충돌시킨 한 장"
+            },
+            {
+              "t": "Material Response / 금속·천·유리 같은 조명 아래 세 장"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Color Fundamentals",
+          "anchor": "3-color-fundamentals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Color Wheel / 직접 혼색해 12색 색상환 한 장"
+            },
+            {
+              "t": "Hue Saturation Value / 세 축을 따로 변주한 팔레트 한 장"
+            },
+            {
+              "t": "Limited Palette / 3색 제한으로 한 장 완성"
+            },
+            {
+              "t": "Color Temperature / 따뜻한 빛·차가운 그림자로 한 장"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Color in Practice",
+          "anchor": "4-color-in-practice",
+          "subs": [],
+          "items": [
+            {
+              "t": "Color Harmony / 보색 배색과 유사색 배색 각 한 장"
+            },
+            {
+              "t": "Light Colors the Object / 조명색이 고유색을 밀어내는 한 장"
+            },
+            {
+              "t": "Time of Day Set / 같은 풍경을 아침·정오·석양 세 장"
+            },
+            {
+              "t": "Mood by Palette / 같은 장면을 다른 정서의 배색으로 두 장"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Composition",
+      "ref": "creative/skill-based/Drawing/composition"
+    },
+    {
+      "label": "Color Grading",
+      "ref": "creative/skill-based/Video/color-grading"
+    }
+  ]
+}

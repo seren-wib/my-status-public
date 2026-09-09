@@ -1,0 +1,689 @@
+{
+  "title": "Apache Spark AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Spark",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Apache Spark?",
+          "anchor": "1-what-is-apache-spark",
+          "subs": [
+            {
+              "title": "Overview of Spark / What is it?",
+              "items": [
+                {
+                  "t": "Distributed Data Processing Engine / 여러 노드에 데이터를 쪼개 병렬로 처리하는 엔진"
+                },
+                {
+                  "t": "In-Memory Computation / 중간 결과를 디스크 대신 메모리에 두는 방식"
+                },
+                {
+                  "t": "Unified Batch and Streaming / 배치와 스트림을 같은 API로 처리하는 방식"
+                },
+                {
+                  "t": "Lazy Evaluation and DAG Execution / 연산을 계획으로 쌓았다가 요청 시 몰아 실행"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "Large-scale ETL / 한 대에 안 들어가는 규모의 추출·변환·적재"
+                },
+                {
+                  "t": "Stream Processing / 끊임없이 들어오는 데이터를 즉시 처리"
+                },
+                {
+                  "t": "Machine Learning Pipeline / 전처리부터 학습까지 분산 노드에서 처리"
+                }
+              ]
+            },
+            {
+              "title": "Spark vs Other Systems",
+              "items": [
+                {
+                  "t": "Spark vs Hadoop MapReduce / 단계마다 디스크를 안 거치고 메모리로 이어 처리"
+                },
+                {
+                  "t": "Spark vs Single-node Pandas / 한 대에 못 담는 크기를 여러 대로 쪼개는 차이"
+                },
+                {
+                  "t": "When to choose Spark? / 데이터가 메모리·한 대 용량을 넘을 때 고르는 기준"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Runtime Environment",
+              "items": [
+                {
+                  "t": "Local Mode / 드라이버와 executor를 한 프로세스로 흉내내는 모드",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Docker Image / 클러스터 구성 없이 컨테이너 하나로 실행"
+                },
+                {
+                  "t": "Managed Platform (Databricks, EMR, Dataproc) / 클러스터 관리를 대신 맡기는 서비스"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "API Languages",
+              "items": [
+                {
+                  "t": "PySpark / Python으로 JVM 위 Spark를 호출하는 API",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Scala API / JVM 네이티브라 오버헤드가 없는 API"
+                },
+                {
+                  "t": "Spark SQL only / 코드 없이 SQL만으로 쿼리를 짜는 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "First Run",
+              "items": [
+                {
+                  "t": "SparkSession / 클러스터 연결과 설정을 쥔 진입점"
+                },
+                {
+                  "t": "pyspark / spark-shell과 함께 드라이버에 붙어 즉석 질의하는 셸"
+                },
+                {
+                  "t": "spark-submit / 작성한 잡을 클러스터에 제출하는 명령"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "RDD Fundamentals",
+          "anchor": "3-rdd-fundamentals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Resilient Distributed Dataset / 노드에 흩어져 저장되는 불변 분산 컬렉션"
+            },
+            {
+              "t": "Partition / 데이터를 나눠 각 노드에 배정하는 단위"
+            },
+            {
+              "t": "Lineage / 파티션이 유실됐을 때 재계산할 연산 계보"
+            },
+            {
+              "t": "Transformations vs Actions / 계획만 쌓는 연산과 실행을 트리거하는 연산"
+            },
+            {
+              "t": "Narrow vs Wide Dependency / 셔플 없이 되는 의존과 재분배가 필요한 의존"
+            },
+            {
+              "t": "Transformations / map·filter·flatMap·reduceByKey로 계획만 쌓는 연산"
+            },
+            {
+              "t": "Actions / collect·count·take·saveAsTextFile로 계획을 실행시키는 연산"
+            },
+            {
+              "t": "Why Not to Use RDDs Directly / Catalyst 최적화를 못 받는 저수준이라는 단점"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Structured API",
+      "sections": [
+        {
+          "no": 4,
+          "title": "DataFrame and Dataset",
+          "anchor": "4-dataframe-and-dataset",
+          "subs": [
+            {
+              "title": "Concepts",
+              "items": [
+                {
+                  "t": "DataFrame vs Dataset vs RDD / 스키마와 최적화 여부로 갈리는 세 계층"
+                },
+                {
+                  "t": "Schema / StructType으로 컬럼 이름과 타입을 미리 선언하는 구조"
+                },
+                {
+                  "t": "Row and Column / 스키마 없는 레코드와 이름 붙은 표현식"
+                }
+              ]
+            },
+            {
+              "title": "Basic Operations",
+              "items": [
+                {
+                  "t": "Projection and Filtering / select·filter·where로 컬럼을 고르고 행을 거름"
+                },
+                {
+                  "t": "Column Expression / col·lit·expr로 참조·상수·SQL을 표현식으로 만드는 법"
+                },
+                {
+                  "t": "Adding and Renaming / withColumn·withColumnRenamed·drop으로 컬럼 조작"
+                }
+              ]
+            },
+            {
+              "title": "Aggregations and Joins",
+              "items": [
+                {
+                  "t": "Aggregations / groupBy·agg·count·sum·avg로 키별 집계를 셔플 뒤 계산"
+                },
+                {
+                  "t": "Joins / inner·left·right·full·semi·anti로 갈리는 조인 방식"
+                },
+                {
+                  "t": "Set Operations / union·intersect·except로 하는 집합 연산"
+                },
+                {
+                  "t": "Pivot and Unpivot / 행 값을 컬럼으로 펼치거나 다시 접는 변환"
+                }
+              ]
+            },
+            {
+              "title": "Data Cleaning",
+              "items": [
+                {
+                  "t": "Null Handling / na.fill·na.drop·coalesce로 결측값을 채우거나 제거"
+                },
+                {
+                  "t": "Date and Timestamp Functions / 날짜·시각을 파싱하고 연산하는 함수들"
+                },
+                {
+                  "t": "String Functions / regexp_extract·split·concat 같은 문자열 처리 함수"
+                },
+                {
+                  "t": "Complex Types / array·map·struct와 이를 펼치는 explode"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 5,
+          "title": "Spark SQL",
+          "anchor": "5-spark-sql",
+          "subs": [],
+          "items": [
+            {
+              "t": "SQL vs DataFrame API / 같은 실행 계획으로 컴파일되는 두 표현 방식"
+            },
+            {
+              "t": "Temp View and Global Temp View / 세션 범위와 클러스터 범위로 갈리는 뷰"
+            },
+            {
+              "t": "Catalog / Database·Table 메타데이터를 관리하는 이름공간"
+            },
+            {
+              "t": "Managed vs External Table / 데이터 파일까지 책임지는지로 갈리는 테이블"
+            },
+            {
+              "t": "Window Functions / rank·row_number·lag·lead로 파티션 내 순서를 매김"
+            },
+            {
+              "t": "Hive Metastore Integration / 기존 Hive 테이블 메타데이터를 그대로 사용"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "UDF and Advanced Functions",
+          "anchor": "6-udf-and-advanced-functions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Built-in Function First Principle / UDF보다 최적화되는 내장 함수 우선 원칙"
+            },
+            {
+              "t": "Python UDF / 행마다 JVM과 Python을 오가며 드는 직렬화 비용"
+            },
+            {
+              "t": "Pandas UDF / Arrow로 배치 단위로 묶어 처리하는 벡터화 UDF"
+            },
+            {
+              "t": "Higher-Order Functions / transform·filter·aggregate로 배열 안에서 반복"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Data Sources",
+          "anchor": "7-data-sources",
+          "subs": [
+            {
+              "title": "File Formats",
+              "items": [
+                {
+                  "t": "Parquet / 컬럼 단위로 저장해 필요한 컬럼만 읽는 포맷",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "ORC and Avro / 컬럼형 대안과 스키마 내장 행 기반 포맷"
+                },
+                {
+                  "t": "CSV and JSON / 스키마 추론 비용이 크고 파싱이 느린 텍스트 포맷"
+                }
+              ]
+            },
+            {
+              "title": "Reading and Writing",
+              "items": [
+                {
+                  "t": "DataFrameReader and DataFrameWriter / 소스·싱크를 오가는 읽기·쓰기 진입점"
+                },
+                {
+                  "t": "Save Mode / append·overwrite·error·ignore로 갈리는 충돌 처리"
+                },
+                {
+                  "t": "Partitioned Write / partitionBy로 컬럼 값에 따라 디렉터리를 나눠 씀"
+                },
+                {
+                  "t": "Bucketing / 조인 키로 미리 셔플해 저장해 두는 방식"
+                },
+                {
+                  "t": "Schema Inference vs Explicit Schema / 파일을 읽어 추측할지 직접 줄지"
+                }
+              ]
+            },
+            {
+              "title": "External Integrations",
+              "items": [
+                {
+                  "t": "JDBC Source / 필터를 DB 쪽에서 미리 걸러오는 predicate pushdown"
+                },
+                {
+                  "t": "Object Storage / S3·GCS·ADLS 같은 원격 저장소를 소스로 사용"
+                },
+                {
+                  "t": "Kafka Source and Sink / 토픽을 스트림 입력이나 출력으로 연결"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Execution Model and Performance",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Execution Model",
+          "anchor": "8-execution-model",
+          "subs": [
+            {
+              "title": "Cluster Components",
+              "items": [
+                {
+                  "t": "Driver / 실행 계획을 짜고 태스크를 분배하는 프로세스"
+                },
+                {
+                  "t": "Executor / 태스크를 실제로 실행하는 워커 프로세스"
+                },
+                {
+                  "t": "Cluster Manager / executor에 자원을 배정하는 관리자"
+                }
+              ]
+            },
+            {
+              "title": "Units of Execution",
+              "items": [
+                {
+                  "t": "Job, Stage, Task / 액션 하나가 셔플 경계로 쪼개지는 실행 단위"
+                },
+                {
+                  "t": "DAG Scheduler / 스테이지 간 의존을 그래프로 짜는 스케줄러"
+                },
+                {
+                  "t": "Stage Boundary / 셔플이 일어나는 지점에서 갈리는 경계"
+                }
+              ]
+            },
+            {
+              "title": "Query Optimization",
+              "items": [
+                {
+                  "t": "Catalyst Optimizer / 쿼리를 분석해 실행 계획을 최적화하는 엔진"
+                },
+                {
+                  "t": "Logical and Physical Plan / 무엇을 할지와 어떻게 할지로 나뉜 단계"
+                },
+                {
+                  "t": "Tungsten / 바이트코드를 생성해 연산을 합치는 whole-stage codegen"
+                },
+                {
+                  "t": "Reading Plans / explain으로 최적화된 실행 계획을 확인하는 법"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 9,
+          "title": "Shuffle and Partitioning",
+          "anchor": "9-shuffle-and-partitioning",
+          "subs": [],
+          "items": [
+            {
+              "t": "Shuffle Trigger Conditions / 파티션 간 데이터 재분배가 일어나는 조건"
+            },
+            {
+              "t": "repartition vs coalesce / 셔플을 동반하는지로 갈리는 파티션 조정"
+            },
+            {
+              "t": "Partition Count Tuning / spark.sql.shuffle.partitions로 정하는 파티션 수"
+            },
+            {
+              "t": "Data Skew / 특정 키에 데이터가 몰려 태스크가 오래 걸리는 문제"
+            },
+            {
+              "t": "Salting / 몰린 키를 임의 값으로 쪼개 분산시키는 기법"
+            },
+            {
+              "t": "Broadcast Join / 작은 쪽을 통째로 복제해 셔플을 없애는 조인"
+            },
+            {
+              "t": "Sort-Merge Join vs Hash Join / 정렬 후 병합할지 해시로 맞출지 갈림"
+            },
+            {
+              "t": "Adaptive Query Execution (AQE) / 런타임 통계로 실행 계획을 다시 짬"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Caching and Memory",
+          "anchor": "10-caching-and-memory",
+          "subs": [],
+          "items": [
+            {
+              "t": "cache vs persist / 저장 위치를 고정할지 고를 수 있는지의 차이"
+            },
+            {
+              "t": "Storage Level / MEMORY_ONLY·MEMORY_AND_DISK 중 캐시 위치 지정"
+            },
+            {
+              "t": "unpersist / 더는 안 쓰는 캐시를 명시적으로 비우는 관리"
+            },
+            {
+              "t": "Unified Memory Model / Execution·Storage 영역이 경계를 나누는 구조"
+            },
+            {
+              "t": "Executor Sizing / spark.executor.memory·cores로 정하는 자원 배정"
+            },
+            {
+              "t": "Spill to Disk / 메모리가 부족해 중간 데이터를 디스크로 내보냄"
+            },
+            {
+              "t": "Diagnosing OOM Causes / 메모리 부족으로 executor가 죽는 원인 진단"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Performance Tuning",
+          "anchor": "11-performance-tuning",
+          "subs": [],
+          "items": [
+            {
+              "t": "Predicate and Projection Pushdown / 필터·컬럼 선택을 읽기 단계로 미는 최적화"
+            },
+            {
+              "t": "Small File Problem / 작은 파일이 많아 태스크 오버헤드가 커지는 문제"
+            },
+            {
+              "t": "File Compaction / 작은 파일들을 큰 파일로 합쳐 정리하는 작업"
+            },
+            {
+              "t": "Serialization / Kryo로 기본보다 빠르고 작게 직렬화"
+            },
+            {
+              "t": "Dynamic Allocation / 부하에 맞춰 executor 수를 늘리고 줄이는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Streaming and Ecosystem",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Structured Streaming",
+          "anchor": "12-structured-streaming",
+          "subs": [
+            {
+              "title": "Model",
+              "items": [
+                {
+                  "t": "Unbounded Table Model / 스트림을 끝없이 늘어나는 테이블로 보는 모델"
+                },
+                {
+                  "t": "Micro-batch vs Continuous Processing / 짧은 배치로 쪼갤지 지속 처리할지"
+                },
+                {
+                  "t": "Trigger / processingTime·once·availableNow로 배치 주기를 지정"
+                }
+              ]
+            },
+            {
+              "title": "Time and State",
+              "items": [
+                {
+                  "t": "Event Time vs Processing Time / 데이터가 발생한 시각과 처리된 시각의 차이"
+                },
+                {
+                  "t": "Windowing / Tumbling·Sliding·Session으로 이벤트 시간을 구간 묶기"
+                },
+                {
+                  "t": "Watermark / 늦게 도착한 데이터를 얼마나 기다릴지 정하는 기준"
+                },
+                {
+                  "t": "Stream-Stream Join / 두 스트림을 상태 유지하며 시간 내에 엮는 조인"
+                }
+              ]
+            },
+            {
+              "title": "Output and Reliability",
+              "items": [
+                {
+                  "t": "Output Mode / append·update·complete로 결과를 내보내는 방식"
+                },
+                {
+                  "t": "Checkpointing / 진행 상태와 오프셋을 저장해 재시작을 대비하는 기능"
+                },
+                {
+                  "t": "Exactly-once / 재시도해도 안 겹치는 idempotent sink로 보장"
+                },
+                {
+                  "t": "foreachBatch / 마이크로배치 결과를 배치 API로 넘겨 처리"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 13,
+          "title": "Lakehouse Table Format",
+          "anchor": "13-lakehouse-table-format",
+          "subs": [],
+          "items": [
+            {
+              "t": "Delta Lake / Parquet 위에 트랜잭션 로그를 얹은 테이블 포맷",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Apache Iceberg / 스냅샷 기반으로 스키마·파티션 변경을 관리하는 포맷"
+            },
+            {
+              "t": "ACID Transaction and Time Travel / 트랜잭션 보장과 과거 버전 조회 기능"
+            },
+            {
+              "t": "Schema Evolution / 기존 데이터를 안 깨고 스키마를 바꾸는 기능"
+            },
+            {
+              "t": "MERGE INTO / 조건에 따라 삽입·갱신·삭제를 한 번에 처리하는 upsert"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "MLlib and Graph",
+          "anchor": "14-mllib-and-graph",
+          "subs": [],
+          "items": [
+            {
+              "t": "Transformer, Estimator, Pipeline / 변환·학습 단계를 이어붙이는 ML 구성요소"
+            },
+            {
+              "t": "Feature Engineering / VectorAssembler·StringIndexer로 입력을 벡터화"
+            },
+            {
+              "t": "Algorithms / Regression·Classification·Clustering 등 분산 학습 알고리즘"
+            },
+            {
+              "t": "GraphFrames / DataFrame 위에서 그래프 연산을 하는 라이브러리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Operations",
+      "sections": [
+        {
+          "no": 15,
+          "title": "Deployment",
+          "anchor": "15-deployment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deploy Mode / client·cluster 중 드라이버 위치를 정하는 모드"
+            },
+            {
+              "t": "YARN / 하둡 클러스터의 자원 관리자에 얹어 실행"
+            },
+            {
+              "t": "Kubernetes / executor를 파드로 띄우는 클러스터 매니저",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "spark-submit Options / --conf·--jars·--packages로 넘기는 실행 설정"
+            },
+            {
+              "t": "Dependency Packaging / uber jar·virtualenv로 의존성을 함께 묶는 법"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Monitoring and Debugging",
+          "anchor": "16-monitoring-and-debugging",
+          "subs": [],
+          "items": [
+            {
+              "t": "Spark UI / Jobs·Stages·SQL·Storage를 보는 실행 중 웹 화면"
+            },
+            {
+              "t": "Spark History Server / 끝난 잡의 UI 기록을 나중에 다시 보는 서버"
+            },
+            {
+              "t": "Driver and Executor Log / 프로세스별로 따로 남는 실행 로그"
+            },
+            {
+              "t": "Metrics System / JMX·Prometheus로 내보내는 클러스터 지표"
+            },
+            {
+              "t": "Common Failures / OOM·Shuffle Fetch Failed 등 자주 나는 실패 유형"
+            }
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Production Practices",
+          "anchor": "17-production-practices",
+          "subs": [],
+          "items": [
+            {
+              "t": "Idempotent Job Design / 같은 입력을 다시 돌려도 결과가 같은 설계"
+            },
+            {
+              "t": "Incremental Processing and Backfill / 새 데이터만 처리하거나 과거분 소급"
+            },
+            {
+              "t": "Cost Optimization / Spot Instance·Autoscaling으로 비용을 줄이는 법"
+            },
+            {
+              "t": "Testing / Local SparkSession·chispa로 잡을 검증하는 법"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Data Engineer",
+      "ref": "software/role-based/data-engineer"
+    },
+    {
+      "label": "Kafka",
+      "ref": "software/skill-based/Data-DB/kafka"
+    },
+    {
+      "label": "Apache Airflow",
+      "ref": "software/skill-based/Data-DB/airflow"
+    },
+    {
+      "label": "Databricks",
+      "ref": "software/skill-based/Data-DB/databricks"
+    },
+    {
+      "label": "Python",
+      "ref": "software/skill-based/Languages/python"
+    },
+    {
+      "label": "Kubernetes",
+      "ref": "software/skill-based/Infra-DevOps/kubernetes"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "title": "Figure AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Proportion",
+          "anchor": "1-proportion",
+          "subs": [],
+          "items": [
+            {
+              "t": "Head-Unit Figure / 7.5두신 전신 한 장"
+            },
+            {
+              "t": "Skeletal Landmarks / 뼈 랜드마크 표시한 전신 한 장"
+            },
+            {
+              "t": "Male and Female Contrast / 어깨·골반 차이 대비해 두 장"
+            },
+            {
+              "t": "Age Proportion / 아이와 성인 비례 비교 한 장"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Construction",
+          "anchor": "2-construction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Mannequin Figure / 도형 마네킹으로 포즈 10장"
+            },
+            {
+              "t": "Rib Cage and Pelvis / 흉곽·골반 두 덩어리 각도별 한 장"
+            },
+            {
+              "t": "Limb Cylinders / 팔다리 원통과 관절 연결 한 장"
+            },
+            {
+              "t": "Head Construction / 두상 6방향 한 장"
+            },
+            {
+              "t": "Hands / 손 20장"
+            },
+            {
+              "t": "Feet / 발 10장"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Anatomy that Shows",
+          "anchor": "3-anatomy-that-shows",
+          "subs": [],
+          "items": [
+            {
+              "t": "Surface Landmarks / 겉으로 드러나는 뼈·근육 짚어 한 장"
+            },
+            {
+              "t": "Major Muscle Groups / 주요 근육군 얹은 전신 한 장"
+            },
+            {
+              "t": "Foreshortening / 단축된 팔·다리 5장"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Pose and Movement",
+          "anchor": "4-pose-and-movement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Contrapposto / 무게를 한쪽에 실은 서 있는 포즈 5장"
+            },
+            {
+              "t": "Balance and Weight Line / 중심선 확인한 포즈 10장"
+            },
+            {
+              "t": "Action Pose / 달리기·던지기 동작 5장"
+            },
+            {
+              "t": "Clothed Figure / 옷 주름까지 얹은 전신 한 장"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Sketching",
+      "ref": "creative/skill-based/Drawing/sketching"
+    },
+    {
+      "label": "Perspective",
+      "ref": "creative/skill-based/Drawing/perspective"
+    },
+    {
+      "label": "Light and Color",
+      "ref": "creative/skill-based/Drawing/light-and-color"
+    }
+  ]
+}

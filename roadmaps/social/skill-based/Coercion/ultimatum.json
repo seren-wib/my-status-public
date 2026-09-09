@@ -1,0 +1,138 @@
+{
+  "title": "Ultimatum AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Structure of an Ultimatum",
+          "anchor": "1-structure-of-an-ultimatum",
+          "subs": [],
+          "items": [
+            {
+              "t": "Demand, Deadline, Consequence / 세 요소가 다 있어야 성립"
+            },
+            {
+              "t": "Compliance Criteria / 무엇을 보면 따랐다고 할지 미리 정하기"
+            },
+            {
+              "t": "Single Issue Rule / 여러 요구를 한 통첩에 묶을 때의 실패"
+            },
+            {
+              "t": "Deadline Realism / 상대가 실제로 맞출 수 있는 기한인가"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Commitment",
+          "anchor": "2-commitment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Commitment Device / 물러설 수 없게 스스로 묶기 (Schelling)"
+            },
+            {
+              "t": "Burning Bridges / 퇴로를 없애 신뢰성을 사는 것"
+            },
+            {
+              "t": "Tying Hands vs Sinking Cost / 자기구속 두 방식의 차이"
+            },
+            {
+              "t": "Delegation to a Rule / 재량을 없애 나도 어쩔 수 없게 만들기"
+            },
+            {
+              "t": "Commitment Trap / 스스로 묶여 손해 나는 실행에 끌려가기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Graduated Pressure",
+          "anchor": "3-graduated-pressure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Salami Tactics / 통첩 없이 조금씩 잘라내는 압박"
+            },
+            {
+              "t": "Escalation Ladder / 칸마다 되돌릴 여지를 남기기"
+            },
+            {
+              "t": "Ultimatum as Last Rung / 통첩은 사다리의 마지막 칸"
+            },
+            {
+              "t": "Reciprocal Escalation / 맞대응으로 통제를 잃는 지점"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Exits",
+          "anchor": "4-exits",
+          "subs": [],
+          "items": [
+            {
+              "t": "Face-saving Exit / 굴복으로 보이지 않는 출구 설계"
+            },
+            {
+              "t": "Ambiguous Compliance / 형식적 체면과 실질적 양보의 분리"
+            },
+            {
+              "t": "Private Delivery / 청중이 없어야 물러설 수 있다"
+            },
+            {
+              "t": "Walk-away Point / 내가 접을 지점을 미리 정해두기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "After Refusal",
+          "anchor": "5-after-refusal",
+          "subs": [],
+          "items": [
+            {
+              "t": "Execute or Fold / 거부당한 뒤에는 둘 중 하나뿐"
+            },
+            {
+              "t": "Credibility Repair / 실행하지 못했을 때의 수습"
+            },
+            {
+              "t": "Diagnosis of Failure / 지렛대 부족인지 신뢰성 부족인지"
+            },
+            {
+              "t": "Relationship Salvage / 통첩 이후 관계를 되돌리는 경로"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Threat Construction",
+      "ref": "social/skill-based/Coercion/threat"
+    },
+    {
+      "label": "Leverage",
+      "ref": "social/skill-based/Coercion/leverage"
+    },
+    {
+      "label": "Negotiation",
+      "ref": "social/skill-based/Influence/negotiation"
+    },
+    {
+      "label": "De-escalation",
+      "ref": "social/skill-based/Conflict/de-escalation"
+    },
+    {
+      "label": "Execution Design",
+      "ref": "social/skill-based/Manipulation/execution"
+    }
+  ]
+}

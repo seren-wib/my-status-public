@@ -1,0 +1,328 @@
+{
+  "title": "Developmental Psychology AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Frameworks of Developmental Research",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Foundations of Development",
+          "anchor": "1-foundations-of-development",
+          "subs": [],
+          "items": [
+            {
+              "t": "Nature-Nurture Interaction / 이분법을 대체한 상호작용 모형"
+            },
+            {
+              "t": "Critical and Sensitive Periods / 결정적 시기 개념과 각인 연구"
+            },
+            {
+              "t": "Longitudinal vs Cross-Sectional Designs / 설계 차이가 낳는 코호트 혼입"
+            },
+            {
+              "t": "Stage vs Continuity Debate / 단계 이론과 연속적 변화의 대립"
+            },
+            {
+              "t": "Heritability across Age / 유전 영향이 나이 들수록 커지는 결과"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Prenatal and Infancy",
+          "anchor": "2-prenatal-and-infancy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Prenatal Stages and Teratogens / 태내 발달 단계와 기형 유발 요인"
+            },
+            {
+              "t": "Newborn Reflexes and Preferences / 신생아 반사와 자극 선호 측정"
+            },
+            {
+              "t": "Habituation Paradigm / 습관화로 영아의 인지를 재는 방법"
+            },
+            {
+              "t": "Visual Cliff and Depth Perception / 시각 절벽 실험과 깊이 지각의 출현"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Cognitive Development",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Piagetian Theory",
+          "anchor": "3-piagetian-theory",
+          "subs": [],
+          "items": [
+            {
+              "t": "Schema, Assimilation, Accommodation / 도식이 변형되는 기제"
+            },
+            {
+              "t": "Sensorimotor Stage / 대상영속성과 A-not-B 오류"
+            },
+            {
+              "t": "Preoperational Stage / 자기중심성과 세 산 과제"
+            },
+            {
+              "t": "Concrete and Formal Operations / 보존 개념과 가설연역 추론"
+            },
+            {
+              "t": "Post-Piagetian Critiques / 과제 난이도를 낮추면 무너지는 단계 경계"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Sociocultural and Information Processing",
+          "anchor": "4-sociocultural-and-information-processing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Zone of Proximal Development / Vygotsky의 근접발달영역과 비계"
+            },
+            {
+              "t": "Private Speech / 사고 도구로 내면화되는 자기 언어"
+            },
+            {
+              "t": "Processing Speed and Capacity Growth / 처리 속도·작업기억 용량의 발달"
+            },
+            {
+              "t": "Executive Function Development / 억제·전환·갱신의 성숙 곡선"
+            },
+            {
+              "t": "Delay of Gratification / 마시멜로 과제의 원 결과와 재현·재해석"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Language and Symbolic Thought",
+          "anchor": "5-language-and-symbolic-thought",
+          "subs": [],
+          "items": [
+            {
+              "t": "Language Milestones / 옹알이에서 문법 폭발까지의 순서"
+            },
+            {
+              "t": "Statistical Learning in Infants / 영아가 분포 정보를 학습한다는 실험"
+            },
+            {
+              "t": "Overregularization / 과잉일반화 오류가 드러내는 규칙 습득"
+            },
+            {
+              "t": "Theory of Mind / 틀린 믿음 과제와 획득 시점 논쟁"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Attachment and Emotional Development",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Attachment",
+          "anchor": "6-attachment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ethological Roots / Harlow의 접촉 위안 실험과 Bowlby의 애착 이론"
+            },
+            {
+              "t": "Strange Situation / Ainsworth 절차와 세 유형 분류"
+            },
+            {
+              "t": "Disorganized Attachment / D 유형의 판별 기준과 예측력"
+            },
+            {
+              "t": "Internal Working Models / 초기 관계가 표상으로 남는다는 가설"
+            },
+            {
+              "t": "Continuity into Adulthood / 성인기까지의 연속성 증거와 그 한계"
+            },
+            {
+              "t": "Adult Attachment Interview / 서사 일관성으로 성인 애착을 재는 방법"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Early Adversity",
+          "anchor": "7-early-adversity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deprivation Studies / 루마니아 고아 연구가 보여준 회복과 한계"
+            },
+            {
+              "t": "Maternal Sensitivity / 반응성이 애착 유형을 예측하는 정도"
+            },
+            {
+              "t": "Differential Susceptibility / 같은 환경이 아이마다 다르게 작동하는 모형"
+            },
+            {
+              "t": "Resilience Research / 고위험군에서 잘 자란 아이들의 보호 요인"
+            },
+            {
+              "t": "Overreach of Attachment Claims / 육아 담론에서의 과잉 일반화 검토"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Emotional and Self Development",
+          "anchor": "8-emotional-and-self-development",
+          "subs": [],
+          "items": [
+            {
+              "t": "Emotion Expression and Recognition / 정서 표현·인식의 발달 순서"
+            },
+            {
+              "t": "Social Referencing / 타인의 반응을 참조해 상황을 판단하는 시기"
+            },
+            {
+              "t": "Mirror Self-Recognition / 루주 과제와 자기 인식의 출현"
+            },
+            {
+              "t": "Self-Conscious Emotions / 수치·죄책감이 나타나는 조건"
+            },
+            {
+              "t": "Goodness of Fit / 기질과 양육 환경의 적합도 모형"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Sociality and Morality",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Socialization",
+          "anchor": "9-socialization",
+          "subs": [],
+          "items": [
+            {
+              "t": "Parenting Style Typology / Baumrind의 4유형과 결과 상관"
+            },
+            {
+              "t": "Direction of Effects / 아이가 부모를 바꾸는 역방향 인과"
+            },
+            {
+              "t": "Peer Status and Rejection / 또래 지위 측정과 장기 결과"
+            },
+            {
+              "t": "Nonshared Family Environment / 형제·가족 체계가 만드는 차이"
+            },
+            {
+              "t": "Media Effects Debate / 매체 노출 연구의 효과 크기 논쟁"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Moral Development",
+          "anchor": "10-moral-development",
+          "subs": [],
+          "items": [
+            {
+              "t": "Kohlberg Stages / 도덕 추론 3수준 6단계와 딜레마 면접"
+            },
+            {
+              "t": "Care Orientation Critique / Gilligan의 비판과 성차 논쟁"
+            },
+            {
+              "t": "Social Domain Theory / 도덕·인습·개인 영역의 구분"
+            },
+            {
+              "t": "Early Prosocial Behavior / 영아기 도움 행동과 공정성 기대 실험"
+            },
+            {
+              "t": "Judgment-Behavior Gap / 추론 수준과 실제 행동의 낮은 상관"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Development across the Lifespan",
+      "sections": [
+        {
+          "no": 11,
+          "title": "Adolescence",
+          "anchor": "11-adolescence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Puberty and Timing Effects / 사춘기 시기가 적응에 미치는 영향"
+            },
+            {
+              "t": "Dual Systems Model / 보상 체계와 통제 체계의 비동기 성숙"
+            },
+            {
+              "t": "Identity Formation / Erikson의 정체성 위기와 Marcia의 지위 모형"
+            },
+            {
+              "t": "Peer Presence and Risk Taking / 또래가 있을 때 위험 선택이 오르는 실험"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Adulthood and Aging",
+          "anchor": "12-adulthood-and-aging",
+          "subs": [],
+          "items": [
+            {
+              "t": "Psychosocial Stages / Erikson 생애 8단계와 그 경험적 지위"
+            },
+            {
+              "t": "Emerging Adulthood / 성인 진입기 개념의 등장과 문화적 조건"
+            },
+            {
+              "t": "Cognitive Aging / 유동 지능과 결정 지능의 상반된 궤적"
+            },
+            {
+              "t": "Socioemotional Selectivity / 남은 시간 지각이 사회적 목표를 바꾼다는 이론"
+            },
+            {
+              "t": "Wisdom Research / 지혜의 조작적 정의와 측정 시도"
+            },
+            {
+              "t": "Terminal Decline / 사망 전 인지 저하 현상"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    },
+    {
+      "label": "Social Psychology",
+      "ref": "academics/psychology/social-psychology"
+    },
+    {
+      "label": "Personality Psychology",
+      "ref": "academics/psychology/personality"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    }
+  ]
+}

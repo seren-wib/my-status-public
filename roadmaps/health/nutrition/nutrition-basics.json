@@ -1,0 +1,94 @@
+{
+  "title": "Nutrition Basics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "My Numbers",
+          "anchor": "1-my-numbers",
+          "subs": [],
+          "items": [
+            {
+              "t": "TDEE Estimate / 공식으로 내 유지 칼로리 계산해 기록"
+            },
+            {
+              "t": "Three Day Intake / 먹은 것 전부 3일간 기록해 일평균 칼로리 산출"
+            },
+            {
+              "t": "Gap Check / 유지 칼로리와 실제 섭취의 차이 확인하고 방향 정하기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Macros",
+          "anchor": "2-macros",
+          "subs": [],
+          "items": [
+            {
+              "t": "Protein Target / 체중 기준 하루 단백질 목표(g) 정하기"
+            },
+            {
+              "t": "Protein Tracking / 3일간 단백질 섭취량 세어 목표 대비 확인"
+            },
+            {
+              "t": "Macro Split / 내 3일 기록을 탄·단·지 비율로 분해해보기"
+            },
+            {
+              "t": "Protein Sources / 내 예산·입맛에 맞는 단백질 공급원 5개 목록화"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Reading Food",
+          "anchor": "3-reading-food",
+          "subs": [],
+          "items": [
+            {
+              "t": "Label Reading / 자주 먹는 가공식품 3개 영양성분표 비교"
+            },
+            {
+              "t": "Sugar Audit / 하루 동안 마신 음료의 당 합계 계산"
+            },
+            {
+              "t": "Convenience Picks / 편의점·배달에서 고를 만한 한 끼 3개 기준 세워 선정"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Hydration and Supplements",
+          "anchor": "4-hydration-and-supplements",
+          "subs": [],
+          "items": [
+            {
+              "t": "Water Baseline / 하루 물 섭취량 3일 재보고 목표 정하기"
+            },
+            {
+              "t": "Supplement Check / 보충제 살 거면 성분·용량 직접 확인하고 결정",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Meal Planning",
+      "ref": "health/nutrition/meal-planning"
+    },
+    {
+      "label": "Strength Training",
+      "ref": "health/fitness/strength-training"
+    }
+  ]
+}

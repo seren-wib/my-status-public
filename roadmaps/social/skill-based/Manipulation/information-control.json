@@ -1,0 +1,127 @@
+{
+  "title": "Information Control AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Controlling What Is Known",
+          "anchor": "1-controlling-what-is-known",
+          "subs": [],
+          "items": [
+            {
+              "t": "Information Asymmetry / 정보 격차가 곧 힘"
+            },
+            {
+              "t": "Selective Disclosure / 유리한 것만 공개"
+            },
+            {
+              "t": "Omission over Lie / 거짓보다 생략이 안전"
+            },
+            {
+              "t": "Timing of Release / 언제 흘리느냐로 반응 조종"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Distorting the Record",
+          "anchor": "2-distorting-the-record",
+          "subs": [],
+          "items": [
+            {
+              "t": "Slanted Facts / 사실을 기울여 전달"
+            },
+            {
+              "t": "Half-truths / 반쪽 진실만 제공"
+            },
+            {
+              "t": "Manufactured Context / 맥락을 붙이거나 떼어 의미 바꾸기"
+            },
+            {
+              "t": "Document Control / 기록·증거 접근을 통제"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Reality Redefinition",
+          "anchor": "3-reality-redefinition",
+          "subs": [],
+          "items": [
+            {
+              "t": "Gaslighting / 상대의 기억·지각을 의심하게 만들기"
+            },
+            {
+              "t": "Denial and Counternarrative / 부인과 대항 서사"
+            },
+            {
+              "t": "Frame Control / 무엇을 논의하느냐 자체를 정하기"
+            },
+            {
+              "t": "Definition Capture / 용어의 정의를 선점"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Channel Control",
+          "anchor": "4-channel-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "Source Monopoly / 정보 출처를 독점"
+            },
+            {
+              "t": "Gatekeeping / 누가 무엇을 아는지 통제"
+            },
+            {
+              "t": "Triangulation / 사람 사이 정보를 갈라 전달"
+            },
+            {
+              "t": "Flooding and Noise / 과잉 정보로 신호 묻기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Execution Risks",
+          "anchor": "5-execution-risks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Exposure Fragility / 하나 들키면 신뢰 전체가 붕괴"
+            },
+            {
+              "t": "Paper Trail Risk / 기록이 남으면 역공당함"
+            },
+            {
+              "t": "Cross-check Weakness / 교차 검증이 최대 약점"
+            },
+            {
+              "t": "Story Consistency / 여러 상대에게 같은 판본을 유지하는 부담"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    },
+    {
+      "label": "Deception Detection",
+      "ref": "social/skill-based/Reading/lie-detection"
+    }
+  ]
+}

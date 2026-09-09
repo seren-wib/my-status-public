@@ -1,0 +1,132 @@
+{
+  "title": "Metacognition AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Calibration",
+          "anchor": "1-calibration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Confidence Rating / 문제마다 확신도 적고 정답과 대조"
+            },
+            {
+              "t": "Calibration Curve / 확신도 구간별 실제 정답률 그려 과신 폭 확인"
+            },
+            {
+              "t": "Brier Score / 내 예측 20건 이상으로 점수 계산해 기준선과 비교"
+            },
+            {
+              "t": "Overconfidence Correction / 과신 구간에 보정치 걸고 재측정"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Illusions of Learning",
+          "anchor": "2-illusions-of-learning",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fluency Illusion / 재독 뒤 안다는 느낌과 실제 인출 성적의 괴리 실측"
+            },
+            {
+              "t": "Judgment of Learning / 학습 직후 예상 점수와 지연 시험 점수 비교"
+            },
+            {
+              "t": "Highlighting Audit / 밑줄만 그은 자료의 회상률 확인"
+            },
+            {
+              "t": "Hindsight Check / 답 본 뒤 '알고 있었다'는 감각을 기록으로 반증"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Study Regulation",
+          "anchor": "3-study-regulation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Time Allocation Check / 어려운 항목에 실제로 시간이 갔는지 세션 로그로 확인"
+            },
+            {
+              "t": "Stop Rule / 언제 그만 볼지 기준을 느낌이 아니라 성적으로 정하기"
+            },
+            {
+              "t": "Method Comparison / 같은 분량을 두 방법으로 나눠 지연 시험으로 비교"
+            },
+            {
+              "t": "Prior Knowledge Baseline / 시작 전 아는 것 백지에 적어 기준선 남기기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Depth of Understanding",
+          "anchor": "4-depth-of-understanding",
+          "subs": [],
+          "items": [
+            {
+              "t": "Explain Without Notes / 자료 없이 설명하고 막힌 지점 표시"
+            },
+            {
+              "t": "Self-Explanation / 풀이 각 줄이 왜 그런지 스스로 설명"
+            },
+            {
+              "t": "Question Generation / 자료로 시험 문제 직접 출제해 풀어보기"
+            },
+            {
+              "t": "Transfer Probe / 배운 개념을 다른 분야 사례에 적용해보기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Failure Analysis",
+          "anchor": "5-failure-analysis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Error Taxonomy / 오답을 개념·부주의·전략으로 분류해 비율 산출"
+            },
+            {
+              "t": "Learning Post-mortem / 무너진 학습 시도의 전말 기록"
+            },
+            {
+              "t": "Learning Styles Claim / 학습 유형 맞춤 주장의 반증 근거 확인"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Memory Retention",
+      "ref": "meta/learning/memory-retention"
+    },
+    {
+      "label": "Deliberate Practice",
+      "ref": "meta/learning/deliberate-practice"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    }
+  ]
+}

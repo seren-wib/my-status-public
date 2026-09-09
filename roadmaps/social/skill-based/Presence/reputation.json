@@ -1,0 +1,131 @@
+{
+  "title": "Reputation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "How Reputation Forms",
+          "anchor": "1-how-reputation-forms",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reputation as Shared Belief / 내 이미지가 아니라 남들끼리 공유하는 평가"
+            },
+            {
+              "t": "Indirect Reciprocity / 평판이 협력을 지탱하는 기제"
+            },
+            {
+              "t": "Repeated Interaction / 반복이 예상돼야 평판이 값을 가진다"
+            },
+            {
+              "t": "Domain Specificity / 평판은 분야마다 따로 쌓인다"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Transmission",
+          "anchor": "2-transmission",
+          "subs": [],
+          "items": [
+            {
+              "t": "Gossip as Channel / 뒷말이 주 전달로"
+            },
+            {
+              "t": "Network Position / 누구를 거치느냐가 전파 범위를 정한다"
+            },
+            {
+              "t": "Distortion in Relay / 전달될수록 단순화·과장"
+            },
+            {
+              "t": "Reference Checking / 사람들이 실제로 확인하는 경로"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Asymmetry",
+          "anchor": "3-asymmetry",
+          "subs": [],
+          "items": [
+            {
+              "t": "Slow Build, Fast Loss / 쌓기는 오래, 잃기는 한 번"
+            },
+            {
+              "t": "Negativity Bias / 나쁜 정보의 과대 가중"
+            },
+            {
+              "t": "Single Violation / 정직성 위반은 한 건으로 결론난다"
+            },
+            {
+              "t": "Ability vs Integrity Trust / 두 신뢰는 무너지는 방식이 다르다"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Building",
+          "anchor": "4-building",
+          "subs": [],
+          "items": [
+            {
+              "t": "Consistency over Intensity / 강한 한 번보다 어긋나지 않는 반복"
+            },
+            {
+              "t": "Promise Sizing / 지킬 수 있는 크기로 약속하기"
+            },
+            {
+              "t": "Visible Reliability / 보이지 않는 성실은 평판이 안 된다"
+            },
+            {
+              "t": "Testimonial / 사회적 증언 확보"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Damage and Recovery",
+          "anchor": "5-damage-and-recovery",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fast Acknowledgment / 초기 대응 속도"
+            },
+            {
+              "t": "Substance over Statement / 말이 아니라 조치로 갚기"
+            },
+            {
+              "t": "Recovery Difference / 능력 실수는 회복되고 부정직은 잘 안 된다"
+            },
+            {
+              "t": "Rebuilding Timeline / 새 증거의 누적으로만 돌아온다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Impression Management",
+      "ref": "social/skill-based/Presence/impression-management"
+    },
+    {
+      "label": "Status Signaling",
+      "ref": "social/skill-based/Presence/status-signaling"
+    },
+    {
+      "label": "Networking",
+      "ref": "social/skill-based/Relating/networking"
+    },
+    {
+      "label": "Information Control",
+      "ref": "social/skill-based/Manipulation/information-control"
+    }
+  ]
+}

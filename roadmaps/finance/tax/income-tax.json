@@ -1,0 +1,112 @@
+{
+  "title": "Income Tax AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "My Income Sorted",
+          "anchor": "1-my-income-sorted",
+          "subs": [],
+          "items": [
+            {
+              "t": "Income Type Map / 내가 받은 돈 전부를 근로·사업·기타·금융 중 어디인지 표로 분류"
+            },
+            {
+              "t": "Payment Slip Read / 원천징수영수증 한 장을 항목별로 뜯어 읽고 세액 흐름 따라가기"
+            },
+            {
+              "t": "Hometax Income Query / 홈택스에서 내 소득 자료와 지급명세서 실제로 조회"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Deduction Versus Credit",
+          "anchor": "2-deduction-versus-credit",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deduction Credit Compare / 같은 100만원을 소득공제와 세액공제로 각각 넣어 세금 차이 계산"
+            },
+            {
+              "t": "Bracket Walk / 과세표준 구간과 세율을 조회해 내 예상 소득의 산출세액 직접 계산"
+            },
+            {
+              "t": "Marginal Versus Average / 내 사례로 한계세율과 실효세율을 각각 계산해 비교"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Year-end Settlement",
+          "anchor": "3-year-end-settlement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Mock Year-end Settlement / 가상의 연봉으로 결정세액까지 모의 계산"
+            },
+            {
+              "t": "Simplified Data Pull / 연말정산 간소화 자료를 내려받아 항목별로 무엇이 잡히는지 확인"
+            },
+            {
+              "t": "Refund Swing Test / 공제 항목 하나를 넣고 뺐을 때 환급액이 얼마나 바뀌는지 측정"
+            },
+            {
+              "t": "Dependent Rule Check / 부양가족 요건을 조회해 내 가족 중 누가 해당되는지 판정"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Global Income Filing",
+          "anchor": "4-global-income-filing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Filing Duty Check / 내가 종합소득세 신고 대상인지 요건을 조회해 판정"
+            },
+            {
+              "t": "Freelance Mock Return / 3.3% 떼인 프리랜서 소득으로 종합소득세 신고서 모의 작성"
+            },
+            {
+              "t": "Expense Method Compare / 실제 경비와 단순경비율 두 방식으로 세금 각각 계산해 비교"
+            },
+            {
+              "t": "Filing Walkthrough / 홈택스 신고 화면을 끝까지 따라가며 각 칸에 들어갈 내 숫자 채우기"
+            },
+            {
+              "t": "Local Tax and Deadline / 지방소득세와 납부 기한·분납 요건을 조회해 일정에 기입"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Business Tax",
+      "ref": "finance/tax/business-tax"
+    },
+    {
+      "label": "Pension",
+      "ref": "finance/personal-finance/pension"
+    },
+    {
+      "label": "ETF",
+      "ref": "finance/investing/etf"
+    },
+    {
+      "label": "Bookkeeping",
+      "ref": "finance/accounting/bookkeeping"
+    },
+    {
+      "label": "Legal",
+      "ref": "business/skill-based/Operations/legal"
+    }
+  ]
+}

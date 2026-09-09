@@ -1,0 +1,116 @@
+{
+  "title": "Team AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Running Meetings",
+          "anchor": "1-running-meetings",
+          "subs": [],
+          "items": [
+            {
+              "t": "Meeting Facilitation / 회의를 결론으로 이끌기"
+            },
+            {
+              "t": "Purpose and Agenda / 목적 없는 회의 안 열기"
+            },
+            {
+              "t": "Airtime Balance / 발언권 고르게 분배"
+            },
+            {
+              "t": "Closing with Actions / 결정과 실행 항목으로 마무리"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Conflict",
+          "anchor": "2-conflict",
+          "subs": [],
+          "items": [
+            {
+              "t": "Conflict Mediation / 팀 내 갈등 중재"
+            },
+            {
+              "t": "Surfacing Tension / 묻힌 갈등을 드러내기"
+            },
+            {
+              "t": "Interest-based Resolution / 입장 아닌 이해관계로 풀기"
+            },
+            {
+              "t": "Knowing When to Decide / 합의 안 되면 리더가 끊기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Psychological Safety",
+          "anchor": "3-psychological-safety",
+          "subs": [],
+          "items": [
+            {
+              "t": "Psychological Safety / 반대·실수를 말할 수 있는 분위기"
+            },
+            {
+              "t": "Inviting Dissent / 반대 의견을 적극 요청"
+            },
+            {
+              "t": "Response to Failure / 실패에 대한 반응이 안전을 결정"
+            },
+            {
+              "t": "Modeling Vulnerability / 리더가 먼저 모름·실수 인정"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Norms and Culture",
+          "anchor": "4-norms-and-culture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Norms Setting / 팀 규범을 명시적으로 세움"
+            },
+            {
+              "t": "Behavior over Words / 리더의 행동이 곧 문화"
+            },
+            {
+              "t": "Standards / 용인할 것과 안 할 것의 선"
+            },
+            {
+              "t": "Onboarding Culture / 새 사람에게 규범 전수"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Decision Structure",
+          "anchor": "5-decision-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Decision Rights / 누가 무엇을 결정하는지"
+            },
+            {
+              "t": "Consensus vs Authority / 합의와 독단의 선택"
+            },
+            {
+              "t": "Disagree and Commit / 이견은 남기되 결정엔 따르기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Hiring and Team",
+      "ref": "business/skill-based/Operations/hiring-team"
+    }
+  ]
+}

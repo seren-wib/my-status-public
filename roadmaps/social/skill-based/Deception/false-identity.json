@@ -1,0 +1,141 @@
+{
+  "title": "False Identity AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Building the Persona",
+          "anchor": "1-building-the-persona",
+          "subs": [],
+          "items": [
+            {
+              "t": "Legend Construction / 배경 서사를 한 덩어리로 짜기"
+            },
+            {
+              "t": "Borrowed Biography / 실제 경험과 실존 배경을 빌려 채우기"
+            },
+            {
+              "t": "Competence Boundaries / 아는 척할 수 있는 범위를 미리 긋기"
+            },
+            {
+              "t": "Plausible Ordinariness / 눈에 띄지 않는 설정이 오래 간다"
+            },
+            {
+              "t": "Supporting Material / 뒷받침 자료를 어디까지 갖출지",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Sustaining the Role",
+          "anchor": "2-sustaining-the-role",
+          "subs": [],
+          "items": [
+            {
+              "t": "Role Consistency / 말투·취향·반응의 항상성"
+            },
+            {
+              "t": "Improvisation within Frame / 설정 안에서만 즉흥 대응하기"
+            },
+            {
+              "t": "Slip Recovery / 어긋난 발언을 수습하는 방식"
+            },
+            {
+              "t": "Role Bleed / 역할이 본래 자아를 침식하는 현상"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Digital Footprint",
+          "anchor": "3-digital-footprint",
+          "subs": [],
+          "items": [
+            {
+              "t": "Trace Reading",
+              "delegate": "social/skill-based/Reading/traces"
+            },
+            {
+              "t": "Backstopping / 검색했을 때 나올 것들을 미리 만들어두기"
+            },
+            {
+              "t": "Account History Depth / 계정의 나이와 활동 이력이 곧 신빙성"
+            },
+            {
+              "t": "Cross-platform Linkage / 계정끼리 연결되며 정체가 합쳐지는 지점"
+            },
+            {
+              "t": "Reuse Traces / 사진·문체·기기 흔적의 재사용이 남기는 연결"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Multiple Audiences",
+          "anchor": "4-multiple-audiences",
+          "subs": [],
+          "items": [
+            {
+              "t": "Audience Segregation / 청중을 갈라 판본을 유지"
+            },
+            {
+              "t": "Context Collapse / 서로 아는 사람들이 만나는 순간 무너짐"
+            },
+            {
+              "t": "Shared Contact Mapping / 상대들 사이의 연결을 먼저 파악"
+            },
+            {
+              "t": "Version Tracking Burden / 누구에게 어떤 판본을 줬는지 관리하는 부담"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Exposure and Cost",
+          "anchor": "5-exposure-and-cost",
+          "subs": [],
+          "items": [
+            {
+              "t": "Maintenance Cost / 시간·주의·거짓 축적의 누적 비용"
+            },
+            {
+              "t": "Escalating Commitment / 유지하려다 거짓이 커지는 구조"
+            },
+            {
+              "t": "Blast Radius / 발각 시 주변 관계까지 함께 무너짐"
+            },
+            {
+              "t": "Exit Design / 정체를 접고 빠질 방법을 처음부터 두기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Cover Story",
+      "ref": "social/skill-based/Deception/cover-story"
+    },
+    {
+      "label": "Tell Management",
+      "ref": "social/skill-based/Deception/tell-management"
+    },
+    {
+      "label": "Trace Reading",
+      "ref": "social/skill-based/Reading/traces"
+    },
+    {
+      "label": "Impression Management",
+      "ref": "social/skill-based/Presence/impression-management"
+    }
+  ]
+}

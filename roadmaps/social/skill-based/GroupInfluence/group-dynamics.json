@@ -1,0 +1,103 @@
+{
+  "title": "Group Dynamics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "In-group and Out-group",
+          "anchor": "1-in-group-and-out-group",
+          "subs": [],
+          "items": [
+            {
+              "t": "Social Identity Theory / 사회정체성 이론 (Tajfel)"
+            },
+            {
+              "t": "Minimal Group Effect / 사소한 구분만으로 편애 발생"
+            },
+            {
+              "t": "Out-group Homogeneity / 외집단은 다 똑같아 보임"
+            },
+            {
+              "t": "Boundary Construction / 경계를 만들고 강화하기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Identity Mobilization",
+          "anchor": "2-identity-mobilization",
+          "subs": [],
+          "items": [
+            {
+              "t": "Collective Identity / 집단 정체성을 동원 자원으로"
+            },
+            {
+              "t": "Symbols and Rituals / 상징·의례로 소속감 강화"
+            },
+            {
+              "t": "Enemy Construction / 공동의 적으로 결속"
+            },
+            {
+              "t": "Shared Grievance / 공유된 피해 서사로 결속"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Conformity",
+          "anchor": "3-conformity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Asch Conformity / 애쉬 동조 실험 — 다수 압력"
+            },
+            {
+              "t": "Normative Influence / 배척 두려움에 의한 동조"
+            },
+            {
+              "t": "Informational Influence / 정보 부족 시 다수 참조"
+            },
+            {
+              "t": "Unanimity and Dissent / 만장일치의 힘과 한 명의 이탈 효과"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Obedience and Authority",
+          "anchor": "4-obedience-and-authority",
+          "subs": [],
+          "items": [
+            {
+              "t": "Milgram Obedience / 밀그램 복종 실험"
+            },
+            {
+              "t": "Authority Cues / 권위 표지의 힘"
+            },
+            {
+              "t": "Gradual Commitment / 단계적 요구로 복종 심화"
+            },
+            {
+              "t": "Agentic State / 책임 전가 상태"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Crowd Psychology",
+      "ref": "social/skill-based/GroupInfluence/crowd-psychology"
+    },
+    {
+      "label": "Group Reading",
+      "ref": "social/skill-based/Reading/group-reading"
+    }
+  ]
+}

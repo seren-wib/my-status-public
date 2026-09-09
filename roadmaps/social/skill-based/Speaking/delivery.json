@@ -1,0 +1,113 @@
+{
+  "title": "Delivery AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Breath and Voice",
+          "anchor": "1-breath-and-voice",
+          "subs": [],
+          "items": [
+            {
+              "t": "Diaphragmatic Breathing / 복식호흡으로 안정된 소리"
+            },
+            {
+              "t": "Projection / 성대 혹사 없이 성량 키우기"
+            },
+            {
+              "t": "Resonance and Tone / 울림과 음색 다듬기"
+            },
+            {
+              "t": "Articulation / 발음 명료도"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Pace and Silence",
+          "anchor": "2-pace-and-silence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Speaking Rate / 말 속도의 조절"
+            },
+            {
+              "t": "Strategic Pause / 침묵으로 강조와 여백 만들기"
+            },
+            {
+              "t": "Filler Reduction / 습관어 줄이기"
+            },
+            {
+              "t": "Chunking / 의미 단위로 끊어 말하기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Emphasis",
+          "anchor": "3-emphasis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Stress and Intonation / 강세·억양으로 핵심 부각"
+            },
+            {
+              "t": "Volume Dynamics / 성량 대비로 주의 환기"
+            },
+            {
+              "t": "Key Line Delivery / 핵심 문장 던지는 법"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Eye Contact and Presence",
+          "anchor": "4-eye-contact-and-presence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Eye Contact Distribution / 청중에 시선 고루 배분"
+            },
+            {
+              "t": "Posture / 안정된 자세"
+            },
+            {
+              "t": "Gesture / 말을 돕는 제스처"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Nerves",
+          "anchor": "5-nerves",
+          "subs": [],
+          "items": [
+            {
+              "t": "Stage Fright Sources / 무대 공포의 정체 파악"
+            },
+            {
+              "t": "Physiological Regulation / 긴장의 생리 반응 다루기"
+            },
+            {
+              "t": "Preparation as Buffer / 준비량이 곧 안정"
+            },
+            {
+              "t": "Reframing Anxiety / 긴장을 각성으로 재해석"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    }
+  ]
+}

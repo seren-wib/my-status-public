@@ -1,0 +1,142 @@
+{
+  "title": "De-escalation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Physiology of Escalation",
+          "anchor": "1-physiology-of-escalation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Amygdala Hijack / 격앙 상태에선 논리가 통하지 않는다"
+            },
+            {
+              "t": "Flooding / 생리적 각성이 한계를 넘으면 대화 불가"
+            },
+            {
+              "t": "Escalation Spiral / 반응이 반응을 키우는 순환"
+            },
+            {
+              "t": "Own Arousal First / 내 각성부터 내려야 상대가 내려간다"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Calming Signals",
+          "anchor": "2-calming-signals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Lowering Voice and Pace / 목소리를 낮추고 느리게"
+            },
+            {
+              "t": "Nonthreatening Posture / 자세·거리·시선으로 위협감 줄이기"
+            },
+            {
+              "t": "Acknowledging the Grievance / 불만을 먼저 인정해 열 빼기"
+            },
+            {
+              "t": "Counterproductive Phrases / \"진정해\" 류의 역효과 표현"
+            },
+            {
+              "t": "Slowing the Exchange / 침묵·간격으로 온도 낮추기"
+            },
+            {
+              "t": "Emotional Attunement",
+              "delegate": "social/skill-based/Relating/empathy"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Face and Exit",
+          "anchor": "3-face-and-exit",
+          "subs": [],
+          "items": [
+            {
+              "t": "Face and Dignity / 대치의 진짜 변수는 체면"
+            },
+            {
+              "t": "Public vs Private Correction / 공개 지적이 저항을 키운다"
+            },
+            {
+              "t": "Attribution to Circumstance / 상황 탓으로 돌려 물러설 여지 주기"
+            },
+            {
+              "t": "Face-saving Exit / 지지 않고 빠져나갈 출구 만들기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Timing and Containment",
+          "anchor": "4-timing-and-containment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Window of Intervention / 이르면 무시당하고 늦으면 못 막는다"
+            },
+            {
+              "t": "Postponement / 지금이 아니라 나중으로 미루기"
+            },
+            {
+              "t": "Changing the Setting / 장소·자리를 바꿔 판을 식히기"
+            },
+            {
+              "t": "Reentry / 식은 뒤 다시 여는 첫 마디"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Third Party and Limits",
+          "anchor": "5-third-party-and-limits",
+          "subs": [],
+          "items": [
+            {
+              "t": "Third-party Intervention / 제3자 개입이 먹히는 조건"
+            },
+            {
+              "t": "Mediator Neutrality / 중립을 잃은 개입은 기름이 된다"
+            },
+            {
+              "t": "Audience Effect / 구경꾼이 있으면 물러서기 어렵다"
+            },
+            {
+              "t": "When Not to De-escalate / 완화가 오히려 손해인 상황"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Boundary Defense",
+      "ref": "social/skill-based/Conflict/boundary-defense"
+    },
+    {
+      "label": "Counterattack",
+      "ref": "social/skill-based/Conflict/counterattack"
+    },
+    {
+      "label": "Empathy",
+      "ref": "social/skill-based/Relating/empathy"
+    },
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    },
+    {
+      "label": "Negotiation",
+      "ref": "social/skill-based/Influence/negotiation"
+    }
+  ]
+}

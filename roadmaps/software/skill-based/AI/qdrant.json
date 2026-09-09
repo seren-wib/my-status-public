@@ -1,0 +1,496 @@
+{
+  "title": "Qdrant AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Qdrant",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Qdrant?",
+          "anchor": "1-what-is-qdrant",
+          "subs": [
+            {
+              "title": "Vector Search Core Concepts",
+              "items": [
+                {
+                  "t": "Vector Embedding / 텍스트·이미지를 숫자 벡터로 바꾸는 표현 방식"
+                },
+                {
+                  "t": "Distance / cosine·dot·euclid 중 하나로 벡터 유사도를 재는 기준"
+                },
+                {
+                  "t": "ANN Index / HNSW 그래프를 타고 근사 최근접만 훑는 구조"
+                }
+              ]
+            },
+            {
+              "title": "What Is Qdrant",
+              "items": [
+                {
+                  "t": "Rust-based Vector Search Engine / 러스트로 짜여 속도와 메모리 안전성을 노린 엔진"
+                },
+                {
+                  "t": "Payload-Centric Filtering / 페이로드 필터를 HNSW 탐색에 직접 끼워 넣는 방식"
+                },
+                {
+                  "t": "REST and gRPC API / 두 프로토콜로 같은 기능을 제공하는 API"
+                },
+                {
+                  "t": "Open-source + Qdrant Cloud / 셀프호스팅과 관리형 클라우드 중 고르는 선택지"
+                }
+              ]
+            },
+            {
+              "title": "Key Features",
+              "items": [
+                {
+                  "t": "Integrated Filtered Search / 필터를 걸어도 근사 탐색 정확도가 유지되는 검색"
+                },
+                {
+                  "t": "Quantization Memory Savings / 양자화로 벡터 메모리 사용량을 줄이는 기법"
+                },
+                {
+                  "t": "Horizontal Scaling / 샤드로 나누고 레플리카로 복제해 늘리는 방법"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Running",
+              "items": [
+                {
+                  "t": "Docker / 컨테이너 하나로 바로 띄우는 방법",
+                  "delegate": "software/skill-based/Infra-DevOps/docker",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Binary and Source Build / 바이너리를 받거나 소스를 직접 빌드하는 방법"
+                },
+                {
+                  "t": "Kubernetes Helm Chart / 헬름 차트로 쿠버네티스에 배포하는 방법"
+                },
+                {
+                  "t": "Qdrant Cloud / 직접 운영 없이 쓰는 관리형 호스팅 옵션"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Clients",
+              "items": [
+                {
+                  "t": "Python Client / 파이썬 SDK로 컬렉션과 포인트를 다루는 클라이언트",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "JavaScript, Rust, Go, Java Client / 파이썬 외 언어에서 쓰는 공식 SDK"
+                },
+                {
+                  "t": "REST vs gRPC Selection / 지연시간과 처리량 기준으로 프로토콜을 고르는 판단"
+                },
+                {
+                  "t": "Web UI Dashboard / 브라우저에서 컬렉션·포인트를 확인하는 관리 화면"
+                }
+              ]
+            },
+            {
+              "title": "First Exercise",
+              "items": [
+                {
+                  "t": "Collection Creation / 벡터 크기와 거리 함수를 정해 컬렉션을 만드는 과정"
+                },
+                {
+                  "t": "Point Upsert / 포인트를 삽입하거나 갱신하는 첫 데이터 적재"
+                },
+                {
+                  "t": "Query Execution / 저장한 포인트를 대상으로 검색을 실행하는 과정"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Data Model",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Collection",
+          "anchor": "3-collection",
+          "subs": [],
+          "items": [
+            {
+              "t": "Collection Management / 컬렉션을 생성·조회·목록·삭제하는 관리 작업"
+            },
+            {
+              "t": "Vector Params / 벡터 차원 수와 거리 함수를 지정하는 설정"
+            },
+            {
+              "t": "Named Vectors / 한 포인트에 이름 붙인 벡터를 여러 개 두는 방식"
+            },
+            {
+              "t": "Sparse Vectors Configuration / 키워드 검색용 희소 벡터를 설정하는 항목"
+            },
+            {
+              "t": "Multivector / ColBERT처럼 포인트당 벡터 여러 개로 늦은 상호작용을 하는 방식"
+            },
+            {
+              "t": "Collection Alias / 이름을 안 바꾸고 별칭만 바꿔치기하는 전환 기법"
+            },
+            {
+              "t": "on_disk Vector Storage / 벡터를 램 대신 디스크에 두는 저장 옵션"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Point",
+          "anchor": "4-point",
+          "subs": [],
+          "items": [
+            {
+              "t": "Point Structure / id·벡터·페이로드로 이뤄진 데이터 단위"
+            },
+            {
+              "t": "ID Types / 부호 없는 정수 또는 UUID로 포인트를 식별하는 방식"
+            },
+            {
+              "t": "Point CRUD / 포인트를 삽입·조회·삭제하는 기본 연산"
+            },
+            {
+              "t": "Batch Upsert and wait Option / 여러 포인트를 한 번에 넣고 반영을 기다리는 옵션"
+            },
+            {
+              "t": "Scroll / 커서 기반으로 전체 포인트를 순회하는 페이지네이션"
+            },
+            {
+              "t": "Count and Conditional Delete / 조건에 맞는 포인트 수를 세거나 지우는 연산"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Payload",
+          "anchor": "5-payload",
+          "subs": [],
+          "items": [
+            {
+              "t": "Payload Types / 문자열·숫자·불리언·geo 등 메타데이터 타입"
+            },
+            {
+              "t": "Nested Payload Structure / 페이로드 안에 객체를 중첩해 담는 구조"
+            },
+            {
+              "t": "Payload Update / 키를 추가·덮어쓰기·삭제하는 갱신 방식"
+            },
+            {
+              "t": "Payload Index Necessity / 필터링 속도를 위해 인덱스가 필요한 이유"
+            },
+            {
+              "t": "Payload Index Types / 필드 타입별로 고르는 페이로드 인덱스 종류"
+            },
+            {
+              "t": "Tenant Index / 멀티테넌시 필터를 빠르게 하는 전용 인덱스"
+            },
+            {
+              "t": "Payload on_disk Storage / 페이로드를 디스크에 두는 저장 옵션"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Search",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Search",
+          "anchor": "6-search",
+          "subs": [],
+          "items": [
+            {
+              "t": "Query API / query_points로 검색을 던지는 통합 엔드포인트"
+            },
+            {
+              "t": "Search by Vector and Point ID / 벡터값 또는 기존 포인트 id로 검색하는 방법"
+            },
+            {
+              "t": "limit and offset / 반환 개수와 건너뛸 개수를 정하는 파라미터"
+            },
+            {
+              "t": "Response Options / 응답에 페이로드·벡터를 포함할지 정하는 옵션"
+            },
+            {
+              "t": "score_threshold / 유사도 점수가 기준 미달이면 제외하는 옵션"
+            },
+            {
+              "t": "Batch Search / 여러 쿼리를 한 요청으로 묶어 보내는 검색"
+            },
+            {
+              "t": "Grouped Search / group_by로 그룹당 상위 결과만 뽑는 검색"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Filtering",
+          "anchor": "7-filtering",
+          "subs": [],
+          "items": [
+            {
+              "t": "Filter Structure / must·should·must_not으로 조건을 조합하는 구조"
+            },
+            {
+              "t": "Match Condition / 값 일치·포함·제외로 거는 필터 조건"
+            },
+            {
+              "t": "Range Condition / gt·gte·lt·lte로 숫자 범위를 거는 조건"
+            },
+            {
+              "t": "Geo Condition / 사각·반경·다각형으로 위치를 거르는 조건"
+            },
+            {
+              "t": "Values Count, Is Empty, Is Null / 배열 길이·공백·null 여부를 거는 조건"
+            },
+            {
+              "t": "Nested Object Filter / 중첩 객체 안쪽 필드를 걸러내는 필터"
+            },
+            {
+              "t": "Full-text Match / 텍스트 인덱스를 걸어야 쓸 수 있는 부분 일치 검색"
+            },
+            {
+              "t": "Filterable HNSW / 필터가 그래프 탐색에 통합되는 방식"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Advanced Retrieval",
+          "anchor": "8-advanced-retrieval",
+          "subs": [],
+          "items": [
+            {
+              "t": "Recommendation API / 좋은 예·나쁜 예 포인트로 추천하는 API"
+            },
+            {
+              "t": "Discovery API / 맥락 쌍과 목표점으로 탐색 범위를 좁히는 API"
+            },
+            {
+              "t": "Hybrid Search / 밀집 벡터와 희소 벡터를 함께 쓰는 검색"
+            },
+            {
+              "t": "Fusion / RRF·DBSF로 여러 결과 순위를 합치는 방법"
+            },
+            {
+              "t": "Prefetch Multi-Stage Query / 1차로 후보를 뽑고 2차로 재검색하는 쿼리"
+            },
+            {
+              "t": "Reranking Stage Setup / 프리페치 결과를 다른 기준으로 재정렬하는 단계"
+            },
+            {
+              "t": "Facet Aggregation / 페이로드 값별 개수를 집계하는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Performance and Operations",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Indexing & Storage",
+          "anchor": "9-indexing-storage",
+          "subs": [],
+          "items": [
+            {
+              "t": "Segment Structure / 컬렉션을 나눠 담는 내부 저장 단위"
+            },
+            {
+              "t": "HNSW Config / m·ef_construct로 그래프 정확도와 속도를 조절하는 설정"
+            },
+            {
+              "t": "Optimizer / 인덱싱·메모리맵 전환 시점을 정하는 백그라운드 작업"
+            },
+            {
+              "t": "Memmap Disk Storage / 램 대신 메모리맵으로 디스크를 읽는 방식"
+            },
+            {
+              "t": "WAL / 쓰기를 먼저 로그에 남겨 장애 시 복구하는 구조"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Quantization",
+          "anchor": "10-quantization",
+          "subs": [],
+          "items": [
+            {
+              "t": "Scalar Quantization / float를 int8로 줄여 메모리를 아끼는 양자화"
+            },
+            {
+              "t": "Binary Quantization / 벡터값을 1비트로 압축해 가장 빠른 양자화"
+            },
+            {
+              "t": "Product Quantization / 벡터를 조각내 코드북으로 압축하는 양자화"
+            },
+            {
+              "t": "Oversampling and Rescoring / 양자화 손실을 원본 벡터로 재채점해 메꾸는 기법"
+            },
+            {
+              "t": "always_ram Placement Strategy / 특정 데이터를 무조건 램에 고정하는 배치 전략"
+            },
+            {
+              "t": "Accuracy-Memory Tradeoff Measurement / 양자화 설정별 정확도와 메모리를 재는 측정"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Distributed Deployment",
+          "anchor": "11-distributed-deployment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cluster Setup / Raft 합의로 노드 간 상태를 맞추는 클러스터 구성"
+            },
+            {
+              "t": "Shard Number and Distribution / 샤드 개수와 노드별 배치를 정하는 설정"
+            },
+            {
+              "t": "Replication Factor / 복제본 수와 쓰기 성공 기준 노드 수 설정"
+            },
+            {
+              "t": "Shard Transfer and Rebalancing / 노드 추가·제거 시 샤드를 재배치하는 과정"
+            },
+            {
+              "t": "Custom Sharding / shard_key로 테넌트 단위 샤드를 직접 지정하는 방식"
+            },
+            {
+              "t": "Read Consistency Options / 읽을 때 복제본 간 일관성 수준을 고르는 옵션"
+            },
+            {
+              "t": "Multitenancy Pattern / 샤드 대신 페이로드 필터로 테넌트를 나누는 패턴"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Operations",
+          "anchor": "12-operations",
+          "subs": [
+            {
+              "title": "Backup",
+              "items": [
+                {
+                  "t": "Snapshot Create and Restore / 특정 시점 상태를 저장하고 복원하는 기능"
+                },
+                {
+                  "t": "Collection and Full Storage Snapshot / 컬렉션 단위 또는 전체 스토리지 단위 스냅샷"
+                },
+                {
+                  "t": "S3 Snapshot Storage / 스냅샷을 S3 호환 오브젝트 스토리지에 두는 방식"
+                }
+              ]
+            },
+            {
+              "title": "Security",
+              "items": [
+                {
+                  "t": "API Key and Read-only Key / 쓰기 가능 키와 읽기 전용 키를 나눠 발급하는 인증"
+                },
+                {
+                  "t": "JWT-based Access Control / 토큰 클레임으로 세밀하게 권한을 제한하는 인증"
+                },
+                {
+                  "t": "TLS Configuration / 노드 간·클라이언트 통신을 암호화하는 설정"
+                }
+              ]
+            },
+            {
+              "title": "Monitoring",
+              "items": [
+                {
+                  "t": "Metrics Endpoint and Telemetry / 내부 지표를 노출하는 모니터링 엔드포인트"
+                },
+                {
+                  "t": "Prometheus + Grafana / 지표를 수집하고 대시보드로 보는 모니터링 조합"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 13,
+          "title": "Performance Tuning",
+          "anchor": "13-performance-tuning",
+          "subs": [],
+          "items": [
+            {
+              "t": "Accuracy-Speed Tradeoff / ef 값을 올리거나 exact 검색으로 정확도를 높이는 절충"
+            },
+            {
+              "t": "Memory-First vs Disk-First Config / 속도와 용량 중 뭘 우선할지 정하는 배치 설정"
+            },
+            {
+              "t": "Indexing Pause During Bulk Load / 대량 적재 시 인덱싱 일시 중단 후 재개"
+            },
+            {
+              "t": "Payload Index for Filter Speed / 필터 조건 컬럼에 인덱스를 걸어 속도를 높이는 방법"
+            },
+            {
+              "t": "Resource Estimation / 벡터 수 × 차원 × 4byte로 필요 메모리를 계산하는 공식"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Ai Engineer",
+      "ref": "software/role-based/ai-engineer"
+    },
+    {
+      "label": "Ai Agents",
+      "ref": "software/skill-based/AI/ai-agents"
+    },
+    {
+      "label": "Rust",
+      "ref": "software/skill-based/Languages/rust"
+    },
+    {
+      "label": "Weaviate",
+      "ref": "software/skill-based/AI/weaviate"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    },
+    {
+      "label": "Prometheus",
+      "ref": "software/skill-based/Infra-DevOps/prometheus"
+    }
+  ]
+}

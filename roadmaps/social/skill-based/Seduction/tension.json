@@ -1,0 +1,141 @@
+{
+  "title": "Tension AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "What Tension Is",
+          "anchor": "1-what-tension-is",
+          "subs": [],
+          "items": [
+            {
+              "t": "Tension as Shared Uncertainty / 결과를 모르는 상태가 만드는 각성"
+            },
+            {
+              "t": "Arousal Misattribution / 흔들다리 연구와 그 재현 한계"
+            },
+            {
+              "t": "Anticipation over Resolution / 즉시 해소보다 기대가 감정을 유지시킴"
+            },
+            {
+              "t": "Tension vs Anxiety / 즐거운 긴장과 불편한 긴장의 구분"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Playful Framing",
+          "anchor": "2-playful-framing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Affectionate Teasing / 애정을 전제하고 상대가 되받을 여지를 남기는 놀림"
+            },
+            {
+              "t": "Self-deprecation Limits / 자기비하 유머가 먹히는 범위와 무너지는 지점"
+            },
+            {
+              "t": "Shared In-joke / 둘만 통하는 농담 축적"
+            },
+            {
+              "t": "Imagined Scenario Banter / 가상의 설정을 주고받는 대화"
+            },
+            {
+              "t": "Compliment Economy / 칭찬을 즉시 쓸 때와 아낄 때"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Push and Pull, Honestly",
+          "anchor": "3-push-and-pull-honestly",
+          "subs": [],
+          "items": [
+            {
+              "t": "Interest Declared First / 관심을 분명히 한 뒤에만 완급이 성립"
+            },
+            {
+              "t": "Independent Availability / 상대에게 맞추기와 내 일정 지키기의 균형"
+            },
+            {
+              "t": "Intermittent Reinforcement Harm / 의도적 불규칙 반응은 애착 불안을 만들고 관계를 망침"
+            },
+            {
+              "t": "Ambiguity Cost / 모호함을 오래 끌수록 신뢰가 깎임"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Physical Proximity",
+          "anchor": "4-physical-proximity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Personal Space Gradient / 거리 단계와 각 단계의 의미"
+            },
+            {
+              "t": "Incidental Contact / 맥락상 자연스러운 접촉과 그 직후 반응 확인"
+            },
+            {
+              "t": "Increment and Pause / 작게 늘리고 반응을 본 뒤 다음"
+            },
+            {
+              "t": "Withdrawal Detection / 경직·굳음·거리두기 즉시 알아채기"
+            },
+            {
+              "t": "Public and Private Difference / 장소가 같은 접촉의 의미를 바꾸는 방식"
+            },
+            {
+              "t": "Nonverbal Signal Reading",
+              "delegate": "social/skill-based/Reading/nonverbal"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Where It Breaks",
+          "anchor": "5-where-it-breaks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Verbal Comfort Check / 편안한지 말로 확인하는 습관"
+            },
+            {
+              "t": "Overplaying / 긴장을 과하게 밀었을 때 남는 불쾌감"
+            },
+            {
+              "t": "Power Asymmetry / 지위·상황 격차가 있으면 긴장 연출 자체를 접기"
+            },
+            {
+              "t": "Recovery from Misread / 잘못 읽었을 때 사과하고 물러나는 법"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    },
+    {
+      "label": "Conversation",
+      "ref": "social/skill-based/Speaking/conversation"
+    },
+    {
+      "label": "Attraction",
+      "ref": "social/skill-based/Seduction/attraction"
+    },
+    {
+      "label": "Escalation",
+      "ref": "social/skill-based/Seduction/escalation"
+    }
+  ]
+}

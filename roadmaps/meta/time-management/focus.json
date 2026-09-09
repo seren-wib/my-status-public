@@ -1,0 +1,135 @@
+{
+  "title": "Focus AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Attention Baseline",
+          "anchor": "1-attention-baseline",
+          "subs": [],
+          "items": [
+            {
+              "t": "Distraction Audit / 1주간 끊긴 순간과 원인을 전부 기록"
+            },
+            {
+              "t": "Interruption Rate / 시간당 방해 횟수 세어 기준선 확보"
+            },
+            {
+              "t": "Attention Residue / 전환 직후 같은 과제로 성능 저하 측정"
+            },
+            {
+              "t": "Switch Cost / 병행 조건과 단일 조건의 소요 시간 비교"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Block Design",
+          "anchor": "2-block-design",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deep Work Block / 90분 무중단 블록 잡아 실행하고 실제 유지 시간 기록"
+            },
+            {
+              "t": "Shallow Ratio / 하루 중 얕은 작업 비율 산출하고 상한 정하기"
+            },
+            {
+              "t": "Ultradian Cycle / 집중 지속·회복 주기 관찰해 배치에 반영"
+            },
+            {
+              "t": "Entry Ritual / 시작 신호 정해 진입까지 걸리는 시간 단축"
+            },
+            {
+              "t": "Timer Protocol / 뽀모도로, 90분 블록, 자유 시간제",
+              "choice_inline": true
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Environment",
+          "anchor": "3-environment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Friction Design / 알림 차단·기기 격리로 방해 경로에 마찰을 거는 설계"
+            },
+            {
+              "t": "Notification Purge / 알림 전수 점검해 필요한 것만 남기기"
+            },
+            {
+              "t": "Workspace Cue / 작업 전용 공간이나 계정 프로필 분리"
+            },
+            {
+              "t": "Availability Window / 응답 가능한 시간대를 알려 상시 대기 끊기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Internal Interruption",
+          "anchor": "4-internal-interruption",
+          "subs": [],
+          "items": [
+            {
+              "t": "Thought Parking / 떠오른 딴생각 즉시 적고 즉시 복귀"
+            },
+            {
+              "t": "Zeigarnik Close / 미완 과제의 다음 행동 적어 잔여 점유 끄기"
+            },
+            {
+              "t": "Boredom Tolerance / 대기 시간에 기기 안 잡는 조건으로 하루 지내기"
+            },
+            {
+              "t": "Craving Log / 딴짓 충동의 시각·계기 기록해 패턴 찾기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Recovery",
+          "anchor": "5-recovery",
+          "subs": [],
+          "items": [
+            {
+              "t": "Break Protocol / 회복되는 휴식과 안 되는 휴식 구분해 기록"
+            },
+            {
+              "t": "Daily Shutdown / 종료 의식 정해 일과 끊기"
+            },
+            {
+              "t": "Focus Trend / 주간 딥워크 총 시간 추이 남기기"
+            },
+            {
+              "t": "Sleep and Attention / 수면 부족일의 집중 지표 변화 대조"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Planning",
+      "ref": "meta/time-management/planning"
+    },
+    {
+      "label": "Habit Breaking",
+      "ref": "meta/habits/habit-breaking"
+    },
+    {
+      "label": "Sleep Hygiene",
+      "ref": "health/sleep/sleep-hygiene"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    }
+  ]
+}

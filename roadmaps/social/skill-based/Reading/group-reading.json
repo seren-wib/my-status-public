@@ -1,0 +1,109 @@
+{
+  "title": "Group Reading AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Power Signals",
+          "anchor": "1-power-signals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Observation Basics",
+              "delegate": "social/skill-based/Reading/observation"
+            },
+            {
+              "t": "Formal vs Informal Power / 직급과 실세의 불일치"
+            },
+            {
+              "t": "Deference Cues / 누가 말할 때 모두가 조용해지는가"
+            },
+            {
+              "t": "Gatekeeping / 정보와 접근을 누가 통제하는가"
+            },
+            {
+              "t": "Interruption Patterns / 누가 누구의 말을 끊는가"
+            },
+            {
+              "t": "Seating and Space / 자리 선택과 공간 점유"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Alliance Mapping",
+          "anchor": "2-alliance-mapping",
+          "subs": [],
+          "items": [
+            {
+              "t": "Coalition Signals / 동조 발언·시선 교환·입장 동기화"
+            },
+            {
+              "t": "Faction Boundaries / 파벌 경계와 중립 지대"
+            },
+            {
+              "t": "Broker Roles / 파벌 사이를 잇는 사람의 위치"
+            },
+            {
+              "t": "Alignment Shifts / 지지 관계의 이동 감지"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Meeting Dynamics",
+          "anchor": "3-meeting-dynamics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Airtime Distribution / 발언 시간의 분포"
+            },
+            {
+              "t": "Agenda Control / 의제를 누가 정하고 누가 미루는가"
+            },
+            {
+              "t": "Pre-meeting Decisions / 회의 전에 이미 끝난 결정 알아보기"
+            },
+            {
+              "t": "Silence Interpretation / 집단 침묵의 종류 구분"
+            },
+            {
+              "t": "Credit and Blame Flow / 공과 책임이 흐르는 방향"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Network Structure",
+          "anchor": "4-network-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Centrality / 연결의 중심에 있는 사람, SNA 개념"
+            },
+            {
+              "t": "Structural Holes / 단절 지점을 잇는 위치의 힘"
+            },
+            {
+              "t": "Information Flow Paths / 소문과 정보의 이동 경로"
+            },
+            {
+              "t": "Conformity Pressure / 집단 동조 압력, Asch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    }
+  ]
+}

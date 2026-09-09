@@ -1,0 +1,663 @@
+{
+  "title": "Apache Airflow AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Airflow",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Apache Airflow?",
+          "anchor": "1-what-is-apache-airflow",
+          "subs": [
+            {
+              "title": "Overview of Airflow / What is it?",
+              "items": [
+                {
+                  "t": "Workflow Orchestration Platform / 여러 작업의 실행 순서와 시점을 정하는 역할"
+                },
+                {
+                  "t": "Workflows as Code / 파이프라인 정의를 Python 코드로 작성하는 방식"
+                },
+                {
+                  "t": "DAG / 작업 순서를 순환 없이 그린 방향 그래프"
+                },
+                {
+                  "t": "Scheduler + Executor Model / 언제 돌릴지 정하는 것과 실제로 돌리는 것을 분리한 구조"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "ETL / 추출→변환→적재 순서를 오케스트레이션하는 파이프라인"
+                },
+                {
+                  "t": "ML Pipeline Orchestration / 학습·전처리 단계를 순서대로 실행하는 용도"
+                },
+                {
+                  "t": "Batch Job Scheduling / 정해진 시각마다 배치 작업을 실행하는 용도"
+                },
+                {
+                  "t": "Cross-system Dependency Management / 서로 다른 시스템 간 선후 관계를 조율"
+                }
+              ]
+            },
+            {
+              "title": "Comparison with Other Tools",
+              "items": [
+                {
+                  "t": "Airflow vs Cron / 시간만 아는 cron과 상태·재시도까지 아는 차이"
+                },
+                {
+                  "t": "Airflow vs Prefect and Dagster / 태스크 단위 스케줄링과 파이썬 네이티브 정의 차이"
+                },
+                {
+                  "t": "Orchestration vs Data Processing Boundary / 순서만 정하고 처리는 위임하는 경계"
+                },
+                {
+                  "t": "When to choose Airflow? / 태스크 수가 많고 재시도·의존성이 복잡할 때"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "Docker Compose / 스케줄러·웹서버·DB를 컨테이너 여러 개로 함께 띄움",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "pip + Constraints File / 버전 충돌 막는 고정 의존성 파일로 설치"
+                },
+                {
+                  "t": "Astro CLI / Astronomer가 만든 로컬 개발용 래퍼 도구"
+                },
+                {
+                  "t": "Managed Service (MWAA, Cloud Composer) / 스케줄러·워커 운영을 클라우드에 맡기는 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "First Run",
+              "items": [
+                {
+                  "t": "airflow standalone / 스케줄러·웹서버·DB를 한 프로세스로 실행"
+                },
+                {
+                  "t": "Web UI / Grid·Graph·Logs로 실행 상태를 확인하는 화면"
+                },
+                {
+                  "t": "CLI / airflow dags·tasks·db로 상태를 조회하는 명령"
+                },
+                {
+                  "t": "dags Folder / 이 폴더에 넣은 파일만 스캔해 DAG로 인식"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Core Concepts",
+          "anchor": "3-core-concepts",
+          "subs": [],
+          "items": [
+            {
+              "t": "DAG / 태스크와 의존관계를 하나로 묶은 정의 단위"
+            },
+            {
+              "t": "Task and Operator / 실행 단위와 그 단위를 만드는 템플릿"
+            },
+            {
+              "t": "Task Instance / 특정 DAG 실행에서 태스크가 도는 한 번"
+            },
+            {
+              "t": "DAG Run / 하나의 스케줄에 대해 DAG가 실행된 한 번"
+            },
+            {
+              "t": "Logical Date / 데이터 구간을 대표하는 시각, 실행 시각이 아님"
+            },
+            {
+              "t": "Data Interval / 이번 실행이 처리할 데이터의 시작~끝 구간"
+            },
+            {
+              "t": "Task State / queued·running·success 등 태스크가 거치는 상태"
+            },
+            {
+              "t": "Metadata Database / DAG·실행 이력·상태를 저장하는 DB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Writing DAGs",
+      "sections": [
+        {
+          "no": 4,
+          "title": "DAG Authoring",
+          "anchor": "4-dag-authoring",
+          "subs": [
+            {
+              "title": "Definition Style",
+              "items": [
+                {
+                  "t": "@dag Decorator / 함수 하나를 DAG 정의로 감싸는 방식",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "with DAG Context Manager / with 블록 안 태스크를 자동으로 묶는 방식"
+                },
+                {
+                  "t": "DAG Constructor / DAG 객체를 직접 생성자로 만드는 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "DAG Parameters",
+              "items": [
+                {
+                  "t": "dag_id / DAG를 구분하는 고유 식별자 이름"
+                },
+                {
+                  "t": "schedule / 얼마나 자주 DAG를 실행할지 정하는 값"
+                },
+                {
+                  "t": "start_date / 시작 시각과 catchup 여부로 과거 실행을 채울지 결정"
+                },
+                {
+                  "t": "default_args / 모든 태스크에 공통 적용할 기본 옵션 묶음"
+                },
+                {
+                  "t": "max_active_runs / 동시에 도는 DAG 실행·태스크 수를 제한하는 값"
+                },
+                {
+                  "t": "params / 실행할 때마다 값을 다르게 넣는 사용자 파라미터"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 5,
+          "title": "Operators",
+          "anchor": "5-operators",
+          "subs": [
+            {
+              "title": "Core Operators",
+              "items": [
+                {
+                  "t": "PythonOperator / 파이썬 함수 하나를 태스크로 실행"
+                },
+                {
+                  "t": "BashOperator / 셸 명령을 태스크로 실행"
+                },
+                {
+                  "t": "EmptyOperator / 아무 일도 안 하는 자리표시용 태스크"
+                }
+              ]
+            },
+            {
+              "title": "Data Operators",
+              "items": [
+                {
+                  "t": "SQL Operator / 쿼리 실행을 DB 커넥션에 떠넘기는 오퍼레이터"
+                },
+                {
+                  "t": "Cloud Operator / S3·GCS·BigQuery 등 클라우드 작업을 떠넘김"
+                },
+                {
+                  "t": "Container Operator / 컨테이너 실행을 Docker·K8s에 떠넘김"
+                }
+              ]
+            },
+            {
+              "title": "Extensions",
+              "items": [
+                {
+                  "t": "Custom Operator / BaseOperator를 상속해 만드는 나만의 오퍼레이터"
+                },
+                {
+                  "t": "Hook / 오퍼레이터가 쓰는 외부 시스템 접속 로직"
+                },
+                {
+                  "t": "Provider Package Structure / 오퍼레이터·훅을 서비스별로 묶은 패키지"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 6,
+          "title": "TaskFlow API",
+          "anchor": "6-taskflow-api",
+          "subs": [],
+          "items": [
+            {
+              "t": "@task Decorator / 파이썬 함수를 그대로 태스크로 바꾸는 문법"
+            },
+            {
+              "t": "Automatic XCom Return Value Passing / 함수 반환값을 자동으로 XCom에 저장"
+            },
+            {
+              "t": "Automatic Dependency Inference / 함수 호출 관계로 실행 순서를 자동 추론"
+            },
+            {
+              "t": "@task.virtualenv and @task.docker / 격리된 환경에서 태스크를 실행하는 데코레이터"
+            },
+            {
+              "t": "@task_group / 여러 태스크를 그래프에서 하나로 묶어 표시"
+            },
+            {
+              "t": "Mixing with Classic Operators / TaskFlow와 기존 오퍼레이터를 한 DAG에 혼용"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Data Passing and Templating",
+          "anchor": "7-data-passing-and-templating",
+          "subs": [],
+          "items": [
+            {
+              "t": "XCom / 태스크 간 작은 값을 주고받는 통로"
+            },
+            {
+              "t": "XCom Size Limit / 기본 저장 용량 제한과 이를 늘리는 커스텀 백엔드"
+            },
+            {
+              "t": "Jinja Templating / 실행 시점 값을 문자열에 채워 넣는 기능"
+            },
+            {
+              "t": "Template Variable / ds·ti·run_id 등 템플릿에서 쓰는 값"
+            },
+            {
+              "t": "template_fields / 오퍼레이터에서 템플릿 렌더링할 속성 지정"
+            },
+            {
+              "t": "Airflow Variable / 메타DB에 저장해 여러 DAG가 공유하는 값"
+            },
+            {
+              "t": "Intermediate Data in External Storage / 큰 데이터는 XCom 대신 외부에 저장"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Dependencies and Control Flow",
+          "anchor": "8-dependencies-and-control-flow",
+          "subs": [],
+          "items": [
+            {
+              "t": "Bitshift Operator / >>·<<로 태스크 실행 순서를 표시하는 문법"
+            },
+            {
+              "t": "chain / 여러 태스크를 순차 또는 교차로 연결하는 함수"
+            },
+            {
+              "t": "Task Group / 그래프 화면에서 태스크 묶음을 접어 표시"
+            },
+            {
+              "t": "Branching / 조건에 따라 다음 실행 경로를 고르는 방식"
+            },
+            {
+              "t": "Trigger Rule / 상류 태스크 상태별로 실행 여부를 정하는 규칙"
+            },
+            {
+              "t": "ShortCircuitOperator and LatestOnlyOperator / 조건 불충족·과거 실행이면 하류를 건너뜀"
+            },
+            {
+              "t": "Dynamic Task Mapping / 입력 개수만큼 태스크를 런타임에 늘림"
+            },
+            {
+              "t": "TriggerDagRunOperator / 다른 DAG의 실행을 시작시키는 오퍼레이터"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Scheduling and Architecture",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Scheduling",
+          "anchor": "9-scheduling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cron Expression / 분·시·일 단위로 실행 시각을 지정하는 표기법"
+            },
+            {
+              "t": "Cron Preset / @daily·@hourly 등 자주 쓰는 표현 축약형"
+            },
+            {
+              "t": "timedelta Schedule / 고정 시각 대신 일정 간격으로 실행"
+            },
+            {
+              "t": "Custom Timetable / cron으로 못 그리는 특수 주기를 직접 정의"
+            },
+            {
+              "t": "Catchup and Backfill / 지난 스케줄을 놓쳤을 때 소급 실행하는 방법"
+            },
+            {
+              "t": "Execution Time vs Data Interval / 실행되는 시각과 처리 대상 구간의 차이"
+            },
+            {
+              "t": "Timezone Handling / 내부는 UTC로 저장하고 표시만 변환"
+            },
+            {
+              "t": "depends_on_past / 이전 실행 성공해야 이번 실행을 시작"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Architecture",
+          "anchor": "10-architecture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Scheduler / DAG를 주기적으로 훑어 실행할 태스크를 큐에 넣음"
+            },
+            {
+              "t": "Webserver / Grid·Graph 등 UI를 제공하는 프로세스"
+            },
+            {
+              "t": "Worker / 큐에서 태스크를 꺼내 실제로 실행하는 프로세스"
+            },
+            {
+              "t": "Triggerer / 비동기로 대기하는 Deferrable 태스크를 관리"
+            },
+            {
+              "t": "Metadata DB / 상태 저장 DB, PostgreSQL을 권장"
+            },
+            {
+              "t": "DAG Parsing / dags 폴더 파일을 주기적으로 다시 읽는 과정"
+            },
+            {
+              "t": "DAG Serialization / 파싱한 DAG를 DB에 저장해 웹서버와 공유"
+            },
+            {
+              "t": "Scheduler HA / 스케줄러를 여러 대 띄워 장애를 대비"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Executors",
+          "anchor": "11-executors",
+          "subs": [],
+          "items": [
+            {
+              "t": "LocalExecutor / 한 머신 안에서 프로세스로 태스크를 실행",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "CeleryExecutor / 메시지 큐로 여러 워커에 태스크를 분산"
+            },
+            {
+              "t": "KubernetesExecutor / 태스크마다 파드를 새로 띄워 실행"
+            },
+            {
+              "t": "Executor Selection Criteria / 규모·격리 수준에 따라 executor를 선택"
+            }
+          ],
+          "choice": true
+        },
+        {
+          "no": 12,
+          "title": "Sensors and Deferrable Tasks",
+          "anchor": "12-sensors-and-deferrable-tasks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sensor Concept / 조건이 될 때까지 기다리는 태스크"
+            },
+            {
+              "t": "Sensor Mode / 대기 중 슬롯을 계속 잡을지 반납할지"
+            },
+            {
+              "t": "Common Sensors / 파일·S3 객체·SQL 결과 등을 기다리는 센서"
+            },
+            {
+              "t": "ExternalTaskSensor / 다른 DAG의 특정 태스크 완료를 기다림"
+            },
+            {
+              "t": "Deferrable Operator / 대기 동안 워커 슬롯을 비워주는 방식"
+            },
+            {
+              "t": "Sensor Timeout / 무한 대기로 슬롯이 막히는 걸 방지"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Connections and Datasets",
+          "anchor": "13-connections-and-datasets",
+          "subs": [
+            {
+              "title": "External Connections",
+              "items": [
+                {
+                  "t": "Connection / 외부 시스템 접속 정보를 저장하는 단위"
+                },
+                {
+                  "t": "Secrets Backend / 접속 정보를 Vault 등 외부에서 가져옴"
+                },
+                {
+                  "t": "Provider Installation and Version Management / 오퍼레이터 묶음을 패키지로 설치·관리"
+                }
+              ]
+            },
+            {
+              "title": "Data-Aware Scheduling",
+              "items": [
+                {
+                  "t": "Dataset / 특정 데이터 산출물을 가리키는 스케줄링 단위"
+                },
+                {
+                  "t": "Producer and Consumer DAG / Dataset을 갱신하는 쪽과 기다리는 쪽"
+                },
+                {
+                  "t": "Combining Dataset Trigger with Schedule / Dataset 갱신과 시간 조건을 함께 검사"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Reliability and Resources",
+      "sections": [
+        {
+          "no": 14,
+          "title": "Reliability",
+          "anchor": "14-reliability",
+          "subs": [],
+          "items": [
+            {
+              "t": "Retry / 실패 시 재시도 횟수·간격을 정하는 설정"
+            },
+            {
+              "t": "Timeout / 태스크·DAG 실행 전체에 거는 시간 제한"
+            },
+            {
+              "t": "SLA / 예상 완료 시각을 넘기면 감지하는 기준"
+            },
+            {
+              "t": "Callback / 성공·실패 시 실행할 후속 함수를 지정"
+            },
+            {
+              "t": "Alerting / 실패·SLA 미준수를 Slack·메일로 통보"
+            },
+            {
+              "t": "Idempotent Task Design / 재실행해도 같은 결과가 나오게 설계"
+            },
+            {
+              "t": "Clear and Rerun / 태스크 상태를 지워 다시 돌게 만드는 방법"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Concurrency and Resources",
+          "anchor": "15-concurrency-and-resources",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pool / 동시 실행 수를 제한하는 슬롯 묶음"
+            },
+            {
+              "t": "Priority Weight / 같은 큐 안에서 실행 순서 우선도를 매김"
+            },
+            {
+              "t": "parallelism / 인스턴스 전체 동시 실행 태스크 수 상한"
+            },
+            {
+              "t": "Worker Concurrency / 워커 하나가 동시에 처리할 태스크 수"
+            },
+            {
+              "t": "Queue / 태스크를 특정 워커 그룹으로 보내는 경로"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Operations",
+      "sections": [
+        {
+          "no": 16,
+          "title": "Deployment",
+          "anchor": "16-deployment",
+          "subs": [],
+          "items": [
+            {
+              "t": "DAG Deployment Methods / Git 동기화나 이미지 빌드로 DAG 파일을 배포"
+            },
+            {
+              "t": "Kubernetes / Helm Chart로 배포 구성을 관리하는 방식"
+            },
+            {
+              "t": "Environment Separation / dev·prod 등 환경별로 DAG를 분리 운영"
+            },
+            {
+              "t": "Dependency Management / 패키지 버전을 requirements나 이미지로 고정"
+            },
+            {
+              "t": "Major Version Upgrade Considerations / 메이저 버전 올릴 때 DAG 호환성 점검"
+            }
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Monitoring and Troubleshooting",
+          "anchor": "17-monitoring-and-troubleshooting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Remote Logging / 태스크 로그를 S3·GCS 등 외부에 저장"
+            },
+            {
+              "t": "Metrics / StatsD·OpenTelemetry로 지표를 외부에 전송"
+            },
+            {
+              "t": "Key Metrics / 스케줄러 지연·태스크 소요·대기 시간 등 지표"
+            },
+            {
+              "t": "Zombie / 워커가 죽었는데 상태만 running으로 남은 태스크"
+            },
+            {
+              "t": "DAG Import Error / 파싱 실패한 DAG 파일을 UI에서 알림"
+            },
+            {
+              "t": "Metadata DB Cleanup / 오래된 실행 이력을 지워 DB를 정리"
+            }
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Security and Best Practices",
+          "anchor": "18-security-and-best-practices",
+          "subs": [],
+          "items": [
+            {
+              "t": "RBAC / 역할별로 UI·API 권한을 나눠 부여"
+            },
+            {
+              "t": "Authentication / OAuth·LDAP 등 외부 인증 연동"
+            },
+            {
+              "t": "Avoiding Top-level Code / 파싱마다 실행되는 무거운 코드를 피함"
+            },
+            {
+              "t": "Keeping DAG Files Lightweight / DAG 파일엔 정의만 두고 로직은 분리"
+            },
+            {
+              "t": "Testing / DAG 임포트 검증과 태스크 단위 테스트"
+            },
+            {
+              "t": "CI/CD Pipeline / DAG 배포를 자동화하는 파이프라인"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Data Engineer",
+      "ref": "software/role-based/data-engineer"
+    },
+    {
+      "label": "Apache Spark",
+      "ref": "software/skill-based/Data-DB/spark"
+    },
+    {
+      "label": "dbt",
+      "ref": "software/skill-based/Data-DB/dbt"
+    },
+    {
+      "label": "Kafka",
+      "ref": "software/skill-based/Data-DB/kafka"
+    },
+    {
+      "label": "Python",
+      "ref": "software/skill-based/Languages/python"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    }
+  ]
+}

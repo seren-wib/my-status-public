@@ -1,0 +1,690 @@
+{
+  "title": "LangChain AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to LangChain",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is LangChain?",
+          "anchor": "1-what-is-langchain",
+          "subs": [
+            {
+              "title": "Overview of LangChain",
+              "items": [
+                {
+                  "t": "LLM Application Framework / 모델 호출을 코드로 감싸는 프레임워크 계열"
+                },
+                {
+                  "t": "Composable Component Philosophy / 부품을 조합해 파이프라인을 짜는 설계 철학"
+                },
+                {
+                  "t": "Provider Abstraction / 여러 모델 제공자를 같은 인터페이스로 교체"
+                },
+                {
+                  "t": "LangChain vs Direct SDK Calls / 프레임워크 없이 직접 호출하는 것과의 차이"
+                }
+              ]
+            },
+            {
+              "title": "Package Structure",
+              "items": [
+                {
+                  "t": "langchain-core / Runnable·프롬프트 등 핵심 추상화만 담은 패키지"
+                },
+                {
+                  "t": "langchain / 체인·에이전트 조립 로직을 담은 메인 패키지"
+                },
+                {
+                  "t": "Provider Packages / 제공자별로 따로 까는 openai·anthropic 패키지"
+                },
+                {
+                  "t": "langchain-community / 커뮤니티가 유지하는 서드파티 통합 모음"
+                },
+                {
+                  "t": "langgraph / 그래프 구조로 에이전트 흐름을 짜는 확장 라이브러리"
+                },
+                {
+                  "t": "langsmith / 실행을 추적·평가하는 관측 플랫폼"
+                }
+              ]
+            },
+            {
+              "title": "When to Use",
+              "items": [
+                {
+                  "t": "Multi-Step Pipeline / 여러 단계를 이어 붙여야 하는 상황"
+                },
+                {
+                  "t": "Tool-Calling Agent / 모델이 도구를 스스로 골라 쓰는 상황"
+                },
+                {
+                  "t": "Over-Engineering Boundary / 단순 한 번 호출은 SDK 직접 사용이 나은 경계"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation and Configuration",
+              "items": [
+                {
+                  "t": "pip Installation / 필요한 provider만"
+                },
+                {
+                  "t": "API Key / 환경변수에 담아 코드에 노출 안 시키는 방식"
+                },
+                {
+                  "t": "init_chat_model / 문자열 하나로 제공자·모델을 지정해 생성하는 함수"
+                },
+                {
+                  "t": "First Invocation / invoke로 모델을 한 번 호출해보는 단계"
+                }
+              ]
+            },
+            {
+              "title": "Python vs JavaScript",
+              "items": [
+                {
+                  "t": "Python / 생태계가 가장 넓어 예제·통합이 앞서는 언어",
+                  "delegate": "software/skill-based/Languages/python",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "LangChain.js / Node 환경에서 쓰는 자바스크립트 포팅판"
+                }
+              ],
+              "choice": true
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Models and Messages",
+          "anchor": "3-models-and-messages",
+          "subs": [
+            {
+              "title": "Chat Model Interface",
+              "items": [
+                {
+                  "t": "invoke, batch, stream / 단건·배치·실시간 세 가지 호출 방식"
+                },
+                {
+                  "t": "Async Variants / ainvoke·astream으로 같은 호출을 비동기로 돌리는 방법"
+                },
+                {
+                  "t": "Invocation Parameters / temperature·max_tokens로 생성을 조절하는 인자"
+                },
+                {
+                  "t": "Rate Limit and Retry / 호출 실패·과다 요청에 대응하는 설정"
+                }
+              ]
+            },
+            {
+              "title": "Message Types",
+              "items": [
+                {
+                  "t": "SystemMessage / 모델의 역할·규칙을 지정하는 메시지"
+                },
+                {
+                  "t": "HumanMessage / 사용자가 보낸 입력을 담는 메시지"
+                },
+                {
+                  "t": "AIMessage / 모델이 생성한 응답을 담는 메시지"
+                },
+                {
+                  "t": "ToolMessage / 도구 실행 결과를 모델에 돌려주는 메시지"
+                },
+                {
+                  "t": "Message Content Blocks / 텍스트·이미지를 한 메시지에 섞는 구조"
+                }
+              ]
+            },
+            {
+              "title": "Other Models",
+              "items": [
+                {
+                  "t": "Embedding Model Interface / 텍스트를 벡터로 바꾸는 모델의 공통 인터페이스"
+                },
+                {
+                  "t": "Legacy LLM Interface / 문자열만 주고받는 구형 완성형 인터페이스"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 4,
+          "title": "Prompts",
+          "anchor": "4-prompts",
+          "subs": [],
+          "items": [
+            {
+              "t": "PromptTemplate / 변수를 채워 단일 문자열 프롬프트를 만드는 틀"
+            },
+            {
+              "t": "ChatPromptTemplate / 여러 역할의 메시지 목록을 템플릿으로 만드는 틀"
+            },
+            {
+              "t": "MessagesPlaceholder / 대화 기록을 템플릿 중간에 끼워 넣는 자리"
+            },
+            {
+              "t": "Few-shot Prompt Template / 예시 몇 개를 넣어 출력 형식을 유도하는 템플릿"
+            },
+            {
+              "t": "Example Selector / 상황에 맞는 few-shot 예시를 골라 넣는 로직"
+            },
+            {
+              "t": "Partial Variables / 일부 변수만 먼저 채워 템플릿을 재사용하는 방법"
+            },
+            {
+              "t": "LangChain Hub / 공개된 프롬프트를 가져와 쓰는 저장소",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Building Chains",
+      "sections": [
+        {
+          "no": 5,
+          "title": "LCEL and Runnable",
+          "anchor": "5-lcel-and-runnable",
+          "subs": [
+            {
+              "title": "Runnable Interface",
+              "items": [
+                {
+                  "t": "Pipe Operator / |로 컴포넌트를 이어 체인을 만드는 문법"
+                },
+                {
+                  "t": "RunnableSequence / 여러 컴포넌트를 순서대로 실행하는 체인"
+                },
+                {
+                  "t": "RunnableParallel / 같은 입력을 여러 갈래에 동시에 흘리는 체인"
+                },
+                {
+                  "t": "RunnablePassthrough / 입력을 가공 없이 다음 단계로 넘기는 컴포넌트"
+                },
+                {
+                  "t": "RunnableLambda / 임의의 파이썬 함수를 체인 부품으로 감싸는 방법"
+                }
+              ]
+            },
+            {
+              "title": "Control Flow",
+              "items": [
+                {
+                  "t": "RunnableBranch / 조건에 따라 실행할 체인을 골라 분기하는 컴포넌트"
+                },
+                {
+                  "t": "with_fallbacks / 첫 컴포넌트가 실패하면 대체 컴포넌트로 넘어가는 설정"
+                },
+                {
+                  "t": "with_retry / 실패한 호출을 정해진 횟수만큼 재시도하는 설정"
+                },
+                {
+                  "t": "bind / 호출 시마다 넘기던 인자를 미리 고정해두는 방법"
+                },
+                {
+                  "t": "configurable_fields and configurable_alternatives / 실행 시점에 필드·컴포넌트를 바꿔 끼우는 설정"
+                }
+              ]
+            },
+            {
+              "title": "Execution Options",
+              "items": [
+                {
+                  "t": "RunnableConfig / tags·metadata로 실행마다 부가정보를 붙이는 객체"
+                },
+                {
+                  "t": "max_concurrency / 병렬 실행 개수를 제한하는 설정"
+                },
+                {
+                  "t": "Streaming Propagation / astream_events로 하위 단계 이벤트까지 흘려보내는 방식"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 6,
+          "title": "Structured Output",
+          "anchor": "6-structured-output",
+          "subs": [],
+          "items": [
+            {
+              "t": "with_structured_output / 스키마를 지정해 모델 출력을 객체로 강제하는 메서드",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Pydantic Schema Definition / 필드 타입으로 출력 구조를 정의하는 방법"
+            },
+            {
+              "t": "JSON Mode / 모델이 유효한 JSON만 뱉도록 강제하는 옵션"
+            },
+            {
+              "t": "Output Parser / 문자열·JSON·Pydantic 객체로 응답을 변환하는 컴포넌트"
+            },
+            {
+              "t": "OutputFixingParser and RetryParser / 파싱 실패 시 모델에 재요청해 고치는 파서"
+            },
+            {
+              "t": "Parsing Failure Handling / 형식이 안 맞는 출력을 처리하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Tools",
+          "anchor": "7-tools",
+          "subs": [
+            {
+              "title": "Tool Definition",
+              "items": [
+                {
+                  "t": "@tool Decorator / 함수 하나를 도구로 등록하는 데코레이터"
+                },
+                {
+                  "t": "StructuredTool / 여러 인자를 받는 도구를 클래스로 정의하는 방법"
+                },
+                {
+                  "t": "Schema / 함수 시그니처와 docstring으로 인자 설명을 정의하는 법"
+                },
+                {
+                  "t": "ToolException / 도구 실행 실패를 모델이 읽을 메시지로 돌려주는 예외"
+                }
+              ]
+            },
+            {
+              "title": "Tool Calling",
+              "items": [
+                {
+                  "t": "bind_tools / 모델이 호출할 수 있는 도구 목록을 등록하는 메서드"
+                },
+                {
+                  "t": "tool_calls Parsing / 응답에서 어떤 도구를 어떤 인자로 불렀는지 뽑아내는 과정"
+                },
+                {
+                  "t": "ToolNode / 도구 호출을 받아 실제로 실행해 결과를 돌려주는 노드"
+                },
+                {
+                  "t": "Parallel Tool Calls / 한 응답에서 여러 도구를 동시에 호출하는 방식"
+                }
+              ]
+            },
+            {
+              "title": "Tool Integrations",
+              "items": [
+                {
+                  "t": "Search Tools / Tavily 같은 외부 검색 API를 도구로 붙이는 통합"
+                },
+                {
+                  "t": "Python REPL / Shell",
+                  "tags": [
+                    "선택"
+                  ]
+                },
+                {
+                  "t": "Toolkit / 관련 도구 여러 개를 한 세트로 묶어 제공하는 단위"
+                },
+                {
+                  "t": "MCP Integration / 외부 MCP 서버의 도구를 그대로 가져와 쓰는 연동",
+                  "tags": [
+                    "별도"
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 8,
+          "title": "Memory and Chat History",
+          "anchor": "8-memory-and-chat-history",
+          "subs": [],
+          "items": [
+            {
+              "t": "Message History Concept / 이전 대화를 다음 호출에 이어 붙이는 개념"
+            },
+            {
+              "t": "RunnableWithMessageHistory / 체인에 대화 기록 저장·주입을 자동으로 붙이는 래퍼"
+            },
+            {
+              "t": "Session / thread_id로 대화 세션을 구분해 관리하는 방법"
+            },
+            {
+              "t": "Trimming / trim_messages로 오래된 메시지를 잘라내 토큰을 아끼는 방법"
+            },
+            {
+              "t": "Summarization Memory / 지난 대화를 요약해 축약된 형태로 보관하는 방식"
+            },
+            {
+              "t": "Persistent Store / Redis·Postgres 같은 외부 저장소에 기록을 영속화하는 방법"
+            },
+            {
+              "t": "Legacy Memory Class Migration / 구형 Memory 클래스를 새 방식으로 옮기는 작업"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Agents",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Agents",
+          "anchor": "9-agents",
+          "subs": [],
+          "items": [
+            {
+              "t": "Agent Concept / 추론과 행동을 반복해 목표에 도달하는 루프"
+            },
+            {
+              "t": "create_agent / 미리 만들어진 에이전트를 한 줄로 생성하는 함수"
+            },
+            {
+              "t": "System Prompt Design / 에이전트의 역할·제약을 지시문으로 설계하는 작업"
+            },
+            {
+              "t": "Tool Selection Failure Handling / 엉뚱한 도구를 고르거나 실패했을 때 대응하는 설계"
+            },
+            {
+              "t": "Recursion Limit / 에이전트가 무한히 반복하지 않도록 거는 상한"
+            },
+            {
+              "t": "Legacy AgentExecutor Migration / 구형 AgentExecutor를 새 방식으로 옮기는 작업"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "LangGraph",
+          "anchor": "10-langgraph",
+          "subs": [
+            {
+              "title": "Graph Construction",
+              "items": [
+                {
+                  "t": "StateGraph / 노드와 엣지로 실행 흐름을 그래프로 정의하는 클래스"
+                },
+                {
+                  "t": "Node and Edge / 작업 단위와 그 사이 연결을 나타내는 그래프 구성요소"
+                },
+                {
+                  "t": "Conditional Edge / 상태값에 따라 다음 노드를 갈라 보내는 엣지"
+                },
+                {
+                  "t": "State Schema and Reducer / 그래프가 공유하는 상태 구조와 병합 규칙"
+                }
+              ]
+            },
+            {
+              "title": "Execution and Persistence",
+              "items": [
+                {
+                  "t": "Checkpointer / thread 단위로 그래프 상태를 저장·복원하는 컴포넌트"
+                },
+                {
+                  "t": "Interrupt / 실행을 멈추고 사람 확인을 받는 지점"
+                },
+                {
+                  "t": "Time Travel / 이전 체크포인트로 돌아가 실행을 다시 시작하는 기능"
+                },
+                {
+                  "t": "Subgraph / 그래프 안에 다른 그래프를 노드처럼 끼워 넣는 구조"
+                },
+                {
+                  "t": "Streaming Modes / values·updates·messages 중 무엇을 흘릴지 고르는 옵션"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 11,
+          "title": "Multi-Agent Patterns",
+          "anchor": "11-multi-agent-patterns",
+          "subs": [],
+          "items": [
+            {
+              "t": "Supervisor / 하위 에이전트에게 작업을 나눠주고 취합하는 관리 에이전트"
+            },
+            {
+              "t": "Handoff and Swarm / 에이전트끼리 대화 주도권을 넘기는 협업 패턴"
+            },
+            {
+              "t": "Hierarchical Teams / 팀 단위로 에이전트를 계층적으로 묶는 구조"
+            },
+            {
+              "t": "Command-Based Routing / 노드 반환값으로 다음 목적지를 지정하는 방식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Data Integration",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Retrieval Components",
+          "anchor": "12-retrieval-components",
+          "subs": [
+            {
+              "title": "Document Preparation",
+              "items": [
+                {
+                  "t": "Document Loader / PDF·웹·CSV 등 원본 형식을 읽어 문서로 바꾸는 컴포넌트"
+                },
+                {
+                  "t": "Document Object / page_content·metadata로 텍스트와 부가정보를 담는 객체"
+                },
+                {
+                  "t": "Text Splitter / 문서를 재귀·토큰·마크다운 기준으로 잘게 나누는 컴포넌트"
+                }
+              ]
+            },
+            {
+              "title": "Storage and Retrieval",
+              "items": [
+                {
+                  "t": "VectorStore Interface / 임베딩을 저장하고 검색하는 공통 인터페이스"
+                },
+                {
+                  "t": "similarity_search / 코사인 유사도 검색에 MMR 다양성 옵션을 더하는 메서드"
+                },
+                {
+                  "t": "Retriever Interface / 질의를 받아 관련 문서를 돌려주는 공통 인터페이스"
+                },
+                {
+                  "t": "Metadata Filtering / 벡터 유사도 외에 메타데이터 조건으로 좁히는 검색"
+                }
+              ]
+            },
+            {
+              "title": "Retrieval Improvement",
+              "items": [
+                {
+                  "t": "MultiQueryRetriever / 질문을 여러 버전으로 바꿔 검색을 넓히는 리트리버"
+                },
+                {
+                  "t": "ContextualCompressionRetriever / 검색 결과에서 관련 부분만 압축해 남기는 리트리버"
+                },
+                {
+                  "t": "EnsembleRetriever / 키워드 검색과 벡터 검색을 섞어 채점하는 방식"
+                },
+                {
+                  "t": "ParentDocumentRetriever / 작은 조각으로 검색하고 원본 큰 문서를 돌려주는 리트리버"
+                },
+                {
+                  "t": "SelfQueryRetriever / 자연어 질의에서 메타데이터 필터를 스스로 뽑아내는 리트리버"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 13,
+          "title": "RAG Chains",
+          "anchor": "13-rag-chains",
+          "subs": [],
+          "items": [
+            {
+              "t": "Retrieval Chain Assembly / 검색과 생성을 하나의 체인으로 잇는 작업"
+            },
+            {
+              "t": "Stuff, Refine, Map-Reduce / 문서를 묶어 요약하는 세 가지 방식"
+            },
+            {
+              "t": "Citation / 답변에 근거 문서 출처를 함께 표시하는 방법"
+            },
+            {
+              "t": "Conversational RAG / 이전 대화를 반영해 질문을 다시 쓰는 검색 방식"
+            },
+            {
+              "t": "Agentic RAG / 검색 자체를 에이전트가 스스로 판단해 호출하는 방식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Operations",
+      "sections": [
+        {
+          "no": 14,
+          "title": "Streaming and Callbacks",
+          "anchor": "14-streaming-and-callbacks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Token Streaming / 토큰이 생성되는 대로 즉시 흘려보내는 방식"
+            },
+            {
+              "t": "Callback Handler / 실행 단계마다 걸리는 이벤트를 받아 처리하는 객체"
+            },
+            {
+              "t": "Custom Callback Implementation / 로깅·모니터링용으로 콜백 핸들러를 직접 만드는 작업"
+            },
+            {
+              "t": "astream_events Event Types / 체인 내부 단계별로 구분되는 이벤트 종류"
+            },
+            {
+              "t": "Server Streaming / SSE로 서버에서 클라이언트로 실시간 응답을 흘리는 연동"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "LangSmith",
+          "anchor": "15-langsmith",
+          "subs": [],
+          "items": [
+            {
+              "t": "Tracing Setup / 실행 기록을 LangSmith로 보내도록 연결하는 설정"
+            },
+            {
+              "t": "Run and Trace / 실행 한 건과 그 안 단계들을 묶은 트리를 읽는 법"
+            },
+            {
+              "t": "Dataset Construction / 평가에 쓸 입출력 예시 모음을 만드는 작업"
+            },
+            {
+              "t": "Evaluator / 모델 스스로 다른 모델 출력을 채점하게 하는 평가 방식"
+            },
+            {
+              "t": "Prompt Versioning / 프롬프트 변경 이력을 버전으로 관리하는 기능"
+            },
+            {
+              "t": "Feedback Collection / 사용자·평가자의 점수를 실행 기록에 붙이는 기능"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Production Concerns",
+          "anchor": "16-production-concerns",
+          "subs": [],
+          "items": [
+            {
+              "t": "LangServe / 체인을 REST API 엔드포인트로 바로 띄우는 도구"
+            },
+            {
+              "t": "Caching / 같은 요청의 응답을 저장해 재호출을 건너뛰는 방법"
+            },
+            {
+              "t": "Token Usage And Cost / 호출마다 소모 토큰과 비용을 집계하는 관리"
+            },
+            {
+              "t": "Timeout and Fallback Model / 응답 지연 시 끊고 대체 모델로 넘기는 설정"
+            },
+            {
+              "t": "Prompt Injection Defense / 입력에 섞인 악의적 지시를 걸러내는 방어"
+            },
+            {
+              "t": "Secret Management / API 키 등 민감정보를 코드 밖에서 관리하는 방법"
+            },
+            {
+              "t": "Version Upgrade / 폐기 예정 API를 새 버전으로 옮기는 대응"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Ai Engineer",
+      "ref": "software/role-based/ai-engineer"
+    },
+    {
+      "label": "Ai Agents",
+      "ref": "software/skill-based/AI/ai-agents"
+    },
+    {
+      "label": "Prompt Engineering",
+      "ref": "software/skill-based/AI/prompt-engineering"
+    },
+    {
+      "label": "LlamaIndex",
+      "ref": "software/skill-based/AI/llamaindex"
+    },
+    {
+      "label": "Python",
+      "ref": "software/skill-based/Languages/python"
+    },
+    {
+      "label": "Ai Product Builder",
+      "ref": "software/skill-based/AI/ai-product-builder"
+    }
+  ]
+}

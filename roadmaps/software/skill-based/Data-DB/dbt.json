@@ -1,0 +1,525 @@
+{
+  "title": "dbt AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to dbt",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is dbt?",
+          "anchor": "1-what-is-dbt",
+          "subs": [
+            {
+              "title": "Overview of dbt / What is it?",
+              "items": [
+                {
+                  "t": "SQL-based Transformation Tool / 적재 후 SQL만으로 변형을 수행하는 도구"
+                },
+                {
+                  "t": "The T in ELT / 적재까지 끝난 데이터를 SQL로 변형하는 단계"
+                },
+                {
+                  "t": "Analytics Engineering / SQL로 데이터를 만드는 소프트웨어 엔지니어링 방식"
+                },
+                {
+                  "t": "One SELECT Statement Equals One Model / SQL 파일 하나가 모델 하나가 되는 규칙"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "Data Warehouse Modeling / 원천 테이블을 분석용 구조로 다시 짜는 일"
+                },
+                {
+                  "t": "Reusable Transformation Logic / 변형 로직을 모델로 나눠 재사용하는 방식"
+                },
+                {
+                  "t": "Data Quality Test / 결과 테이블의 값 조건을 자동으로 검사"
+                },
+                {
+                  "t": "Lineage / 모델 간 참조로 계보와 문서를 자동 생성"
+                }
+              ]
+            },
+            {
+              "title": "Positioning",
+              "items": [
+                {
+                  "t": "dbt vs Airflow / 실행 순서가 아니라 모델 참조로 의존성을 정함"
+                },
+                {
+                  "t": "dbt vs Stored Procedure / SQL 로직을 DB 밖 파일로 버전 관리하는 차이"
+                }
+              ]
+            },
+            {
+              "title": "Execution Method",
+              "items": [
+                {
+                  "t": "dbt Core / 명령줄로 로컬에서 돌리는 무료 실행 방식",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "dbt Cloud / 웹 IDE와 스케줄러를 얹은 관리형 실행 방식"
+                }
+              ],
+              "choice": true
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Prerequisites",
+              "items": [
+                {
+                  "t": "SQL / CTE·윈도우 함수를 다루는 사전 지식"
+                },
+                {
+                  "t": "Data Warehouse Concepts / 팩트·차원 테이블 같은 웨어하우스 기본 개념"
+                },
+                {
+                  "t": "Git Basics / 모델 파일을 버전 관리하는 데 필요한 최소 지식"
+                }
+              ]
+            },
+            {
+              "title": "Installation and Initialization",
+              "items": [
+                {
+                  "t": "dbt Core Installation / pip·uv로 dbt Core를 설치하는 두 방법"
+                },
+                {
+                  "t": "Adapter Installation / 웨어하우스별 어댑터를 따로 설치하는 방식"
+                },
+                {
+                  "t": "dbt init / 프로젝트 뼈대를 자동으로 생성하는 명령"
+                },
+                {
+                  "t": "profiles.yml / 접속 정보를 프로젝트 밖 파일에 따로 두는 설정"
+                },
+                {
+                  "t": "dbt debug / 연결과 설정이 맞는지 점검하는 명령"
+                },
+                {
+                  "t": "First dbt run / 설치가 끝났는지 확인하는 첫 실행"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Project Structure",
+          "anchor": "3-project-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "dbt_project.yml / 프로젝트 전역 설정을 모아두는 파일"
+            },
+            {
+              "t": "models Directory / 모델 SQL 파일을 담는 표준 폴더"
+            },
+            {
+              "t": "Layer Structure / staging·intermediate·marts로 나누는 단계 구조"
+            },
+            {
+              "t": "Naming Convention / 접두사로 모델 종류를 구분하는 규칙"
+            },
+            {
+              "t": "target Directory / 컴파일된 SQL과 실행 결과가 쌓이는 폴더"
+            },
+            {
+              "t": ".yml File Placement Rules / 소스·테스트 정의 yml을 두는 위치 규칙"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Modeling",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Models",
+          "anchor": "4-models",
+          "subs": [],
+          "items": [
+            {
+              "t": "Model = One File = One SELECT / SQL 파일 하나가 곧 모델 하나라는 원칙"
+            },
+            {
+              "t": "ref() / 다른 모델을 참조해 실행 순서를 자동 결정"
+            },
+            {
+              "t": "source() / 원천 테이블을 모델 계보 안으로 끌어들이는 함수"
+            },
+            {
+              "t": "Automatic DAG Generation / ref로 맺어진 참조에서 순서를 뽑아내는 기능"
+            },
+            {
+              "t": "Model Config / 머티리얼라이제이션 등을 모델별로 지정하는 설정"
+            },
+            {
+              "t": "Schema and Database / 모델이 저장될 위치를 지정하는 설정"
+            },
+            {
+              "t": "Model Contract / 출력 컬럼의 이름과 타입을 미리 고정하는 계약"
+            },
+            {
+              "t": "Model Versioning / 모델을 버전별로 나눠 병행 운영하는 기능",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Materializations",
+          "anchor": "5-materializations",
+          "subs": [
+            {
+              "title": "Types",
+              "items": [
+                {
+                  "t": "view / 매번 쿼리로 재계산하는 가벼운 머티리얼라이제이션"
+                },
+                {
+                  "t": "table / 쿼리 시점에 결과를 통째로 저장하는 방식"
+                },
+                {
+                  "t": "incremental / 새 데이터만 골라 기존 테이블에 추가하는 방식"
+                },
+                {
+                  "t": "ephemeral / 테이블로 남기지 않고 CTE로 접혀 들어가는 방식"
+                },
+                {
+                  "t": "materialized_view / 웨어하우스가 백그라운드로 갱신을 유지하는 뷰"
+                },
+                {
+                  "t": "Selection Criteria / 비용·신선도·크기로 머티리얼라이제이션을 고르는 기준"
+                }
+              ]
+            },
+            {
+              "title": "Incremental Model",
+              "items": [
+                {
+                  "t": "is_incremental() Conditional Block / 증분 실행일 때만 SQL을 다르게 타는 분기"
+                },
+                {
+                  "t": "unique_key / 기존 행과 새 행을 매칭하는 기준 컬럼"
+                },
+                {
+                  "t": "Incremental Strategy / append·merge 등 증분 반영 방식을 고르는 옵션"
+                },
+                {
+                  "t": "on_schema_change / 원천 컬럼이 바뀌었을 때 처리 방식을 정하는 옵션"
+                },
+                {
+                  "t": "Full Refresh / 증분 테이블을 통째로 다시 쌓는 재실행"
+                },
+                {
+                  "t": "Late-arriving Data Handling / 늦게 도착한 데이터를 증분 로직에 반영하는 처리"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 6,
+          "title": "Sources, Seeds, Snapshots",
+          "anchor": "6-sources-seeds-snapshots",
+          "subs": [
+            {
+              "title": "Sources",
+              "items": [
+                {
+                  "t": "sources.yml Definition / 원천 테이블 목록과 이름을 선언하는 파일"
+                },
+                {
+                  "t": "Source Freshness / 원천 데이터가 얼마나 최신인지 재는 기준 컬럼"
+                },
+                {
+                  "t": "dbt source freshness / 선언된 원천의 최신성을 검사하는 명령"
+                }
+              ]
+            },
+            {
+              "title": "Seeds",
+              "items": [
+                {
+                  "t": "CSV Seed / 고정 CSV를 테이블로 올리는 명령"
+                },
+                {
+                  "t": "Appropriate Scope for Seeds / 코드 값처럼 작고 안 바뀌는 데이터로 한정하는 범위"
+                }
+              ]
+            },
+            {
+              "title": "Snapshots",
+              "items": [
+                {
+                  "t": "SCD Type 2 Concept / 값이 바뀐 이력을 행으로 남기는 방식"
+                },
+                {
+                  "t": "Snapshot Strategy / 타임스탬프나 값 비교로 변경을 감지하는 방식"
+                },
+                {
+                  "t": "dbt snapshot / 정의된 전략대로 이력 테이블을 갱신하는 명령"
+                },
+                {
+                  "t": "invalidate_hard_deletes / 원천에서 사라진 행을 이력상 종료 처리하는 옵션"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 7,
+          "title": "Jinja and Macros",
+          "anchor": "7-jinja-and-macros",
+          "subs": [],
+          "items": [
+            {
+              "t": "Jinja Basics / 변수·조건·반복으로 SQL을 대신 생성하는 문법"
+            },
+            {
+              "t": "Inspecting Compiled Output / Jinja가 풀린 실제 SQL을 확인하는 방법"
+            },
+            {
+              "t": "Macro Definition and Invocation / 반복되는 SQL 조각을 함수처럼 묶어 재사용"
+            },
+            {
+              "t": "var() / 실행 시점에 값을 프로젝트 밖에서 주입하는 함수"
+            },
+            {
+              "t": "env_var() / 환경변수 값을 SQL 안으로 끌어오는 함수"
+            },
+            {
+              "t": "Hooks / 실행 전후에 추가 SQL을 끼워 넣는 지점"
+            },
+            {
+              "t": "Custom Schema and Alias Macro / 스키마·별칭 생성 규칙을 매크로로 덮어쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Quality and Collaboration",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Tests",
+          "anchor": "8-tests",
+          "subs": [],
+          "items": [
+            {
+              "t": "Generic Test / unique·not_null 같은 재사용 가능한 검사 규칙"
+            },
+            {
+              "t": "Singular Test / 특정 조건을 직접 SQL로 짜는 1회성 검사"
+            },
+            {
+              "t": "Custom Generic Test / 직접 만들어 여러 모델에 재사용하는 검사"
+            },
+            {
+              "t": "Test Severity / 실패 시 빌드를 막을지 경고만 할지 정하는 수준"
+            },
+            {
+              "t": "Test Config / 검사 범위와 실패 행 저장 여부를 지정하는 설정"
+            },
+            {
+              "t": "Unit Test / 가짜 입력값으로 모델 로직만 따로 검증"
+            },
+            {
+              "t": "dbt-expectations / 통계·분포 기반 검사를 더해주는 확장 패키지"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Documentation and Lineage",
+          "anchor": "9-documentation-and-lineage",
+          "subs": [],
+          "items": [
+            {
+              "t": "Model and Column Description / 모델·컬럼에 설명을 붙이는 문서화"
+            },
+            {
+              "t": "docs Block / doc()로 불러 쓰는 재사용 설명 블록"
+            },
+            {
+              "t": "dbt docs generate / 문서와 계보 그래프를 만들고 웹으로 여는 명령"
+            },
+            {
+              "t": "Lineage Graph / ref로 이어진 모델 관계를 그림으로 보여주는 화면"
+            },
+            {
+              "t": "Exposure / 대시보드 등 모델을 소비하는 곳을 선언하는 개념"
+            },
+            {
+              "t": "Semantic Layer and Metrics / 지표 정의를 한 곳에 모아 재사용하는 계층",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Packages",
+          "anchor": "10-packages",
+          "subs": [],
+          "items": [
+            {
+              "t": "packages.yml / dbt deps로 설치할 외부 패키지 목록 선언"
+            },
+            {
+              "t": "dbt_utils / 날짜·서로게이트 키 등 범용 매크로 모음 패키지"
+            },
+            {
+              "t": "codegen / 소스·모델 yml 뼈대를 자동 생성하는 패키지"
+            },
+            {
+              "t": "audit_helper / 리팩터링 전후 결과를 비교해주는 패키지"
+            },
+            {
+              "t": "Private Package / 사내 저장소를 Git 경로로 불러오는 패키지 등록"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Running and Operations",
+      "sections": [
+        {
+          "no": 11,
+          "title": "Commands and Node Selection",
+          "anchor": "11-commands-and-node-selection",
+          "subs": [],
+          "items": [
+            {
+              "t": "dbt run, test, compile / 모델 실행·검사·SQL 컴파일을 나누는 기본 명령"
+            },
+            {
+              "t": "Why dbt build Is the Default / run·test·seed·snapshot을 한 번에 묶어 도는 이유"
+            },
+            {
+              "t": "Node Selection / 특정 모델만 골라 돌리거나 빼는 옵션"
+            },
+            {
+              "t": "Graph Operator / 상류·하류 모델까지 같이 골라내는 기호"
+            },
+            {
+              "t": "Selector Method / 태그·경로·상태로 모델을 고르는 기준"
+            },
+            {
+              "t": "defer / 없는 모델은 이전 실행 결과를 빌려 쓰는 옵션"
+            },
+            {
+              "t": "Slim CI / 이전 상태와 비교해 바뀐 모델만 돌리는 방식"
+            },
+            {
+              "t": "--full-refresh / 증분을 통째로 다시 쌓거나 즉시 멈추는 옵션"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Environments and Deployment",
+          "anchor": "12-environments-and-deployment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Target / dev·prod 등 연결 대상을 profiles에서 전환"
+            },
+            {
+              "t": "Custom Schema Strategy / 환경별로 스키마 이름을 다르게 붙이는 전략"
+            },
+            {
+              "t": "Orchestration / dbt 실행을 외부 스케줄러가 언제 돌릴지 트리거"
+            },
+            {
+              "t": "CI Pipeline / PR마다 바뀐 모델만 자동으로 빌드·검사"
+            },
+            {
+              "t": "Artifacts / 실행마다 남는 그래프·결과 메타데이터 파일"
+            },
+            {
+              "t": "Logging / 실행 중 로그가 쌓이는 파일"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Performance and Cost",
+          "anchor": "13-performance-and-cost",
+          "subs": [],
+          "items": [
+            {
+              "t": "Warehouse-specific Optimization Points / 대상 창고별로 dbt가 건드리는 최적화 지점"
+            },
+            {
+              "t": "Deciding When to Go Incremental / 테이블이 커질 때 증분으로 바꿀지 판단하는 기준"
+            },
+            {
+              "t": "Clustering and Partitioning Config / 모델 config로 정렬·분할 방식을 지정"
+            },
+            {
+              "t": "threads / 모델을 동시에 몇 개 돌릴지 정하는 병렬도"
+            },
+            {
+              "t": "Unused Model Cleanup / 더 안 쓰는 모델을 찾아 정리하는 작업"
+            },
+            {
+              "t": "Cost Monitoring / 실행이 창고 비용에 얼마나 드는지 추적"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Data Engineer",
+      "ref": "software/role-based/data-engineer"
+    },
+    {
+      "label": "Sql",
+      "ref": "software/skill-based/Languages/sql"
+    },
+    {
+      "label": "Apache Airflow",
+      "ref": "software/skill-based/Data-DB/airflow"
+    },
+    {
+      "label": "Snowflake",
+      "ref": "software/skill-based/Data-DB/snowflake"
+    },
+    {
+      "label": "Bi Analyst",
+      "ref": "software/role-based/bi-analyst"
+    }
+  ]
+}

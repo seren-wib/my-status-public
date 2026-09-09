@@ -1,0 +1,439 @@
+{
+  "title": "Seducer AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The Surface",
+      "sections": [
+        {
+          "no": 1,
+          "title": "First Impression Formation",
+          "anchor": "1-first-impression-formation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Thin-slicing / 몇 초의 노출만으로 굳는 판단 (Ambady-Rosenthal)"
+            },
+            {
+              "t": "Halo Effect / 하나의 긍정 특질이 전체 평가로 번지는 구조"
+            },
+            {
+              "t": "Physical Attractiveness Stereotype / 외모가 무관한 특질 추론까지 끌고 가는 편향"
+            },
+            {
+              "t": "Impression Management",
+              "delegate": "social/skill-based/Presence/impression-management"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Embodied Presence",
+          "anchor": "2-embodied-presence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Vocal Prosody / 음높이·억양이 매력 평가에 개입하는 방식"
+            },
+            {
+              "t": "Gaze Duration / 응시 길이와 상호 응시의 임계"
+            },
+            {
+              "t": "Charisma",
+              "delegate": "social/skill-based/Presence/charisma"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Selectivity and Social Proof",
+          "anchor": "3-selectivity-and-social-proof",
+          "subs": [],
+          "items": [
+            {
+              "t": "Social Proof / 남들의 평가가 만드는 매력"
+            },
+            {
+              "t": "Mate Choice Copying / 타인의 선택이 선호를 복제시키는 기제"
+            },
+            {
+              "t": "Scarcity and Selectivity / 아무에게나 열리지 않는다는 신호"
+            },
+            {
+              "t": "Ideal Standards Model / 이상형 기준의 세 차원과 실제 선택의 괴리 (Fletcher-Simpson)"
+            },
+            {
+              "t": "Mating Strategies Theory / 성적 전략 이론의 주장과 예측 (Buss-Schmitt)"
+            },
+            {
+              "t": "Critique of Evolutionary Accounts / 사회구조 이론의 반론 (Eagly-Wood)"
+            },
+            {
+              "t": "Cultural Variation versus Universals / 매력의 문화적 변이와 보편성 논쟁"
+            },
+            {
+              "t": "Status Signaling",
+              "delegate": "social/skill-based/Presence/status-signaling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Approach and Conversation",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Approach",
+          "anchor": "4-approach",
+          "subs": [],
+          "items": [
+            {
+              "t": "Opener Irrelevance / 첫 마디의 내용보다 전달 방식이 지배적인 이유"
+            },
+            {
+              "t": "Approach Anxiety / 접근 회피의 인지적 구조"
+            },
+            {
+              "t": "Rejection Sensitivity / 거절 민감성이 접근 행동을 왜곡하는 방식"
+            },
+            {
+              "t": "Approach",
+              "delegate": "social/skill-based/Relating/approach"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Conversation Dynamics",
+          "anchor": "5-conversation-dynamics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Question Depth Ladder / 사실에서 의견, 의견에서 감정으로 내려가는 층"
+            },
+            {
+              "t": "Humor as Fitness Signal / 유머가 능력 신호로 읽히는 기제"
+            },
+            {
+              "t": "Conversation",
+              "delegate": "social/skill-based/Speaking/conversation"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Reading the Other Side",
+          "anchor": "6-reading-the-other-side",
+          "subs": [],
+          "items": [
+            {
+              "t": "Baseline Deviation / 그 사람의 평소값에서의 이탈로 읽기"
+            },
+            {
+              "t": "Nonverbal Signals",
+              "delegate": "social/skill-based/Reading/nonverbal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Building Attraction",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Mere Exposure and Familiarity",
+          "anchor": "7-mere-exposure-and-familiarity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Processing Fluency / 익숙함이 호감으로 오인되는 인지 기제"
+            },
+            {
+              "t": "Familiarity Ceiling / 노출이 역효과로 도는 지점"
+            },
+            {
+              "t": "Exposure versus Interaction / 마주침과 실제 상호작용의 효과 차이"
+            },
+            {
+              "t": "Approach",
+              "delegate": "social/skill-based/Relating/approach"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Similarity and Difference",
+          "anchor": "8-similarity-and-difference",
+          "subs": [],
+          "items": [
+            {
+              "t": "Attitude Alignment / 태도 유사성이 가장 강하게 작동하는 이유"
+            },
+            {
+              "t": "Repulsion Hypothesis / 비유사성 회피가 실제 동인이라는 반론 (Rosenbaum)"
+            },
+            {
+              "t": "Complementarity Debate / 상보성 가설과 그 실증적 취약함"
+            },
+            {
+              "t": "Attraction Predictors Meta-analysis / 끌림 예측 변인의 효과 크기 서열"
+            },
+            {
+              "t": "Matching Hypothesis / 매력 수준이 서로 맞춰지는 경향과 그 검증"
+            },
+            {
+              "t": "Attraction",
+              "delegate": "social/skill-based/Seduction/attraction"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Misattribution of Arousal",
+          "anchor": "9-misattribution-of-arousal",
+          "subs": [],
+          "items": [
+            {
+              "t": "Two-Factor Theory of Emotion / 각성과 인지적 명명의 결합 (Schachter-Singer)"
+            },
+            {
+              "t": "Excitation Transfer / 잔여 각성이 다음 감정으로 전이되는 기제 (Zillmann)"
+            },
+            {
+              "t": "Tension",
+              "delegate": "social/skill-based/Seduction/tension"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Self-Disclosure and Closeness",
+          "anchor": "10-self-disclosure-and-closeness",
+          "subs": [],
+          "items": [
+            {
+              "t": "Social Penetration Theory / 폭과 깊이로 본 관계 진행 (Altman-Taylor)"
+            },
+            {
+              "t": "Disclosure Mistiming / 너무 이른 깊은 노출이 역효과인 이유"
+            },
+            {
+              "t": "Bonding",
+              "delegate": "social/skill-based/Relating/bonding"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Self-Expansion",
+          "anchor": "11-self-expansion",
+          "subs": [],
+          "items": [
+            {
+              "t": "Self-Expansion Theory / 관계를 자기 확장의 수단으로 보는 틀 (Aron)"
+            },
+            {
+              "t": "Inclusion of Other in the Self / 자기 개념 안으로 상대가 들어오는 정도의 측정"
+            },
+            {
+              "t": "Novel and Arousing Activity / 새롭고 각성적인 활동이 관계 만족을 올리는 기제"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Tension and Escalation",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Tension",
+          "anchor": "12-tension",
+          "subs": [],
+          "items": [
+            {
+              "t": "Push and Pull / 다가감과 물러섬의 리듬"
+            },
+            {
+              "t": "Coercion versus Persuasion / 설득과 강압을 가르는 경계"
+            },
+            {
+              "t": "Manipulation Boundary / 끌림의 형성과 1:1 조종이 갈라지는 지점"
+            },
+            {
+              "t": "Tension",
+              "delegate": "social/skill-based/Seduction/tension"
+            },
+            {
+              "t": "Relational Exploitation",
+              "delegate": "social/skill-based/Manipulation/relational-exploitation"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Escalation",
+          "anchor": "13-escalation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Touch Progression Norms / 접촉의 사회적 허용 계층"
+            },
+            {
+              "t": "Reset on Hesitation / 망설임 신호에서 되돌리는 규칙"
+            },
+            {
+              "t": "Power Asymmetry Invalidation / 위계·의존 관계에서 동의가 성립하지 않는 구조"
+            },
+            {
+              "t": "Legal Threshold / 성적 동의의 법적 요건과 관할별 차이"
+            },
+            {
+              "t": "Escalation",
+              "delegate": "social/skill-based/Seduction/escalation"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Rejection and Recovery",
+          "anchor": "14-rejection-and-recovery",
+          "subs": [],
+          "items": [
+            {
+              "t": "Graceful Decline / 원치 않는 호감을 관계 손상 없이 정리하는 구조"
+            },
+            {
+              "t": "Escalation",
+              "delegate": "social/skill-based/Seduction/escalation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Into a Relationship",
+      "sections": [
+        {
+          "no": 15,
+          "title": "From Attraction to Relationship",
+          "anchor": "15-from-attraction-to-relationship",
+          "subs": [],
+          "items": [
+            {
+              "t": "Defining the Relationship / 관계 규정 대화가 수행하는 기능"
+            },
+            {
+              "t": "Commitment Signals / 헌신을 드러내는 행동 지표"
+            },
+            {
+              "t": "Investment Model / 만족·대안·투자로 본 헌신 (Rusbult)"
+            },
+            {
+              "t": "Social Exchange and Equity Theory / 사회교환·형평 이론과 그 한계"
+            },
+            {
+              "t": "Escalation",
+              "delegate": "social/skill-based/Seduction/escalation"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Maintenance Basics",
+          "anchor": "16-maintenance-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Relational Maintenance Behaviors / 유지 행동의 다섯 범주 (Stafford-Canary)"
+            },
+            {
+              "t": "Capitalization / 좋은 소식에 반응하는 방식이 관계를 가르는 이유 (Gable)"
+            },
+            {
+              "t": "Perceived Partner Responsiveness / 지각된 반응성이 친밀감의 핵심인 구조 (Reis)"
+            },
+            {
+              "t": "Routine and Boredom / 일상화가 만드는 마모"
+            },
+            {
+              "t": "Adult Attachment / 애착 이론의 성인 관계 적용 (Hazan-Shaver)"
+            },
+            {
+              "t": "Attachment Dimensions / 불안과 회피의 2차원 모델"
+            },
+            {
+              "t": "Anxious-Avoidant Trap / 두 유형이 서로를 강화하는 순환"
+            },
+            {
+              "t": "Earned Security / 애착 안정성이 후천적으로 변하는 경로"
+            },
+            {
+              "t": "Gottman's Four Horsemen / 비난·방어·경멸·담쌓기의 해체 예측력"
+            },
+            {
+              "t": "Relationship Trajectory Forecast / 초기 신호로 관계 지속을 예측한 연구"
+            },
+            {
+              "t": "Folk Belief versus Evidence / 대중 통념과 실증 결과가 갈리는 지점"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Approach",
+      "ref": "social/skill-based/Relating/approach"
+    },
+    {
+      "label": "Bonding",
+      "ref": "social/skill-based/Relating/bonding"
+    },
+    {
+      "label": "Conversation",
+      "ref": "social/skill-based/Speaking/conversation"
+    },
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    },
+    {
+      "label": "Impression Management",
+      "ref": "social/skill-based/Presence/impression-management"
+    },
+    {
+      "label": "Charisma",
+      "ref": "social/skill-based/Presence/charisma"
+    },
+    {
+      "label": "Status Signaling",
+      "ref": "social/skill-based/Presence/status-signaling"
+    },
+    {
+      "label": "Relational Exploitation",
+      "ref": "social/skill-based/Manipulation/relational-exploitation"
+    },
+    {
+      "label": "Attraction",
+      "ref": "social/skill-based/Seduction/attraction"
+    },
+    {
+      "label": "Tension",
+      "ref": "social/skill-based/Seduction/tension"
+    },
+    {
+      "label": "Escalation",
+      "ref": "social/skill-based/Seduction/escalation"
+    }
+  ]
+}

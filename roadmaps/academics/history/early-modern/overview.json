@@ -1,0 +1,242 @@
+{
+  "title": "Early Modern AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Renaissance and Reformation",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Renaissance",
+          "anchor": "1-renaissance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Italian City-States and Patronage / 도시국가의 부와 후원 체제"
+            },
+            {
+              "t": "Humanism and Classical Revival / 고전 복원과 인간 중심 세계관의 형성"
+            },
+            {
+              "t": "Art and Linear Perspective / 원근법 도입이 바꾼 재현 방식"
+            },
+            {
+              "t": "Printing Press / 인쇄술 확산이 만든 정보 환경의 전환"
+            },
+            {
+              "t": "Northern Renaissance / 알프스 이북의 성서 인문주의와 사회 비판"
+            },
+            {
+              "t": "Political Realism / 정치를 도덕에서 분리한 사고의 등장"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Reformation",
+          "anchor": "2-reformation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Grievances against the Church / 면벌부·성직 매매 등 개혁의 배경"
+            },
+            {
+              "t": "Luther and Justification by Faith / 95개조 이후 갈라진 교리 쟁점"
+            },
+            {
+              "t": "Calvinism and Predestination / 제네바 체제와 상공업 계층의 수용"
+            },
+            {
+              "t": "Radical Reformation / 재세례파 등 급진 분파와 탄압"
+            },
+            {
+              "t": "English Reformation / 왕권이 주도한 교회 분리의 정치성"
+            },
+            {
+              "t": "Catholic Reformation / 트리엔트 공의회와 예수회의 대응"
+            },
+            {
+              "t": "Wars of Religion / 위그노 전쟁·30년 전쟁의 전개와 참상"
+            },
+            {
+              "t": "Peace of Westphalia / 주권 국가 체제의 성립"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Exploration and a Connected World",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Age of Exploration",
+          "anchor": "3-age-of-exploration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Motives and Maritime Technology / 향신료·선박·항해술이 겹친 조건"
+            },
+            {
+              "t": "Portuguese Maritime Empire / 아프리카 우회와 아시아 거점망"
+            },
+            {
+              "t": "Spanish Conquest of the Americas / 아스테카·잉카 정복과 급속한 인구 붕괴"
+            },
+            {
+              "t": "Columbian Exchange / 작물·가축·병원균의 대륙 간 이동"
+            },
+            {
+              "t": "Encomienda and the Silver Economy / 강제 노동과 은의 세계 순환"
+            },
+            {
+              "t": "Atlantic Slave Trade / 삼각무역의 구조와 아프리카 사회의 타격"
+            },
+            {
+              "t": "Dutch and English Chartered Companies / 특허회사 모델과 해상 패권 교체"
+            },
+            {
+              "t": "Price Revolution / 은 유입이 유럽 물가·신분 구조에 미친 영향"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Asian and African Empires",
+          "anchor": "4-asian-and-african-empires",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ottoman Classical Age / 술탄 중심 통치와 밀레트 제도"
+            },
+            {
+              "t": "Safavid Persia / 시아파 국교화와 오스만과의 장기 대립"
+            },
+            {
+              "t": "Mughal India / 통합 정책의 성과와 후기 분열의 원인"
+            },
+            {
+              "t": "Ming Dynasty / 조공 체제·해금 정책과 대규모 항해의 중단"
+            },
+            {
+              "t": "Ming-Qing Transition / 명 붕괴와 만주족 지배 체제의 성립"
+            },
+            {
+              "t": "Qing Consolidation / 다민족 제국 통치와 광저우 무역 체제"
+            },
+            {
+              "t": "Tokugawa Japan / 막번 체제·쇄국과 도시 상업의 성장"
+            },
+            {
+              "t": "Africa and the Atlantic World / 대서양 무역이 재편한 서아프리카 정치"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Remaking States and Ideas",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Absolutism and the State",
+          "anchor": "5-absolutism-and-the-state",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sovereignty and Divine Right / 절대왕권을 정당화한 논리"
+            },
+            {
+              "t": "Military Revolution / 화약 무기와 요새가 바꾼 전쟁과 재정"
+            },
+            {
+              "t": "Fiscal-Military State / 상비군·조세·관료제의 상호 강화"
+            },
+            {
+              "t": "Louis XIV's France / 베르사유 체제와 귀족의 무력화"
+            },
+            {
+              "t": "Rise of Prussia and Russia / 후발 국가의 군사·행정 근대화"
+            },
+            {
+              "t": "English Constitutional Path / 내전·공화정·명예혁명으로 갈라진 경로"
+            },
+            {
+              "t": "Balance of Power Diplomacy / 유럽 국제 체제의 작동 원리"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Scientific Revolution",
+          "anchor": "6-scientific-revolution",
+          "subs": [],
+          "items": [
+            {
+              "t": "Copernican Turn / 지동설이 무너뜨린 우주관과 그 저항"
+            },
+            {
+              "t": "Observation and Experiment / 관측·실험이 권위를 대체하는 과정"
+            },
+            {
+              "t": "Newtonian Synthesis / 하나의 법칙으로 통합된 천상과 지상"
+            },
+            {
+              "t": "Method and Scientific Academies / 방법론 정립과 학문의 제도화"
+            },
+            {
+              "t": "Anatomy and Medicine / 인체 이해의 갱신과 남은 한계"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Enlightenment",
+          "anchor": "7-enlightenment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Natural Rights and Social Contract / 홉스·로크·루소가 달리 잡은 전제"
+            },
+            {
+              "t": "Separation of Powers / 권력 분립론과 이후 헌정 설계에의 영향"
+            },
+            {
+              "t": "Public Sphere / 살롱·커피하우스·백과전서가 만든 여론"
+            },
+            {
+              "t": "Enlightened Absolutism / 위로부터의 개혁이 부딪힌 한계"
+            },
+            {
+              "t": "Economic Liberalism / 중상주의 비판과 자유 시장 이론의 등장"
+            },
+            {
+              "t": "Critique of Slavery and Empire / 계몽 사상 내부의 모순과 그 비판"
+            },
+            {
+              "t": "American Revolution / 식민지 저항에서 공화국 수립까지"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Medieval",
+      "ref": "academics/history/medieval/overview"
+    },
+    {
+      "label": "Modern",
+      "ref": "academics/history/modern/overview"
+    },
+    {
+      "label": "Korean History",
+      "ref": "academics/history/korea/overview"
+    }
+  ]
+}

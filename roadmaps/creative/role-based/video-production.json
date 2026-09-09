@@ -1,0 +1,225 @@
+{
+  "title": "Video Production AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Planning",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Concept",
+          "anchor": "1-concept",
+          "subs": [],
+          "items": [
+            {
+              "t": "Logline and Purpose / 한 줄 기획 의도"
+            },
+            {
+              "t": "Reference Reel / 참고 영상 5편과 훔칠 지점"
+            },
+            {
+              "t": "Runtime and Format / 길이·화면비·플랫폼 결정"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Script and Board",
+          "anchor": "2-script-and-board",
+          "subs": [],
+          "items": [
+            {
+              "t": "Script Draft / 대본 또는 구성안"
+            },
+            {
+              "t": "Storyboard / 주요 컷 그림 콘티"
+            },
+            {
+              "t": "Shot List / 촬영할 컷 목록표"
+            },
+            {
+              "t": "Story Structure",
+              "delegate": "creative/skill-based/Writing/story-structure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Prep and Shoot",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Production Prep",
+          "anchor": "3-production-prep",
+          "subs": [],
+          "items": [
+            {
+              "t": "Location Scout / 촬영 장소 답사 사진"
+            },
+            {
+              "t": "Schedule and Call Sheet / 촬영 일정표"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Shooting",
+          "anchor": "4-shooting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Coverage Shot / 한 장면을 사이즈 3종으로 촬영"
+            },
+            {
+              "t": "Room Tone and Audio / 현장음·룸톤 별도 녹음"
+            },
+            {
+              "t": "Footage Backup / 촬영본 이중 백업"
+            },
+            {
+              "t": "Shooting",
+              "delegate": "creative/skill-based/Video/shooting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Editing",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Assembly",
+          "anchor": "5-assembly",
+          "subs": [],
+          "items": [
+            {
+              "t": "Footage Log / 쓸 만한 테이크 선별 목록"
+            },
+            {
+              "t": "Rough Cut / 순서만 맞춘 러프 컷"
+            },
+            {
+              "t": "Fine Cut / 컷 길이 다듬은 파인 컷"
+            },
+            {
+              "t": "Editing",
+              "delegate": "creative/skill-based/Video/editing"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Layers",
+          "anchor": "6-layers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Title and Lower Third / 타이틀·자막 적용"
+            },
+            {
+              "t": "Motion Element / 움직이는 요소 한 개 제작"
+            },
+            {
+              "t": "Color Pass / 컬러 보정 한 바퀴"
+            },
+            {
+              "t": "Motion Graphics",
+              "delegate": "creative/skill-based/Video/motion-graphics"
+            },
+            {
+              "t": "Color Grading",
+              "delegate": "creative/skill-based/Video/color-grading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Finishing",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Sound and Finish",
+          "anchor": "7-sound-and-finish",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dialogue Cleanup / 대사 트랙 정리"
+            },
+            {
+              "t": "Music and SFX Layer / 음악·효과음 배치"
+            },
+            {
+              "t": "Final Mix / 라우드니스 맞춰 최종 믹스"
+            },
+            {
+              "t": "Sound Design",
+              "delegate": "creative/skill-based/Sound/sound-design"
+            },
+            {
+              "t": "Mixing",
+              "delegate": "creative/skill-based/Sound/mixing"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Release",
+          "anchor": "8-release",
+          "subs": [],
+          "items": [
+            {
+              "t": "Feedback Screening / 한 명에게 보여주고 지루한 구간 표시"
+            },
+            {
+              "t": "Re-edit Pass / 표시된 구간 재편집"
+            },
+            {
+              "t": "Export and Upload / 규격 맞춰 내보내고 공개"
+            },
+            {
+              "t": "Project Retrospective / 다음 편에서 바꿀 한 가지"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Shooting",
+      "ref": "creative/skill-based/Video/shooting"
+    },
+    {
+      "label": "Editing",
+      "ref": "creative/skill-based/Video/editing"
+    },
+    {
+      "label": "Color Grading",
+      "ref": "creative/skill-based/Video/color-grading"
+    },
+    {
+      "label": "Motion Graphics",
+      "ref": "creative/skill-based/Video/motion-graphics"
+    },
+    {
+      "label": "Sound Design",
+      "ref": "creative/skill-based/Sound/sound-design"
+    },
+    {
+      "label": "Mixing",
+      "ref": "creative/skill-based/Sound/mixing"
+    },
+    {
+      "label": "Story Structure",
+      "ref": "creative/skill-based/Writing/story-structure"
+    }
+  ]
+}

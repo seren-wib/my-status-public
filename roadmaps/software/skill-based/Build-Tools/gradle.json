@@ -1,0 +1,667 @@
+{
+  "title": "Gradle AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Gradle",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Gradle?",
+          "anchor": "1-what-is-gradle",
+          "subs": [
+            {
+              "title": "Overview of Gradle / What is it?",
+              "items": [
+                {
+                  "t": "Build Automation Tool / 컴파일·테스트·배포를 자동 수행하는 도구"
+                },
+                {
+                  "t": "Task Graph (DAG) Execution Model / 태스크를 방향성 그래프로 엮어 실행하는 모델"
+                },
+                {
+                  "t": "Declarative DSL + Imperative Extension / 선언적 DSL에 명령형 코드를 얹는 방식"
+                },
+                {
+                  "t": "JVM, Android, Native / Gradle이 빌드할 수 있는 대상 종류"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "JVM Application Build / 자바·코틀린 앱을 빌드하는 기본 용도"
+                },
+                {
+                  "t": "Android Build / AGP로 APK·AAB를 빌드하는 용도"
+                },
+                {
+                  "t": "Multi-language Monorepo / 여러 언어 모듈을 한 저장소에서 빌드하는 구조"
+                },
+                {
+                  "t": "Custom Automation Task / 빌드 외 임의 작업을 자동화하는 용도"
+                }
+              ]
+            },
+            {
+              "title": "Gradle vs Maven",
+              "items": [
+                {
+                  "t": "Fixed Lifecycle vs Task Graph / 정해진 단계 대 태스크 그래프의 차이"
+                },
+                {
+                  "t": "XML vs DSL / XML 선언 대 코드형 DSL의 차이"
+                },
+                {
+                  "t": "Incremental Build and Build Cache / 변경분만 다시 빌드해 시간을 아끼는 방식"
+                },
+                {
+                  "t": "When to choose Gradle? / 태스크 그래프가 필요해지는 선택 기준"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Execution Methods",
+              "items": [
+                {
+                  "t": "Gradle Wrapper / gradlew 스크립트로 팀의 버전을 고정하는 방식",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "SDKMAN and Homebrew / 버전 관리자로 배포판을 골라 설치하는 방법"
+                },
+                {
+                  "t": "Binary Download / 설치 없이 압축 파일을 받아 쓰는 방법"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Wrapper",
+              "items": [
+                {
+                  "t": "gradle wrapper --gradle-version / 원하는 버전으로 래퍼를 생성하는 명령"
+                },
+                {
+                  "t": "gradle-wrapper.properties / 래퍼가 받을 배포판 URL을 적는 파일"
+                },
+                {
+                  "t": "distributionSha256Sum / 배포판 해시를 검증해 위조를 막는 설정"
+                }
+              ]
+            },
+            {
+              "title": "First Build",
+              "items": [
+                {
+                  "t": "gradle init / 대화형으로 새 프로젝트 뼈대를 만드는 명령"
+                },
+                {
+                  "t": "Project Layout / 소스와 테스트를 정해진 경로에 두는 관례"
+                },
+                {
+                  "t": "gradle build, test, clean / 빌드·테스트·정리를 실행하는 기본 명령"
+                },
+                {
+                  "t": "gradle tasks, projects, help --task / 태스크와 프로젝트 구조를 확인하는 명령"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Build Script Basics",
+          "anchor": "3-build-script-basics",
+          "subs": [
+            {
+              "title": "DSL Choice",
+              "items": [
+                {
+                  "t": "Kotlin DSL / build.gradle.kts에 코틀린 문법으로 타입 안전하게 적는 방식",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Groovy DSL / build.gradle에 그루비 문법으로 빌드를 적는 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "File Layout",
+              "items": [
+                {
+                  "t": "settings.gradle(.kts) / rootProject.name과 include로 구조를 선언하는 파일"
+                },
+                {
+                  "t": "build.gradle(.kts) / 플러그인·의존성·태스크를 선언하는 빌드 스크립트"
+                },
+                {
+                  "t": "gradle.properties / JVM 옵션 등 빌드 전역 설정을 두는 파일"
+                },
+                {
+                  "t": "gradle/libs.versions.toml / 버전 카탈로그를 정의하는 파일"
+                }
+              ]
+            },
+            {
+              "title": "Script Structure",
+              "items": [
+                {
+                  "t": "plugins Block / 플러그인을 적용하는 선언 블록"
+                },
+                {
+                  "t": "repositories Block / 의존성을 받아올 저장소를 선언하는 블록"
+                },
+                {
+                  "t": "dependencies Block / 모듈별 의존성을 선언하는 블록"
+                },
+                {
+                  "t": "Extension Configuration / java·application 등 플러그인 확장을 설정하는 블록"
+                },
+                {
+                  "t": "Project / 태스크 API에 접근하는 진입점이 되는 객체"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Dependency Management",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Dependencies",
+          "anchor": "4-dependencies",
+          "subs": [
+            {
+              "title": "Configuration",
+              "items": [
+                {
+                  "t": "implementation / 컴파일·런타임엔 쓰되 API로 안 드러내는 범위"
+                },
+                {
+                  "t": "api / 의존한 모듈의 의존성까지 밖으로 노출하는 범위"
+                },
+                {
+                  "t": "compileOnly / 컴파일 때만 필요하고 런타임엔 안 넣는 범위"
+                },
+                {
+                  "t": "runtimeOnly / 런타임에만 필요하고 컴파일엔 안 쓰는 범위"
+                },
+                {
+                  "t": "testImplementation / 테스트 소스에서만 쓰는 의존성 범위"
+                },
+                {
+                  "t": "annotationProcessor / 컴파일 시 코드를 생성하는 처리기 전용 범위"
+                }
+              ]
+            },
+            {
+              "title": "api vs implementation",
+              "items": [
+                {
+                  "t": "ABI Exposure Scope / 공개 API 표면에 노출할지 정하는 범위"
+                },
+                {
+                  "t": "Compile Classpath Reduction / 컴파일 classpath를 줄이는 효과"
+                },
+                {
+                  "t": "java-library Plugin / api·implementation 구분을 가능케 하는 플러그인"
+                }
+              ]
+            },
+            {
+              "title": "Declaration Syntax",
+              "items": [
+                {
+                  "t": "Module Dependency / group:name:version 좌표로 지정하는 방식"
+                },
+                {
+                  "t": "Project Dependency / project(\":module\")로 같은 빌드 내 모듈을 참조하는 방식"
+                },
+                {
+                  "t": "File Dependency / 저장소 없이 로컬 jar 파일을 직접 의존하는 방식"
+                },
+                {
+                  "t": "platform(), enforcedPlatform(), BOM / 여러 모듈의 버전을 한 곳에서 맞추는 방식"
+                }
+              ]
+            },
+            {
+              "title": "Version Catalog",
+              "items": [
+                {
+                  "t": "libs.versions.toml / versions·libraries·bundles·plugins로 구성되는 파일"
+                },
+                {
+                  "t": "Type-safe Accessor / libs.foo처럼 자동완성되는 참조 방식"
+                },
+                {
+                  "t": "Bundle / 여러 라이브러리를 묶어 한 번에 추가하는 단위"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 5,
+          "title": "Dependency Resolution",
+          "anchor": "5-dependency-resolution",
+          "subs": [],
+          "items": [
+            {
+              "t": "Transitive Resolution / 의존성의 의존성까지 자동으로 끌어오는 방식"
+            },
+            {
+              "t": "Highest-Wins Conflict Resolution / 충돌 시 가장 높은 버전을 택하는 기본 전략"
+            },
+            {
+              "t": "Dependency Constraints / 직접 의존 안 해도 버전 범위를 강제하는 선언"
+            },
+            {
+              "t": "Exclude Rules / 전이 의존성 중 특정 모듈을 빼는 규칙"
+            },
+            {
+              "t": "Dynamic Version and Version Range / 버전이 빌드마다 바뀌어 재현성이 깨지는 위험"
+            },
+            {
+              "t": "Resolution Strategy / force·failOnVersionConflict로 해석을 강제하는 방식"
+            },
+            {
+              "t": "Dependency Locking / 해석된 버전 조합을 파일로 고정하는 기능"
+            },
+            {
+              "t": "Diagnostics / dependencies·dependencyInsight로 의존 트리를 보는 명령"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Repositories",
+          "anchor": "6-repositories",
+          "subs": [],
+          "items": [
+            {
+              "t": "mavenCentral, google, gradlePluginPortal / 자주 쓰는 공개 저장소 세 곳"
+            },
+            {
+              "t": "mavenLocal Caveats / 로컬 캐시를 참조해 재현성이 깨지는 함정"
+            },
+            {
+              "t": "Custom Maven Repository / credentials로 인증하는 사설 저장소 등록"
+            },
+            {
+              "t": "Repository Content Filtering / 저장소별로 받을 그룹·모듈을 제한하는 설정"
+            },
+            {
+              "t": "Dependency Verification / checksum·signature로 위변조를 검증하는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Tasks and Plugins",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Task",
+          "anchor": "7-task",
+          "subs": [
+            {
+              "title": "Basics",
+              "items": [
+                {
+                  "t": "Task Registration / tasks.register로 태스크를 지연 등록하는 방식"
+                },
+                {
+                  "t": "Task Action / doFirst·doLast로 실행 전후 동작을 넣는 방식"
+                },
+                {
+                  "t": "Task Ordering / dependsOn·finalizedBy·mustRunAfter로 순서를 정하는 방식"
+                },
+                {
+                  "t": "Built-in Task Type / Copy·Zip·Exec·JavaExec 등 기본 제공 태스크 종류"
+                }
+              ]
+            },
+            {
+              "title": "Input / Output",
+              "items": [
+                {
+                  "t": "Annotation / @Input·@InputFiles·@OutputFile로 입출력을 선언하는 방식"
+                },
+                {
+                  "t": "Up-to-date Check / 입출력이 안 바뀌면 태스크를 건너뛰는 검사"
+                },
+                {
+                  "t": "Incremental Task / InputChanges로 바뀐 파일만 처리하는 방식"
+                },
+                {
+                  "t": "Task Skipping / onlyIf·enabled로 조건부 실행을 막는 방식"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 8,
+          "title": "Build Lifecycle",
+          "anchor": "8-build-lifecycle",
+          "subs": [],
+          "items": [
+            {
+              "t": "Initialization, Configuration, Execution / 설정 읽기·그래프 구성·실행으로 이어지는 세 단계"
+            },
+            {
+              "t": "Configuration Avoidance / register와 create 중 즉시 생성을 피하는 방식"
+            },
+            {
+              "t": "Lazy API / Provider·Property로 값 평가를 미루는 방식"
+            },
+            {
+              "t": "Task Graph Inspection / --dry-run으로 실행 없이 계획만 보는 방법"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Plugins",
+          "anchor": "9-plugins",
+          "subs": [
+            {
+              "title": "Applying Plugins",
+              "items": [
+                {
+                  "t": "plugins DSL vs apply / 선언형 블록과 명령형 호출의 차이"
+                },
+                {
+                  "t": "Core Plugin / java·java-library·application·war 등 내장 플러그인"
+                },
+                {
+                  "t": "Community Plugin / Plugin Portal에서 받아오는 외부 플러그인"
+                }
+              ]
+            },
+            {
+              "title": "Commonly Used Plugins",
+              "items": [
+                {
+                  "t": "Spring Boot Plugin / bootJar·bootRun 태스크를 추가하는 플러그인"
+                },
+                {
+                  "t": "Kotlin JVM Plugin / 코틀린 코드를 컴파일하게 해주는 플러그인"
+                },
+                {
+                  "t": "Android Gradle Plugin / APK·AAB 빌드 태스크를 추가하는 플러그인"
+                },
+                {
+                  "t": "Shadow Plugin / 의존성을 합쳐 Fat JAR로 묶는 플러그인"
+                },
+                {
+                  "t": "Static Analysis / JaCoCo·Checkstyle·SpotBugs로 코드를 검사하는 플러그인"
+                }
+              ]
+            },
+            {
+              "title": "Custom Plugin",
+              "items": [
+                {
+                  "t": "Script Plugin / 별도 스크립트 파일로 작성해 적용하는 플러그인"
+                },
+                {
+                  "t": "Precompiled Script Plugin / buildSrc에 미리 컴파일해 두는 플러그인"
+                },
+                {
+                  "t": "Binary Plugin / Plugin<Project>를 구현한 코드형 플러그인"
+                },
+                {
+                  "t": "Extension Object Design / 플러그인 설정을 DSL로 받게 하는 객체 설계"
+                },
+                {
+                  "t": "Composite Build / includeBuild로 별도 빌드를 참여시키는 방식"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Performance and Multi-Project Builds",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Multi-project Build",
+          "anchor": "10-multi-project-build",
+          "subs": [],
+          "items": [
+            {
+              "t": "settings include / 하위 프로젝트를 계층 구조로 등록하는 선언"
+            },
+            {
+              "t": "Root vs Subproject Responsibility / 공통 설정과 빌드 로직의 역할 분담"
+            },
+            {
+              "t": "subprojects / allprojects와 함께 설정을 즉시 평가시키는 안티패턴"
+            },
+            {
+              "t": "Convention Plugin Extraction / 공통 빌드 로직을 플러그인으로 뽑아내는 방식"
+            },
+            {
+              "t": "Cross-project Configuration Avoidance / 다른 프로젝트 설정을 직접 안 건드리는 원칙"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Performance",
+          "anchor": "11-performance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Gradle Daemon / JVM을 상주시켜 기동 시간을 아끼는 프로세스"
+            },
+            {
+              "t": "Incremental Build / 태스크 입출력이 그대로면 재실행을 생략하는 방식"
+            },
+            {
+              "t": "Build Cache / Local·Remote 캐시로 결과물을 재사용하는 방식"
+            },
+            {
+              "t": "Configuration Cache / 설정 단계 결과를 직렬화해 재사용하는 캐시"
+            },
+            {
+              "t": "Parallel Execution / org.gradle.parallel로 태스크를 동시 실행하는 옵션"
+            },
+            {
+              "t": "File System Watching / 파일 변경을 감시해 다음 빌드를 빠르게 하는 기능"
+            },
+            {
+              "t": "Build Scan / --scan으로 빌드 상세 리포트를 만드는 기능"
+            },
+            {
+              "t": "JVM Tuning / org.gradle.jvmargs로 데몬 힙 크기를 조정하는 설정"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Testing",
+          "anchor": "12-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Test Task Configuration / useJUnitPlatform으로 테스트 엔진을 지정하는 설정"
+            },
+            {
+              "t": "Test Filtering / --tests로 특정 테스트만 골라 실행하는 옵션"
+            },
+            {
+              "t": "Parallel Test / maxParallelForks로 테스트를 병렬 실행하는 설정"
+            },
+            {
+              "t": "Test Fixtures / java-test-fixtures로 테스트 코드를 다른 모듈과 공유하는 기능"
+            },
+            {
+              "t": "Report / HTML 리포트와 JaCoCo 커버리지를 연동한 결과물"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Deployment and Operations",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Publishing",
+          "anchor": "13-publishing",
+          "subs": [],
+          "items": [
+            {
+              "t": "maven-publish Plugin / 생성물을 메이븐 형식으로 배포하는 플러그인"
+            },
+            {
+              "t": "publications / MavenPublication으로 배포물을 정의하는 블록"
+            },
+            {
+              "t": "POM Metadata Customization / POM의 이름·설명·라이선스를 채우는 작업"
+            },
+            {
+              "t": "Gradle Module Metadata / 변형·의존성 정보를 담는 그레이들 전용 메타데이터"
+            },
+            {
+              "t": "Signing Plugin / GPG로 배포물에 서명하는 플러그인"
+            },
+            {
+              "t": "Maven Central and Internal Repository / 공개·사내 저장소 중 배포 대상을 고르는 문제"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "CI Integration",
+          "anchor": "14-ci-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Wrapper Version Pinning / CI에서도 같은 버전을 쓰게 고정하는 방법"
+            },
+            {
+              "t": "Daemon Policy / CI에서 --no-daemon 사용 여부를 정하는 기준"
+            },
+            {
+              "t": "Remote Build Cache Setup / 팀·CI가 캐시를 공유하도록 서버를 두는 설정"
+            },
+            {
+              "t": "Dependency Cache Reuse / CI 실행 간 의존성 다운로드를 재사용하는 방법"
+            },
+            {
+              "t": "Build Scan Sharing / 스캔 링크를 팀과 공유해 문제를 진단하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Troubleshooting",
+          "anchor": "15-troubleshooting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Log Level / -i·-d·-s로 로그 상세도를 조절하는 옵션"
+            },
+            {
+              "t": "Configuration Cache Diagnosis / 설정 캐시 무효화 원인을 찾는 진단 작업"
+            },
+            {
+              "t": "Daemon Failure / --stop으로 문제 있는 데몬을 종료하는 방법"
+            },
+            {
+              "t": "Compatibility Matrix / Gradle·JDK·AGP 버전 궁합을 맞추는 표"
+            },
+            {
+              "t": "Deprecation Handling / --warning-mode all로 폐기 경고를 전부 보는 옵션"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Advanced",
+          "anchor": "16-advanced",
+          "subs": [],
+          "items": [
+            {
+              "t": "Init Script / 모든 프로젝트에 적용되는 전역 초기화 스크립트"
+            },
+            {
+              "t": "Artifact Transform / 의존성을 소비 전에 변환하는 캐시 가능한 처리"
+            },
+            {
+              "t": "Attribute / Variant-aware Matching으로 맞는 변형을 고르는 값"
+            },
+            {
+              "t": "Java Toolchain / 설치 JDK와 무관하게 빌드용 JDK를 지정하는 기능"
+            },
+            {
+              "t": "Develocity / 빌드 성능을 조직 차원에서 분석하는 엔터프라이즈 도구"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Java",
+      "ref": "software/skill-based/Languages/java"
+    },
+    {
+      "label": "Kotlin",
+      "ref": "software/skill-based/Languages/kotlin"
+    },
+    {
+      "label": "Maven",
+      "ref": "software/skill-based/Build-Tools/maven"
+    },
+    {
+      "label": "Android",
+      "ref": "software/role-based/android"
+    },
+    {
+      "label": "JUnit",
+      "ref": "software/skill-based/Testing/junit"
+    },
+    {
+      "label": "Jenkins",
+      "ref": "software/skill-based/Infra-DevOps/jenkins"
+    }
+  ]
+}

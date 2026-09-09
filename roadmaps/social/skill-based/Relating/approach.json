@@ -1,0 +1,113 @@
+{
+  "title": "Approach AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Before You Approach",
+          "anchor": "1-before-you-approach",
+          "subs": [],
+          "items": [
+            {
+              "t": "Approach Reason / 다가갈 이유·계기 명확히"
+            },
+            {
+              "t": "Reading Openness / 상대가 열려 있는지 판단"
+            },
+            {
+              "t": "Context Selection / 접근하기 좋은 상황 고르기"
+            },
+            {
+              "t": "Lowering the Stakes / 부담 낮은 첫 접촉 설계"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Creating Contact Points",
+          "anchor": "2-creating-contact-points",
+          "subs": [],
+          "items": [
+            {
+              "t": "Shared Context / 공통 맥락 활용 — 같은 자리·활동·소속"
+            },
+            {
+              "t": "Natural Pretext / 자연스러운 계기 만들기"
+            },
+            {
+              "t": "Mere Exposure / 반복 노출로 익숙함 쌓기"
+            },
+            {
+              "t": "Third-party Bridge / 소개·중개인을 통한 접점"
+            },
+            {
+              "t": "Warm Reintroduction / 아는 사이 다시 잇기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Opening the Interaction",
+          "anchor": "3-opening-the-interaction",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Line / 첫마디 — 상황·공통점 기반"
+            },
+            {
+              "t": "Low-pressure Openers / 답하기 쉬운 열기"
+            },
+            {
+              "t": "Name and Recall / 이름 기억·부르기"
+            },
+            {
+              "t": "Handoff to Real Talk / 인사에서 대화로 넘기기"
+            },
+            {
+              "t": "Small Talk Scripts",
+              "delegate": "social/skill-based/Speaking/conversation"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Pacing and Retreat",
+          "anchor": "4-pacing-and-retreat",
+          "subs": [],
+          "items": [
+            {
+              "t": "Escalation Pace / 거리 좁히는 속도 조절"
+            },
+            {
+              "t": "Backoff Signals / 물러날 신호 읽기"
+            },
+            {
+              "t": "Graceful Exit / 자연스럽게 물러나기"
+            },
+            {
+              "t": "Non-neediness / 매달리지 않기"
+            },
+            {
+              "t": "Next-time Invitation / 다음을 여는 초대"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Conversation",
+      "ref": "social/skill-based/Speaking/conversation"
+    },
+    {
+      "label": "Listening",
+      "ref": "social/skill-based/Relating/listening"
+    }
+  ]
+}

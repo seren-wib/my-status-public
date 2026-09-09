@@ -1,0 +1,421 @@
+{
+  "title": "Heroku AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Heroku",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Heroku?",
+          "anchor": "1-what-is-heroku",
+          "subs": [
+            {
+              "title": "Overview",
+              "items": [
+                {
+                  "t": "PaaS Model / 인프라 관리를 플랫폼에 맡기는 모델"
+                },
+                {
+                  "t": "Git Push Based Deployment / git push 한 번으로 배포하는 방식"
+                },
+                {
+                  "t": "Dyno-Centric Execution Model / dyno를 실행 단위로 삼는 구조"
+                },
+                {
+                  "t": "Add-on Ecosystem / 마켓에서 골라 붙이는 부가 기능 생태계"
+                }
+              ]
+            },
+            {
+              "title": "Design Principles",
+              "items": [
+                {
+                  "t": "Twelve-Factor App / 무상태 앱을 전제하는 열두 원칙"
+                },
+                {
+                  "t": "Stateless Process and Ephemeral Filesystem / 재시작마다 파일이 사라지는 무상태 구조"
+                },
+                {
+                  "t": "Config in Environment / 설정을 코드가 아닌 환경변수로 두는 원칙"
+                },
+                {
+                  "t": "Heroku vs Vercel vs Self-Managed Containers / 세 배포 방식의 관리 범위 차이"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [],
+          "items": [
+            {
+              "t": "Heroku CLI / heroku login으로 인증하는 명령줄 도구"
+            },
+            {
+              "t": "App Creation / heroku create로 앱을 생성하는 명령"
+            },
+            {
+              "t": "Region / 앱이 돌아갈 인프라 위치를 고르는 설정"
+            },
+            {
+              "t": "Procfile / 프로세스 종류를 선언하는 파일"
+            },
+            {
+              "t": "First Deploy / git push heroku main으로 하는 첫 배포"
+            },
+            {
+              "t": "heroku logs --tail / 로그를 실시간으로 스트리밍하는 명령"
+            },
+            {
+              "t": "heroku run / 일회성 dyno를 띄워 명령을 실행하는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Application Structure",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Dynos",
+          "anchor": "3-dynos",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dyno Types / web·worker·one-off로 나뉘는 역할"
+            },
+            {
+              "t": "Dyno Type / Eco·Basic 등 성능별 요금제 등급"
+            },
+            {
+              "t": "Dyno Lifecycle / 재시작과 순환으로 도는 생명주기"
+            },
+            {
+              "t": "Sleeping Dyno / Eco 플랜에서 대기 중 잠드는 현상"
+            },
+            {
+              "t": "Boot Timeout / 기동과 SIGTERM 종료에 걸리는 시간제한"
+            },
+            {
+              "t": "Scaling / heroku ps:scale로 dyno 수를 조절하는 명령"
+            },
+            {
+              "t": "Process Concurrency / WEB_CONCURRENCY로 정하는 동시 처리 수"
+            },
+            {
+              "t": "$PORT Binding Rule / 라우터가 넘겨준 포트로 리슨해야 하는 규칙"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Buildpacks and Slugs",
+          "anchor": "4-buildpacks-and-slugs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Build Process / 감지·컴파일·릴리스로 도는 빌드 단계"
+            },
+            {
+              "t": "Official Buildpack / Node.js 등 언어별 런타임 감지 도구"
+            },
+            {
+              "t": "Multiple Buildpacks / 순서대로 겹쳐 적용하는 빌드팩 조합"
+            },
+            {
+              "t": "Custom Buildpack / 공식 목록에 없는 빌드팩 직접 지정"
+            },
+            {
+              "t": "Slug / 용량 제한이 있는 빌드 결과물 압축본"
+            },
+            {
+              "t": "Container Registry / Dockerfile로 이미지를 직접 배포하는 방식",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Stack / heroku-24 등 실행 환경의 베이스 이미지"
+            },
+            {
+              "t": "Build Cache / 다음 빌드를 앞당기는 의존성 캐시"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Config and Add-ons",
+          "anchor": "5-config-and-add-ons",
+          "subs": [],
+          "items": [
+            {
+              "t": "Config Vars / heroku config:set으로 넣는 환경변수"
+            },
+            {
+              "t": "Per-Environment Separation / 스테이징과 프로덕션을 나누는 설정"
+            },
+            {
+              "t": "Add-on / 프로비저닝하고 플랜을 바꾸는 부가 기능"
+            },
+            {
+              "t": "Automatic Add-on Config Var Injection / 애드온 설치 시 자동으로 꽂히는 접속 정보"
+            },
+            {
+              "t": "Attached Resource / 여러 앱이 함께 붙여 쓰는 리소스"
+            },
+            {
+              "t": "Add-on Cost Structure / 사용 시간 단위로 매기는 과금 방식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Deployment and Data",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Deployment Workflow",
+          "anchor": "6-deployment-workflow",
+          "subs": [],
+          "items": [
+            {
+              "t": "Release / 슬러그와 설정을 묶은 불변 배포 단위"
+            },
+            {
+              "t": "Rollback / heroku releases:rollback으로 되돌리는 명령"
+            },
+            {
+              "t": "Release Phase / 배포마다 마이그레이션을 실행하는 단계"
+            },
+            {
+              "t": "Pipeline / 리뷰·스테이징·프로덕션을 잇는 배포 흐름"
+            },
+            {
+              "t": "Review App / PR마다 자동으로 뜨는 임시 환경"
+            },
+            {
+              "t": "Promote / 같은 슬러그를 다음 단계로 승격하는 절차"
+            },
+            {
+              "t": "GitHub Integration / 브랜치 푸시로 자동 배포하는 연동"
+            },
+            {
+              "t": "Preboot / 새 dyno를 띄운 뒤 전환하는 무중단 배포"
+            },
+            {
+              "t": "Maintenance Mode / 요청을 막고 점검 화면을 띄우는 상태"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Heroku Postgres",
+          "anchor": "7-heroku-postgres",
+          "subs": [],
+          "items": [
+            {
+              "t": "Plan / Essential·Standard·Premium 요금제 등급"
+            },
+            {
+              "t": "DATABASE_URL / 연결 수 제한이 걸린 접속 환경변수"
+            },
+            {
+              "t": "Connection Pooling / PgBouncer로 연결을 묶는 기능"
+            },
+            {
+              "t": "Backup / 수동과 예약으로 뜨는 데이터베이스 백업"
+            },
+            {
+              "t": "Follower / 읽기 부하를 나누는 복제본"
+            },
+            {
+              "t": "Fork / 데이터를 통째로 복제해 새 DB를 만드는 기능"
+            },
+            {
+              "t": "Dataclip / 쿼리 결과를 공유하는 링크",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Plan Upgrade / 다운타임을 최소화하며 등급을 올리는 절차"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Other Data Services",
+          "anchor": "8-other-data-services",
+          "subs": [],
+          "items": [
+            {
+              "t": "Heroku Key-Value Store / Redis와 호환되는 관리형 캐시"
+            },
+            {
+              "t": "Apache Kafka on Heroku / 관리형으로 붙이는 스트리밍 애드온",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Connecting External Managed Databases / 외부 DB를 config var로 붙이는 방식"
+            },
+            {
+              "t": "File Storage / 휘발성이라 S3 등 외부에 둬야 하는 저장소"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Operations",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Logging and Monitoring",
+          "anchor": "9-logging-and-monitoring",
+          "subs": [],
+          "items": [
+            {
+              "t": "Logplex / 모든 로그를 한 스트림으로 모으는 라우터"
+            },
+            {
+              "t": "Log Drain / 로그를 외부 서비스로 흘려보내는 통로"
+            },
+            {
+              "t": "Router Log / 요청 상태와 지연을 담은 로그"
+            },
+            {
+              "t": "Metrics / 응답시간·처리량·메모리로 보는 지표"
+            },
+            {
+              "t": "R14 Memory Quota Exceeded and H12 Timeout / 메모리 초과와 30초 응답 지연 오류"
+            },
+            {
+              "t": "Threshold Alert / 지표가 기준을 넘으면 오는 알림"
+            },
+            {
+              "t": "APM Add-on / New Relic 등 성능 모니터링 확장"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Networking and Domains",
+          "anchor": "10-networking-and-domains",
+          "subs": [],
+          "items": [
+            {
+              "t": "Custom Domain / DNS를 heroku로 돌리는 설정"
+            },
+            {
+              "t": "Automated Certificate Management / TLS 인증서를 자동 발급·갱신하는 기능"
+            },
+            {
+              "t": "Router / 요청을 대기시키다 30초면 끊는 관문"
+            },
+            {
+              "t": "Static IP / 애드온으로 고정하는 발신 IP",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Private Space / VPC로 격리하는 전용 네트워크",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Security and Access",
+          "anchor": "11-security-and-access",
+          "subs": [],
+          "items": [
+            {
+              "t": "Team / 역할을 나눠 협업자를 관리하는 조직 단위"
+            },
+            {
+              "t": "API Key / CLI·API 인증에 쓰는 OAuth 토큰"
+            },
+            {
+              "t": "Two-Factor Authentication / 로그인에 두 번째 인증을 요구하는 기능"
+            },
+            {
+              "t": "Shield Space / 규제 준수를 위한 강화된 전용 공간",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Secret Management / config var 노출을 조심해야 하는 관리"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Cost and Migration",
+          "anchor": "12-cost-and-migration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Billing Units / dyno 시간과 애드온으로 매기는 과금 단위"
+            },
+            {
+              "t": "Pricing After the Free Tier Ended / 2022년 무료 요금제가 사라진 이후 체계"
+            },
+            {
+              "t": "Cost Reduction / dyno 축소와 애드온 정리로 낮추는 비용"
+            },
+            {
+              "t": "Migration Decision / 컨테이너·클라우드로 옮길 시점 판단"
+            },
+            {
+              "t": "Lower Migration Cost from Twelve-Factor Compliance / 열두 원칙 준수 덕에 낮아지는 이전 비용"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    },
+    {
+      "label": "Aws",
+      "ref": "software/skill-based/Infra-DevOps/aws"
+    },
+    {
+      "label": "Vercel",
+      "ref": "software/skill-based/Infra-DevOps/vercel"
+    },
+    {
+      "label": "DigitalOcean",
+      "ref": "software/skill-based/Infra-DevOps/digitalocean"
+    },
+    {
+      "label": "Backend",
+      "ref": "software/role-based/backend"
+    },
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    }
+  ]
+}

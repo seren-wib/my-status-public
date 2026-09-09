@@ -1,0 +1,369 @@
+{
+  "title": "Speaking AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Making Sounds (N5)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Reading Aloud",
+          "anchor": "1-reading-aloud",
+          "subs": [],
+          "items": [
+            {
+              "t": "Kana Chart Recording / 오십음도 소리내어 읽고 녹음해 남기기"
+            },
+            {
+              "t": "Word Reading / 배운 단어 30개 낭독 녹음, 장음·촉음 위치 확인"
+            },
+            {
+              "t": "Sentence Read Aloud / 짧은 문장 10개 낭독 녹음해 모범 음성과 비교"
+            },
+            {
+              "t": "Pitch Pair Recording / 표기 같고 악센트 다른 단어쌍(はし 등) 구분해 발음 녹음"
+            },
+            {
+              "t": "Tongue Twister / 일본어 빠른말(早口言葉) 하나 매끄러워질 때까지 녹음"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Greetings and Self Introduction",
+          "anchor": "2-greetings-and-self-introduction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Greeting Set Recording / 시간대별 인사 표현 세트 녹음"
+            },
+            {
+              "t": "Jiko Shoukai / 1분 자기소개 일본어로 녹음해 남기기"
+            },
+            {
+              "t": "Self Intro Retake / 1주 뒤 자기소개 재녹음해 처음 것과 비교"
+            },
+            {
+              "t": "Name and Origin / 내 이름·출신을 일본어로 설명하는 녹음"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Situation Scripts",
+          "anchor": "3-situation-scripts",
+          "subs": [],
+          "items": [
+            {
+              "t": "Shopping Script / 편의점·가게 상황 대본 쓰고 양쪽 역할 다 녹음"
+            },
+            {
+              "t": "Restaurant Order / 주문·계산 상황 대본 연습 녹음"
+            },
+            {
+              "t": "Direction Asking / 길 묻기 대본 연습 녹음"
+            },
+            {
+              "t": "Script Without Paper / 대본 안 보고 같은 상황 재연 녹음",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Speaking in Sentences (N4)",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Daily Narration",
+          "anchor": "4-daily-narration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Daily Routine Recording / 내 하루 일과를 5문장 이상 말해 녹음"
+            },
+            {
+              "t": "Yesterday Recap / 어제 한 일을 과거형으로 말해 녹음"
+            },
+            {
+              "t": "Photo Description / 사진 한 장 보고 30초 묘사 녹음"
+            },
+            {
+              "t": "Room Description / 지금 있는 공간을 30초 묘사 녹음"
+            },
+            {
+              "t": "Narration Routine / 하루 1분 일과 녹음을 1주 연속"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Questions and Answers",
+          "anchor": "5-questions-and-answers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Question Making / 한 주제로 질문 10개 만들어 소리내 녹음"
+            },
+            {
+              "t": "Self QA / 스스로 질문하고 답하는 1인 2역 녹음"
+            },
+            {
+              "t": "Instant Response / 흔한 질문(취미·주말 계획) 듣고 즉답 녹음"
+            },
+            {
+              "t": "Follow-up Drill / 상대 답에 되묻는 후속 질문 연습 녹음"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Phone Simulation",
+          "anchor": "6-phone-simulation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reservation Call / 식당 예약 전화 시뮬레이션 녹음"
+            },
+            {
+              "t": "Appointment Change / 약속 변경 통화 상황 녹음"
+            },
+            {
+              "t": "Voice Message / 부재중 음성 메시지 남기기 연습 녹음"
+            },
+            {
+              "t": "Call Opening Closing / 전화 첫마디·끝맺음 표현 세트 녹음"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Building Flow (N3)",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Shadowing Routine",
+          "anchor": "7-shadowing-routine",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Shadowing / 학습자용 음성 한 단락 섀도잉 녹음, 원음과 겹쳐 듣기"
+            },
+            {
+              "t": "Daily Shadowing / 하루 10분 섀도잉을 2주 유지",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Drama Line Shadowing / 드라마 한 장면 섀도잉해 억양까지 복사"
+            },
+            {
+              "t": "Shadowing Self Check / 내 섀도잉에서 원음과 다른 부분 3개 찾아 교정 재녹음"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Impromptu Speaking",
+          "anchor": "8-impromptu-speaking",
+          "subs": [],
+          "items": [
+            {
+              "t": "One Minute Topic / 무작위 주제로 즉흥 1분 말하기 녹음"
+            },
+            {
+              "t": "Three Minute Extension / 같은 주제를 3분으로 늘려 녹음"
+            },
+            {
+              "t": "Filler Replacement / 녹음 듣고 한국어 필러를 あの·えっと로 바꿔 재녹음"
+            },
+            {
+              "t": "Impromptu Routine / 즉흥 말하기 녹음 주 3회를 4주 유지"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Opinions with Reasons",
+          "anchor": "9-opinions-with-reasons",
+          "subs": [],
+          "items": [
+            {
+              "t": "Opinion Statement / 찬반 주제 하나 골라 의견+이유 2개 말해 녹음"
+            },
+            {
+              "t": "Comparison Talk / 두 가지를 비교해 어느 쪽이 좋은지 근거와 함께 녹음"
+            },
+            {
+              "t": "Experience Support / 의견을 내 경험담으로 뒷받침해 녹음"
+            },
+            {
+              "t": "Counter Position / 같은 주제를 반대 입장으로도 말해 녹음",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Speech That Fits the Situation (N2)",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Keigo Situations",
+          "anchor": "10-keigo-situations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Polite Request Roleplay / 경어로 부탁하는 상황극 녹음"
+            },
+            {
+              "t": "Refusal Roleplay / 완곡하게 거절하는 상황극 녹음"
+            },
+            {
+              "t": "Apology and Thanks / 사과·감사를 정중체로 전하는 녹음"
+            },
+            {
+              "t": "Register Switch / 같은 내용을 반말→정중체→경어 3버전으로 녹음",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Presentation",
+          "anchor": "11-presentation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Three Minute Presentation / 3분 발표 원고 만들어 녹음"
+            },
+            {
+              "t": "No Script Delivery / 원고 없이 키워드만 보고 같은 발표 재녹음"
+            },
+            {
+              "t": "Timed Delivery / 시간 재서 3분 안에 맞춰 발표 녹음"
+            },
+            {
+              "t": "QA Handling / 예상 질문 3개에 답하는 녹음"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Story Retelling",
+          "anchor": "12-story-retelling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Anime Plot Retelling / 본 에피소드 줄거리를 2분으로 재구성해 녹음"
+            },
+            {
+              "t": "News Retelling / 읽은 뉴스 내용을 내 말로 요약해 녹음"
+            },
+            {
+              "t": "Personal Story / 내 경험담 하나를 기승전결로 말해 녹음"
+            },
+            {
+              "t": "Retell Compression / 같은 이야기를 더 짧고 매끄럽게 재녹음"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "A Native Tongue (N1 · Beyond)",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Accent Refinement",
+          "anchor": "13-accent-refinement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Native Overlay Comparison / 원어민 음성과 내 녹음 겹쳐 듣고 억양 차이 표시"
+            },
+            {
+              "t": "Pitch Accent Correction / 자주 틀리는 악센트 단어 10개 교정 녹음"
+            },
+            {
+              "t": "Long Passage Prosody / 긴 단락 낭독해 끊어읽기·리듬을 원음과 비교"
+            },
+            {
+              "t": "Emotion Variation / 같은 문장을 감정 3가지로 바꿔 낭독 녹음"
+            },
+            {
+              "t": "Monthly Archive Review / 월별 녹음 모아 듣고 변화 기록"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Casual Flow",
+          "anchor": "14-casual-flow",
+          "subs": [],
+          "items": [
+            {
+              "t": "Aizuchi Practice / 맞장구(そうなんだ·たしかに)를 타이밍 맞춰 넣는 연습 녹음"
+            },
+            {
+              "t": "Contraction Talk / 축약형(ちゃう·とく) 섞은 잡담체 독백 녹음"
+            },
+            {
+              "t": "Quick Response / 상황에 한 마디 받아치는 반응 연습 녹음"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Real Conversation",
+          "anchor": "15-real-conversation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Language Exchange Session / 원어민과 30분 대화하고 녹음 복기"
+            },
+            {
+              "t": "Conversation Review / 대화 중 막힌 표현 5개 뽑아 다시 말해 녹음"
+            },
+            {
+              "t": "Real Phone Call / 실제 일본어 전화(문의 등) 한 통 걸고 복기"
+            },
+            {
+              "t": "Monthly Real Talk / 원어민 대화 월 2회 이상을 3개월 유지"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Foundations",
+      "ref": "language/japanese/foundations"
+    },
+    {
+      "label": "Grammar",
+      "ref": "language/japanese/grammar"
+    },
+    {
+      "label": "Listening",
+      "ref": "language/japanese/listening"
+    }
+  ]
+}

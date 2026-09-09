@@ -1,0 +1,380 @@
+{
+  "title": "Listening AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Opening the Ear (A1~A2)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Slow Audio",
+          "anchor": "1-slow-audio",
+          "subs": [],
+          "items": [
+            {
+              "t": "Slow Podcast Episode / 학습자용 느린 음성 한 에피소드 끝까지 듣기"
+            },
+            {
+              "t": "Triple Listen / 같은 에피소드 3회 반복해 새로 들린 부분 표시하기"
+            },
+            {
+              "t": "Script Compare / 듣고 나서 스크립트 대조해 놓친 구간 확인하기"
+            },
+            {
+              "t": "Picture Match Listen / 음성 설명 듣고 맞는 그림 고르기 10문제 풀기"
+            },
+            {
+              "t": "Daily Ten Minutes / 하루 10분 듣기 2주 연속 유지하기",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Numbers and Spelling",
+          "anchor": "2-numbers-and-spelling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Number Dictation / 가격·전화번호·연도 듣고 받아적기 20개"
+            },
+            {
+              "t": "Date and Time Catch / 날짜·시간 표현 듣고 받아적기 20개"
+            },
+            {
+              "t": "Spelling Dictation / 철자 불러주는 이름·단어 10개 받아적기"
+            },
+            {
+              "t": "Minimal Pair Quiz / 비슷한 발음 단어쌍 듣고 구분 20문제 풀기 (예: ship/sheep)"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Short Dialogues",
+          "anchor": "3-short-dialogues",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dialogue Q&A / 짧은 대화 듣고 질문에 답하기 10세트"
+            },
+            {
+              "t": "Scene Guessing / 대화만 듣고 장소·화자 관계 추측 후 확인하기"
+            },
+            {
+              "t": "Instruction Follow / 간단한 영어 지시 음성 듣고 그대로 수행하기 5회"
+            },
+            {
+              "t": "Line-by-Line Shadow / 한 줄씩 멈춰 따라 말하며 대화 하나 끝내기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Entering Real Speed (B1)",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Podcasts",
+          "anchor": "4-podcasts",
+          "subs": [],
+          "items": [
+            {
+              "t": "Learner Podcast Run / 학습자용 팟캐스트 5화 연속 듣기"
+            },
+            {
+              "t": "First Native Episode / 일반인 대상 팟캐스트 한 화 완청하고 주제 말하기"
+            },
+            {
+              "t": "Gist Summary / 한 에피소드 듣고 한국어 3문장으로 요약하기"
+            },
+            {
+              "t": "Podcast Habit / 팟캐스트 주 3회 한 달 유지하기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Shows with English Subtitles",
+          "anchor": "5-shows-with-english-subtitles",
+          "subs": [
+            {
+              "title": "First Series",
+              "items": [
+                {
+                  "t": "Sitcom Season / 20분대 시트콤 한 시즌 영어 자막 완주하기"
+                },
+                {
+                  "t": "Animation Season / 애니메이션 한 시즌 영어 자막 완주하기"
+                },
+                {
+                  "t": "Drama Season / 40분대 드라마 한 시즌 영어 자막 완주하기"
+                }
+              ],
+              "choice": true
+            }
+          ],
+          "items": [
+            {
+              "t": "English-Subtitle Episode / 드라마 한 에피소드 영어 자막으로 보기"
+            },
+            {
+              "t": "Expression Harvest / 회당 표현 3개씩 채집해 노트 30개 채우기"
+            },
+            {
+              "t": "Rewind Discipline / 안 들린 대사 되감아 자막으로 확인하는 방식으로 한 편 보기"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Song Lyrics",
+          "anchor": "6-song-lyrics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Lyric Dictation / 좋아하는 노래 한 곡 가사 안 보고 받아적은 뒤 대조하기"
+            },
+            {
+              "t": "Linking Sound Marking / 가사에서 연음으로 뭉개지는 구간 5곳 찾아 표시하기"
+            },
+            {
+              "t": "Ten Song Decode / 영어 노래 10곡 가사 뜻 파악하고 들으며 따라가기"
+            },
+            {
+              "t": "Live Version Compare / 같은 곡 라이브 버전 듣고 스튜디오와 달라진 부분 알아채기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Dropping the Subtitles (B2)",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Subtitle Weaning",
+          "anchor": "7-subtitle-weaning",
+          "subs": [],
+          "items": [
+            {
+              "t": "No-Subtitle Rewatch / 본 적 있는 에피소드 하나 자막 없이 다시 보고 줄거리 말하기"
+            },
+            {
+              "t": "First-Watch Blind / 처음 보는 에피소드 무자막 시청 후 영어 자막으로 검증하기"
+            },
+            {
+              "t": "Blind Season Run / 무자막으로 한 시즌 완주하기"
+            },
+            {
+              "t": "Comprehension Score / 무자막 시청 이해도를 회차마다 퍼센트로 기록해 추이 보기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "News Listening",
+          "anchor": "8-news-listening",
+          "subs": [],
+          "items": [
+            {
+              "t": "News Bulletin / 영어 뉴스 브리핑 하나 듣고 헤드라인 3개 재구성하기"
+            },
+            {
+              "t": "Info Segment Numbers / 날씨·경제 코너 듣고 핵심 수치 받아적기"
+            },
+            {
+              "t": "Headline vs Detail / 같은 뉴스의 요약본과 상세 보도 듣고 추가된 정보 적기"
+            },
+            {
+              "t": "Two-Week News Ear / 뉴스 듣기 하루 1건 2주 연속하기"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Dictation Routine",
+          "anchor": "9-dictation-routine",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sentence Dictation Fifty / 문장 단위 받아쓰기 50문장 누적하기"
+            },
+            {
+              "t": "One-Minute Dictation / 1분 분량 통으로 받아쓰고 원문 대조하기"
+            },
+            {
+              "t": "Error Pattern Log / 틀린 원인을 연음·축약·어휘로 분류해 기록하기"
+            },
+            {
+              "t": "Weekly Dictation Month / 받아쓰기 주 3회 한 달 유지하기",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "The Long Haul (C1)",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Talks and Interviews",
+          "anchor": "10-talks-and-interviews",
+          "subs": [],
+          "items": [
+            {
+              "t": "Full Talk / 15분 이상 강연 완청 후 핵심 주장 3개 요약하기"
+            },
+            {
+              "t": "Interview Reconstruction / 인터뷰 하나 완청하고 질문 목록 재구성하기"
+            },
+            {
+              "t": "Note and Rebuild / 들으며 키워드만 적고 노트만 보고 내용 복원해 말하기"
+            },
+            {
+              "t": "Lecture Series / 강의 시리즈 3강 이상 연속 완청하기"
+            },
+            {
+              "t": "Q&A Session Follow / 강연 뒤 청중 질의응답까지 듣고 질문 요지 받아적기"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Speed Training",
+          "anchor": "11-speed-training",
+          "subs": [],
+          "items": [
+            {
+              "t": "1.25x Episode / 팟캐스트 한 화 1.25배속으로 완청하기"
+            },
+            {
+              "t": "1.5x Familiar Topic / 아는 주제 콘텐츠 1.5배속으로 완청하기"
+            },
+            {
+              "t": "Default Speed Up / 평소 듣는 팟캐스트 기본 배속을 올려 2주 유지하기"
+            },
+            {
+              "t": "Speed Down Check / 배속 뒤 원속으로 돌아와 이해 여유 확인하기"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Meetings and Debates",
+          "anchor": "12-meetings-and-debates",
+          "subs": [],
+          "items": [
+            {
+              "t": "Panel Position Map / 다인 패널 토론 듣고 화자별 입장 정리하기"
+            },
+            {
+              "t": "Debate Verdict / 토론 완청 후 어느 쪽이 설득력 있었는지 근거 들어 판정하기"
+            },
+            {
+              "t": "Long Meeting Recap / 1시간짜리 회의·공청회 영상 듣고 결정 사항 요약하기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "A Native Ear (C2)",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Accents and Dialects",
+          "anchor": "13-accents-and-dialects",
+          "subs": [],
+          "items": [
+            {
+              "t": "Accent Lineup / 미국·영국·호주 화자 듣고 출신 구분 10문제 자가 테스트하기"
+            },
+            {
+              "t": "Heavy Accent Interview / 강한 지역 억양 인터뷰 하나 완청하기 (예: 스코틀랜드·아일랜드)"
+            },
+            {
+              "t": "Accent Sound Notes / 같은 문장을 억양별로 듣고 달라지는 모음·자음 적기"
+            },
+            {
+              "t": "Non-native Accent / 비원어민 억양 화자의 발표 듣고 요약하기"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Fast and Dense Speech",
+          "anchor": "14-fast-and-dense-speech",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rap Verse Dictation / 랩 한 벌스 받아적고 가사 대조하기"
+            },
+            {
+              "t": "Stand-up Special / 스탠드업 코미디 무자막 시청 후 웃음 포인트 3개 설명하기"
+            },
+            {
+              "t": "Rapid Banter / 토크쇼의 빠른 주고받기 무자막으로 따라가며 농담 짚기"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Degraded Audio",
+          "anchor": "15-degraded-audio",
+          "subs": [],
+          "items": [
+            {
+              "t": "Street Interview / 소음 배경의 야외 인터뷰 듣고 요지 받아적기"
+            },
+            {
+              "t": "Phone Quality Call / 전화 음질 인터뷰·라디오 콜 듣고 내용 요약하기"
+            },
+            {
+              "t": "Announcement Catch / 공항·기내 방송풍 안내 음성 듣고 정보 받아적기"
+            },
+            {
+              "t": "Overlapping Talk / 말이 겹치는 대화 구간 듣고 화자별 발언 분리하기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Foundations",
+      "ref": "language/english/foundations"
+    },
+    {
+      "label": "Speaking",
+      "ref": "language/english/speaking"
+    },
+    {
+      "label": "Reading",
+      "ref": "language/english/reading"
+    },
+    {
+      "label": "Conversation",
+      "ref": "social/skill-based/Speaking/conversation"
+    }
+  ]
+}

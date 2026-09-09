@@ -1,0 +1,119 @@
+{
+  "title": "Direction AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Vision and Purpose",
+          "anchor": "1-vision-and-purpose",
+          "subs": [],
+          "items": [
+            {
+              "t": "Vision Articulation / 왜 이걸 하는지 그림으로 전달"
+            },
+            {
+              "t": "Purpose over Task / 과제가 아니라 의미로 동기 연결"
+            },
+            {
+              "t": "Concrete Picture / 추상 구호 아닌 구체적 지향점"
+            },
+            {
+              "t": "Repetition / 방향은 반복해야 스며듦"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Goals and Priorities",
+          "anchor": "2-goals-and-priorities",
+          "subs": [],
+          "items": [
+            {
+              "t": "Goal Setting / 도달점을 관찰 가능하게 정의"
+            },
+            {
+              "t": "Prioritization / 다 못 하니 순서를 정함"
+            },
+            {
+              "t": "Trade-off / 무엇을 포기할지 명시"
+            },
+            {
+              "t": "Focus / 소수에 집중, 나머지는 버림"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Decision-Making",
+          "anchor": "3-decision-making",
+          "subs": [],
+          "items": [
+            {
+              "t": "Decision Ownership / 결정하고 그 책임을 짐"
+            },
+            {
+              "t": "Reversible vs Irreversible / 되돌릴 수 있는 결정과 아닌 것 구분"
+            },
+            {
+              "t": "Speed vs Deliberation / 결정 속도와 숙고의 균형"
+            },
+            {
+              "t": "Involving Others / 누구를 결정에 넣을지 판단"
+            },
+            {
+              "t": "Communicating the Why / 결정 배경 설명으로 납득 확보"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Judgment Under Uncertainty",
+          "anchor": "4-judgment-under-uncertainty",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deciding Without Full Data / 정보 부족 상태의 판단"
+            },
+            {
+              "t": "Bet Framing / 결정을 확률적 베팅으로 봄"
+            },
+            {
+              "t": "Changing Course / 틀렸을 때 방향 수정할 용기"
+            },
+            {
+              "t": "Living with Regret / 최선의 선택도 나쁜 결과를 낼 수 있음"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Accountability",
+          "anchor": "5-accountability",
+          "subs": [],
+          "items": [
+            {
+              "t": "Owning Outcomes / 결과 책임 회피 안 함"
+            },
+            {
+              "t": "Shielding the Team / 실패는 내가, 공은 팀에게"
+            },
+            {
+              "t": "Post-decision Review / 결정 복기로 판단력 보정"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Hiring and Team",
+      "ref": "business/skill-based/Operations/hiring-team"
+    }
+  ]
+}

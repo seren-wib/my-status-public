@@ -1,0 +1,45 @@
+{
+ "domain": "academics",
+ "title": "학문·교양 자격증",
+ "count": 2,
+ "categories": [
+  {
+   "title": "역사",
+   "certs": [
+    {
+     "id": "korean-history-advanced",
+     "name": "한국사능력검정시험 심화",
+     "roadmaps": [
+      "academics/history/korea"
+     ],
+     "note": "공무원·공기업 가산 요건으로 쓰여 활용처가 넓음. 로드맵의 korea 폴더가 그대로 범위",
+     "issuer": "국사편찬위원회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "50문항 객관식, 1~3급 판정 · 연 6회",
+     "renewal": "없음(다만 공공기관 채용은 대개 취득 후 4~5년 이내 성적만 인정)"
+    }
+   ]
+  },
+  {
+   "title": "심리",
+   "certs": [
+    {
+     "id": "clinical-psychologist-2",
+     "name": "임상심리사 2급",
+     "roadmaps": [
+      "academics/psychology",
+      "academics/psychology/personality",
+      "academics/psychology/cognitive"
+     ],
+     "note": "전공 또는 수련이 응시 요건 — 조건을 못 채우면 지도에만 두고 넘어갈 것",
+     "issuer": "한국산업인력공단",
+     "region": "국내",
+     "eligibility": "심리학 관련 학과 졸업(예정) 또는 실습수련 1년 이상",
+     "exam": "필기 5과목(심리학개론·이상심리학·심리검사·임상심리학·심리상담) + 실기 필답형 · 연 1~2회",
+     "renewal": "없음"
+    }
+   ]
+  }
+ ]
+}

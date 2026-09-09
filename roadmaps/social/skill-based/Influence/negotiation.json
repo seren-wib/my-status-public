@@ -1,0 +1,100 @@
+{
+  "title": "Negotiation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Interests over Positions",
+          "anchor": "1-interests-over-positions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Position vs Interest / 요구 뒤의 진짜 필요"
+            },
+            {
+              "t": "Interest Mapping / 양측 이해관계를 목록화"
+            },
+            {
+              "t": "Value Creation / 파이를 키우는 교환 (integrative bargaining)"
+            },
+            {
+              "t": "Separate People from Problem / 사람과 사안을 분리"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Leverage and Alternatives",
+          "anchor": "2-leverage-and-alternatives",
+          "subs": [],
+          "items": [
+            {
+              "t": "BATNA / 결렬 시 최선의 대안"
+            },
+            {
+              "t": "Improving Your BATNA / 대안을 키워 힘을 얻기"
+            },
+            {
+              "t": "Reservation Point / 물러설 수 없는 선"
+            },
+            {
+              "t": "ZOPA / 합의 가능 구간 찾기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Moves at the Table",
+          "anchor": "3-moves-at-the-table",
+          "subs": [],
+          "items": [
+            {
+              "t": "Opening Anchor / 첫 제안으로 기준점 잡기"
+            },
+            {
+              "t": "Concession Design / 양보의 순서·폭·속도 설계"
+            },
+            {
+              "t": "Logrolling / 우선순위 다른 항목의 맞교환"
+            },
+            {
+              "t": "Contingent Agreements / 조건부 합의로 이견 우회"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Traps and Repair",
+          "anchor": "4-traps-and-repair",
+          "subs": [],
+          "items": [
+            {
+              "t": "Anchoring Defense / 상대 앵커에 끌려가지 않기"
+            },
+            {
+              "t": "Deadlock Handling / 교착을 푸는 법"
+            },
+            {
+              "t": "Escalation of Commitment / 매몰비용에 갇히지 않기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    }
+  ]
+}

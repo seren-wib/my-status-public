@@ -1,0 +1,209 @@
+{
+  "title": "Illustration AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Planning",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Deciding the Picture",
+          "anchor": "1-deciding-the-picture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Subject Brief / 그릴 것을 한 줄로 적기"
+            },
+            {
+              "t": "Reference Board / 레퍼런스 20장 모아 한 판에 붙이기"
+            },
+            {
+              "t": "Mood Target / 목표 분위기를 형용사 3개로 고정"
+            },
+            {
+              "t": "Canvas Spec / 비율·해상도 정하고 캔버스 만들기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Thumbnails",
+          "anchor": "2-thumbnails",
+          "subs": [],
+          "items": [
+            {
+              "t": "Thumbnail Set / 손바닥 크기 구도 시안 6장"
+            },
+            {
+              "t": "Thumbnail Selection / 하나 고르고 고른 이유 적기"
+            },
+            {
+              "t": "Composition",
+              "delegate": "creative/skill-based/Drawing/composition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Drafting",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Rough Draft",
+          "anchor": "3-rough-draft",
+          "subs": [],
+          "items": [
+            {
+              "t": "Scaled-up Rough / 고른 시안을 본 캔버스 크기로 확대해 러프"
+            },
+            {
+              "t": "Perspective Grid Laid / 배경 소실점 잡고 그리드 깔기"
+            },
+            {
+              "t": "Figure Blocking / 인물 포즈를 도형 단위로 배치"
+            },
+            {
+              "t": "Sketching",
+              "delegate": "creative/skill-based/Drawing/sketching"
+            },
+            {
+              "t": "Perspective",
+              "delegate": "creative/skill-based/Drawing/perspective"
+            },
+            {
+              "t": "Figure",
+              "delegate": "creative/skill-based/Drawing/figure"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Value and Color Study",
+          "anchor": "4-value-and-color-study",
+          "subs": [],
+          "items": [
+            {
+              "t": "Grayscale Value Pass / 흑백 3단계 명암만으로 한 장"
+            },
+            {
+              "t": "Color Comp / 축소본에 색 시안 3안"
+            },
+            {
+              "t": "Light and Color",
+              "delegate": "creative/skill-based/Drawing/light-and-color"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Execution",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Rendering",
+          "anchor": "5-rendering",
+          "subs": [],
+          "items": [
+            {
+              "t": "Line or Base Pass / 선화 또는 바탕색 정리"
+            },
+            {
+              "t": "Focal Point Finish / 시선 집중부만 가장 조밀하게 마무리"
+            },
+            {
+              "t": "Edge Control Pass / 경계 강약 조절 한 바퀴"
+            },
+            {
+              "t": "Detail Budget / 안 그릴 곳을 미리 정하고 지키기"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Checking",
+          "anchor": "6-checking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Flip and Distance Check / 좌우 반전·축소로 어색한 곳 찾기"
+            },
+            {
+              "t": "Second-day Look / 하루 묵혔다 다시 보고 수정 목록 적기"
+            },
+            {
+              "t": "Fix Pass / 목록대로 수정 한 바퀴"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Wrapping Up",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Delivery",
+          "anchor": "7-delivery",
+          "subs": [],
+          "items": [
+            {
+              "t": "Export Set / 웹용·인쇄용 각각 내보내기"
+            },
+            {
+              "t": "Signature and Metadata / 서명·파일명·작업일 기록"
+            },
+            {
+              "t": "Posting / 한 장 공개하고 캡션 붙이기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Retrospective",
+          "anchor": "8-retrospective",
+          "subs": [],
+          "items": [
+            {
+              "t": "Process Shot / 단계별 스냅샷 모아 과정 이미지 만들기"
+            },
+            {
+              "t": "Time Log / 단계별 소요 시간 기록"
+            },
+            {
+              "t": "Next Picture Note / 다음 장에서 고칠 한 가지 적기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Sketching",
+      "ref": "creative/skill-based/Drawing/sketching"
+    },
+    {
+      "label": "Perspective",
+      "ref": "creative/skill-based/Drawing/perspective"
+    },
+    {
+      "label": "Figure",
+      "ref": "creative/skill-based/Drawing/figure"
+    },
+    {
+      "label": "Light and Color",
+      "ref": "creative/skill-based/Drawing/light-and-color"
+    },
+    {
+      "label": "Composition",
+      "ref": "creative/skill-based/Drawing/composition"
+    }
+  ]
+}

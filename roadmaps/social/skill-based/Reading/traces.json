@@ -1,0 +1,107 @@
+{
+  "title": "Trace Reading AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Behavioral Residue",
+          "anchor": "1-behavioral-residue",
+          "subs": [],
+          "items": [
+            {
+              "t": "Observation Basics",
+              "delegate": "social/skill-based/Reading/observation"
+            },
+            {
+              "t": "Behavioral Residue Concept / 행동이 환경에 남기는 잔재, Gosling"
+            },
+            {
+              "t": "Identity Claims / 남에게 보이려고 배치한 것"
+            },
+            {
+              "t": "Feeling Regulators / 자기 정서를 위해 둔 것"
+            },
+            {
+              "t": "Accuracy Research / 공간 관찰만으로도 성격 판단이 유의미하다는 연구"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Physical Spaces and Objects",
+          "anchor": "2-physical-spaces-and-objects",
+          "subs": [],
+          "items": [
+            {
+              "t": "Desk and Room Reading / 정돈 상태·장식·사용 흔적"
+            },
+            {
+              "t": "Possession Choices / 소지품이 드러내는 우선순위"
+            },
+            {
+              "t": "Clothing and Grooming / 복장의 자기표현과 상황 적응 구분"
+            },
+            {
+              "t": "Wear Patterns / 무엇이 닳아 있는가, 실사용의 흔적"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Digital Traces",
+          "anchor": "3-digital-traces",
+          "subs": [],
+          "items": [
+            {
+              "t": "Profile Curation / 프로필은 identity claim의 집합"
+            },
+            {
+              "t": "Posting Patterns / 시간대·빈도·반응성"
+            },
+            {
+              "t": "Language Style / 어휘·문체에서 드러나는 특성, LIWC류 연구"
+            },
+            {
+              "t": "Interest Networks / 좋아요·팔로우가 남기는 관심사와 소속"
+            },
+            {
+              "t": "Curated vs Leaked / 보여주려는 것과 새어나온 것 구분"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Limits",
+          "anchor": "4-limits",
+          "subs": [],
+          "items": [
+            {
+              "t": "Snapshot Fallacy / 한 시점의 흔적으로 사람 전체 단정"
+            },
+            {
+              "t": "Context Collapse / 청중이 다른 공간의 흔적 오독"
+            },
+            {
+              "t": "Deliberate Staging / 연출된 흔적의 가능성"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    }
+  ]
+}

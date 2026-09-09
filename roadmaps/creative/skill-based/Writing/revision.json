@@ -1,0 +1,121 @@
+{
+  "title": "Revision AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Getting Distance",
+          "anchor": "1-getting-distance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cooling Period / 초고를 일주일 묵힌 뒤 처음부터 읽기"
+            },
+            {
+              "t": "Read-Through Notes / 고치지 말고 끝까지 읽으며 여백에만 메모 남기기"
+            },
+            {
+              "t": "Format Change Read / 인쇄·글꼴 변경 상태로 읽어 익숙함 깨기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Structural Diagnosis",
+          "anchor": "2-structural-diagnosis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reverse Outline / 완성 원고에서 장면 목록을 거꾸로 뽑아 표로"
+            },
+            {
+              "t": "Scene Justification / 장면마다 존재 이유를 한 줄로 적고 못 적으면 표시"
+            },
+            {
+              "t": "Tension Recheck / 뽑은 표에 긴장도를 찍어 처지는 구간 찾기"
+            },
+            {
+              "t": "Reorder Experiment / 장면 순서를 바꿔 한 판 다시 배열해보기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Cutting",
+          "anchor": "3-cutting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ten Percent Cut / 분량을 10% 줄이되 사건은 그대로 유지"
+            },
+            {
+              "t": "Kill the Darling / 아까운 장면 하나를 실제로 들어내고 앞뒤 잇기"
+            },
+            {
+              "t": "Redundancy Sweep / 같은 정보를 두 번 말한 곳 찾아 하나 지우기"
+            },
+            {
+              "t": "Opening Surgery / 첫 장면 앞부분을 잘라내고 어디서 시작할지 다시 정하기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Line Editing",
+          "anchor": "4-line-editing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Line Pass / 한 쪽씩 문장 단위로 훑으며 군더더기 걷어내기"
+            },
+            {
+              "t": "Consistency Check / 이름·시간·설정 어긋남을 목록으로 잡아 수정"
+            },
+            {
+              "t": "Proofread Pass / 오탈자·문장부호만 보는 마지막 판 돌리기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Feedback",
+          "anchor": "5-feedback",
+          "subs": [],
+          "items": [
+            {
+              "t": "Targeted Questions / 독자에게 물을 질문 세 개를 정해 원고와 함께 넘기기"
+            },
+            {
+              "t": "Reader Report Triage / 받은 피드백을 수용·보류·기각으로 분류"
+            },
+            {
+              "t": "Revision Log / 판본별로 무엇을 왜 고쳤는지 기록 남기기"
+            },
+            {
+              "t": "Final Version Freeze / 고치기를 멈출 기준을 정하고 원고 확정"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Story Structure",
+      "ref": "creative/skill-based/Writing/story-structure"
+    },
+    {
+      "label": "Prose Style",
+      "ref": "creative/skill-based/Writing/prose-style"
+    },
+    {
+      "label": "Dialogue and Scene",
+      "ref": "creative/skill-based/Writing/dialogue-scene"
+    }
+  ]
+}

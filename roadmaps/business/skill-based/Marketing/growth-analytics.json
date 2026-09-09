@@ -1,0 +1,120 @@
+{
+  "title": "Growth Analytics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Tracking Setup",
+          "anchor": "1-tracking-setup",
+          "subs": [],
+          "items": [
+            {
+              "t": "Analytics Install / 분석 도구 붙이고 실데이터 들어오는지 확인"
+            },
+            {
+              "t": "Event Naming Scheme / 추적할 행동 10개를 이름 규칙 정해 심기"
+            },
+            {
+              "t": "Campaign Tagging / 유입 경로 구분되게 링크 태깅하고 실제로 갈리는지 확인"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Funnel Definition",
+          "anchor": "2-funnel-definition",
+          "subs": [],
+          "items": [
+            {
+              "t": "Four-Step Funnel / 방문·가입·활성화·결제 단계 정의하고 숫자 채우기"
+            },
+            {
+              "t": "Drop-off Hunt / 이탈 가장 큰 단계 찾아 원인 가설 3개 적기"
+            },
+            {
+              "t": "Activation Moment / 남는 사용자가 공통으로 하는 행동 하나 특정"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Cohorts and Retention",
+          "anchor": "3-cohorts-and-retention",
+          "subs": [],
+          "items": [
+            {
+              "t": "Weekly Cohort Table / 가입 주별 잔존률 표 한 장 만들기"
+            },
+            {
+              "t": "Retention Curve / 곡선이 평평해지는 지점 찾아 기록"
+            },
+            {
+              "t": "Churn Reason Match / 이탈자 5명 응답을 지표와 대조해 정리"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Experiments",
+          "anchor": "4-experiments",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hypothesis Sheet / 실험 하나를 가설·지표·합격선으로 적고 시작"
+            },
+            {
+              "t": "Live A/B Test / 실제 트래픽 나눠 2주 돌리고 결과 판정"
+            },
+            {
+              "t": "Sample Size Check / 필요한 표본 수 계산해 조기 종료 막기"
+            },
+            {
+              "t": "Failed Test Log / 실패한 실험 5건과 거기서 얻은 것 기록"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Reporting",
+          "anchor": "5-reporting",
+          "subs": [],
+          "items": [
+            {
+              "t": "One Metric Dashboard / 핵심 지표 하나 정하고 주간 대시보드 운영"
+            },
+            {
+              "t": "Weekly Review Ritual / 매주 지표 읽고 다음 실험 정하기 8주 유지"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    },
+    {
+      "label": "Customer Research",
+      "ref": "business/skill-based/Validation/customer-research"
+    },
+    {
+      "label": "Copywriting",
+      "ref": "business/skill-based/Marketing/copywriting"
+    },
+    {
+      "label": "Paid Acquisition",
+      "ref": "business/skill-based/Marketing/paid-acquisition"
+    },
+    {
+      "label": "Market Testing",
+      "ref": "business/skill-based/Validation/market-testing"
+    }
+  ]
+}

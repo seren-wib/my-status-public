@@ -1,0 +1,37 @@
+[
+ {
+  "domain": "academics",
+  "title": "학문·교양 자격증",
+  "count": 2
+ },
+ {
+  "domain": "business",
+  "title": "사업 자격증",
+  "count": 5
+ },
+ {
+  "domain": "creative",
+  "title": "창작 자격증",
+  "count": 6
+ },
+ {
+  "domain": "finance",
+  "title": "재정 자격증",
+  "count": 12
+ },
+ {
+  "domain": "health",
+  "title": "건강 자격증",
+  "count": 4
+ },
+ {
+  "domain": "language",
+  "title": "외국어 자격증",
+  "count": 9
+ },
+ {
+  "domain": "software",
+  "title": "소프트웨어 자격증",
+  "count": 27
+ }
+]

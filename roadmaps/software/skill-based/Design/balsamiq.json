@@ -1,0 +1,325 @@
+{
+  "title": "Balsamiq AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Balsamiq",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Balsamiq?",
+          "anchor": "1-what-is-balsamiq",
+          "subs": [
+            {
+              "title": "Overview of Balsamiq / What is it?",
+              "items": [
+                {
+                  "t": "Low-fidelity Wireframing Tool / 디테일 버리고 구조만 빠르게 그리는 도구"
+                },
+                {
+                  "t": "Sketch Skin / 손그림 스타일"
+                },
+                {
+                  "t": "Structure over Visual Polish / 시각 완성도보다 구조 논의에 집중"
+                }
+              ]
+            },
+            {
+              "title": "When to Use",
+              "items": [
+                {
+                  "t": "Early Idea Divergence / 초기 아이디어 발산"
+                },
+                {
+                  "t": "Stakeholder Alignment Screens / 이해관계자 합의용 화면 구조"
+                },
+                {
+                  "t": "Hand-off Timing Judgement / High-fidelity 툴로 넘어가는 시점 판단"
+                }
+              ]
+            },
+            {
+              "title": "Getting Started",
+              "items": [
+                {
+                  "t": "Product Choice / 클라우드·데스크톱·Confluence·Jira 플러그인 중 선택",
+                  "choice_inline": true
+                },
+                {
+                  "t": "Project Creation / 프로젝트 생성"
+                },
+                {
+                  "t": ".bmpr File Structure / 파일 구조"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Balsamiq Interface",
+          "anchor": "2-balsamiq-interface",
+          "subs": [
+            {
+              "title": "Interface Layout",
+              "items": [
+                {
+                  "t": "UI Library (Controls Panel) / 끌어다 놓을 컨트롤 모음 패널"
+                },
+                {
+                  "t": "Canvas / 와이어프레임을 그리는 작업 화면"
+                },
+                {
+                  "t": "Property Inspector / 선택한 컨트롤 속성 편집 패널"
+                },
+                {
+                  "t": "Navigator / Wireframe 목록"
+                }
+              ]
+            },
+            {
+              "title": "Basic Operations",
+              "items": [
+                {
+                  "t": "Quick Add / 이름으로 컨트롤 검색"
+                },
+                {
+                  "t": "Drag & Drop Placement / 배치"
+                },
+                {
+                  "t": "Selection / 그룹 묶기·잠금으로 선택 관리"
+                },
+                {
+                  "t": "Undo, Redo, Duplicate / 실행 취소·복구·복제 조작"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Drawing Wireframes",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Controls & UI Library",
+          "anchor": "3-controls-ui-library",
+          "subs": [
+            {
+              "title": "Layout Controls",
+              "items": [
+                {
+                  "t": "Container / 패널·캔버스·사각형 등 그룹 틀"
+                },
+                {
+                  "t": "Tabs / 접이식 아코디언으로도 대체 가능"
+                },
+                {
+                  "t": "Browser Window / 모바일 기기 틀도 함께 제공"
+                }
+              ]
+            },
+            {
+              "title": "Input Controls",
+              "items": [
+                {
+                  "t": "Button / 링크 형태 버튼도 함께 제공"
+                },
+                {
+                  "t": "Text Input / 여러 줄 입력용 Text Area 포함"
+                },
+                {
+                  "t": "Dropdown, Radio Button, Checkbox / 선택형 입력 컨트롤 모음"
+                },
+                {
+                  "t": "Date Picker / 슬라이더 컨트롤도 함께 제공"
+                }
+              ]
+            },
+            {
+              "title": "Display Controls",
+              "items": [
+                {
+                  "t": "Label, Paragraph, Title / 텍스트 표시용 기본 컨트롤"
+                },
+                {
+                  "t": "Data Grid / 표 형태로 데이터 배치"
+                },
+                {
+                  "t": "List / 계층 구조는 Tree로 표현"
+                },
+                {
+                  "t": "Image / 아이콘 등 자리표시용 이미지"
+                },
+                {
+                  "t": "Chart / 진행률 막대도 함께 제공"
+                },
+                {
+                  "t": "Alert, Tooltip, Modal / 알림·안내·팝업 표시 컨트롤"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 4,
+          "title": "Layout & Alignment",
+          "anchor": "4-layout-alignment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Snap & Guide / 안내선에 맞춰 자동 정렬"
+            },
+            {
+              "t": "Align / 간격 균등 배치는 Distribute로"
+            },
+            {
+              "t": "Resize / 고정 폭과 자동 폭 중 선택"
+            },
+            {
+              "t": "Layer Order / 맨 앞·맨 뒤로 순서 조정"
+            },
+            {
+              "t": "Grouping / 여러 컨트롤을 하나로 묶기"
+            },
+            {
+              "t": "Copy Style / 복사한 스타일을 다른 컨트롤에 붙여넣기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Text & Markup",
+          "anchor": "5-text-markup",
+          "subs": [],
+          "items": [
+            {
+              "t": "Control Text Editing / 인라인 편집"
+            },
+            {
+              "t": "Markup Syntax / 굵게·기울임·링크를 텍스트로 표시"
+            },
+            {
+              "t": "Data Grid Text Syntax / 행 · 열 구분자"
+            },
+            {
+              "t": "Icon Search and Insert / 검색과 삽입"
+            },
+            {
+              "t": "Color Assignment / 강조 최소화 원칙"
+            },
+            {
+              "t": "Note / Sticky, Callout으로 설명 달기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Document Structure and Sharing",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Multi-screen & Linking",
+          "anchor": "6-multi-screen-linking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Managing Multiple Wireframes / 이름 규칙으로 여러 화면 관리"
+            },
+            {
+              "t": "Grouping Screens by Folder / 폴더로 화면 그룹화"
+            },
+            {
+              "t": "Link / 컨트롤에 화면 연결"
+            },
+            {
+              "t": "Presentation Mode / 클릭 가능한 프로토타입으로 시연"
+            },
+            {
+              "t": "Flow Design / 화면 전환 순서 정리"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Symbols & Reuse",
+          "anchor": "7-symbols-reuse",
+          "subs": [],
+          "items": [
+            {
+              "t": "Symbol Creation / 공통 헤더 · 네비게이션"
+            },
+            {
+              "t": "Symbol Instance Editing / 인스턴스 수정"
+            },
+            {
+              "t": "Symbol Library Management / 라이브러리 관리"
+            },
+            {
+              "t": "Master Template Screen / 템플릿 화면"
+            },
+            {
+              "t": "Asset Import / 로고, 이미지"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Sharing & Export",
+          "anchor": "8-sharing-export",
+          "subs": [],
+          "items": [
+            {
+              "t": "Project Sharing / View, Edit 권한"
+            },
+            {
+              "t": "Comment / 리뷰 받기"
+            },
+            {
+              "t": "Export / PNG·PDF 이미지로 내보내기"
+            },
+            {
+              "t": "Export to HTML / 클릭 가능한 목업"
+            },
+            {
+              "t": "Jira · Confluence Embed / 지라·컨플루언스 문서에 삽입",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Next-stage Handoff / High-fidelity 툴로 전환"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Ux Design",
+      "ref": "software/role-based/ux-design"
+    },
+    {
+      "label": "Product Design",
+      "ref": "software/role-based/product-design"
+    },
+    {
+      "label": "Figma",
+      "ref": "software/skill-based/Design/figma"
+    },
+    {
+      "label": "Product Manager",
+      "ref": "software/role-based/product-manager"
+    }
+  ]
+}

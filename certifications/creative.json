@@ -1,0 +1,106 @@
+{
+ "domain": "creative",
+ "title": "창작 자격증",
+ "count": 6,
+ "categories": [
+  {
+   "title": "국가공인 민간자격",
+   "certs": [
+    {
+     "id": "gtq-1",
+     "name": "GTQ 그래픽기술자격 1급",
+     "roadmaps": [
+      "software/skill-based/Design",
+      "creative/skill-based/Drawing/light-and-color"
+     ],
+     "note": "실기 과제를 시간 안에 만드는 시험이라 산출물이 그대로 `works/`에 남음",
+     "issuer": "한국생산성본부",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "포토샵 실기(레이어·합성·보정 과제) · 연 10회 내외",
+     "renewal": "없음"
+    },
+    {
+     "id": "gtqi-1",
+     "name": "GTQi 일러스트 1급",
+     "roadmaps": [
+      "software/skill-based/Design",
+      "creative/skill-based/Drawing/composition"
+     ],
+     "note": null,
+     "issuer": "한국생산성본부",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "일러스트레이터 실기(패스·오브젝트·타이포) · 연 6회 내외",
+     "renewal": "없음"
+    }
+   ]
+  },
+  {
+   "title": "국가기술자격",
+   "certs": [
+    {
+     "id": "colorist-industrial-engineer",
+     "name": "컬러리스트산업기사",
+     "roadmaps": [
+      "creative/skill-based/Drawing/light-and-color",
+      "software/skill-based/Design"
+     ],
+     "note": "색을 감각이 아니라 수치(먼셀·측색)로 다루는 유일한 국가자격",
+     "issuer": "한국산업인력공단",
+     "region": "국내",
+     "eligibility": "전문대 졸업(예정) 또는 실무 2년 등",
+     "exam": "필기(색채심리·디자인·도료와 염료·측색) + 실기(측색·배색 작업형) · 연 2회",
+     "renewal": "없음"
+    },
+    {
+     "id": "web-design-craftsman",
+     "name": "웹디자인기능사",
+     "roadmaps": [
+      "software/skill-based/Design"
+     ],
+     "note": null,
+     "issuer": "한국산업인력공단",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "필기(디자인·인터넷일반·컴퓨터그래픽) + 실기(웹페이지 제작 작업형) · 연 4회",
+     "renewal": "없음"
+    },
+    {
+     "id": "multimedia-content-producer",
+     "name": "멀티미디어콘텐츠제작전문가",
+     "roadmaps": [
+      "creative/skill-based/Video/editing",
+      "creative/role-based/video-production",
+      "creative/skill-based/Video/motion-graphics"
+     ],
+     "note": null,
+     "issuer": "한국산업인력공단",
+     "region": "국내",
+     "eligibility": "기사 계열 요건(4년제 졸업예정 또는 실무 4년 등)",
+     "exam": "필기 4과목 + 실기(영상·이미지 편집 작업형) · 연 1~2회",
+     "renewal": "없음"
+    }
+   ]
+  },
+  {
+   "title": "벤더 인증",
+   "certs": [
+    {
+     "id": "adobe-certified-professional",
+     "name": "Adobe Certified Professional",
+     "roadmaps": [
+      "creative/skill-based/Video/editing",
+      "software/skill-based/Design"
+     ],
+     "note": "국내 인지도는 GTQ가 높음. 해외 포트폴리오용으로 의미가 있음",
+     "issuer": "Adobe (시행 Certiport)",
+     "region": "해외",
+     "eligibility": "제한 없음",
+     "exam": "제품별 실기·객관식(Photoshop·Illustrator·Premiere Pro 등) · 상시",
+     "renewal": "없음"
+    }
+   ]
+  }
+ ]
+}

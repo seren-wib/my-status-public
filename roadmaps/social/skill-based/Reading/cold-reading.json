@@ -1,0 +1,101 @@
+{
+  "title": "Cold Reading AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Structure of Fake Insight",
+          "anchor": "1-structure-of-fake-insight",
+          "subs": [],
+          "items": [
+            {
+              "t": "Elicitation",
+              "delegate": "social/skill-based/Reading/elicitation"
+            },
+            {
+              "t": "Cold Reading Definition / 사전 정보 없이 아는 척을 만드는 기법"
+            },
+            {
+              "t": "Hot Reading / 몰래 조사한 정보를 즉석 통찰로 위장"
+            },
+            {
+              "t": "Why It Works / 듣는 쪽이 의미를 채워줌"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Core Techniques",
+          "anchor": "2-core-techniques",
+          "subs": [],
+          "items": [
+            {
+              "t": "Barnum Statements / 누구에게나 맞는 성격 묘사"
+            },
+            {
+              "t": "Shotgunning / 다발로 던지고 반응 오는 것만 유지"
+            },
+            {
+              "t": "Rainbow Ruse / 상반된 특성을 한 문장에 담기"
+            },
+            {
+              "t": "Vanishing Negative / 부정 의문문으로 양쪽 다 적중 처리"
+            },
+            {
+              "t": "Feedback Harvesting / 상대 반응에서 다음 진술의 재료 획득"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Why People Believe",
+          "anchor": "3-why-people-believe",
+          "subs": [],
+          "items": [
+            {
+              "t": "Subjective Validation / 자기에게 맞는 부분만 유효하게 느낌"
+            },
+            {
+              "t": "Selective Memory / 적중만 기억되고 빗나감은 잊힘"
+            },
+            {
+              "t": "Authority Framing / 전문가 연출이 수용도를 높임"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Detection",
+          "anchor": "4-detection",
+          "subs": [],
+          "items": [
+            {
+              "t": "Spotting Barnum Talk / 점술·성격검사·면접 피드백에서 알아보기"
+            },
+            {
+              "t": "Testing Specificity / 구체성 요구로 무너뜨리기"
+            },
+            {
+              "t": "Shared Structure with Elicitation / 반응에서 정보를 캐는 피드백 루프의 동형성"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Elicitation",
+      "ref": "social/skill-based/Reading/elicitation"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    }
+  ]
+}

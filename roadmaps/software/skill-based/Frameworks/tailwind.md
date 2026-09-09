@@ -1,0 +1,206 @@
+# Tailwind CSS `AI 생성`
+
+> AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22
+
+# PART 1 · Introduction to Tailwind
+
+## 1. What is Tailwind CSS?
+
+### Overview of Tailwind / What is it?
+
+- [ ] Utility-First CSS Framework / 한 가지만 하는 클래스를 마크업에서 조합하는 방식
+- [ ] Atomic CSS / 선언 하나에 클래스 하나를 대응시키는 설계
+- [ ] Design Constraint via Preset Scale / 미리 정한 눈금 안에서만 값을 고르게 하는 제약
+- [ ] No Prebuilt Components / 완성 컴포넌트 대신 스타일 원자만 주는 이유
+
+### Utility-First Approach
+
+- [ ] Utility-First vs Semantic Class / 클래스 이름에 의미를 담을지 가르는 기준
+- [ ] Tailwind vs Bootstrap / 컴포넌트를 주는 쪽과 원자만 주는 쪽의 차이
+- [ ] Tailwind vs CSS-in-JS / 런타임 생성과 빌드 시점 클래스의 차이
+- [ ] When Not to Use Tailwind / 마크업이 길어지는 대가가 큰 경우
+
+## 2. Getting Started
+
+### Installation `택 1`
+
+- [ ] Vite Plugin / 개발 서버 파이프라인에 바로 물리는 설치 경로 `추천`
+- [ ] PostCSS Plugin / 기존 PostCSS 체인에 끼워 넣는 설치 경로
+- [ ] Tailwind CLI / 빌드 도구 없이 CSS만 뽑는 설치 경로
+- [ ] Play CDN / 빌드 없이 브라우저에서 바로 시험하는 경로 `선택`
+
+### Entry Point Configuration
+
+- [ ] @import "tailwindcss" / CSS 진입 파일 한 줄로 전체를 끌어오는 선언
+- [ ] Content Detection and Source Scanning / 클래스가 쓰인 파일을 찾아 대상으로 잡는 규칙
+- [ ] Preflight and Base Reset / 브라우저 기본 스타일을 먼저 걷어내는 층
+
+### Development Tools
+
+- [ ] Tailwind IntelliSense / 에디터에서 클래스 이름과 값을 미리 보는 확장
+- [ ] Prettier Plugin and Class Sorting / 클래스 나열을 저장 때 정해진 순서로 맞추는 도구
+- [ ] Tailwind Play / 설치 없이 브라우저에서 클래스를 시험하는 공간
+
+## 3. Core Concepts
+
+- [ ] Class Naming Convention / 속성·값·변형자가 이름에 붙는 순서
+- [ ] Token Scale / 여백·색·크기를 정해진 눈금 값으로만 고르는 체계
+- [ ] Arbitrary Value / 눈금에 없는 값을 대괄호로 한 번만 끼우는 문법
+- [ ] Arbitrary Property / 유틸리티가 없는 CSS 속성을 대괄호로 직접 쓰는 문법
+- [ ] Important Modifier / 느낌표를 붙여 우선순위를 억지로 올리는 표기
+- [ ] No Dynamic Class String Concatenation / 이름을 이어 붙이면 빌드에서 사라지는 이유
+
+---
+
+# PART 2 · Utility System
+
+## 4. Layout Utilities
+
+- [ ] Display Utilities / 요소를 어떤 상자 종류로 놓을지 고르는 묶음
+- [ ] Position Utilities / 기준 상자와 띄울 위치·겹침 순서를 정하는 묶음
+- [ ] Box Sizing and Overflow / 크기 계산 기준과 넘친 내용 처리를 정하는 묶음
+- [ ] Container and Max Width / 본문 폭을 중단점마다 묶어 두는 유틸리티
+- [ ] Aspect Ratio and Object Fit / 가로세로 비를 고정하고 채울 방식을 고르는 묶음
+
+## 5. Flexbox & Grid Utilities
+
+- [ ] Flex Direction, Wrap, Order / 축 방향·줄바꿈·배치 순서를 정하는 묶음
+- [ ] Alignment / 주축과 교차축에서 정렬 위치를 정하는 묶음
+- [ ] Flex Sizing / 남거나 모자란 공간을 항목에 나누는 규칙
+- [ ] Grid Template / 격자의 열과 행 칸을 선언하는 유틸리티
+- [ ] Grid Placement / 항목이 차지할 칸 범위와 시작점을 정하는 유틸리티
+- [ ] Gap and Space Between / 자식 사이 간격을 마진 없이 벌리는 방법
+
+## 6. Spacing & Sizing
+
+- [ ] Spacing Scale / 여백을 정해진 눈금 값으로만 고르게 하는 체계
+- [ ] Negative Value / 눈금 값을 반대 방향으로 당기는 음수 표기
+- [ ] Sizing / 너비와 높이를 눈금 값과 상·하한으로 정하는 묶음
+- [ ] Fractional and Viewport Unit / 부모 대비 분수와 화면 기준 단위로 크기를 잡는 표기
+
+## 7. Typography & Color
+
+- [ ] Font Utilities / 글꼴·크기·굵기를 눈금 이름으로 고르는 묶음
+- [ ] Text Layout / 정렬·줄간격·자간·말줄임을 정하는 묶음
+- [ ] Color Utilities / 팔레트 이름과 명도 번호로 색을 고르는 체계
+- [ ] Opacity Modifier / 색 클래스 뒤에 슬래시로 투명도를 붙이는 문법
+- [ ] Gradient / 방향과 정거장 색으로 그라데이션을 짜는 묶음
+
+## 8. Borders, Effects, Motion
+
+- [ ] Border, Radius, Divide / 테두리 두께·모서리·자식 사이 선을 정하는 묶음
+- [ ] Ring and Outline / 레이아웃을 안 밀고 초점 테두리를 두르는 방식
+- [ ] Shadow and Inset Shadow / 그림자를 밖으로 낼지 안으로 팰지 고르는 묶음
+- [ ] Filter / 요소와 뒷배경에 흐림·밝기 효과를 거는 묶음
+- [ ] Transform / 레이아웃을 안 건드리고 크기·각도·위치를 옮기는 묶음
+- [ ] Transition and Animation Utilities / 상태 변화에 걸릴 시간과 반복 동작을 정하는 묶음
+
+---
+
+# PART 3 · State and Responsive Design
+
+## 9. Variants / Modifiers
+
+### State Variants
+
+- [ ] Interaction State / 마우스·초점·눌림 상태를 접두어로 앞에 붙이는 문법
+- [ ] Focus Variant / 키보드 초점과 자식 초점을 갈라 잡는 변형자
+- [ ] Form State / 입력값의 선택·검증 상태에 스타일을 거는 변형자
+
+### Structural Variants
+
+- [ ] Child Variant / 형제 중 몇 번째인지로 대상을 고르는 변형자
+- [ ] Group Variant / 조상의 상태를 받아 자손에 스타일을 거는 변형자
+- [ ] Peer Variant / 앞선 형제의 상태를 받아 스타일을 거는 변형자
+- [ ] Has Variant / 특정 자식을 가진 부모를 골라 잡는 변형자
+- [ ] Pseudo Element / 가상 요소를 클래스로 만들어 내용을 넣는 문법
+
+### Composition
+
+- [ ] Variant Stacking / 변형자를 여러 개 겹칠 때의 적용 순서
+- [ ] Arbitrary Variant / 없는 선택자를 대괄호로 직접 써서 만드는 변형자
+
+## 10. Responsive Design
+
+- [ ] Mobile-First Principle / 작은 화면을 기본으로 두고 위로 덮어쓰는 원칙
+- [ ] Breakpoint Prefix / 정해진 너비 이상에서만 걸리는 중단점 접두어
+- [ ] Max-Width Variant / 특정 너비 미만에만 거는 역방향 중단점
+- [ ] Container Query / 화면이 아닌 부모 폭을 기준으로 삼는 변형자
+- [ ] Custom Breakpoint / 중단점 이름을 토큰으로 새로 추가하는 방법
+
+## 11. Dark Mode & Preference
+
+- [ ] Dark Variant / 어두운 테마일 때만 걸리는 변형자
+- [ ] Media Strategy vs Selector Strategy / 어둠을 OS 설정으로 볼지 클래스로 볼지 가르는 기준
+- [ ] CSS Variable-based Theme Switching / 클래스 대신 토큰 값을 바꿔 테마를 가는 방식
+- [ ] User Preference / 동작 최소화·고대비 같은 접근성 설정에 맞추는 변형자
+- [ ] Direction Variant / 글 방향에 따라 좌우를 뒤집는 변형자
+
+---
+
+# PART 4 · Configuration and Extensions
+
+## 12. Configuration
+
+### Configuration Methods `택 1`
+
+- [ ] CSS-First Config / 설정을 자바스크립트 대신 CSS 안에 두는 방식 `추천`
+- [ ] tailwind.config.js / 설정을 자바스크립트 파일에 두던 구버전 방식 `선택`
+
+### Theme Customization
+
+- [ ] Theme Variable / 토큰을 CSS 변수 이름으로 선언하는 규칙
+- [ ] Extend vs Override / 기본 눈금에 더할지 통째로 갈아치울지 가르는 기준
+- [ ] Custom Color Palette / 색 이름과 명도 단계를 직접 정하는 방법
+- [ ] Custom Font and Breakpoint / 글꼴과 중단점을 토큰으로 새로 등록하는 방법
+- [ ] Theme Namespace Structure / 변수 앞머리가 어떤 유틸리티로 풀릴지 정하는 규칙
+
+## 13. Directives & Functions
+
+- [ ] @theme / 토큰을 선언해 유틸리티로 풀어내는 지시어
+- [ ] @layer / 우선순위 층을 나눠 스타일을 담는 지시어
+- [ ] @apply / 유틸리티를 CSS 규칙 안으로 끌어오는 지시어
+- [ ] @utility / 변형자가 붙는 유틸리티를 직접 만드는 지시어
+- [ ] @custom-variant / 변형자 접두어를 직접 만드는 지시어
+- [ ] @source and @reference / 스캔 대상과 참조할 테마를 따로 지정하는 지시어
+- [ ] Theme Function / 토큰 값을 CSS 안에서 계산해 꺼내는 함수
+
+## 14. Plugins
+
+- [ ] Official Plugin / 본문 글·폼 요소에 기본 스타일을 얹는 공식 확장
+- [ ] Third-party Plugin Usage / 남이 만든 유틸리티 묶음을 붙이는 방법
+- [ ] Custom Plugin Authoring / 유틸리티와 변형자를 코드로 등록하는 작성법
+- [ ] Shared Preset / 여러 프로젝트가 토큰 설정을 공유하는 묶음 `선택`
+
+---
+
+# PART 5 · Real-World Use and Production
+
+## 15. Component Design
+
+- [ ] Utility Repetition and Extraction Criteria / 반복된 클래스 묶음을 컴포넌트로 뺄 시점
+- [ ] @apply Overuse Antipattern / 묶어 쓰면 유틸리티 이점이 사라지는 이유
+- [ ] Conditional Class / 조건에 따라 클래스를 켜고 끄는 조합 도구
+- [ ] Class Conflict Resolution / 같은 속성 클래스가 겹칠 때 뒤엣것만 남기는 도구
+- [ ] Variant API / 컴포넌트 변형과 크기를 클래스 표로 묶는 방법
+- [ ] Safelist / 스캔에 안 잡히는 클래스를 강제로 남기는 목록
+
+## 16. Production
+
+- [ ] Build Output Optimization / 실제 쓰인 클래스만 남겨 CSS를 줄이는 빌드
+- [ ] Oxide Engine and Lightning CSS / 빌드를 러스트로 다시 짠 v4 엔진 구성
+- [ ] Team Class Sorting Convention / 클래스 나열 순서를 팀에서 통일하는 규칙
+- [ ] v3 → v4 Migration / 설정 파일과 유틸리티 이름이 바뀐 지점
+- [ ] Framework Integration / 프레임워크마다 스캔 경로와 진입 파일을 붙이는 방법
+- [ ] Accessibility Utility / 화면에서 감추고 낭독기에만 남기는 유틸리티
+
+---
+
+# 이 로드맵 밖
+
+- CSS 문법 전반 `software/skill-based/Languages/css.md`
+- 디자인 시스템 이론 `software/skill-based/CS-Theory/design-system.md`
+- Sass / SCSS `software/skill-based/Frameworks/sass.md`
+- Tailwind 기반 컴포넌트 `software/skill-based/Frameworks/shadcn-ui.md`
+- React · Next.js `software/skill-based/Frameworks/react.md`, `nextjs.md`
+- 번들러 설정 `software/skill-based/Build-Tools/vite.md`

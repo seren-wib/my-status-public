@@ -1,0 +1,132 @@
+{
+  "title": "Tracking and Recovery AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Tracking Design",
+          "anchor": "1-tracking-design",
+          "subs": [],
+          "items": [
+            {
+              "t": "Binary Metric / 했다·안 했다로만 재는 지표 정의"
+            },
+            {
+              "t": "Minimum Standard / 최악의 날에도 되는 하한선 정하기"
+            },
+            {
+              "t": "Visible Chain / 눈에 보이는 곳에 연속 기록 남기기"
+            },
+            {
+              "t": "Tracking Cost / 기록 자체가 부담이면 축소해 재설계"
+            },
+            {
+              "t": "Measure versus Target / 지표가 목표를 대체하는지 점검"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Streak",
+          "anchor": "2-streak",
+          "subs": [],
+          "items": [
+            {
+              "t": "Never Miss Twice / 하루 거르면 다음 날 반드시 복귀하는 규칙 적용"
+            },
+            {
+              "t": "Thirty Day Streak / 한 습관 30일 연속 기록"
+            },
+            {
+              "t": "Ninety Day Streak / 한 습관 90일 연속 기록"
+            },
+            {
+              "t": "Break Log / 끊긴 날의 상황을 빠짐없이 기록"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Recovery Protocol",
+          "anchor": "3-recovery-protocol",
+          "subs": [],
+          "items": [
+            {
+              "t": "Restart Rule / 중단 후 재개 절차를 문서로 고정"
+            },
+            {
+              "t": "Scaled Down Reentry / 복귀할 때 최소 버전으로 진입"
+            },
+            {
+              "t": "Failure Post-mortem / 무너진 원인 분석 기록"
+            },
+            {
+              "t": "Recovery Time / 중단부터 복귀까지 걸린 일수 기록"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Multiple Habits",
+          "anchor": "4-multiple-habits",
+          "subs": [],
+          "items": [
+            {
+              "t": "One at a Time / 동시 착수 습관 수를 제한하고 결과 비교"
+            },
+            {
+              "t": "Keystone Claim Check / 핵심 습관 주장의 근거 확인하고 내 데이터로 판정"
+            },
+            {
+              "t": "Habit Retirement / 목적을 다한 습관을 내리는 기준"
+            },
+            {
+              "t": "Routine Consolidation / 개별 습관들을 하나의 루틴으로 묶기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Long Term",
+          "anchor": "5-long-term",
+          "subs": [],
+          "items": [
+            {
+              "t": "Annual Review / 1년치 기록 놓고 유지·소멸 습관 분류"
+            },
+            {
+              "t": "Life Change Adaptation / 환경이 바뀔 때 습관 재설계한 사례 남기기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Habit Formation",
+      "ref": "meta/habits/habit-formation"
+    },
+    {
+      "label": "Habit Breaking",
+      "ref": "meta/habits/habit-breaking"
+    },
+    {
+      "label": "Planning",
+      "ref": "meta/time-management/planning"
+    },
+    {
+      "label": "Metacognition",
+      "ref": "meta/learning/metacognition"
+    },
+    {
+      "label": "Program Design",
+      "ref": "health/fitness/program-design"
+    }
+  ]
+}

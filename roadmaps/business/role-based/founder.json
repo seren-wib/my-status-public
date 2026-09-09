@@ -1,0 +1,324 @@
+{
+  "title": "Founder AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Validation",
+      "sections": [
+        {
+          "no": 1,
+          "title": "The Problem Worth a Company",
+          "anchor": "1-the-problem-worth-a-company",
+          "subs": [],
+          "items": [
+            {
+              "t": "Problem Statement / 누구의 어떤 문제인지 한 문단으로 고정"
+            },
+            {
+              "t": "Market Size Estimate / TAM·SAM·SOM을 직접 숫자로 계산"
+            },
+            {
+              "t": "Why Now / 지금이어야 하는 이유 3개 적기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Evidence",
+          "anchor": "2-evidence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Twenty Interviews / 잠재 고객 20명 인터뷰하고 원문 보관"
+            },
+            {
+              "t": "Falsifiable Hypothesis / 틀렸음을 확인할 수 있는 문장으로 가설 다시 쓰기"
+            },
+            {
+              "t": "Customer Research",
+              "delegate": "business/skill-based/Validation/customer-research"
+            },
+            {
+              "t": "Market Testing",
+              "delegate": "business/skill-based/Validation/market-testing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Product and First Revenue",
+      "sections": [
+        {
+          "no": 3,
+          "title": "First Product",
+          "anchor": "3-first-product",
+          "subs": [],
+          "items": [
+            {
+              "t": "MVP Scope Frozen / 1차 범위를 문서로 고정하고 더 안 늘리기"
+            },
+            {
+              "t": "Design Partner / 함께 만들 초기 고객 3곳 확보"
+            },
+            {
+              "t": "Shipped to Users / 실사용자 손에 올리기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "First Revenue",
+          "anchor": "4-first-revenue",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Paid Contract / 첫 유료 계약 체결"
+            },
+            {
+              "t": "Pricing",
+              "delegate": "business/skill-based/Validation/pricing"
+            },
+            {
+              "t": "Sales Process",
+              "delegate": "business/skill-based/Sales/sales-process"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Proving It Repeats",
+          "anchor": "5-proving-it-repeats",
+          "subs": [],
+          "items": [
+            {
+              "t": "Unit Economics / CAC·LTV 계산하고 회수 기간 확인"
+            },
+            {
+              "t": "Ten Paying Customers / 유료 고객 10곳 도달"
+            },
+            {
+              "t": "Revenue Without Founder Sales / 창업자가 영업하지 않은 계약이 체결되는 구조 실증"
+            },
+            {
+              "t": "Growth Analytics",
+              "delegate": "business/skill-based/Marketing/growth-analytics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Team",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Co-founder and First Hires",
+          "anchor": "6-co-founder-and-first-hires",
+          "subs": [],
+          "items": [
+            {
+              "t": "Founder Agreement / 지분·베스팅·역할을 문서로 서명"
+            },
+            {
+              "t": "First Hire Closed / 첫 채용 완료"
+            },
+            {
+              "t": "Hiring and Team",
+              "delegate": "business/skill-based/Operations/hiring-team"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Working Together",
+          "anchor": "7-working-together",
+          "subs": [],
+          "items": [
+            {
+              "t": "Weekly Rhythm / 주간 회의·목표 점검 주기 고정"
+            },
+            {
+              "t": "Decision Log / 주요 결정과 그 이유 기록 시작"
+            },
+            {
+              "t": "Quarterly Goals / 분기 목표 3개를 팀에 공개적으로 설정"
+            },
+            {
+              "t": "Leadership Layer / 창업자 없이 의사결정하는 중간 리더 세우기"
+            },
+            {
+              "t": "Founder Vacation Test / 창업자가 2주 자리를 비워도 회사가 굴러가는지 실증"
+            },
+            {
+              "t": "Team Regeneration / 퇴사 공백을 채용·인수인계로 끊김 없이 메운 사이클 경험"
+            },
+            {
+              "t": "Culture in Action / 명문화한 원칙이 실제 결정에서 인용되는 순간 확보"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Funding",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Money In",
+          "anchor": "8-money-in",
+          "subs": [],
+          "items": [
+            {
+              "t": "Funding Path Chosen / 자기자본·대출·투자 중 하나 고르고 근거 적기",
+              "choice_inline": true
+            },
+            {
+              "t": "Investor Conversations / 투자자·심사역 10명과 미팅"
+            },
+            {
+              "t": "Fundraising",
+              "delegate": "business/skill-based/Operations/fundraising"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Money Out",
+          "anchor": "9-money-out",
+          "subs": [],
+          "items": [
+            {
+              "t": "Monthly Budget / 월 예산 세우고 실적과 대조"
+            },
+            {
+              "t": "Break Even Reached / 손익분기 도달 후 유지되는 분기 만들기"
+            },
+            {
+              "t": "Founder Payroll / 창업자 생활비를 회사 급여로 충당하는 상태 전환"
+            },
+            {
+              "t": "Default Alive / 추가 조달 없이 현 성장만으로 생존이 보장되는 상태 확인"
+            },
+            {
+              "t": "Capital Independence / 후속 투자 유치 또는 무투자 흑자 성장으로 자금 자립 실증"
+            },
+            {
+              "t": "Fundraising",
+              "delegate": "business/skill-based/Operations/fundraising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Organization and Scale",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Company Machinery",
+          "anchor": "10-company-machinery",
+          "subs": [],
+          "items": [
+            {
+              "t": "Entity Registered / 법인 설립·사업자 등록 완료"
+            },
+            {
+              "t": "Legal",
+              "delegate": "business/skill-based/Operations/legal"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Scaling",
+          "anchor": "11-scaling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Crisis Survived / 매출 급감·핵심 인력 이탈 같은 위기를 넘기고 회고 남기기"
+            },
+            {
+              "t": "Pivot or Persevere Call / 데이터 근거로 피벗 여부를 결정하고 실행까지 완료"
+            },
+            {
+              "t": "Exit Option on the Table / 인수 제안·상장 검토 등 출구 선택지가 실제로 생긴 상태"
+            },
+            {
+              "t": "Fundraising",
+              "delegate": "business/skill-based/Operations/fundraising"
+            },
+            {
+              "t": "Operations",
+              "delegate": "business/skill-based/Operations/operations"
+            },
+            {
+              "t": "Partnerships",
+              "delegate": "business/skill-based/Sales/partnerships"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Customer Research",
+      "ref": "business/skill-based/Validation/customer-research"
+    },
+    {
+      "label": "Market Testing",
+      "ref": "business/skill-based/Validation/market-testing"
+    },
+    {
+      "label": "Pricing",
+      "ref": "business/skill-based/Validation/pricing"
+    },
+    {
+      "label": "Sales Process",
+      "ref": "business/skill-based/Sales/sales-process"
+    },
+    {
+      "label": "Partnerships",
+      "ref": "business/skill-based/Sales/partnerships"
+    },
+    {
+      "label": "Growth Analytics",
+      "ref": "business/skill-based/Marketing/growth-analytics"
+    },
+    {
+      "label": "Hiring and Team",
+      "ref": "business/skill-based/Operations/hiring-team"
+    },
+    {
+      "label": "Fundraising",
+      "ref": "business/skill-based/Operations/fundraising"
+    },
+    {
+      "label": "Legal",
+      "ref": "business/skill-based/Operations/legal"
+    },
+    {
+      "label": "Operations",
+      "ref": "business/skill-based/Operations/operations"
+    },
+    {
+      "label": "Leader",
+      "ref": "social/role-based/leader"
+    },
+    {
+      "label": "Negotiator",
+      "ref": "social/role-based/negotiator"
+    },
+    {
+      "label": "Business Tax",
+      "ref": "finance/tax/business-tax"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "path": "fitness/cardio-running",
+    "title": "Cardio and Running AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 13
+  },
+  {
+    "path": "fitness/mobility",
+    "title": "Mobility AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 3,
+    "items": 11
+  },
+  {
+    "path": "fitness/program-design",
+    "title": "Program Design AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 3,
+    "items": 10
+  },
+  {
+    "path": "fitness/strength-training",
+    "title": "Strength Training AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 14
+  },
+  {
+    "path": "nutrition/meal-planning",
+    "title": "Meal Planning AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 3,
+    "items": 10
+  },
+  {
+    "path": "nutrition/nutrition-basics",
+    "title": "Nutrition Basics AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 12
+  },
+  {
+    "path": "sleep/sleep-hygiene",
+    "title": "Sleep Hygiene AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 12
+  }
+]

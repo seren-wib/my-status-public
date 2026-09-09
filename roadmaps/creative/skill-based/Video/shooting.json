@@ -1,0 +1,128 @@
+{
+  "title": "Shooting AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Shot Sizes",
+          "anchor": "1-shot-sizes",
+          "subs": [],
+          "items": [
+            {
+              "t": "Shot Size Ladder / 같은 피사체를 와이드에서 클로즈업까지 5단계로 찍어 한 줄로 늘어놓기"
+            },
+            {
+              "t": "Establishing Shot / 장소를 한 컷으로 설명하는 와이드 한 장 찍기"
+            },
+            {
+              "t": "Close-Up on Detail / 손이나 물건 클로즈업으로 감정 한 컷 만들기"
+            },
+            {
+              "t": "Over-the-Shoulder Pair / 대화 장면을 어깨너머 두 컷으로 찍어 붙이기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Angle and Lens",
+          "anchor": "2-angle-and-lens",
+          "subs": [],
+          "items": [
+            {
+              "t": "Angle Comparison / 같은 인물을 눈높이·하이·로우로 찍어 인상 차이 비교본 남기기"
+            },
+            {
+              "t": "Focal Length Test / 광각·표준·망원으로 얼굴 크기 맞춰 찍고 왜곡 차이 기록"
+            },
+            {
+              "t": "Shallow Depth of Field / 조리개 열어 배경 날린 인물 컷 한 장"
+            },
+            {
+              "t": "180-Degree Line / 가상선 지킨 대화 장면과 일부러 넘긴 장면을 각각 찍어보기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Camera Movement",
+          "anchor": "3-camera-movement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Static Frame Discipline / 삼각대 고정 컷만으로 30초 장면 찍기"
+            },
+            {
+              "t": "Pan and Tilt / 시작 프레임과 끝 프레임이 둘 다 구도가 되는 팬 한 컷"
+            },
+            {
+              "t": "Handheld Follow / 걷는 인물을 따라가는 핸드헬드 한 컷"
+            },
+            {
+              "t": "Push In / 인물에게 천천히 들어가며 긴장을 만드는 컷 하나"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Lighting",
+          "anchor": "4-lighting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Three-Point Setup / 키·필·백 세 등으로 인물 한 컷 조명해 촬영"
+            },
+            {
+              "t": "Key Light Direction / 키 라이트를 정면·측면·역광으로 옮겨 세 컷 찍어 비교"
+            },
+            {
+              "t": "Available Light / 창문 빛 하나만으로 실내 인물 촬영"
+            },
+            {
+              "t": "Exposure and White Balance / 노출·화이트밸런스를 수동으로 잡아 촬영본 한 편"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Planning the Shoot",
+          "anchor": "5-planning-the-shoot",
+          "subs": [],
+          "items": [
+            {
+              "t": "Shot List / 찍을 컷 목록을 먼저 쓰고 그대로 찍어오기"
+            },
+            {
+              "t": "Coverage for Editing / 한 장면을 사이즈 바꿔가며 여러 번 찍어 편집 여지 남기기"
+            },
+            {
+              "t": "Location Scout / 촬영 전 장소를 답사해 시간대별 빛을 기록하기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Composition",
+      "ref": "creative/skill-based/Drawing/composition"
+    },
+    {
+      "label": "Light and Color",
+      "ref": "creative/skill-based/Drawing/light-and-color"
+    },
+    {
+      "label": "Color Grading",
+      "ref": "creative/skill-based/Video/color-grading"
+    },
+    {
+      "label": "Mixing",
+      "ref": "creative/skill-based/Sound/mixing"
+    }
+  ]
+}

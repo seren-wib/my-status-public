@@ -1,0 +1,538 @@
+{
+  "title": "Apache Cassandra AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Cassandra",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Cassandra?",
+          "anchor": "1-what-is-cassandra",
+          "subs": [
+            {
+              "title": "Overview of Cassandra / What is it?",
+              "items": [
+                {
+                  "t": "Distributed Wide-Column NoSQL Database / 행을 컬럼 단위로 나눠 여러 노드에 분산하는 구조"
+                },
+                {
+                  "t": "Masterless and Peer-to-Peer Architecture / 모든 노드가 같은 역할을 가져 리더가 없는 구조"
+                },
+                {
+                  "t": "Linear Scalability / 노드를 늘린 만큼 처리량이 비례해 느는 성질"
+                },
+                {
+                  "t": "Tunable Consistency / 요청마다 일관성 수준을 숫자로 고르는 방식"
+                },
+                {
+                  "t": "AP in CAP Theorem / 분할 상황에서 가용성을 일관성보다 우선하는 선택"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "Time-Series and IoT Data / 시간순으로 계속 쌓이는 센서·로그 데이터 저장"
+                },
+                {
+                  "t": "Event and Activity Logging / 발생한 이벤트를 순서대로 쌓아 기록하는 용도"
+                },
+                {
+                  "t": "Messaging and Feed / 사용자별 타임라인·메시지함을 파티션 단위로 쌓는 용도"
+                },
+                {
+                  "t": "Multi-Datacenter Workloads / 여러 지역 데이터센터에 같은 데이터를 두는 운영"
+                }
+              ]
+            },
+            {
+              "title": "Comparison and Selection",
+              "items": [
+                {
+                  "t": "Cassandra vs RDBMS / 조인·트랜잭션 대신 쓰기 확장을 택한 차이"
+                },
+                {
+                  "t": "Cassandra vs MongoDB and DynamoDB / 문서 모델·완전 관리형 DB와 비교한 설계 차이"
+                },
+                {
+                  "t": "Cassandra vs ScyllaDB / 같은 프로토콜을 C++로 재구현해 얻은 성능 차이"
+                },
+                {
+                  "t": "When not to use Cassandra? / 조인·즉시 일관성이 필요할 때 맞지 않는 이유"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "Docker and Docker Compose / 컨테이너 하나 또는 다중 컨테이너로 띄우는 방법",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Tarball and Package Install / 압축 파일 또는 배포판 패키지로 직접 설치하는 방법"
+                },
+                {
+                  "t": "Managed Service / Astra DB·Amazon Keyspaces 같은 완전 관리형을 쓰는 방법"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "First Cluster",
+              "items": [
+                {
+                  "t": "Single Node vs Multi-Node Setup / 노드 하나로 시작할지 여러 대로 시작할지 결정"
+                },
+                {
+                  "t": "cqlsh / CQL 명령을 대화형으로 실행하는 클라이언트"
+                },
+                {
+                  "t": "nodetool status / 노드별 상태와 부하를 보여주는 명령"
+                },
+                {
+                  "t": "cassandra.yaml Overview / 클러스터 전역 설정을 담은 파일 구조"
+                },
+                {
+                  "t": "Directory Layout / data·commitlog·saved_caches로 나뉜 저장 위치"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Data Model",
+          "anchor": "3-data-model",
+          "subs": [
+            {
+              "title": "Structural Concepts",
+              "items": [
+                {
+                  "t": "Keyspace / 복제 설정을 공유하는 테이블 묶음의 최상위 단위"
+                },
+                {
+                  "t": "Table and Wide Row / 파티션마다 컬럼 수가 달라질 수 있는 저장 단위"
+                },
+                {
+                  "t": "Partition Key / 데이터를 담을 노드와 쓸 수 있는 쿼리를 정하는 값"
+                },
+                {
+                  "t": "Clustering Column / 같은 파티션 안 정렬 순서를 정하는 컬럼"
+                },
+                {
+                  "t": "Primary Key Composition / Partition Key와 Clustering Column을 합친 구성"
+                },
+                {
+                  "t": "Static Column / 파티션 전체가 값 하나를 공유하는 컬럼"
+                }
+              ]
+            },
+            {
+              "title": "Data Types",
+              "items": [
+                {
+                  "t": "Basic Types / text·int·uuid 같은 기본 컬럼 타입"
+                },
+                {
+                  "t": "Collections / list·set·map으로 여러 값을 한 컬럼에 담는 타입"
+                },
+                {
+                  "t": "User-Defined Type / 여러 필드를 묶어 만드는 사용자 정의 타입"
+                },
+                {
+                  "t": "Tuple and Frozen / 값을 통째로 저장해 부분 수정을 막는 방식"
+                },
+                {
+                  "t": "Counter Column / 증감만 되고 값을 직접 못 넣는 전용 컬럼"
+                }
+              ]
+            },
+            {
+              "title": "Modeling Principles",
+              "items": [
+                {
+                  "t": "Query-First Modeling / 쿼리 패턴을 먼저 정해 테이블을 설계하는 방법"
+                },
+                {
+                  "t": "Denormalization and Data Duplication / 조인 대신 같은 데이터를 여러 테이블에 복제하는 방식"
+                },
+                {
+                  "t": "Partition Size Limits / 한 파티션이 커지면 성능이 떨어지는 상한선"
+                },
+                {
+                  "t": "Hotspot Avoidance / 특정 파티션 키에 요청이 몰리지 않게 하는 설계"
+                },
+                {
+                  "t": "Time Bucketing Pattern / 시간 구간별로 파티션 키를 나눠 크기를 제한하는 패턴"
+                },
+                {
+                  "t": "Anti-patterns / 파티션 무제한 증가·ALLOW FILTERING 남용 같은 실수"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "CQL and Distributed Behavior",
+      "sections": [
+        {
+          "no": 4,
+          "title": "CQL",
+          "anchor": "4-cql",
+          "subs": [],
+          "items": [
+            {
+              "t": "DDL / CREATE KEYSPACE·CREATE TABLE로 구조를 정의하는 문법"
+            },
+            {
+              "t": "Insert and Upsert Semantics / 있으면 덮어쓰고 없으면 새로 만드는 쓰기 동작"
+            },
+            {
+              "t": "SELECT Restrictions / 파티션 키 조건 없이는 조회를 막는 제약"
+            },
+            {
+              "t": "TTL / 지정 시간이 지나면 데이터를 자동으로 지우는 설정"
+            },
+            {
+              "t": "Batch Statements / 여러 파티션에 걸쳐 쓰면 성능이 떨어지는 오용"
+            },
+            {
+              "t": "Lightweight Transactions / Paxos 합의로 조건부 쓰기를 보장하는 대가"
+            },
+            {
+              "t": "Secondary Index Limitations / 파티션을 다 훑어야 해서 생기는 인덱스 한계"
+            },
+            {
+              "t": "Storage Attached Index / 노드 로컬에 색인을 둬 다중 컬럼 검색을 돕는 기능"
+            },
+            {
+              "t": "Materialized Views / 다른 파티션 키 기준으로 자동 복제해 두는 뷰",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Prepared Statements and Paging / 쿼리를 미리 컴파일하고 결과를 나눠 받는 기법"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Distribution and Replication",
+          "anchor": "5-distribution-and-replication",
+          "subs": [],
+          "items": [
+            {
+              "t": "Consistent Hashing and Token Ring / 노드를 원형 공간에 배치해 담당 범위를 정하는 방식"
+            },
+            {
+              "t": "Virtual Nodes / 물리 노드 하나를 여러 토큰 조각으로 나누는 방식"
+            },
+            {
+              "t": "Partitioner / 파티션 키를 토큰 값으로 바꾸는 해시 함수"
+            },
+            {
+              "t": "Replication Factor / 같은 데이터를 몇 개 노드에 복제할지 정하는 수"
+            },
+            {
+              "t": "Replication Strategy / 단일 링 또는 데이터센터별로 복제본을 배치하는 방식"
+            },
+            {
+              "t": "Snitch / 노드가 속한 랙·데이터센터 위치를 알려주는 요소"
+            },
+            {
+              "t": "Rack and Datacenter Awareness / 복제본을 랙·데이터센터별로 흩어 배치하는 인식"
+            },
+            {
+              "t": "Gossip Protocol / 노드끼리 상태를 주기적으로 주고받아 퍼뜨리는 통신"
+            },
+            {
+              "t": "Coordinator Node / 요청을 받아 복제본에 전달하고 응답을 모으는 노드"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Consistency",
+          "anchor": "6-consistency",
+          "subs": [],
+          "items": [
+            {
+              "t": "Consistency Levels / 요청마다 응답받을 노드 수를 고르는 값"
+            },
+            {
+              "t": "R + W > RF Rule / 읽기·쓰기 응답 수 합이 복제본 수를 넘게 하는 규칙"
+            },
+            {
+              "t": "Interpreting Eventual Consistency Results / 복제가 덜 끝나 노드마다 값이 다를 수 있음을 읽는 법"
+            },
+            {
+              "t": "Hinted Handoff / 응답 없는 노드 몫을 맡아뒀다 나중에 전달하는 방식"
+            },
+            {
+              "t": "Read Repair / 읽을 때 복제본 간 값 차이를 발견해 맞추는 동작"
+            },
+            {
+              "t": "Anti-Entropy Repair / nodetool repair로 전체 복제본을 맞추는 작업"
+            },
+            {
+              "t": "Speculative Retry / 느린 복제본을 기다리지 않고 다른 노드에 재요청하는 기법"
+            },
+            {
+              "t": "Last-Write-Wins / 타임스탬프가 가장 늦은 값으로 충돌을 정리하는 규칙"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Storage Engines",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Write Path",
+          "anchor": "7-write-path",
+          "subs": [],
+          "items": [
+            {
+              "t": "Commit Log / 쓰기를 디스크에 먼저 남겨 장애 복구를 보장하는 로그"
+            },
+            {
+              "t": "Memtable / 최근 쓰기를 메모리에 정렬해 쌓아두는 구조"
+            },
+            {
+              "t": "SSTable Flush / 메모리가 차면 내용을 디스크 파일로 옮기는 과정"
+            },
+            {
+              "t": "Durability / commitlog_sync로 디스크 기록 시점을 정하는 설정"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Read Path",
+          "anchor": "8-read-path",
+          "subs": [],
+          "items": [
+            {
+              "t": "Bloom Filter / 없는 키를 걸러 불필요한 SSTable 탐색을 막는 필터"
+            },
+            {
+              "t": "Caches / 키 위치·행·압축 블록을 메모리에 두는 캐시들"
+            },
+            {
+              "t": "Partition Index and Summary / 파티션 위치를 빠르게 찾도록 요약해 둔 색인"
+            },
+            {
+              "t": "SSTable Merge on Read / 여러 SSTable 조각을 합쳐 최신 값을 만드는 읽기"
+            },
+            {
+              "t": "Tombstone Read Cost / 삭제 표시가 쌓이면 읽기가 느려지는 부담"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Compaction and Storage",
+          "anchor": "9-compaction-and-storage",
+          "subs": [],
+          "items": [
+            {
+              "t": "SSTable Components / 데이터·인덱스·필터로 나뉜 파일 구성"
+            },
+            {
+              "t": "Compaction Strategies / 흩어진 SSTable을 합치는 여러 방식"
+            },
+            {
+              "t": "Strategy Selection Criteria / 쓰기·읽기 패턴에 맞는 컴팩션 방식을 고르는 기준"
+            },
+            {
+              "t": "Tombstone / 삭제 표시를 gc_grace_seconds 동안 남겨두는 규칙"
+            },
+            {
+              "t": "Zombie Data / 삭제된 줄 알았던 데이터가 복제 지연으로 되살아나는 현상"
+            },
+            {
+              "t": "Compression / chunk_length 단위로 블록을 나눠 압축하는 설정"
+            },
+            {
+              "t": "Disk Space Overhead / 컴팩션 중 옛 파일과 새 파일이 겹쳐 늘어나는 용량"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Operations",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Cluster Operations",
+          "anchor": "10-cluster-operations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Bootstrapping a Node / 새 노드가 토큰 범위를 받아 클러스터에 합류하는 과정"
+            },
+            {
+              "t": "Decommission and Remove Node / 노드를 정상 혹은 강제로 클러스터에서 빼는 절차"
+            },
+            {
+              "t": "Replacing a Dead Node / 죽은 노드의 토큰을 새 노드가 그대로 이어받는 절차"
+            },
+            {
+              "t": "Adding a Datacenter / 기존 클러스터에 새 데이터센터를 붙여 복제를 확장하는 작업"
+            },
+            {
+              "t": "Cleanup after Topology Change / 토큰 범위가 바뀐 뒤 남은 데이터를 지우는 정리"
+            },
+            {
+              "t": "Rolling Restart and Upgrade / 한 대씩 순서대로 재시작해 무중단을 유지하는 절차"
+            },
+            {
+              "t": "nodetool Key Commands / status·info·tpstats로 상태를 확인하는 명령들"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Monitoring and Troubleshooting",
+          "anchor": "11-monitoring-and-troubleshooting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Key Metrics / 지연 분포·대기 컴팩션·유실 쓰기 같은 핵심 지표"
+            },
+            {
+              "t": "JMX Metrics / JVM 표준 인터페이스로 지표를 외부에 노출하는 방식"
+            },
+            {
+              "t": "Monitoring Stack / Prometheus·Grafana로 지표를 모으고 보는 구성"
+            },
+            {
+              "t": "Logs / system.log·debug.log에 남는 운영 기록"
+            },
+            {
+              "t": "JVM and GC Tuning / 힙 크기를 조절해 정지 시간을 줄이는 튜닝"
+            },
+            {
+              "t": "Common Issues / 넓은 파티션·삭제 표시 과다·특정 노드 과부하 같은 문제"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Backup and Security",
+          "anchor": "12-backup-and-security",
+          "subs": [],
+          "items": [
+            {
+              "t": "Snapshots / nodetool snapshot으로 특정 시점을 하드링크로 남기는 백업"
+            },
+            {
+              "t": "Incremental Backup / 마지막 백업 이후 새로 생긴 SSTable만 보관하는 방식"
+            },
+            {
+              "t": "Restore / sstableloader로 SSTable을 다시 클러스터에 적재하는 복구"
+            },
+            {
+              "t": "Authentication / 아이디·비밀번호로 접속자를 확인하는 인증 방식"
+            },
+            {
+              "t": "Authorization / 역할에 권한을 묶어 자원 접근을 제한하는 방식"
+            },
+            {
+              "t": "TLS / 클라이언트-노드·노드-노드 구간을 암호화하는 통신"
+            },
+            {
+              "t": "Transparent Data Encryption / 디스크에 쓰인 파일 자체를 암호화하는 기능",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Ecosystem",
+          "anchor": "13-ecosystem",
+          "subs": [],
+          "items": [
+            {
+              "t": "Drivers / Java·Python·Go에서 클러스터에 접속하는 라이브러리"
+            },
+            {
+              "t": "Driver Policies / 요청 분산·재시도·토큰 인식을 정하는 클라이언트 설정"
+            },
+            {
+              "t": "Spark Connector / 대량 데이터를 Spark 잡으로 읽고 쓰는 연결기",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Kafka Integration / 이벤트 스트림을 받아 테이블에 적재하는 연동",
+              "tags": [
+                "별도"
+              ]
+            },
+            {
+              "t": "Cassandra 4.x and 5.x / 두 메이저 버전 사이에 바뀐 주요 기능"
+            },
+            {
+              "t": "Alternatives Review / ScyllaDB·Astra DB 같은 대안과 비교 검토"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Mongodb",
+      "ref": "software/skill-based/Data-DB/mongodb"
+    },
+    {
+      "label": "Kafka",
+      "ref": "software/skill-based/Data-DB/kafka"
+    },
+    {
+      "label": "Elasticsearch",
+      "ref": "software/skill-based/Data-DB/elasticsearch"
+    },
+    {
+      "label": "System Design",
+      "ref": "software/skill-based/CS-Theory/system-design"
+    },
+    {
+      "label": "Data Engineer",
+      "ref": "software/role-based/data-engineer"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "title": "Reading and Notes AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Reading Modes",
+          "anchor": "1-reading-modes",
+          "subs": [],
+          "items": [
+            {
+              "t": "Inspectional Read / 목차·서문·결론만 훑어 30분 안에 구조 파악"
+            },
+            {
+              "t": "Analytical Read / 저자의 주장·근거·전제를 한 장으로 재구성"
+            },
+            {
+              "t": "Syntopical Read / 같은 주제 자료 3종 이상 놓고 쟁점표 만들기"
+            },
+            {
+              "t": "Abandonment Rule / 계속 읽을 값어치 판정 기준 정하고 실제로 한 권 중단"
+            },
+            {
+              "t": "Source Ladder / 대중서→교과서→원논문 순으로 같은 주제의 층위 올리기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Extraction",
+          "anchor": "2-extraction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Concept Naming / 문단을 개념 이름 하나로 압축해 적기"
+            },
+            {
+              "t": "Quote versus Paraphrase / 인용과 내 말 구분 표기 규칙 고정"
+            },
+            {
+              "t": "Claim and Evidence / 근거 링크가 없는 노트를 걸러내기"
+            },
+            {
+              "t": "Progressive Summarization / 원문→요약→핵심 3단으로 재압축"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Note System",
+          "anchor": "3-note-system",
+          "subs": [],
+          "items": [
+            {
+              "t": "Atomic Note / 노트 하나에 개념 하나로 쪼개기"
+            },
+            {
+              "t": "Link Density / 새 노트를 기존 노트 둘 이상에 연결"
+            },
+            {
+              "t": "Index Entry / 진입점 노트 만들어 주제별로 색인"
+            },
+            {
+              "t": "Naming Convention / 제목 규칙 정해 검색 가능하게 유지"
+            },
+            {
+              "t": "Orphan Sweep / 연결 0인 노트 정리 주기 돌리기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Feedback into Practice",
+          "anchor": "4-feedback-into-practice",
+          "subs": [],
+          "items": [
+            {
+              "t": "Note to Card / 노트에서 인출 카드 뽑아 덱에 투입"
+            },
+            {
+              "t": "Note to Roadmap / 읽다 발견한 결핍을 내 로드맵 항목으로 추가"
+            },
+            {
+              "t": "Write to Check / 노트만 보고 한 편 써서 구멍 드러내기"
+            },
+            {
+              "t": "Input Output Ratio / 읽은 것 대비 남은 산출물 비율 산출"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Memory Retention",
+      "ref": "meta/learning/memory-retention"
+    },
+    {
+      "label": "Metacognition",
+      "ref": "meta/learning/metacognition"
+    },
+    {
+      "label": "Focus",
+      "ref": "meta/time-management/focus"
+    },
+    {
+      "label": "Prose Style",
+      "ref": "creative/skill-based/Writing/prose-style"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    }
+  ]
+}

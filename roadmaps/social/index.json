@@ -1,0 +1,522 @@
+[
+  {
+    "path": "role-based/coercer",
+    "title": "Coercer AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 12,
+    "items": 43
+  },
+  {
+    "path": "role-based/con-artist",
+    "title": "Con Artist AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 84
+  },
+  {
+    "path": "role-based/connector",
+    "title": "Connector AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 10,
+    "items": 69
+  },
+  {
+    "path": "role-based/cult-leader",
+    "title": "Cult Leader AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 10,
+    "items": 84
+  },
+  {
+    "path": "role-based/demagogue",
+    "title": "Demagogue AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 10,
+    "items": 67
+  },
+  {
+    "path": "role-based/interrogator",
+    "title": "Interrogator AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 13,
+    "items": 62
+  },
+  {
+    "path": "role-based/leader",
+    "title": "Leader AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 10,
+    "items": 67
+  },
+  {
+    "path": "role-based/manipulator",
+    "title": "Manipulator AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 10,
+    "items": 49
+  },
+  {
+    "path": "role-based/mediator",
+    "title": "Mediator AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 81
+  },
+  {
+    "path": "role-based/negotiator",
+    "title": "Negotiator AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 12,
+    "items": 74
+  },
+  {
+    "path": "role-based/operative",
+    "title": "Operative AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 14,
+    "items": 75
+  },
+  {
+    "path": "role-based/orator",
+    "title": "Orator AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 71
+  },
+  {
+    "path": "role-based/political-operator",
+    "title": "Political Operator AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 10,
+    "items": 71
+  },
+  {
+    "path": "role-based/public-figure",
+    "title": "Public Figure AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 46
+  },
+  {
+    "path": "role-based/seducer",
+    "title": "Seducer AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 56
+  },
+  {
+    "path": "skill-based/Coercion/leverage",
+    "title": "Leverage AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Coercion/threat",
+    "title": "Threat Construction AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Coercion/ultimatum",
+    "title": "Ultimatum AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Conflict/boundary-defense",
+    "title": "Boundary Defense AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Conflict/counterattack",
+    "title": "Counterattack AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Conflict/de-escalation",
+    "title": "De-escalation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Deception/cover-story",
+    "title": "Cover Story AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Deception/false-identity",
+    "title": "False Identity AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Deception/tell-management",
+    "title": "Tell Management AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 20
+  },
+  {
+    "path": "skill-based/GroupInfluence/crowd-psychology",
+    "title": "Crowd Psychology AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 18
+  },
+  {
+    "path": "skill-based/GroupInfluence/group-dynamics",
+    "title": "Group Dynamics AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/GroupInfluence/media-strategy",
+    "title": "Media Strategy AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/GroupInfluence/techniques",
+    "title": "Propaganda Techniques AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Influence/argumentation",
+    "title": "Argumentation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/Influence/framing",
+    "title": "Framing AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Influence/negotiation",
+    "title": "Negotiation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Influence/principles",
+    "title": "Persuasion Principles AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 15
+  },
+  {
+    "path": "skill-based/Leading/direction",
+    "title": "Direction AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 20
+  },
+  {
+    "path": "skill-based/Leading/people",
+    "title": "People AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Leading/team",
+    "title": "Team AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Manipulation/cognitive-load",
+    "title": "Cognitive Load AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 18
+  },
+  {
+    "path": "skill-based/Manipulation/dark-patterns",
+    "title": "Dark Patterns AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 20
+  },
+  {
+    "path": "skill-based/Manipulation/defense",
+    "title": "Defense AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 6,
+    "items": 23
+  },
+  {
+    "path": "skill-based/Manipulation/execution",
+    "title": "Execution Design AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 6,
+    "items": 24
+  },
+  {
+    "path": "skill-based/Manipulation/information-control",
+    "title": "Information Control AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 20
+  },
+  {
+    "path": "skill-based/Manipulation/relational-exploitation",
+    "title": "Relational Exploitation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 6,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Manipulation/target-assessment",
+    "title": "Target Assessment AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Presence/charisma",
+    "title": "Charisma AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Presence/impression-management",
+    "title": "Impression Management AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Presence/reputation",
+    "title": "Reputation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 20
+  },
+  {
+    "path": "skill-based/Presence/status-signaling",
+    "title": "Status Signaling AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Reading/cold-reading",
+    "title": "Cold Reading AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 14
+  },
+  {
+    "path": "skill-based/Reading/elicitation",
+    "title": "Elicitation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 25
+  },
+  {
+    "path": "skill-based/Reading/group-reading",
+    "title": "Group Reading AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 18
+  },
+  {
+    "path": "skill-based/Reading/inference",
+    "title": "Intent Inference AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Reading/lie-detection",
+    "title": "Deception Detection AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 17
+  },
+  {
+    "path": "skill-based/Reading/nonverbal",
+    "title": "Nonverbal Signals AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Reading/observation",
+    "title": "Observation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Reading/traces",
+    "title": "Trace Reading AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/Relating/approach",
+    "title": "Approach AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 18
+  },
+  {
+    "path": "skill-based/Relating/bonding",
+    "title": "Bonding AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 18
+  },
+  {
+    "path": "skill-based/Relating/empathy",
+    "title": "Empathy AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/Relating/listening",
+    "title": "Listening AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/Relating/networking",
+    "title": "Networking AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "skill-based/Seduction/attraction",
+    "title": "Attraction AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Seduction/escalation",
+    "title": "Escalation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "skill-based/Seduction/tension",
+    "title": "Tension AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "skill-based/Speaking/conversation",
+    "title": "Conversation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "skill-based/Speaking/delivery",
+    "title": "Delivery AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 18
+  },
+  {
+    "path": "skill-based/Speaking/structure",
+    "title": "Structure AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 18
+  }
+]

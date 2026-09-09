@@ -1,0 +1,569 @@
+{
+  "title": "Jenkins AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Jenkins",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Jenkins?",
+          "anchor": "1-what-is-jenkins",
+          "subs": [
+            {
+              "title": "Use Cases",
+              "items": [
+                {
+                  "t": "CI/CD Pipeline / 커밋마다 빌드·테스트·배포를 잇는 흐름"
+                },
+                {
+                  "t": "Scheduled and Batch Automation / 정해진 시각에 반복 실행하는 작업"
+                },
+                {
+                  "t": "Legacy · Regulated Environment / 폐쇄망·규제망에서 쓰는 운용 방식"
+                }
+              ]
+            },
+            {
+              "title": "Comparison with Other Tools",
+              "items": [
+                {
+                  "t": "Jenkins vs GitHub Actions / 서버 소유 대 SaaS 관리형의 차이"
+                },
+                {
+                  "t": "Jenkins vs GitLab CI / 플러그인 조립 대 내장 기능의 차이"
+                },
+                {
+                  "t": "When to choose Jenkins? / 통제권과 커스터마이징이 필요할 때"
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "t": "Open-source Automation Server / 소스를 열어 무료로 쓰는 자동화 서버"
+            },
+            {
+              "t": "Build, Test, Deploy Automation / 빌드·테스트·배포를 하나로 잇는 자동화"
+            },
+            {
+              "t": "Plugin-based Architecture / 없는 기능을 플러그인으로 조립하는 구조"
+            },
+            {
+              "t": "Self-hosted and On-premise / 내가 서버를 직접 관리하는 배포 형태"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Installation and Setup",
+          "anchor": "2-installation-and-setup",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "Docker / 컨테이너로 띄워 격리해 운영하는 방법",
+                  "delegate": "software/skill-based/Infra-DevOps/docker",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "WAR File and Servlet Container / 톰캣 같은 서블릿 컨테이너에 얹는 방법"
+                },
+                {
+                  "t": "Package Manager / apt·yum으로 설치해 OS 서비스로 올리는 방법"
+                },
+                {
+                  "t": "Kubernetes Helm Chart / 클러스터에 차트로 배포하는 방법"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Initial Configuration",
+              "items": [
+                {
+                  "t": "Unlock Jenkins / 파일에 찍힌 최초 관리자 비밀번호로 여는 절차"
+                },
+                {
+                  "t": "Suggested Plugins / 설치 시 고르는 권장 플러그인 묶음"
+                },
+                {
+                  "t": "JENKINS_HOME Layout / 설정·잡·빌드가 쌓이는 디렉터리 구조"
+                },
+                {
+                  "t": "Java Version Requirement / 컨트롤러 구동에 맞춰야 할 JDK 버전"
+                },
+                {
+                  "t": "Reverse Proxy and HTTPS / 앞단에 프록시를 둬 인증서를 붙이는 구성"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Jenkins Basics",
+          "anchor": "3-jenkins-basics",
+          "subs": [
+            {
+              "title": "UI Structure",
+              "items": [
+                {
+                  "t": "Dashboard and Views / 잡을 묶어 보여주는 목록 화면"
+                },
+                {
+                  "t": "Job, Build, Console Output / 잡 실행 단위와 그 실시간 로그"
+                },
+                {
+                  "t": "Build History and Workspace / 과거 실행 기록과 빌드용 작업 폴더"
+                }
+              ]
+            },
+            {
+              "title": "Job Types",
+              "items": [
+                {
+                  "t": "Freestyle Project / UI 클릭으로 단계를 구성하는 잡"
+                },
+                {
+                  "t": "Pipeline / Jenkinsfile로 단계를 코드로 정의하는 잡"
+                },
+                {
+                  "t": "Multibranch Pipeline / 브랜치마다 잡을 자동 생성하는 방식"
+                },
+                {
+                  "t": "Folder and Organization Folder / 잡을 계층으로 묶는 컨테이너"
+                }
+              ]
+            },
+            {
+              "title": "Basic Concepts",
+              "items": [
+                {
+                  "t": "Controller and Agent Architecture / 중앙 서버와 실행 노드를 나눈 구조"
+                },
+                {
+                  "t": "Executor and Build Queue / 노드의 동시 실행 슬롯과 대기열"
+                },
+                {
+                  "t": "Manage Jenkins Menu / 서버 전역 설정을 모아둔 관리 화면"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Pipeline",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Pipeline Fundamentals",
+          "anchor": "4-pipeline-fundamentals",
+          "subs": [
+            {
+              "title": "Syntax",
+              "items": [
+                {
+                  "t": "Declarative Pipeline / 정해진 블록 구조로 쓰는 문법",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Scripted Pipeline / Groovy로 자유롭게 짜는 문법"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Structure",
+              "items": [
+                {
+                  "t": "Pipeline Structure / pipeline·agent·stages·steps로 짜는 뼈대"
+                },
+                {
+                  "t": "Jenkinsfile in SCM / 파이프라인 정의를 저장소에 함께 두는 방식"
+                },
+                {
+                  "t": "Snippet Generator and Pipeline Syntax / 스텝 문법을 클릭으로 생성해주는 도구"
+                },
+                {
+                  "t": "Replay and Restart from Stage / 코드 수정 없이 재실행하거나 중간부터 재개"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 5,
+          "title": "Declarative Directives",
+          "anchor": "5-declarative-directives",
+          "subs": [],
+          "items": [
+            {
+              "t": "Agent Selection / any·label·docker로 실행 노드를 고르는 지시어"
+            },
+            {
+              "t": "Environment Block / 파이프라인 전역에 쓰는 환경변수 선언"
+            },
+            {
+              "t": "Parameters / string·choice로 실행 전 값을 받는 선언"
+            },
+            {
+              "t": "Options / timeout·retry로 실행 규칙을 거는 블록"
+            },
+            {
+              "t": "Triggers / cron·pollSCM으로 자동 시작을 거는 조건"
+            },
+            {
+              "t": "Tools / JDK·Maven을 자동 설치해 PATH에 걸어주는 지시어"
+            },
+            {
+              "t": "Post Conditions / success·failure 같은 결과별로 거는 후처리"
+            },
+            {
+              "t": "when Conditions / branch·changeset으로 스테이지를 건너뛰는 조건"
+            },
+            {
+              "t": "input and Manual Approval / 사람의 승인을 기다려 멈추는 단계"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Steps and Scripting",
+          "anchor": "6-steps-and-scripting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Common Steps / sh·bat·checkout 같은 기본 실행 단위"
+            },
+            {
+              "t": "script Block / 선언형 안에 Groovy 로직을 끼워 넣는 블록"
+            },
+            {
+              "t": "Error Handling / catchError로 실패를 잡아 빌드 상태를 정하는 법"
+            },
+            {
+              "t": "Parallel Stages / 여러 스테이지를 동시에 실행하는 구조"
+            },
+            {
+              "t": "Matrix Directive / axes로 조합을 펼쳐 병렬 실행하는 지시어"
+            },
+            {
+              "t": "Sequential Stages inside parallel / 병렬 가지 안에서 순서를 강제하는 중첩"
+            },
+            {
+              "t": "Timeouts and Retries / 단계별 제한 시간과 재시도 횟수 지정"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Credentials in Pipeline",
+          "anchor": "7-credentials-in-pipeline",
+          "subs": [],
+          "items": [
+            {
+              "t": "Credentials Store / 자격증명을 범위와 도메인별로 나눠 담는 저장소"
+            },
+            {
+              "t": "Credential Types / 비밀번호·SSH 키·시크릿 파일로 나뉘는 저장 형식"
+            },
+            {
+              "t": "withCredentials Binding / 스텝 범위에서만 자격증명을 노출하는 바인딩"
+            },
+            {
+              "t": "credentials() Helper in environment / 환경변수 블록에서 자격증명을 끌어오는 함수"
+            },
+            {
+              "t": "Secret Masking in Logs / 콘솔 출력에서 비밀값을 가려주는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Extensions",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Agents and Distributed Builds",
+          "anchor": "8-agents-and-distributed-builds",
+          "subs": [],
+          "items": [
+            {
+              "t": "Agent Connection / SSH로 밀거나 JNLP로 붙게 하는 연결 방식"
+            },
+            {
+              "t": "Node Labels and Label Expression / 노드를 태그로 골라 잡을 배정하는 식"
+            },
+            {
+              "t": "Static vs Ephemeral Agents / 상시 대기 노드와 필요 시 생성되는 노드"
+            },
+            {
+              "t": "Docker Agent / 컨테이너를 에이전트로 즉석에서 띄우는 방식"
+            },
+            {
+              "t": "Kubernetes Plugin and Pod Templates / 파드를 에이전트 템플릿으로 정의하는 플러그인"
+            },
+            {
+              "t": "Cloud Agents / 클라우드 VM을 띄워 에이전트로 쓰는 구성"
+            },
+            {
+              "t": "Agent Sizing and Executor Count / 노드마다 동시 실행 슬롯 수를 정하는 일"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Shared Libraries",
+          "anchor": "9-shared-libraries",
+          "subs": [],
+          "items": [
+            {
+              "t": "Library Structure / vars·src·resources로 정해진 폴더 구성"
+            },
+            {
+              "t": "Global vs Folder-level Library / 전역으로 쓸지 폴더 범위로 한정할지"
+            },
+            {
+              "t": "@Library Annotation and Versioning / 파이프라인에서 라이브러리 버전을 불러오는 표기"
+            },
+            {
+              "t": "Custom Steps and Global Variables / vars에 정의해 스텝처럼 쓰는 함수"
+            },
+            {
+              "t": "Groovy Classes in src / 로직을 클래스로 분리해 재사용하는 방식"
+            },
+            {
+              "t": "Testing / 공유 라이브러리를 단위 테스트로 검증하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Plugins",
+          "anchor": "10-plugins",
+          "subs": [],
+          "items": [
+            {
+              "t": "Plugin Manager / 플러그인을 설치하고 버전을 갱신하는 화면"
+            },
+            {
+              "t": "Essential Plugins / 어느 구성에나 먼저 깔고 시작하는 플러그인 묶음"
+            },
+            {
+              "t": "Reporting Plugins / 테스트·정적분석 결과를 화면에 모아 주는 플러그인"
+            },
+            {
+              "t": "Notification Plugins / 빌드 결과를 슬랙·메일로 내보내는 플러그인"
+            },
+            {
+              "t": "Plugin Dependency and Compatibility Risk / 플러그인 간 의존과 버전 충돌 위험"
+            },
+            {
+              "t": "Plugin Security Advisories / 알려진 플러그인 취약점 공지"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Configuration as Code",
+          "anchor": "11-configuration-as-code",
+          "subs": [],
+          "items": [
+            {
+              "t": "JCasC / UI 설정을 YAML 한 장으로 되돌리는 플러그인"
+            },
+            {
+              "t": "casc.yaml Structure / JCasC가 읽어들이는 설정 파일 구조"
+            },
+            {
+              "t": "Job DSL Plugin / 잡 정의 자체를 코드로 생성하는 플러그인"
+            },
+            {
+              "t": "Seed Job Pattern / DSL 잡을 실행해 다른 잡을 만들어내는 패턴"
+            },
+            {
+              "t": "Immutable Jenkins Image / 설정을 이미지에 굳혀 매번 새로 띄우는 방식"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Deployment and Operations",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Artifacts and Reporting",
+          "anchor": "12-artifacts-and-reporting",
+          "subs": [],
+          "items": [
+            {
+              "t": "archiveArtifacts / 빌드 산출물을 컨트롤러에 보관하는 스텝"
+            },
+            {
+              "t": "stash and unstash / 같은 빌드 안에서 파일을 스테이지 간 전달"
+            },
+            {
+              "t": "Test Report Publishing / 테스트 결과 XML을 모아 화면에 집계하는 스텝"
+            },
+            {
+              "t": "Code Coverage Report / 커버리지 결과를 빌드 화면에 표시"
+            },
+            {
+              "t": "Build Status Badge / 빌드 상태를 외부 화면에 보여주는 배지"
+            },
+            {
+              "t": "Artifact Repository / 산출물을 컨트롤러 밖 저장소에 넘겨 두는 곳"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Deployment",
+          "anchor": "13-deployment",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deploy Stage Pattern / 배포를 파이프라인 마지막 단계로 두는 구성"
+            },
+            {
+              "t": "Environment Promotion / 같은 산출물을 dev에서 prod로 승격시키는 흐름"
+            },
+            {
+              "t": "Manual Approval Gate / 배포 직전 사람 승인을 강제하는 관문"
+            },
+            {
+              "t": "Container Build and Push / 이미지를 빌드해 레지스트리로 올리는 단계"
+            },
+            {
+              "t": "Kubernetes and Helm Deploy / 클러스터에 차트로 배포하는 단계"
+            },
+            {
+              "t": "Blue-Green and Canary Release / 무중단·점진 전환으로 배포하는 전략"
+            },
+            {
+              "t": "Rollback Handling / 배포 실패 시 이전 버전으로 되돌리는 처리"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Administration",
+          "anchor": "14-administration",
+          "subs": [
+            {
+              "title": "Operations Management",
+              "items": [
+                {
+                  "t": "Backup / JENKINS_HOME을 통째로 떠 두는 대상과 주기"
+                },
+                {
+                  "t": "Upgrade Strategy and LTS Line / 안정 버전 계열을 따라가는 업그레이드 방침"
+                },
+                {
+                  "t": "Workspace Cleanup and Disk Usage / 쌓인 워크스페이스를 정리해 디스크 회수"
+                },
+                {
+                  "t": "Build Retention Policy / 오래된 빌드 기록을 자동으로 지우는 정책"
+                },
+                {
+                  "t": "Monitoring / 컨트롤러 지표를 프로메테우스로 노출하는 방법"
+                },
+                {
+                  "t": "Logs / 시스템 로그와 지원 번들로 장애를 파고드는 자리"
+                }
+              ]
+            },
+            {
+              "title": "Performance",
+              "items": [
+                {
+                  "t": "Controller JVM Tuning / 컨트롤러 자바 힙과 GC 옵션을 조정하는 일"
+                },
+                {
+                  "t": "Reducing Controller Load / 무거운 작업을 에이전트로 넘겨 부하를 줄이는 법"
+                },
+                {
+                  "t": "Queue Throttling and Concurrency / 동시 실행 수를 제한해 대기열을 조절"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 15,
+          "title": "Security Hardening",
+          "anchor": "15-security-hardening",
+          "subs": [],
+          "items": [
+            {
+              "t": "Authentication Realm / 로그인 검증을 LDAP·SSO에 위임하는 연동"
+            },
+            {
+              "t": "Authorization / 사용자·잡 단위로 권한을 나누는 전략"
+            },
+            {
+              "t": "CSRF Protection / 위조 요청을 막는 크럼(crumb) 검증"
+            },
+            {
+              "t": "Script Security / 승인 안 된 Groovy 실행을 막는 샌드박스"
+            },
+            {
+              "t": "Agent-to-Controller Access Control / 에이전트가 컨트롤러 자원에 접근하는 권한 제한"
+            },
+            {
+              "t": "Disabling Legacy Protocols / 취약한 옛 통신 프로토콜을 끄는 조치"
+            },
+            {
+              "t": "Secrets Rotation / 저장된 자격증명을 주기적으로 교체"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    },
+    {
+      "label": "Git Github",
+      "ref": "software/skill-based/Infra-DevOps/git-github"
+    },
+    {
+      "label": "Shell Bash",
+      "ref": "software/skill-based/Languages/shell-bash"
+    },
+    {
+      "label": "Linux",
+      "ref": "software/skill-based/Infra-DevOps/linux"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    },
+    {
+      "label": "Devsecops",
+      "ref": "software/role-based/devsecops"
+    }
+  ]
+}

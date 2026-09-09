@@ -1,0 +1,469 @@
+{
+  "title": "Grammar AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The Skeleton of a Sentence (N5)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Learning Base",
+          "anchor": "1-learning-base",
+          "subs": [
+            {
+              "title": "Main Textbook",
+              "items": [
+                {
+                  "t": "Genki Track / 겐키 1권을 교재로 진행"
+                },
+                {
+                  "t": "Minna no Nihongo Track / 민나노니홍고 초급 1을 교재로 진행"
+                },
+                {
+                  "t": "App Curriculum Track / 문법 커리큘럼이 있는 학습 앱으로 진행"
+                }
+              ],
+              "choice": true
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Polite Sentence Basics",
+          "anchor": "2-polite-sentence-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Desu Sentence Set / 명사+です 문장 10개 만들어 소리내어 읽기"
+            },
+            {
+              "t": "Masu Conjugation Drill / 동사 10개를 ます형으로 바꿔 쓰기"
+            },
+            {
+              "t": "Self Introduction Script / です·ます만 써서 자기소개 5문장 쓰고 말하기"
+            },
+            {
+              "t": "Question Answer Pairs / 「～ですか」 질문과 대답 쌍 5개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Core Particles",
+          "anchor": "3-core-particles",
+          "subs": [],
+          "items": [
+            {
+              "t": "Wa vs Ga Sentences / は와 が를 서로 바꿔 낀 문장 쌍 5개 만들고 차이 한 줄 적기"
+            },
+            {
+              "t": "O Particle Drill / を 써서 \"무엇을 하다\" 문장 10개 만들기"
+            },
+            {
+              "t": "Ni De Location Split / 장소의 に와 で를 골라 쓴 문장 각 5개 만들기"
+            },
+            {
+              "t": "E To Direction Sentences / へ·と 들어간 문장 각 3개 만들기"
+            },
+            {
+              "t": "Particle Fill Blanks / 조사 빈칸 문제 20개 풀고 틀린 것만 노트에 옮기기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Verb Groups",
+          "anchor": "4-verb-groups",
+          "subs": [],
+          "items": [
+            {
+              "t": "Verb Group Sorting / 동사 30개를 1·2·3그룹으로 분류해 표 만들기"
+            },
+            {
+              "t": "Group Conjugation Table / 그룹별 대표 동사 3개씩 ます형·ない형 활용표 손으로 쓰기"
+            },
+            {
+              "t": "Nai Form Drill / 동사 15개를 ない형으로 바꿔 쓰기"
+            },
+            {
+              "t": "Past Tense Drill / 동사 15개를 ました·ませんでした로 바꿔 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Adjectives",
+          "anchor": "5-adjectives",
+          "subs": [],
+          "items": [
+            {
+              "t": "I Adjective Conjugation / い형용사 10개를 부정·과거로 활용해 쓰기"
+            },
+            {
+              "t": "Na Adjective Conjugation / な형용사 10개를 활용해 쓰기"
+            },
+            {
+              "t": "Object Description Set / 주변 물건 10개를 형용사로 묘사하는 문장 쓰기"
+            },
+            {
+              "t": "Comparison Sentences / 「AよりBのほうが」 비교 문장 5개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Questions and Negation",
+          "anchor": "6-questions-and-negation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Question Word Set / 何·誰·どこ·いつ 의문문 각 2개씩 만들기"
+            },
+            {
+              "t": "Negative Answer Drill / 질문 10개에 부정형으로 답해 쓰기"
+            },
+            {
+              "t": "Existence Sentences / あります·います 구분해 문장 각 5개 만들기"
+            },
+            {
+              "t": "Three Line Diary / 배운 문형만으로 세 줄 일기 3일 쓰기",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Connecting and Conjugating (N4)",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Te-form",
+          "anchor": "7-te-form",
+          "subs": [],
+          "items": [
+            {
+              "t": "Te-form Drill / 동사 20개를 て형으로 바꿔 쓰고 소리내어 읽기"
+            },
+            {
+              "t": "Sequential Actions / て형 연결로 하루 일과를 한 문장으로 잇기"
+            },
+            {
+              "t": "Te Iru Status / ～ている로 지금 상태·습관 문장 각 5개 만들기"
+            },
+            {
+              "t": "Te Kudasai Requests / ～てください 부탁 문장 5개 만들기"
+            },
+            {
+              "t": "Permission and Prohibition / ～てもいい·～てはいけない 문장 각 3개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Plain Form",
+          "anchor": "8-plain-form",
+          "subs": [],
+          "items": [
+            {
+              "t": "Plain Form Conversion / ます형 문장 15개를 보통형으로 바꿔 쓰기"
+            },
+            {
+              "t": "Ta Form Drill / 동사 15개를 た형으로 바꿔 쓰기"
+            },
+            {
+              "t": "Casual Chat Script / 친구와의 반말 대화 스크립트 10줄 쓰기"
+            },
+            {
+              "t": "Experience Sentences / ～たことがある 경험 문장 5개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Potential Volitional Imperative",
+          "anchor": "9-potential-volitional-imperative",
+          "subs": [],
+          "items": [
+            {
+              "t": "Potential Form Drill / 동사 15개를 가능형으로 바꿔 문장에 넣기"
+            },
+            {
+              "t": "Volitional Invitations / 의지형(～よう)으로 권유 문장 5개 만들기"
+            },
+            {
+              "t": "Imperative Pairs / 명령형·금지형 쌍 5개 만들기"
+            },
+            {
+              "t": "Intention Sentences / ～つもり·～予定로 계획 문장 5개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Giving and Receiving",
+          "anchor": "10-giving-and-receiving",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ageru Kureru Morau Split / あげる·くれる·もらう 문장 각 3개 만들고 방향을 화살표로 그리기"
+            },
+            {
+              "t": "Favor Sentences / ～てあげる·～てくれる·～てもらう 문장 각 2개 만들기"
+            },
+            {
+              "t": "Perspective Swap / 같은 사건을 주는 쪽·받는 쪽 시점으로 두 번 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Conditionals and Conjecture (N3)",
+      "sections": [
+        {
+          "no": 11,
+          "title": "Four Conditionals",
+          "anchor": "11-four-conditionals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ba Form Drill / 동사·형용사 10개를 ば형으로 바꿔 쓰기"
+            },
+            {
+              "t": "Tara Scenarios / たら 조건 문장 5개 만들기"
+            },
+            {
+              "t": "Conditional Choice Drill / 같은 상황을 ば·たら·なら·と 중 맞는 것으로 골라 문장 10개 만들기",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Wrong Conditional Hunt / 조건형을 서로 바꾸면 어색해지는 예 3개 찾아 이유 적기"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Passive and Causative",
+          "anchor": "12-passive-and-causative",
+          "subs": [],
+          "items": [
+            {
+              "t": "Passive Form Drill / 동사 15개를 수동형으로 활용해 문장에 넣기"
+            },
+            {
+              "t": "Suffering Passive / 피해 수동(雨に降られた류) 문장 5개 만들기"
+            },
+            {
+              "t": "Causative Sentences / 사역형 문장 5개 만들기"
+            },
+            {
+              "t": "Causative Passive / ～させられる 문장 3개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Conjecture and Hearsay",
+          "anchor": "13-conjecture-and-hearsay",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sou Deshou Mitai Split / そうだ·でしょう·みたい 골라 쓴 추측 문장 각 3개 만들기"
+            },
+            {
+              "t": "Rashii Hearsay / ～らしい·전문의 ～そうだ로 전달 문장 5개 만들기"
+            },
+            {
+              "t": "Certainty Ladder / 같은 내용을 확신 정도 순으로 문장 4개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Polite Language Intro",
+          "anchor": "14-polite-language-intro",
+          "subs": [],
+          "items": [
+            {
+              "t": "Teineigo Upgrade / 반말 대화 10줄을 정중체로 바꿔 쓰기"
+            },
+            {
+              "t": "Style Consistency / 문체 섞임 없이 정중체로 통일한 글 한 단락 쓰기"
+            },
+            {
+              "t": "Cushion Phrases / すみませんが류 완충 표현 넣은 부탁 문장 5개 만들기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "The World of Written Japanese (N2)",
+      "sections": [
+        {
+          "no": 15,
+          "title": "Written Style",
+          "anchor": "15-written-style",
+          "subs": [],
+          "items": [
+            {
+              "t": "De Aru Conversion / です·ます 글 한 단락을 である체로 바꿔 쓰기"
+            },
+            {
+              "t": "N2 Pattern Sentences / N2 문형 10개를 각각 내 얘기로 예문 만들기"
+            },
+            {
+              "t": "Opinion Paragraph / 문어 문형 3개 이상 넣어 의견 글 한 단락 쓰기"
+            },
+            {
+              "t": "Formal Mail / 문어체로 격식 있는 이메일 한 통 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Compound Particles",
+          "anchor": "16-compound-particles",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ni Totte Ni Taishite Split / にとって·に対して·について 문장 각 3개 만들기"
+            },
+            {
+              "t": "Compound Particle Set / をめぐって·を通じて 등 복합 조사 5개 골라 예문 만들기"
+            },
+            {
+              "t": "Nuance Rewrite / 단순 조사 문장 10개를 복합 조사로 바꿔 뉘앙스 비교 적기"
+            }
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Nuance Splitting",
+          "anchor": "17-nuance-splitting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Wake vs Hazu / ～わけだ와 ～はずだ를 같은 상황에 넣어 차이 설명 적기"
+            },
+            {
+              "t": "Wake Negations / ～わけではない·～わけにはいかない 문장 각 3개 만들기"
+            },
+            {
+              "t": "Mono vs Koto / ～ものだ·～ことだ 문장 각 3개 만들고 차이 한 줄 정리"
+            },
+            {
+              "t": "Similar Pattern Pairs / 헷갈리는 유사 문형 5쌍 골라 예문으로 가르기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "The Realm of Naturalness (N1 · Beyond)",
+      "sections": [
+        {
+          "no": 18,
+          "title": "Advanced Patterns in Use",
+          "anchor": "18-advanced-patterns-in-use",
+          "subs": [],
+          "items": [
+            {
+              "t": "N1 Pattern Sentences / N1 문형 10개를 내 예문으로 만들기"
+            },
+            {
+              "t": "Pattern Hunt in Text / 소설·사설에서 고급 문형 5개 찾아 문장째 옮겨 적기"
+            },
+            {
+              "t": "Advanced Essay / 고급 문형 5개 이상 넣어 짧은 에세이 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 19,
+          "title": "Full Keigo",
+          "anchor": "19-full-keigo",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sonkeigo Kenjougo Table / 주요 동사 15개의 존경어·겸양어 대응표 손으로 만들기"
+            },
+            {
+              "t": "Keigo Request Mail / 정중한 부탁 문장 5개를 존경어·겸양어 써서 만들기",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Business Call Roleplay / 전화 응대 상황극 스크립트 쓰고 소리내어 연기하기"
+            },
+            {
+              "t": "Keigo Error Fix / 이중경어 등 잘못된 경어 예 5개 찾아 바르게 고쳐 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Speech Varieties",
+          "anchor": "20-speech-varieties",
+          "subs": [],
+          "items": [
+            {
+              "t": "Gendered Speech Rewrite / 같은 대사를 남성어·여성어로 바꿔 쓰기"
+            },
+            {
+              "t": "Register by Listener / 같은 부탁을 연장자·동년배·아랫사람에게 다르게 3버전 쓰기"
+            },
+            {
+              "t": "Character Speech Notes / 드라마·애니에서 말투 다른 캐릭터 2명 골라 특징 적기"
+            }
+          ]
+        },
+        {
+          "no": 21,
+          "title": "Dialects",
+          "anchor": "21-dialects",
+          "subs": [],
+          "items": [
+            {
+              "t": "Kansai Feature Notes / 간사이벤 특징 5개를 예문과 함께 정리하기"
+            },
+            {
+              "t": "Dialect Spotting / 방언 섞인 영상 하나 보고 표준어와 다른 부분 3개 받아 적기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Foundations",
+      "ref": "language/japanese/foundations"
+    },
+    {
+      "label": "Kanji",
+      "ref": "language/japanese/kanji"
+    },
+    {
+      "label": "Writing",
+      "ref": "language/japanese/writing"
+    },
+    {
+      "label": "Speaking",
+      "ref": "language/japanese/speaking"
+    }
+  ]
+}

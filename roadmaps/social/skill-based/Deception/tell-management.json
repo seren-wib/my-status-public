@@ -1,0 +1,139 @@
+{
+  "title": "Tell Management AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Self-leakage",
+          "anchor": "1-self-leakage",
+          "subs": [],
+          "items": [
+            {
+              "t": "Nonverbal Signals",
+              "delegate": "social/skill-based/Reading/nonverbal"
+            },
+            {
+              "t": "Leakage Concept / 통제 밖 채널로 새어나오는 신호"
+            },
+            {
+              "t": "Channel Controllability / 얼굴보다 목소리·손·다리가 덜 통제됨"
+            },
+            {
+              "t": "Own Baseline / 상대가 아는 내 평소 상태가 비교 기준"
+            },
+            {
+              "t": "Stress Is Not Guilt / 긴장 신호와 거짓 신호는 같지 않음"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Cognitive Load",
+          "anchor": "2-cognitive-load",
+          "subs": [],
+          "items": [
+            {
+              "t": "Preparation as Load Reduction / 부하를 줄이는 실질적으로 유일한 수단"
+            },
+            {
+              "t": "Dual-task Vulnerability / 말하면서 다른 요구를 받을 때 무너짐"
+            },
+            {
+              "t": "Response Latency / 지연도 과속도 신호가 됨"
+            },
+            {
+              "t": "Disfluency Increase / 머뭇거림과 자기 수정의 증가"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Regulation under Pressure",
+          "anchor": "3-regulation-under-pressure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Suppression versus Reappraisal / 억누르기와 재해석의 비용 차이"
+            },
+            {
+              "t": "Emotional Substitution / 실제로 느끼는 상태 자체를 바꿔놓기"
+            },
+            {
+              "t": "Physical State Management / 수면·각성·호흡이 신호에 미치는 영향"
+            },
+            {
+              "t": "Recovery after a Hit / 허를 찔린 직후의 몇 초를 넘기기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Countering Detection",
+          "anchor": "4-countering-detection",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reading the Reader / 상대가 어떤 단서를 보고 있는지 파악"
+            },
+            {
+              "t": "Myth Exploitation / 시선 회피 같은 속설을 믿는 상대에게 맞춰주기"
+            },
+            {
+              "t": "Discredited Instruments / polygraph·음성 스트레스 분석은 타당도 미달인데도 절차로 쓰임"
+            },
+            {
+              "t": "Strategic Evidence Awareness / 상대가 아는 사실을 늦게 꺼낸다는 전제"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Overcontrol",
+          "anchor": "5-overcontrol",
+          "subs": [],
+          "items": [
+            {
+              "t": "Overcontrol Signal / 과한 통제가 만드는 부자연스러움"
+            },
+            {
+              "t": "Rigidity and Stillness / 움직임이 줄어드는 전형적 과잉 억제"
+            },
+            {
+              "t": "Polished Delivery Risk / 지나치게 매끄러운 진술이 주는 인상"
+            },
+            {
+              "t": "Self-monitoring Cost / 자기 감시 자체가 부하를 더한다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Cover Story",
+      "ref": "social/skill-based/Deception/cover-story"
+    },
+    {
+      "label": "False Identity",
+      "ref": "social/skill-based/Deception/false-identity"
+    },
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    },
+    {
+      "label": "Deception Detection",
+      "ref": "social/skill-based/Reading/lie-detection"
+    },
+    {
+      "label": "Cognitive Load",
+      "ref": "social/skill-based/Manipulation/cognitive-load"
+    }
+  ]
+}

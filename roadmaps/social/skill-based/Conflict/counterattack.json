@@ -1,0 +1,149 @@
+{
+  "title": "Counterattack AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Before You Swing",
+          "anchor": "1-before-you-swing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cost of Responding / 반응 자체가 상대에게 무대를 준다"
+            },
+            {
+              "t": "Audience over Opponent / 설득 대상은 상대가 아니라 관중"
+            },
+            {
+              "t": "Attack Type / 떠보기·과시·진짜 공격 구분"
+            },
+            {
+              "t": "Response Timing / 즉답과 지연의 득실"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Silence and Refusal",
+          "anchor": "2-silence-and-refusal",
+          "subs": [],
+          "items": [
+            {
+              "t": "Strategic Ignoring / 무시가 최선인 조건"
+            },
+            {
+              "t": "Non-defensive Response / 방어하면 혐의를 인정하는 꼴이 된다"
+            },
+            {
+              "t": "Refusing the Bait / 도발에 물리지 않기"
+            },
+            {
+              "t": "Starving the Attack / 반응을 주지 않아 공격을 말리기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Turning the Frame",
+          "anchor": "3-turning-the-frame",
+          "subs": [],
+          "items": [
+            {
+              "t": "Refusing the Premise / 공격에 깔린 전제를 거부"
+            },
+            {
+              "t": "Question Reversal / 되물어 입증 책임을 넘기기"
+            },
+            {
+              "t": "Reframing the Attack / 공격을 다른 사안으로 다시 규정"
+            },
+            {
+              "t": "Motive Exposure / 공격의 의도를 드러내 무력화"
+            },
+            {
+              "t": "Rebuttal Structure",
+              "delegate": "social/skill-based/Influence/argumentation"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Wit and Public Defense",
+          "anchor": "4-wit-and-public-defense",
+          "subs": [],
+          "items": [
+            {
+              "t": "Composure as Answer / 흔들리지 않는 태도가 최고의 반박"
+            },
+            {
+              "t": "Wit / 웃음으로 공격의 무게를 빼는 반격"
+            },
+            {
+              "t": "Self-deprecation / 먼저 웃어 화살을 없애기"
+            },
+            {
+              "t": "Concede and Pivot / 일부 인정 후 본론으로 되돌리기"
+            },
+            {
+              "t": "Public Record / 관중 앞의 대응은 남는다는 전제"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Escalation as Leverage",
+          "anchor": "5-escalation-as-leverage",
+          "subs": [],
+          "items": [
+            {
+              "t": "Credible Threat / 실행할 수 있는 위협만 힘이 있다"
+            },
+            {
+              "t": "Raising the Stakes / 판을 키워 상대의 비용을 올리기"
+            },
+            {
+              "t": "Burning Bridges / 되돌릴 수 없는 수의 값"
+            },
+            {
+              "t": "Overreaction Cost / 과잉 대응이 가해자를 피해자로 만든다"
+            },
+            {
+              "t": "Off-ramp for Both / 이겨도 상대에게 출구를 남기기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "De-escalation",
+      "ref": "social/skill-based/Conflict/de-escalation"
+    },
+    {
+      "label": "Boundary Defense",
+      "ref": "social/skill-based/Conflict/boundary-defense"
+    },
+    {
+      "label": "Argumentation",
+      "ref": "social/skill-based/Influence/argumentation"
+    },
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    },
+    {
+      "label": "Group Reading",
+      "ref": "social/skill-based/Reading/group-reading"
+    }
+  ]
+}

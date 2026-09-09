@@ -1,0 +1,333 @@
+{
+  "title": "Calculus AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Functions and Limits",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Functions and Preliminaries",
+          "anchor": "1-functions-and-preliminaries",
+          "subs": [],
+          "items": [
+            {
+              "t": "Function Behavior / 정의역·치역·합성·역함수를 문제로 다루기"
+            },
+            {
+              "t": "Elementary Function Families / 다항·유리·지수·로그·삼각함수의 모양 감각"
+            },
+            {
+              "t": "Graph Transformations / 평행이동·확대·반사로 그래프를 예측해서 그리기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Limits and Continuity",
+          "anchor": "2-limits-and-continuity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Limit Concept / 극한의 직관과 기본 계산"
+            },
+            {
+              "t": "Epsilon-Delta Definition / 엄밀한 정의로 간단한 극한 두 개 증명"
+            },
+            {
+              "t": "Indeterminate Forms / 부정형을 인수분해·유리화로 처리"
+            },
+            {
+              "t": "Continuity / 연속의 정의와 불연속의 종류 구분"
+            },
+            {
+              "t": "Intermediate Value Theorem / 중간값 정리로 해의 존재 보이기"
+            },
+            {
+              "t": "Limits at Infinity and Asymptotes / 무한대 극한과 점근선 찾기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Differentiation",
+      "sections": [
+        {
+          "no": 3,
+          "title": "The Derivative",
+          "anchor": "3-the-derivative",
+          "subs": [],
+          "items": [
+            {
+              "t": "Derivative as Limit / 정의로 직접 미분해서 공식 유도"
+            },
+            {
+              "t": "Slope and Rate of Change / 접선기울기와 변화율, 두 해석을 한 문제에서"
+            },
+            {
+              "t": "Differentiability / 미분가능과 연속의 관계, 반례 확인"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Differentiation Techniques",
+          "anchor": "4-differentiation-techniques",
+          "subs": [],
+          "items": [
+            {
+              "t": "Basic Rules / 곱·몫·거듭제곱 규칙으로 문제 각 3개"
+            },
+            {
+              "t": "Chain Rule / 합성함수 미분, 중첩된 경우까지"
+            },
+            {
+              "t": "Implicit Differentiation / 음함수 미분으로 접선 구하기"
+            },
+            {
+              "t": "Derivatives of Transcendentals / 지수·로그·삼각·역삼각 미분"
+            },
+            {
+              "t": "Logarithmic Differentiation / 로그미분법이 유리해지는 형태 알아보기"
+            },
+            {
+              "t": "Higher-Order Derivatives / 고계도함수와 그 물리적 의미"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Applications of the Derivative",
+          "anchor": "5-applications-of-the-derivative",
+          "subs": [],
+          "items": [
+            {
+              "t": "Critical Points and Extrema / 1계·2계 판정으로 극값 찾기"
+            },
+            {
+              "t": "Concavity and Inflection / 오목·볼록과 변곡점 판정"
+            },
+            {
+              "t": "Curve Sketching / 도함수 정보만으로 그래프 완성하기"
+            },
+            {
+              "t": "Mean Value Theorem / 평균값 정리와 그 따름 결과 활용"
+            },
+            {
+              "t": "Optimization Problems / 말로 된 최적화 문제를 식으로 세워 풀기"
+            },
+            {
+              "t": "Related Rates / 관련 변화율 문제 각 3개"
+            },
+            {
+              "t": "L'Hopital's Rule / 적용 조건을 확인하며 부정형 처리"
+            },
+            {
+              "t": "Linear Approximation and Differentials / 선형근사로 값 추정하고 오차 보기"
+            },
+            {
+              "t": "Newton's Method / 뉴턴법으로 근을 수치로 구하기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Integration",
+      "sections": [
+        {
+          "no": 6,
+          "title": "The Integral",
+          "anchor": "6-the-integral",
+          "subs": [],
+          "items": [
+            {
+              "t": "Riemann Sum / 리만합으로 넓이를 근사하고 극한으로 넘어가기"
+            },
+            {
+              "t": "Definite Integral / 정적분의 정의와 기본 성질"
+            },
+            {
+              "t": "Fundamental Theorem of Calculus / 기본정리 두 형태를 각각 써먹기"
+            },
+            {
+              "t": "Antiderivatives / 부정적분과 적분상수의 의미"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Integration Techniques",
+          "anchor": "7-integration-techniques",
+          "subs": [],
+          "items": [
+            {
+              "t": "Substitution / 치환적분으로 문제 각 3개"
+            },
+            {
+              "t": "Integration by Parts / 부분적분, 반복 적용과 순환하는 경우"
+            },
+            {
+              "t": "Partial Fractions / 부분분수 분해로 유리함수 적분"
+            },
+            {
+              "t": "Trigonometric Integrals and Substitution / 삼각적분과 삼각치환"
+            },
+            {
+              "t": "Improper Integrals / 이상적분의 수렴·발산 판정"
+            },
+            {
+              "t": "Numerical Integration / 사다리꼴·심프슨 공식과 오차 크기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Applications of the Integral",
+          "anchor": "8-applications-of-the-integral",
+          "subs": [],
+          "items": [
+            {
+              "t": "Area Between Curves / 곡선 사이 넓이를 적분 방향 골라 계산"
+            },
+            {
+              "t": "Volumes of Revolution / 회전체 부피를 원판법·원통껍질법으로"
+            },
+            {
+              "t": "Arc Length and Surface Area / 곡선 길이와 회전면 넓이"
+            },
+            {
+              "t": "Average Value and Accumulation / 평균값과 누적량으로 해석하기"
+            },
+            {
+              "t": "Separable Differential Equations / 변수분리형으로 성장·감쇠 모형 풀기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Infinite Series",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Sequences and Series",
+          "anchor": "9-sequences-and-series",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sequence Convergence / 수열의 수렴 판정"
+            },
+            {
+              "t": "Series and Partial Sums / 급수를 부분합의 극한으로 다루기"
+            },
+            {
+              "t": "Convergence Tests / 비교·비율·근·적분 판정법을 상황에 맞게 고르기"
+            },
+            {
+              "t": "Alternating Series and Absolute Convergence / 교대급수와 절대·조건수렴"
+            },
+            {
+              "t": "Power Series and Radius / 멱급수의 수렴반경과 수렴구간"
+            },
+            {
+              "t": "Taylor and Maclaurin Series / 주요 함수 전개와 나머지항 크기"
+            },
+            {
+              "t": "Series in Practice / 급수로 값을 근사하고 오차 확인"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Multivariable Calculus",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Multivariable Basics",
+          "anchor": "10-multivariable-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Functions of Several Variables / 등고선·곡면으로 다변수함수 읽기"
+            },
+            {
+              "t": "Partial Derivatives / 편미분 계산과 그것이 재는 것"
+            },
+            {
+              "t": "Gradient / 그래디언트의 방향과 크기가 뜻하는 것"
+            },
+            {
+              "t": "Directional Derivative / 임의 방향의 변화율 계산"
+            },
+            {
+              "t": "Multivariable Chain Rule / 계산 그래프를 그려 연쇄법칙 적용"
+            },
+            {
+              "t": "Tangent Plane and Linearization / 접평면으로 국소 근사"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Multivariable Optimization",
+          "anchor": "11-multivariable-optimization",
+          "subs": [],
+          "items": [
+            {
+              "t": "Critical Points in Two Variables / 임계점 찾기와 이계판정"
+            },
+            {
+              "t": "Hessian / 헤시안으로 볼록성과 안장점 판정"
+            },
+            {
+              "t": "Lagrange Multipliers / 제약조건 있는 최적화 문제 풀기"
+            },
+            {
+              "t": "Gradient Descent / 경사하강이 왜 내려가는지 미분으로 설명"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Multiple Integrals",
+          "anchor": "12-multiple-integrals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Double Integrals / 이중적분과 적분 순서 바꾸기"
+            },
+            {
+              "t": "Change of Coordinates / 극좌표 치환과 야코비안"
+            },
+            {
+              "t": "Triple Integrals / 삼중적분으로 부피·질량 구하기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Linear Algebra",
+      "ref": "academics/math/linear-algebra"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    },
+    {
+      "label": "Discrete Mathematics",
+      "ref": "academics/math/discrete-math"
+    }
+  ]
+}

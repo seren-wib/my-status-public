@@ -1,0 +1,467 @@
+{
+  "title": "Grammar AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The Skeleton of a Sentence (A1~A2)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Be and Basic Verbs",
+          "anchor": "1-be-and-basic-verbs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Be Sentences / am·is·are로 나·가족·방 안 물건 문장 10개 쓰기"
+            },
+            {
+              "t": "Third Person S / 3인칭 단수 s 붙여 다른 사람 얘기 문장 10개 쓰기"
+            },
+            {
+              "t": "Daily Routine / 일반동사 현재형으로 내 하루 일과 8문장 쓰기"
+            },
+            {
+              "t": "There Is There Are / 내 방을 there is/are 문장 6개로 묘사하기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Basic Tenses",
+          "anchor": "2-basic-tenses",
+          "subs": [],
+          "items": [
+            {
+              "t": "Past Diary / 과거형으로 어제 한 일 8문장 쓰기"
+            },
+            {
+              "t": "Irregular Verb Deck / 불규칙동사 상위 50개 덱 만들어 1회독",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Now Description / 현재진행형으로 지금 주변에서 벌어지는 일 6문장 말하기"
+            },
+            {
+              "t": "Tense Switch Drill / 같은 문장을 현재↔과거로 바꿔 10쌍 만들기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Questions and Negatives",
+          "anchor": "3-questions-and-negatives",
+          "subs": [],
+          "items": [
+            {
+              "t": "Do Does Did Questions / do·does·did 의문문 각 5개 만들기"
+            },
+            {
+              "t": "Wh Question Set / 의문사 6종으로 친구에게 물어볼 질문 각 2개 쓰기"
+            },
+            {
+              "t": "Negative Flip / 긍정문 10개를 don't·doesn't·didn't로 부정 전환"
+            },
+            {
+              "t": "Short Answers / Yes, I do 식 짧은 대답으로 질문 10개에 답하기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Nouns, Articles, Pronouns",
+          "anchor": "4-nouns-articles-pronouns",
+          "subs": [],
+          "items": [
+            {
+              "t": "Plural Forms / 불규칙 복수(child·foot·person 등) 포함 명사 20개 복수형 쓰기"
+            },
+            {
+              "t": "Countable Sort / 주변 명사 20개를 셀 수 있는지 없는지 분류하기"
+            },
+            {
+              "t": "Article Hunt / 아무 영어 기사에서 관사 20개에 동그라미 치고 이유 말하기"
+            },
+            {
+              "t": "Pronoun Swap / 명사가 반복되는 단락 하나를 대명사로 고쳐 쓰기"
+            },
+            {
+              "t": "Possessive Check / my·mine·its·it's 구분해 문장 10개 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Prepositions",
+          "anchor": "5-prepositions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Time Prepositions / at·on·in으로 내 일정 문장 10개 쓰기"
+            },
+            {
+              "t": "Place Prepositions / 방 안 물건 위치를 전치사로 8문장 묘사하기"
+            },
+            {
+              "t": "Preposition Error Log / 내가 쓴 영어 글에서 전치사 틀린 곳 찾아 목록 만들기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Tense and Modals (B1)",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Perfect and Progressive",
+          "anchor": "6-perfect-and-progressive",
+          "subs": [],
+          "items": [
+            {
+              "t": "Present Perfect Diary / 현재완료로 이번 주 있었던 일 다섯 문장 쓰기"
+            },
+            {
+              "t": "Perfect vs Past / 같은 사건을 과거형·현재완료로 각각 쓰고 뉘앙스 차이 한 줄 설명"
+            },
+            {
+              "t": "Experience Talk / have you ever 질문 5개 만들고 스스로 답하기"
+            },
+            {
+              "t": "Past Perfect Story / 과거완료 넣어 어제 사건을 시간 순서 꼬아 5문장 쓰기"
+            },
+            {
+              "t": "Perfect Progressive / how long 질문에 현재완료진행으로 답 5개 만들기"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Modal Nuance",
+          "anchor": "7-modal-nuance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Obligation Ladder / must·have to·should·don't have to로 내 생활 규칙 8문장 쓰기"
+            },
+            {
+              "t": "Certainty Scale / must be·might be·can't be로 추측 문장 6개 만들기"
+            },
+            {
+              "t": "Polite Requests / can·could·would you mind로 부탁 문장 6개 쓰기"
+            },
+            {
+              "t": "Past Modals / should have·must have로 지난 일 후회·추측 5문장 쓰기"
+            },
+            {
+              "t": "Modal Hunt / 영어 글 한 편에서 조동사 10개 찾아 뉘앙스 라벨 붙이기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Future Forms",
+          "anchor": "8-future-forms",
+          "subs": [],
+          "items": [
+            {
+              "t": "Will vs Going To / 즉흥 결정과 미리 세운 계획을 구분해 각 5문장 쓰기"
+            },
+            {
+              "t": "Arranged Future / 현재진행형으로 확정된 약속 5개 말하기"
+            },
+            {
+              "t": "Future Mix Paragraph / 다음 주 계획을 미래 표현 3종 섞어 한 단락 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Joining Sentences (B1~B2)",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Conjunctions",
+          "anchor": "9-conjunctions",
+          "subs": [],
+          "items": [
+            {
+              "t": "And But So Because / 접속사 4종으로 두 문장 잇기 각 3개"
+            },
+            {
+              "t": "Although Contrast / although·even though·despite 문장 6개 쓰기"
+            },
+            {
+              "t": "Time Clauses / when·while·before·after·until 문장 각 2개 쓰기"
+            },
+            {
+              "t": "Linker Upgrade / 내가 쓴 단순 접속 문장 5개를 however·therefore로 고쳐 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Relative Clauses",
+          "anchor": "10-relative-clauses",
+          "subs": [],
+          "items": [
+            {
+              "t": "Who Which That / 관계대명사로 사람·사물 정의하는 문장 10개 쓰기"
+            },
+            {
+              "t": "Sentence Combine / 짧은 문장 쌍 8개를 관계사로 한 문장씩 합치기"
+            },
+            {
+              "t": "Non-defining Commas / 콤마 있는 계속적 용법 문장 5개 쓰고 의미 차이 설명"
+            },
+            {
+              "t": "Relative Hunt / 영어 기사에서 관계사절 10개 찾아 선행사에 밑줄 긋기"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Comparison",
+          "anchor": "11-comparison",
+          "subs": [],
+          "items": [
+            {
+              "t": "Comparative Sentences / 내 주변 두 대상을 비교하는 문장 10개 쓰기"
+            },
+            {
+              "t": "Superlative List / 내 인생 최고·최악을 최상급 문장 6개로 쓰기"
+            },
+            {
+              "t": "As As Structures / as...as·not as...as 문장 6개 쓰기"
+            },
+            {
+              "t": "Modified Comparison / much·far·slightly 붙여 비교 문장 5개 업그레이드"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Gerunds and Infinitives",
+          "anchor": "12-gerunds-and-infinitives",
+          "subs": [],
+          "items": [
+            {
+              "t": "Verb Pattern Sort / enjoy·want·finish 등 동사 20개를 -ing형·to형 패턴으로 분류"
+            },
+            {
+              "t": "Meaning Change Pairs / stop to smoke vs stop smoking 같은 쌍 5개 예문 쓰기"
+            },
+            {
+              "t": "Purpose Infinitive / to부정사 목적 용법으로 내 행동의 이유 6문장 쓰기"
+            },
+            {
+              "t": "Gerund Subject / 동명사를 주어로 세운 문장 5개 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Voice and Hypotheticals (B2~C1)",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Passive Voice",
+          "anchor": "13-passive-voice",
+          "subs": [],
+          "items": [
+            {
+              "t": "Active to Passive / 능동문 10개를 수동태로 전환"
+            },
+            {
+              "t": "Passive Hunt / 뉴스 기사에서 수동태 10개 찾아 행위자를 뺀 이유 말하기"
+            },
+            {
+              "t": "Process Description / 커피 내리는 과정을 수동태 위주로 6문장 쓰기"
+            },
+            {
+              "t": "Get Passive / get broken·get paid 식 문장 5개 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Conditionals",
+          "anchor": "14-conditionals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Real Conditional / 1형식 가정문으로 실현 가능한 계획 5문장 쓰기"
+            },
+            {
+              "t": "Unreal Present / if I were로 지금과 다른 상상 5문장 쓰기"
+            },
+            {
+              "t": "Unreal Past / 3형식 가정법으로 지난 후회 5문장 쓰기"
+            },
+            {
+              "t": "Mixed Conditional / 혼합 가정법 문장 3개 쓰고 시제 구조 설명"
+            },
+            {
+              "t": "Wish Sentences / I wish·if only로 아쉬움 문장 5개 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Reported Speech",
+          "anchor": "15-reported-speech",
+          "subs": [],
+          "items": [
+            {
+              "t": "Statement Report / 누가 한 말 5개를 간접화법으로 전달하기"
+            },
+            {
+              "t": "Question Report / 의문문 5개를 간접의문문으로 전환"
+            },
+            {
+              "t": "Tense Backshift Drill / 직접→간접 전환하며 시제 한 칸씩 당기기 8문장"
+            },
+            {
+              "t": "Reporting Verbs / say·tell 말고 admit·suggest·warn으로 전달문 5개 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Participle Clauses",
+          "anchor": "16-participle-clauses",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ing Clause Rewrite / 접속사 문장 6개를 분사구문으로 압축하기"
+            },
+            {
+              "t": "Past Participle Clause / 수동 의미 분사구문 4개 쓰기"
+            },
+            {
+              "t": "Dangling Check / 주어가 어긋난 분사구문 5개 찾아 고치기"
+            },
+            {
+              "t": "Participle Hunt / 원서·기사에서 분사구문 10개 찾아 원래 절로 풀어 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "The Realm of Nuance (C1~C2)",
+      "sections": [
+        {
+          "no": 17,
+          "title": "Inversion and Emphasis",
+          "anchor": "17-inversion-and-emphasis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Negative Inversion / never·rarely·not only 도치 문장 5개 쓰기"
+            },
+            {
+              "t": "Cleft Sentences / it is...that·what I need is 강조 구문 6개 쓰기"
+            },
+            {
+              "t": "Fronting / 강조하고 싶은 말을 문두로 뺀 문장 4개 쓰기"
+            },
+            {
+              "t": "Emphasis Rewrite / 밋밋한 내 문장 5개를 강조 구문으로 고쳐 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 18,
+          "title": "Fine Choices",
+          "anchor": "18-fine-choices",
+          "subs": [],
+          "items": [
+            {
+              "t": "Article Nuance Pairs / a·the·무관사로 뜻이 갈리는 쌍 10개 만들어 차이 설명"
+            },
+            {
+              "t": "Tense Nuance Pairs / 시제만 다른 문장 쌍 8개 쓰고 어울리는 상황 붙이기"
+            },
+            {
+              "t": "Aspect in Context / 단락 하나에서 모든 동사의 시제 선택 이유 주석 달기"
+            },
+            {
+              "t": "Countability Shifts / coffee vs a coffee처럼 가산성이 바뀌는 쌍 5개 예문 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 19,
+          "title": "Register",
+          "anchor": "19-register",
+          "subs": [],
+          "items": [
+            {
+              "t": "Formal Rewrite / 캐주얼한 이메일 한 통을 격식체로 고쳐 쓰기"
+            },
+            {
+              "t": "Casual Rewrite / 딱딱한 문장 5개를 구어체로 풀어 쓰기"
+            },
+            {
+              "t": "Phrasal vs Latinate / put off↔postpone 같은 쌍 10개 모아 상황별로 골라 쓰기"
+            },
+            {
+              "t": "Contraction Judgment / 축약형 쓸 자리·못 쓸 자리 구분해 문장 10개 판정"
+            },
+            {
+              "t": "Register Hunt / 같은 주제의 뉴스 기사와 커뮤니티 글 비교해 차이 5개 적기"
+            }
+          ]
+        },
+        {
+          "no": 20,
+          "title": "Punctuation",
+          "anchor": "20-punctuation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Comma Rules / 콤마 용법별로 내 예문 2개씩 쓰기"
+            },
+            {
+              "t": "Semicolon and Colon / 세미콜론·콜론 문장 각 3개 쓰기"
+            },
+            {
+              "t": "Apostrophe Check / its/it's·복수 소유격 문장 10개 판정"
+            },
+            {
+              "t": "Punctuation Restore / 구두점을 전부 뺀 단락 하나를 직접 복원하기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Foundations",
+      "ref": "language/english/foundations"
+    },
+    {
+      "label": "Writing",
+      "ref": "language/english/writing"
+    },
+    {
+      "label": "Speaking",
+      "ref": "language/english/speaking"
+    },
+    {
+      "label": "Reading",
+      "ref": "language/english/reading"
+    }
+  ]
+}

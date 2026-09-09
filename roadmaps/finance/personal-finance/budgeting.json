@@ -1,0 +1,133 @@
+{
+  "title": "Budgeting AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Recording Spending",
+          "anchor": "1-recording-spending",
+          "subs": [],
+          "items": [
+            {
+              "t": "Three Month Ledger / 카드·계좌 내역 3개월치 받아 한 표로 모으기"
+            },
+            {
+              "t": "Category Split / 내 지출을 카테고리로 나눠 월평균 금액 뽑기"
+            },
+            {
+              "t": "Cash Leak Log / 기록에 안 잡히는 현금·간편결제 2주간 손으로 적기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Fixed and Variable",
+          "anchor": "2-fixed-and-variable",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fixed Cost List / 통신·구독·교통처럼 매달 빠지는 고정비 목록과 합계 만들기"
+            },
+            {
+              "t": "Variable Range / 변동비의 월 최저·최고 폭 계산해 기록"
+            },
+            {
+              "t": "Minimum Living Cost / 수입이 끊겨도 버티는 최소 월 생활비 한 줄로 확정"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Savings Rate",
+          "anchor": "3-savings-rate",
+          "subs": [],
+          "items": [
+            {
+              "t": "Savings Rate / 월 수입 대비 저축률 계산하고 목표선 정하기"
+            },
+            {
+              "t": "Subscription Cut / 내 구독 전부 나열해 하나 이상 실제 해지"
+            },
+            {
+              "t": "Fixed Cost Renegotiation / 요금제·멤버십 하나 갈아타 월 고정비 낮추기"
+            },
+            {
+              "t": "Savings Automation / 수입 들어오는 날 자동이체 걸어 저축 먼저 떼기",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Emergency Fund",
+          "anchor": "4-emergency-fund",
+          "subs": [],
+          "items": [
+            {
+              "t": "Emergency Fund Size / 내 최소 생활비 기준으로 비상금 목표액 산출"
+            },
+            {
+              "t": "Separate Account / 비상금을 생활비 계좌와 분리해 따로 옮겨두기"
+            },
+            {
+              "t": "Withdrawal Rule / 어떤 상황에 꺼내 쓸지 조건 3개 적어 고정"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Monthly Close",
+          "anchor": "5-monthly-close",
+          "subs": [],
+          "items": [
+            {
+              "t": "Month-end Close / 한 달 수입·지출·잔액 결산해 한 장으로 남기기"
+            },
+            {
+              "t": "Budget versus Actual / 예산과 실제 차이 큰 항목 3개 뽑아 원인 적기"
+            },
+            {
+              "t": "Next Month Budget / 결산 숫자를 근거로 다음 달 예산 세워 확정"
+            },
+            {
+              "t": "Three Month Streak / 결산 루틴 3개월 연속 채우기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Pension",
+      "ref": "finance/personal-finance/pension"
+    },
+    {
+      "label": "Insurance",
+      "ref": "finance/personal-finance/insurance"
+    },
+    {
+      "label": "Investing Foundations",
+      "ref": "finance/investing/foundations"
+    },
+    {
+      "label": "Income Tax",
+      "ref": "finance/tax/income-tax"
+    },
+    {
+      "label": "Bookkeeping",
+      "ref": "finance/accounting/bookkeeping"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    }
+  ]
+}

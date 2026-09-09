@@ -1,0 +1,336 @@
+{
+  "title": "Discrete Mathematics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Logic and Proof",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Logic",
+          "anchor": "1-logic",
+          "subs": [],
+          "items": [
+            {
+              "t": "Propositional Logic / 명제·논리연산을 진리표로 검사"
+            },
+            {
+              "t": "Logical Equivalence / 드모르간 등 동치 변형으로 식 정리"
+            },
+            {
+              "t": "Conditional Statements / 조건문과 대우·역·이의 관계"
+            },
+            {
+              "t": "Predicate Logic and Quantifiers / 자연어 문장을 한정기호로 옮기기"
+            },
+            {
+              "t": "Negating Quantified Statements / 한정문의 부정을 정확히 쓰기"
+            },
+            {
+              "t": "Rules of Inference / 추론규칙으로 논증의 타당성 검사"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Proof Techniques",
+          "anchor": "2-proof-techniques",
+          "subs": [],
+          "items": [
+            {
+              "t": "Direct Proof / 직접증명으로 명제 3개"
+            },
+            {
+              "t": "Proof by Contradiction / 귀류법으로 무리수 증명 같은 고전 예"
+            },
+            {
+              "t": "Proof by Contrapositive / 대우증명이 유리한 형태 알아보기"
+            },
+            {
+              "t": "Proof by Cases / 경우를 빠짐없이 나눠 증명"
+            },
+            {
+              "t": "Counterexample / 반례 하나로 명제 무너뜨리기"
+            },
+            {
+              "t": "Finding Flawed Proofs / 틀린 증명에서 오류 지점 짚어내기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Sets · Functions · Relations",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Sets",
+          "anchor": "3-sets",
+          "subs": [],
+          "items": [
+            {
+              "t": "Set Operations / 합·교·차·여집합을 벤다이어그램과 식 양쪽으로"
+            },
+            {
+              "t": "Set Identities / 집합 항등식을 원소 논증으로 증명"
+            },
+            {
+              "t": "Power Set and Cartesian Product / 멱집합·곱집합의 크기 세기"
+            },
+            {
+              "t": "Cardinality and Countability / 가산·비가산 구분과 대각선 논법"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Functions and Relations",
+          "anchor": "4-functions-and-relations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Function Properties / 단사·전사·전단사 판정과 역함수 존재"
+            },
+            {
+              "t": "Relations and Their Representations / 관계를 행렬·유향그래프로 표현"
+            },
+            {
+              "t": "Equivalence Relations / 동치관계와 분할의 대응"
+            },
+            {
+              "t": "Partial Orders / 부분순서와 하세도표 그리기"
+            },
+            {
+              "t": "Closures of Relations / 반사·대칭·추이 폐포 구하기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Counting and Recursion",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Counting",
+          "anchor": "5-counting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sum and Product Rules / 합·곱 법칙으로 경우의 수 세기"
+            },
+            {
+              "t": "Permutations and Combinations / 순열·조합, 중복 허용까지"
+            },
+            {
+              "t": "Binomial Theorem / 이항정리와 파스칼 삼각형의 항등식"
+            },
+            {
+              "t": "Inclusion-Exclusion / 포함배제 원리로 겹치는 경우 처리"
+            },
+            {
+              "t": "Pigeonhole Principle / 비둘기집 원리로 존재성 증명 문제 풀기"
+            },
+            {
+              "t": "Combinations with Repetition / 중복조합과 다항계수"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Recursion and Induction",
+          "anchor": "6-recursion-and-induction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Mathematical Induction / 수학적 귀납법으로 명제 3개 증명"
+            },
+            {
+              "t": "Strong Induction / 강한 귀납법이 필요한 경우 구분"
+            },
+            {
+              "t": "Structural Induction / 재귀적으로 정의된 구조에 대한 증명"
+            },
+            {
+              "t": "Setting Up Recurrences / 문제에서 점화식 세우기"
+            },
+            {
+              "t": "Solving Recurrences / 반복대입·특성방정식으로 닫힌 식 구하기"
+            },
+            {
+              "t": "Master Theorem / 마스터 정리로 분할정복 비용 계산"
+            },
+            {
+              "t": "Generating Functions / 생성함수로 점화식 푸는 방식 맛보기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Graphs and Trees",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Graph Basics",
+          "anchor": "7-graph-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Graph Terminology / 정점·간선·차수·경로 정의를 정확히 쓰기"
+            },
+            {
+              "t": "Graph Representations / 인접행렬과 인접리스트의 비용 비교"
+            },
+            {
+              "t": "Handshaking Lemma / 차수 합 정리와 그 따름 결과"
+            },
+            {
+              "t": "Graph Isomorphism / 불변량으로 동형 여부 판정"
+            },
+            {
+              "t": "Connectivity and Components / 연결성·연결요소·절단점"
+            },
+            {
+              "t": "Bipartite Graphs / 이분그래프 판정과 활용"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Graph Problems",
+          "anchor": "8-graph-problems",
+          "subs": [],
+          "items": [
+            {
+              "t": "Euler Paths and Circuits / 오일러 경로 존재 조건과 구성"
+            },
+            {
+              "t": "Hamiltonian Paths / 해밀턴 경로가 왜 어려운 문제인지"
+            },
+            {
+              "t": "Graph Coloring / 채색수를 구하고 스케줄링 문제로 옮기기"
+            },
+            {
+              "t": "Planar Graphs / 평면그래프와 오일러 공식"
+            },
+            {
+              "t": "Shortest Path as a Graph Model / 현실 문제를 가중그래프로 모형화"
+            },
+            {
+              "t": "Matching / 이분매칭과 홀의 정리"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Trees",
+          "anchor": "9-trees",
+          "subs": [],
+          "items": [
+            {
+              "t": "Tree Properties / 트리의 여러 동치 정의를 서로 유도"
+            },
+            {
+              "t": "Rooted Trees and Traversal / 루트트리 구조와 순회 순서"
+            },
+            {
+              "t": "Spanning Trees / 신장트리와 최소신장트리의 성질"
+            },
+            {
+              "t": "Counting Binary Trees / 카탈란 수로 이진트리 개수 세기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Number Theory and Algebraic Structures",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Number Theory",
+          "anchor": "10-number-theory",
+          "subs": [],
+          "items": [
+            {
+              "t": "Divisibility and Primes / 나눗셈 정리와 소인수분해의 유일성"
+            },
+            {
+              "t": "Euclidean Algorithm / 호제법과 확장 호제법으로 계수 구하기"
+            },
+            {
+              "t": "Modular Arithmetic / 합동식 연산과 나머지로 문제 줄이기"
+            },
+            {
+              "t": "Chinese Remainder Theorem / 중국인의 나머지 정리 적용"
+            },
+            {
+              "t": "Fermat and Euler Theorems / 페르마 소정리·오일러 정리로 거듭제곱 계산"
+            },
+            {
+              "t": "Modular Inverse and RSA Sketch / 역원 계산과 RSA 원리 훑기"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Algebraic Structures",
+          "anchor": "11-algebraic-structures",
+          "subs": [],
+          "items": [
+            {
+              "t": "Groups / 군의 정의로 예시가 군인지 판정"
+            },
+            {
+              "t": "Rings and Fields / 환·체 개괄과 유한체 GF(2)"
+            },
+            {
+              "t": "Boolean Algebra / 불 대수로 논리식 단순화"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Discrete Probability and Complexity Sense",
+          "anchor": "12-discrete-probability-and-complexity-sense",
+          "subs": [],
+          "items": [
+            {
+              "t": "Discrete Probability / 유한 표본공간에서 확률 계산"
+            },
+            {
+              "t": "Expected Value in Algorithms / 평균 성능을 기댓값으로 계산"
+            },
+            {
+              "t": "From Counting to Complexity / 경우의 수에서 계산량 감각으로 넘어가기"
+            },
+            {
+              "t": "Decidability Sketch / 풀 수 없는 문제가 존재한다는 논증 따라가기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Linear Algebra",
+      "ref": "academics/math/linear-algebra"
+    },
+    {
+      "label": "Calculus",
+      "ref": "academics/math/calculus"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    }
+  ]
+}

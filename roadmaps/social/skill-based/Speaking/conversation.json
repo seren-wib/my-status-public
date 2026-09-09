@@ -1,0 +1,120 @@
+{
+  "title": "Conversation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Opening a Conversation",
+          "anchor": "1-opening-a-conversation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Small Talk Purpose / 스몰토크는 정보가 아니라 신호 교환"
+            },
+            {
+              "t": "Openers / 상황·환경을 활용한 말 걸기"
+            },
+            {
+              "t": "Free Information / 상대가 흘린 단서로 화제 잡기"
+            },
+            {
+              "t": "Common Ground / 공통점 빠르게 찾기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Turn-taking",
+          "anchor": "2-turn-taking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Balanced Exchange / 말하기와 듣기의 균형"
+            },
+            {
+              "t": "Question and Disclosure / 질문과 자기개방의 리듬"
+            },
+            {
+              "t": "Yielding the Floor / 발언권 넘기기"
+            },
+            {
+              "t": "Active Listening Signals / 듣고 있음을 보이는 신호"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Timing and Wit",
+          "anchor": "3-timing-and-wit",
+          "subs": [],
+          "items": [
+            {
+              "t": "Conversational Timing / 끼어들 자리와 멈출 자리"
+            },
+            {
+              "t": "Humor / 상황에 맞는 유머"
+            },
+            {
+              "t": "Callback / 앞 얘기 되살리는 재치"
+            },
+            {
+              "t": "Reading the Mood / 분위기에 톤 맞추기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Topic Management",
+          "anchor": "4-topic-management",
+          "subs": [],
+          "items": [
+            {
+              "t": "Topic Transition / 자연스러운 화제 전환"
+            },
+            {
+              "t": "Deepening vs Widening / 파고들기와 넓히기"
+            },
+            {
+              "t": "Reviving Dead Air / 끊긴 대화 되살리기"
+            },
+            {
+              "t": "Graceful Exit / 대화 자연스럽게 끝내기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Everyday Register",
+          "anchor": "5-everyday-register",
+          "subs": [],
+          "items": [
+            {
+              "t": "Tone Calibration / 상대·상황별 말투 조정"
+            },
+            {
+              "t": "Storytelling in Talk / 짧은 일화로 재미 더하기"
+            },
+            {
+              "t": "Repair / 말실수·오해 즉석 수습"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Approach",
+      "ref": "social/skill-based/Relating/approach"
+    },
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    }
+  ]
+}

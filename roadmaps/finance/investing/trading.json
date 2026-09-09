@@ -1,0 +1,129 @@
+{
+  "title": "Trading AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Reading the Chart",
+          "anchor": "1-reading-the-chart",
+          "subs": [],
+          "items": [
+            {
+              "t": "Candle Log / 실제 차트에서 캔들 모양 5종 찾아 다음 날 결과까지 기록"
+            },
+            {
+              "t": "Support and Resistance / 내 관심 종목 차트에 지지·저항선 직접 긋고 이탈 여부 확인"
+            },
+            {
+              "t": "Trend Line Draw / 추세선 긋고 돌파·이탈 시점 표시해 기록"
+            },
+            {
+              "t": "Volume Confirm / 가격 움직임과 거래량의 관계를 사례 3건으로 검증"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Indicators",
+          "anchor": "2-indicators",
+          "subs": [],
+          "items": [
+            {
+              "t": "Moving Average Setup / 이동평균 2개 걸고 교차 시점을 실제 차트에서 표시"
+            },
+            {
+              "t": "Oscillator Apply / RSI·MACD를 내 차트에 적용해 신호 10건의 결과 기록"
+            },
+            {
+              "t": "Indicator Failure Log / 지표가 틀린 사례 5건 모아 어떤 국면에서 깨지는지 정리"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Rules and Testing",
+          "anchor": "3-rules-and-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rule in One Sentence / 진입·청산 조건을 한 문장 규칙으로 확정"
+            },
+            {
+              "t": "Manual Backtest / 과거 1년 차트에 내 규칙 적용해 거래 30건 손익 집계"
+            },
+            {
+              "t": "Paper Trading / 모의로 2주간 규칙대로만 매매하고 승률·손익비 계산"
+            },
+            {
+              "t": "Technical Analysis Limits / 기술적 분석의 한계와 비판 확인"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Short-term Cost",
+          "anchor": "4-short-term-cost",
+          "subs": [],
+          "items": [
+            {
+              "t": "Turnover Cost Calc / 하루 5회 매매 가정해 한 달 수수료·거래세 총액 계산"
+            },
+            {
+              "t": "Slippage Measure / 실제 체결가와 목표가 차이를 10건 모아 평균 산출"
+            },
+            {
+              "t": "Scalping Trial / 소액으로 단타 10건 해보고 비용까지 넣어 순손익 결산"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Risk Management",
+          "anchor": "5-risk-management",
+          "subs": [],
+          "items": [
+            {
+              "t": "Position Sizing / 계좌 대비 1회 위험 비율 정해 주문 수량 계산식 확정"
+            },
+            {
+              "t": "Stop-loss Rule / 손절 기준을 숫자로 정해 문서화하고 한 달 지키기"
+            },
+            {
+              "t": "Leverage Exposure / 신용·레버리지 상품의 이자와 손실 배수를 내 금액으로 계산"
+            },
+            {
+              "t": "Loss Streak Plan / 연속 손실 시 중단 기준 정하고 실제로 멈춰보기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Investing Foundations",
+      "ref": "finance/investing/foundations"
+    },
+    {
+      "label": "Stocks",
+      "ref": "finance/investing/stocks"
+    },
+    {
+      "label": "Portfolio",
+      "ref": "finance/investing/portfolio"
+    },
+    {
+      "label": "Income Tax",
+      "ref": "finance/tax/income-tax"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    }
+  ]
+}

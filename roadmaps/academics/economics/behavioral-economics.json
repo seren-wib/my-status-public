@@ -1,0 +1,294 @@
+{
+  "title": "Behavioral Economics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Cracks in the Rationality Model",
+      "sections": [
+        {
+          "no": 1,
+          "title": "The Benchmark and Its Cracks",
+          "anchor": "1-the-benchmark-and-its-cracks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Expected Utility Theory / 표준 모형이 규정하는 합리적 선택의 기준"
+            },
+            {
+              "t": "Axioms and Violations / 이행성·독립성 공리가 실험에서 깨지는 지점"
+            },
+            {
+              "t": "Classic Paradoxes / 확률 왜곡과 모호성 회피가 드러난 선택 역설"
+            },
+            {
+              "t": "Bounded Rationality / 계산 능력과 정보 제약 아래의 선택"
+            },
+            {
+              "t": "Satisficing / 최적화 대신 만족 기준에서 탐색을 멈추기"
+            },
+            {
+              "t": "Ecological Rationality / 환경과 맞물릴 때 휴리스틱이 유효해지는 조건"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Dual Process",
+          "anchor": "2-dual-process",
+          "subs": [],
+          "items": [
+            {
+              "t": "System 1 and System 2 / 자동적 판단과 통제된 사고의 분업"
+            },
+            {
+              "t": "Cognitive Load / 인지 자원 고갈이 판단을 바꾸는 경로"
+            },
+            {
+              "t": "Attention as Scarce Resource / 주의 배분이 만드는 선택 왜곡"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "The Prospect Theory Framework",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Prospect Theory",
+          "anchor": "3-prospect-theory",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reference Dependence / 절대 수준이 아니라 준거점 대비로 평가"
+            },
+            {
+              "t": "Loss Aversion / 손실 회피·준거점이 만드는 선택 역전"
+            },
+            {
+              "t": "Diminishing Sensitivity / 이득 영역과 손실 영역의 곡률 차이"
+            },
+            {
+              "t": "Probability Weighting / 작은 확률 과대평가와 큰 확률 과소평가"
+            },
+            {
+              "t": "Framing Effect / 같은 결과를 다르게 진술했을 때 뒤집히는 선호"
+            },
+            {
+              "t": "Editing and Isolation / 선택지를 분리해 평가하며 생기는 비일관성"
+            },
+            {
+              "t": "Cumulative Extension / 순위 의존 가중으로의 확장과 그 필요"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Reference Points in Action",
+          "anchor": "4-reference-points-in-action",
+          "subs": [],
+          "items": [
+            {
+              "t": "Endowment Effect / 보유가 만드는 지불의사-수취의사 격차"
+            },
+            {
+              "t": "Status Quo Bias / 기본값에 머무르려는 힘"
+            },
+            {
+              "t": "Mental Accounting / 돈에 꼬리표를 붙여 칸막이를 짓는 회계"
+            },
+            {
+              "t": "Sunk Cost Escalation / 매몰비용에 묶인 몰입 상승"
+            },
+            {
+              "t": "House Money Effect / 이득을 본 뒤 위험 성향이 달라지는 현상"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Time and Probability Judgment",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Intertemporal Choice",
+          "anchor": "5-intertemporal-choice",
+          "subs": [],
+          "items": [
+            {
+              "t": "Exponential Discounting / 표준 할인 모형과 시간 일관성 가정"
+            },
+            {
+              "t": "Hyperbolic Discounting / 가까운 미래에 과도하게 걸리는 할인율"
+            },
+            {
+              "t": "Present Bias / 계획과 실행이 어긋나는 구조"
+            },
+            {
+              "t": "Preference Reversal over Time / 시점이 바뀌며 뒤집히는 선택"
+            },
+            {
+              "t": "Naive vs Sophisticated Agent / 자기 편향을 아는지가 만드는 차이"
+            },
+            {
+              "t": "Commitment Devices / 미래의 나를 묶어두는 장치의 설계"
+            },
+            {
+              "t": "Projection Bias / 현재 상태를 미래에 투사하는 예측 오류"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Judgment under Uncertainty",
+          "anchor": "6-judgment-under-uncertainty",
+          "subs": [],
+          "items": [
+            {
+              "t": "Availability / 떠오르기 쉬움이 빈도 추정을 왜곡"
+            },
+            {
+              "t": "Representativeness / 대표성 판단과 기저율 무시"
+            },
+            {
+              "t": "Anchoring and Adjustment / 무관한 수치가 추정을 끌어당김"
+            },
+            {
+              "t": "Overconfidence / 과대추정·과대배치·과잉정확의 세 형태"
+            },
+            {
+              "t": "Hindsight Bias / 사후에 재구성되는 예측 가능성"
+            },
+            {
+              "t": "Confirmation Bias / 가설에 유리한 증거만 모으는 탐색"
+            },
+            {
+              "t": "Misreading Randomness / 도박사의 오류와 뜨거운 손 착각"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Social Preferences and Applications",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Social Preferences",
+          "anchor": "7-social-preferences",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fairness and Reciprocity / 최후통첩 게임이 드러낸 공정 선호"
+            },
+            {
+              "t": "Inequity Aversion / 불평등 자체가 주는 비효용의 모형화"
+            },
+            {
+              "t": "Altruism and Warm Glow / 순수 이타심과 기부 동기의 분리"
+            },
+            {
+              "t": "Trust and Betrayal Aversion / 신뢰 게임이 재는 것과 배신의 비용"
+            },
+            {
+              "t": "Social Norms / 규범 정보가 행동을 바꾸는 경로"
+            },
+            {
+              "t": "Motivation Crowding / 금전 유인이 내재 동기를 밀어내는 조건"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Choice Architecture and Nudge",
+          "anchor": "8-choice-architecture-and-nudge",
+          "subs": [],
+          "items": [
+            {
+              "t": "Default Options / 기본값이 결과를 지배하는 이유"
+            },
+            {
+              "t": "Choice Overload / 선택지 과다가 결정을 막는 지점"
+            },
+            {
+              "t": "Salience of Information / 정보 배치와 강조가 만드는 차이"
+            },
+            {
+              "t": "Nudge and Libertarian Paternalism / 선택 자유를 남긴 개입의 논리"
+            },
+            {
+              "t": "Sludge / 마찰을 심어 행동을 막는 역방향 설계"
+            },
+            {
+              "t": "Effect Size and Replication / 개입 효과 크기와 재현성 논쟁"
+            },
+            {
+              "t": "Ethics of Behavioral Policy / 유도와 조작 사이의 경계 긋기"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Market Anomalies",
+          "anchor": "9-market-anomalies",
+          "subs": [],
+          "items": [
+            {
+              "t": "Efficient Market Hypothesis / 기준선으로서의 효율성 가설 세 형태"
+            },
+            {
+              "t": "Limits to Arbitrage / 차익거래가 왜곡을 지우지 못하는 조건"
+            },
+            {
+              "t": "Excess Volatility / 펀더멘털로 설명되지 않는 가격 변동"
+            },
+            {
+              "t": "Momentum and Reversal / 수익률 계열 상관이 남기는 패턴"
+            },
+            {
+              "t": "Disposition Effect / 오른 것은 팔고 내린 것은 쥐는 성향"
+            },
+            {
+              "t": "Bubbles and Herding / 군집 행동이 가격을 이탈시키는 과정"
+            },
+            {
+              "t": "Debiasing / 편향 교정 개입이 통하는 범위와 한계"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Microeconomics",
+      "ref": "academics/economics/microeconomics"
+    },
+    {
+      "label": "Macroeconomics",
+      "ref": "academics/economics/macroeconomics"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    },
+    {
+      "label": "Social Psychology",
+      "ref": "academics/psychology/social-psychology"
+    },
+    {
+      "label": "Personality Psychology",
+      "ref": "academics/psychology/personality"
+    },
+    {
+      "label": "Statistics",
+      "ref": "academics/math/statistics"
+    }
+  ]
+}

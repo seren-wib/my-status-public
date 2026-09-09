@@ -1,0 +1,98 @@
+[
+  {
+    "path": "accounting/bookkeeping",
+    "title": "Bookkeeping AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 15
+  },
+  {
+    "path": "accounting/financial-statements",
+    "title": "Financial Statements AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  },
+  {
+    "path": "investing/etf",
+    "title": "ETF AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 14
+  },
+  {
+    "path": "investing/foundations",
+    "title": "Investing Foundations AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 18
+  },
+  {
+    "path": "investing/portfolio",
+    "title": "Portfolio AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 16
+  },
+  {
+    "path": "investing/stocks",
+    "title": "Stocks AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 15
+  },
+  {
+    "path": "investing/trading",
+    "title": "Trading AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 18
+  },
+  {
+    "path": "personal-finance/budgeting",
+    "title": "Budgeting AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 17
+  },
+  {
+    "path": "personal-finance/insurance",
+    "title": "Insurance AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 14
+  },
+  {
+    "path": "personal-finance/pension",
+    "title": "Pension AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 16
+  },
+  {
+    "path": "tax/business-tax",
+    "title": "Business Tax AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 15
+  },
+  {
+    "path": "tax/income-tax",
+    "title": "Income Tax AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 15
+  }
+]

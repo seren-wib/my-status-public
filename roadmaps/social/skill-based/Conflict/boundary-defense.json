@@ -1,0 +1,145 @@
+{
+  "title": "Boundary Defense AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "What a Boundary Is",
+          "anchor": "1-what-a-boundary-is",
+          "subs": [],
+          "items": [
+            {
+              "t": "Boundary vs Request / 경계는 부탁이 아니라 내 행동 규칙"
+            },
+            {
+              "t": "Boundary vs Control / 상대를 통제하는 것이 아니다"
+            },
+            {
+              "t": "Values Behind the Line / 무엇을 지키려는 선인지 먼저 정하기"
+            },
+            {
+              "t": "Enforcement Cost / 집행할 수 없는 경계는 세우지 말 것"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Stating the Line",
+          "anchor": "2-stating-the-line",
+          "subs": [],
+          "items": [
+            {
+              "t": "Plain Statement / 짧고 분명하게, 수식 없이"
+            },
+            {
+              "t": "Consequence Notice / 어길 경우 내가 할 행동을 미리 알리기"
+            },
+            {
+              "t": "No Over-explanation / 이유를 길게 대면 협상거리가 된다"
+            },
+            {
+              "t": "Timing of Notice / 침범 직후에 알려야 선이 선다"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "The Art of Refusal",
+          "anchor": "3-the-art-of-refusal",
+          "subs": [],
+          "items": [
+            {
+              "t": "Refusal without Apology / 사과를 붙이지 않고 거절하기"
+            },
+            {
+              "t": "Broken Record / 같은 답을 반복해 버티기"
+            },
+            {
+              "t": "Partial Yes / 범위·조건을 줄여 받는 수락"
+            },
+            {
+              "t": "Saying No Upward / 힘이 위인 상대에게 거절하기"
+            },
+            {
+              "t": "Refusing without Rejecting / 사안 거절과 사람 거절의 분리"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Repeated Violation",
+          "anchor": "4-repeated-violation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Testing vs Real Violation / 떠보기와 진짜 침범 구분"
+            },
+            {
+              "t": "Escalating Response / 통보 → 경고 → 실행의 단계"
+            },
+            {
+              "t": "Following Through / 예고한 결과를 반드시 실행"
+            },
+            {
+              "t": "Third-party Escalation / 상급자·제도로 올리는 시점"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Holding Under Pressure",
+          "anchor": "5-holding-under-pressure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Extinction Burst / 통하던 게 막히면 압박이 잠깐 세진다"
+            },
+            {
+              "t": "Anger as Test / 상대의 분노를 굴복 신호로 읽지 않기"
+            },
+            {
+              "t": "Self-Justification Loop / 스스로 변명을 만들며 무너지기"
+            },
+            {
+              "t": "Relationship Cost / 경계에는 관계 비용이 따른다"
+            },
+            {
+              "t": "Non-negotiable Line / 물러설 선과 절대 선의 구분"
+            },
+            {
+              "t": "Guilt Pressure Defense",
+              "delegate": "social/skill-based/Manipulation/defense"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "De-escalation",
+      "ref": "social/skill-based/Conflict/de-escalation"
+    },
+    {
+      "label": "Counterattack",
+      "ref": "social/skill-based/Conflict/counterattack"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    },
+    {
+      "label": "Negotiation",
+      "ref": "social/skill-based/Influence/negotiation"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    }
+  ]
+}

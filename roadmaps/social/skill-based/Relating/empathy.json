@@ -1,0 +1,103 @@
+{
+  "title": "Empathy AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Recognizing Emotion",
+          "anchor": "1-recognizing-emotion",
+          "subs": [],
+          "items": [
+            {
+              "t": "Emotion Labeling / 감정에 이름 붙이기"
+            },
+            {
+              "t": "Reading Emotional Cues / 정서 단서 알아채기"
+            },
+            {
+              "t": "Emotional Granularity / 감정의 결 세밀하게 구분"
+            },
+            {
+              "t": "Own Emotion Awareness / 내 감정 먼저 알아차리기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Perspective Taking",
+          "anchor": "2-perspective-taking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cognitive Empathy / 상대 관점 이해"
+            },
+            {
+              "t": "Affective Empathy / 상대 감정 함께 느끼기"
+            },
+            {
+              "t": "Empathy vs Sympathy / 공감과 동정 구분"
+            },
+            {
+              "t": "Steelmanning Feelings / 상대 감정을 가장 그럴듯하게 이해"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Validation",
+          "anchor": "3-validation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Acknowledging Feelings / 감정 인정하기"
+            },
+            {
+              "t": "Normalizing / 그럴 만하다고 정상화"
+            },
+            {
+              "t": "Withholding Fixes / 해결책 대신 인정 먼저"
+            },
+            {
+              "t": "Validation without Agreement / 동의 없이도 인정하기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Attunement and Regulation",
+          "anchor": "4-attunement-and-regulation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Affect Attunement / 정서 조율 — 톤·리듬 맞추기"
+            },
+            {
+              "t": "Co-regulation / 함께 감정 가라앉히기"
+            },
+            {
+              "t": "Empathic Accuracy / 넘겨짚음 경계, 확인하며 맞추기"
+            },
+            {
+              "t": "Empathy Burnout / 공감 소진 관리"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    },
+    {
+      "label": "Listening",
+      "ref": "social/skill-based/Relating/listening"
+    }
+  ]
+}

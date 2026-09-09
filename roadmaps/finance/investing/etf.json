@@ -1,0 +1,110 @@
+{
+  "title": "ETF AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Product Structure",
+          "anchor": "1-product-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Prospectus Read / 내가 살 ETF의 투자설명서에서 기초지수·운용방식 확인해 정리"
+            },
+            {
+              "t": "Physical and Synthetic / 실물복제·합성복제 ETF를 하나씩 찾아 차이를 표로 정리"
+            },
+            {
+              "t": "Holdings Check / 보유 ETF의 구성종목 상위 10개와 비중 조회해 기록"
+            },
+            {
+              "t": "Distribution Policy / 분배금 지급형, 토탈리턴형",
+              "choice_inline": true
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Cost and Tracking",
+          "anchor": "2-cost-and-tracking",
+          "subs": [],
+          "items": [
+            {
+              "t": "Expense Ratio Compare / 같은 지수를 따르는 ETF 3개의 총보수·실부담비용 비교표 작성"
+            },
+            {
+              "t": "Tracking Error Check / 내가 사는 ETF의 추적오차 조회해 기록"
+            },
+            {
+              "t": "Premium Discount Watch / 장중 괴리율을 며칠 관찰해 매수 시점 판단"
+            },
+            {
+              "t": "Spread and Slippage / 호가 스프레드 확인하고 소액 체결로 실제 슬리피지 측정"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Tax and Account",
+          "anchor": "3-tax-and-account",
+          "subs": [],
+          "items": [
+            {
+              "t": "Domestic and Overseas Tax / 국내상장 해외ETF와 해외상장 ETF의 세금을 내 투자금 대입해 계산 비교"
+            },
+            {
+              "t": "ISA Setup / ISA 계좌 개설하고 유형 골라 첫 매수 실행"
+            },
+            {
+              "t": "ISA Limit Track / 내 납입한도·의무보유 기간을 조회해 관리표로 기록"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Automation",
+          "anchor": "4-automation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Auto Buy Order / 적립식 자동매수 설정하고 첫 자동 체결 확인"
+            },
+            {
+              "t": "Contribution Schedule / 월 적립액과 매수일을 정해 3개월 실행"
+            },
+            {
+              "t": "Distribution Reinvest / 받은 분배금을 재투자까지 처리하고 금액 기록"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Investing Foundations",
+      "ref": "finance/investing/foundations"
+    },
+    {
+      "label": "Portfolio",
+      "ref": "finance/investing/portfolio"
+    },
+    {
+      "label": "Pension",
+      "ref": "finance/personal-finance/pension"
+    },
+    {
+      "label": "Income Tax",
+      "ref": "finance/tax/income-tax"
+    },
+    {
+      "label": "Macroeconomics",
+      "ref": "academics/economics/macroeconomics"
+    }
+  ]
+}

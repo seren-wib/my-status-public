@@ -1,0 +1,420 @@
+{
+  "title": "Demagogue AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The Masses",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Crowd Fundamentals",
+          "anchor": "1-crowd-fundamentals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Suggestibility Threshold / 피암시성이 올라가는 조건 — 밀집·피로·불확실"
+            },
+            {
+              "t": "Assembly Types / 집회·행진·관중의 형태별 반응 차이"
+            },
+            {
+              "t": "Crowd and Power Lineage / 군중론에서 군중·권력으로 가는 계보 (Le Bon, Canetti)"
+            },
+            {
+              "t": "Crowd Psychology",
+              "delegate": "social/skill-based/GroupInfluence/crowd-psychology"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Grievance Landscape",
+          "anchor": "2-grievance-landscape",
+          "subs": [],
+          "items": [
+            {
+              "t": "Grievance Mapping / 집단이 품은 불만·박탈감의 지도"
+            },
+            {
+              "t": "Relative Deprivation / 절대 결핍이 아니라 비교가 분노를 만든다 (Gurr)"
+            },
+            {
+              "t": "Fault Lines / 계층·세대·지역·종교의 균열 지점"
+            },
+            {
+              "t": "Status Anxiety / 지위 하락 공포가 동원되는 층"
+            },
+            {
+              "t": "Existing Belief Substrate / 백지가 아니라 이미 믿는 것 위에 얹는 원칙"
+            },
+            {
+              "t": "Audience Segmentation / 지지·설득가능·적대 3층 구분"
+            },
+            {
+              "t": "Opinion Leaders / 집단 내 여론 매개자 식별"
+            },
+            {
+              "t": "Group Reading",
+              "delegate": "social/skill-based/Reading/group-reading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "The Message",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Message Compression",
+          "anchor": "3-message-compression",
+          "subs": [],
+          "items": [
+            {
+              "t": "Single Message Rule / 하나로 압축되지 않는 메시지는 남지 않는다"
+            },
+            {
+              "t": "Slogan Construction / 구호의 음절·운율·기억성"
+            },
+            {
+              "t": "Symbol and Emblem / 상징·깃발·색이 논증을 대체하는 방식"
+            },
+            {
+              "t": "Concrete over Abstract / 통계보다 한 사람의 얼굴이 작동하는 이유"
+            },
+            {
+              "t": "Causal Reduction / 복잡한 원인을 단일 원인으로 환원하는 문법"
+            },
+            {
+              "t": "Strategic Ambiguity / 해석이 갈려도 깨지지 않는 모호성의 설계"
+            },
+            {
+              "t": "Language Engineering / 어휘를 바꿔 사고 범위를 좁히기 (Klemperer)"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Repetition and Belief",
+          "anchor": "4-repetition-and-belief",
+          "subs": [],
+          "items": [
+            {
+              "t": "Repetition Principle / 반복이 논증을 대신하는 구조"
+            },
+            {
+              "t": "Processing Fluency / 처리 유창성이 진실감으로 오인되는 기제"
+            },
+            {
+              "t": "Mere Exposure / 단순 노출이 호감으로 전환되는 경로 (Zajonc)"
+            },
+            {
+              "t": "Sleeper Effect / 출처는 잊히고 주장만 남는 현상"
+            },
+            {
+              "t": "Firehose of Falsehood / 일관성을 포기하고 물량으로 압도하는 현대형"
+            },
+            {
+              "t": "Pseudo-environment / 머릿속 그림이 현실을 대신하는 구조 (Lippmann)"
+            },
+            {
+              "t": "Cultivation Theory / 장기 노출이 현실 인식을 조형한다 (Gerbner)"
+            },
+            {
+              "t": "Media Strategy",
+              "delegate": "social/skill-based/GroupInfluence/media-strategy"
+            },
+            {
+              "t": "Propaganda Techniques",
+              "delegate": "social/skill-based/GroupInfluence/techniques"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Us and Them",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Enemy Construction",
+          "anchor": "5-enemy-construction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dehumanization Ladder / 해충·질병 은유로 내려가는 단계"
+            },
+            {
+              "t": "Moral Disengagement / 가해를 정당화하는 여덟 기제 (Bandura)"
+            },
+            {
+              "t": "Threat Inflation / 위협의 규모를 부풀리는 문법"
+            },
+            {
+              "t": "Fifth Column Framing / 내부의 적이라는 프레임의 효용"
+            },
+            {
+              "t": "Red Scare Mechanics / 명단·청문회·의심의 자기증식 (McCarthy)"
+            },
+            {
+              "t": "Broadcast and Atrocity / 대량 폭력을 매개한 방송의 언어 구조"
+            },
+            {
+              "t": "Group Dynamics",
+              "delegate": "social/skill-based/GroupInfluence/group-dynamics"
+            },
+            {
+              "t": "Propaganda Techniques",
+              "delegate": "social/skill-based/GroupInfluence/techniques"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Collective Identity",
+          "anchor": "6-collective-identity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Spiral of Silence / 소수 의견이 침묵으로 사라지는 나선 (Noelle-Neumann)"
+            },
+            {
+              "t": "Leader Identification / 지도자를 집단 자아의 대체물로 세우기"
+            },
+            {
+              "t": "Youth Formation / 교육·청소년 조직이 담당하는 장기 층"
+            },
+            {
+              "t": "Aesthetic Politics / 정치의 미학화와 대중 동원의 결합"
+            },
+            {
+              "t": "Group Dynamics",
+              "delegate": "social/skill-based/GroupInfluence/group-dynamics"
+            },
+            {
+              "t": "Crowd Psychology",
+              "delegate": "social/skill-based/GroupInfluence/crowd-psychology"
+            },
+            {
+              "t": "Group Reading",
+              "delegate": "social/skill-based/Reading/group-reading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "The Media",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Channel Capture",
+          "anchor": "7-channel-capture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Agenda Setting / 무엇을 생각할지가 아니라 무엇에 대해 생각할지 (McCombs-Shaw)"
+            },
+            {
+              "t": "Censorship Modes / 사전 검열·사후 처벌·경제적 봉쇄의 차이"
+            },
+            {
+              "t": "Self-censorship Engineering / 처벌 없이도 스스로 입을 닫게 만드는 조건"
+            },
+            {
+              "t": "Lasswell's Framework / 누가·무엇을·어느 채널로·누구에게·어떤 효과로"
+            },
+            {
+              "t": "Propaganda Model / 다섯 필터로 보는 구조적 편향 (Herman-Chomsky)"
+            },
+            {
+              "t": "Totalitarian Propaganda / 반론 부재를 전제로 하는 체계의 특징 (Arendt)"
+            },
+            {
+              "t": "Apparatus Unification / 매체 일원화·의례·인물숭배가 결합된 구조"
+            },
+            {
+              "t": "Record Production Control / 통계·기록·사료의 생산 단계 통제"
+            },
+            {
+              "t": "Censorship Equilibrium / 통제와 정당성 사이의 균형점"
+            },
+            {
+              "t": "Framing",
+              "delegate": "social/skill-based/Influence/framing"
+            },
+            {
+              "t": "Media Strategy",
+              "delegate": "social/skill-based/GroupInfluence/media-strategy"
+            },
+            {
+              "t": "Information Control",
+              "delegate": "social/skill-based/Manipulation/information-control"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Amplification Architecture",
+          "anchor": "8-amplification-architecture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Two-step Flow / 매체에서 여론매개자를 거쳐 대중으로 (Lazarsfeld)"
+            },
+            {
+              "t": "Meme Virality / 변형되며 번지는 단위의 설계"
+            },
+            {
+              "t": "Algorithmic Amplification / 참여도 최적화가 극단을 밀어올리는 구조"
+            },
+            {
+              "t": "Computational Propaganda / 봇넷·좌표 계정의 조직적 증폭"
+            },
+            {
+              "t": "Cross-platform Laundering / 주변부 발화가 주류로 세탁되는 경로"
+            },
+            {
+              "t": "Sociological Propaganda / 캠페인이 아니라 사회 전체가 매체라는 관점 (Ellul)"
+            },
+            {
+              "t": "Manufacturing versus Reflecting / 여론을 만드는가 반영하는가의 논쟁"
+            },
+            {
+              "t": "Propaganda Techniques",
+              "delegate": "social/skill-based/GroupInfluence/techniques"
+            },
+            {
+              "t": "Media Strategy",
+              "delegate": "social/skill-based/GroupInfluence/media-strategy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Running the Campaign",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Campaign Operations",
+          "anchor": "9-campaign-operations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Crisis Utilization / 위기가 여는 수용성의 창"
+            },
+            {
+              "t": "Escalation Pacing / 수위를 올리는 속도와 되돌아오는 지점"
+            },
+            {
+              "t": "Martyr and Incident / 상징 사건을 서사의 축으로 세우기"
+            },
+            {
+              "t": "Rally Effect / 외부 위협이 지지를 결집시키는 조건"
+            },
+            {
+              "t": "Engineering of Consent / 여론 공학과 동의의 제조 (Bernays)"
+            },
+            {
+              "t": "Total War Mobilization / 1차대전 선전 기구가 남긴 원형"
+            },
+            {
+              "t": "Cold War Information Operations / 양 진영 대외 선전의 구조 비교"
+            },
+            {
+              "t": "Electoral Disinformation / 현대 선거 개입 작전의 구조"
+            },
+            {
+              "t": "Execution Design",
+              "delegate": "social/skill-based/Manipulation/execution"
+            },
+            {
+              "t": "Media Strategy",
+              "delegate": "social/skill-based/GroupInfluence/media-strategy"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Opposition Management",
+          "anchor": "10-opposition-management",
+          "subs": [],
+          "items": [
+            {
+              "t": "Preemptive Framing / 반론이 나오기 전에 반론자를 규정"
+            },
+            {
+              "t": "Discrediting Verification / 사실 확인 기구 자체의 신뢰를 깎기"
+            },
+            {
+              "t": "Backfire Conditions / 반박이 오히려 신념을 강화시키는 조건"
+            },
+            {
+              "t": "Inoculation Counter / 상대가 사전 면역을 걸었을 때의 우회"
+            },
+            {
+              "t": "Overreach Threshold / 과잉이 역풍으로 바뀌는 임계"
+            },
+            {
+              "t": "Inoculation Theory / 약한 노출로 설득 저항을 만드는 원리 (McGuire)"
+            },
+            {
+              "t": "Reflexive Control / 상대가 스스로 원해서 결정하게 만드는 정보 작전 이론"
+            },
+            {
+              "t": "Next-move Forecasting / 진행 중인 캠페인의 다음 수를 예측하는 근거"
+            },
+            {
+              "t": "Calibration Record / 예측 적중률의 추적과 보정"
+            },
+            {
+              "t": "Propaganda Techniques",
+              "delegate": "social/skill-based/GroupInfluence/techniques"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Crowd Psychology",
+      "ref": "social/skill-based/GroupInfluence/crowd-psychology"
+    },
+    {
+      "label": "Group Dynamics",
+      "ref": "social/skill-based/GroupInfluence/group-dynamics"
+    },
+    {
+      "label": "Propaganda Techniques",
+      "ref": "social/skill-based/GroupInfluence/techniques"
+    },
+    {
+      "label": "Media Strategy",
+      "ref": "social/skill-based/GroupInfluence/media-strategy"
+    },
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    },
+    {
+      "label": "Group Reading",
+      "ref": "social/skill-based/Reading/group-reading"
+    },
+    {
+      "label": "Information Control",
+      "ref": "social/skill-based/Manipulation/information-control"
+    },
+    {
+      "label": "Execution Design",
+      "ref": "social/skill-based/Manipulation/execution"
+    }
+  ]
+}

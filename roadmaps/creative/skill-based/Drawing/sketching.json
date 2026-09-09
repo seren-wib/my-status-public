@@ -1,0 +1,118 @@
+{
+  "title": "Sketching AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Line Control",
+          "anchor": "1-line-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "Drawing App / Krita, Clip Studio Paint, Photoshop, Procreate",
+              "choice_inline": true
+            },
+            {
+              "t": "Straight Line Drill / 자 없이 직선 100줄 한 장"
+            },
+            {
+              "t": "Ellipse Drill / 각도 바꿔가며 타원 한 페이지"
+            },
+            {
+              "t": "Ghosting Stroke / 손목 아닌 팔로 긋기, 한 장 채우기"
+            },
+            {
+              "t": "Line Weight Pass / 같은 그림을 선 굵기만 바꿔 두 장"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Observation",
+          "anchor": "2-observation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Blind Contour / 종이 안 보고 윤곽선만 한 장"
+            },
+            {
+              "t": "Negative Space Study / 사물 사이 빈 공간만 그려 한 장"
+            },
+            {
+              "t": "Measured Proportion / 연필 재기로 비례 맞춘 정물 한 장"
+            },
+            {
+              "t": "Still Life Set / 물체 3개 배치해 관찰 드로잉 한 장"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Gesture",
+          "anchor": "3-gesture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Gesture Drawing / 30초 제스처 20장 한 세션"
+            },
+            {
+              "t": "Line of Action / 동세선 한 줄부터 세운 포즈 10장"
+            },
+            {
+              "t": "Croquis Session / 2분 크로키 10장"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Form and Construction",
+          "anchor": "4-form-and-construction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Basic Solids / 구·원통·상자를 각도 바꿔 한 장"
+            },
+            {
+              "t": "Cross-Contour / 단면선으로 입체감 낸 물체 3개"
+            },
+            {
+              "t": "Object Breakdown / 복잡한 물건을 기본 도형으로 분해해 한 장"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Sketchbook Habit",
+          "anchor": "5-sketchbook-habit",
+          "subs": [],
+          "items": [
+            {
+              "t": "Daily Page / 7일 연속 하루 한 장"
+            },
+            {
+              "t": "Life Sketching / 카페·지하철에서 사람 20장"
+            },
+            {
+              "t": "Master Copy / 좋아하는 드로잉 1점 모사"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Figure",
+      "ref": "creative/skill-based/Drawing/figure"
+    },
+    {
+      "label": "Perspective",
+      "ref": "creative/skill-based/Drawing/perspective"
+    }
+  ]
+}

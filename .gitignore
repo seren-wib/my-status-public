@@ -1,0 +1,42 @@
+# === OS 쓰레기 ===
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+._*
+
+# === 에디터 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === MS Office / 한글 임시파일 ===
+~$*
+*.tmp
+*.bak
+
+# === Node (파서·프론트 대비) ===
+node_modules/
+dist/
+.cache/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Python (파서 대비) ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# === 환경변수·비밀 ===
+.env
+.env.*
+!.env.example
+
+# === Claude Code 로컬 설정 ===
+.claude/settings.local.json

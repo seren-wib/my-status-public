@@ -1,0 +1,103 @@
+{
+  "title": "Argumentation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Anatomy of an Argument",
+          "anchor": "1-anatomy-of-an-argument",
+          "subs": [],
+          "items": [
+            {
+              "t": "Claim, Evidence, Reasoning / 주장·근거·추론의 기본 삼각"
+            },
+            {
+              "t": "Toulmin Model / claim, data, warrant, backing, qualifier, rebuttal"
+            },
+            {
+              "t": "Warrant as Hidden Bridge / 근거와 주장을 잇는 숨은 전제"
+            },
+            {
+              "t": "Qualifiers / 단정 대신 조건과 정도"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Building a Case",
+          "anchor": "2-building-a-case",
+          "subs": [],
+          "items": [
+            {
+              "t": "Evidence Types / 사례·통계·증언·유추의 쓰임새"
+            },
+            {
+              "t": "Reasoning Patterns / 귀납·연역·유추·인과"
+            },
+            {
+              "t": "Claim Strength / 주장의 크기를 근거에 맞추기"
+            },
+            {
+              "t": "Steelmanning / 상대 입장을 가장 강한 형태로 세워두기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Fallacies",
+          "anchor": "3-fallacies",
+          "subs": [],
+          "items": [
+            {
+              "t": "Relevance Fallacies / ad hominem, straw man, red herring"
+            },
+            {
+              "t": "Weak Induction / hasty generalization, false cause, appeal to ignorance"
+            },
+            {
+              "t": "Presumption Fallacies / begging the question, false dilemma, loaded question"
+            },
+            {
+              "t": "Spotting in Real Time / 대화 도중 오류를 알아채기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Rebuttal and Objections",
+          "anchor": "4-rebuttal-and-objections",
+          "subs": [],
+          "items": [
+            {
+              "t": "Refutation Structure / 상대 논증의 어느 부분을 치는가"
+            },
+            {
+              "t": "Objection Handling / 이의를 위협이 아니라 정보로 받기"
+            },
+            {
+              "t": "Concede and Pivot / 인정할 건 인정하고 전환"
+            },
+            {
+              "t": "Preempting Counterarguments / 반론을 미리 흡수"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Persuasion Principles",
+      "ref": "social/skill-based/Influence/principles"
+    },
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    }
+  ]
+}

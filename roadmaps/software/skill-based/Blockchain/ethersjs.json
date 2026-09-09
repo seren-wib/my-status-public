@@ -1,0 +1,401 @@
+{
+  "title": "ethers.js AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to ethers.js",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is ethers.js?",
+          "anchor": "1-what-is-ethersjs",
+          "subs": [
+            {
+              "title": "Overview of ethers.js / What is it?",
+              "items": [
+                {
+                  "t": "Complete Ethereum Library / 지갑·컨트랙트·유틸까지 하나로 묶은 라이브러리"
+                },
+                {
+                  "t": "Provider · Signer Separation / 읽기와 서명 권한을 객체로 분리하는 설계"
+                },
+                {
+                  "t": "Immutable Object / 값을 바꾸지 않고 새로 반환하는 함수형 API"
+                },
+                {
+                  "t": "v5 vs v6 / BigInt 전환, 이름 변경"
+                },
+                {
+                  "t": "ethers.js vs web3.js / 콜백 대신 프라미스 중심으로 짠 설계"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Setup",
+          "anchor": "2-setup",
+          "subs": [],
+          "items": [
+            {
+              "t": "npm install ethers"
+            },
+            {
+              "t": "Import Styles / 이름별 export를 ESM으로 가져오는 방식"
+            },
+            {
+              "t": "Sub-path Import / 필요한 하위 모듈만 골라 가져오는 방법"
+            },
+            {
+              "t": "TypeScript Support / 타입 정의가 내장돼 따로 설치 안 하는 지원"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Providers",
+          "anchor": "3-providers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Provider Concept / 서명 없이 체인 상태만 읽는 연결 객체"
+            },
+            {
+              "t": "JsonRpcProvider / RPC 노드 URL 하나로 붙는 기본 provider"
+            },
+            {
+              "t": "BrowserProvider / 지갑 확장이 주입한 표준 객체에 붙는 통로"
+            },
+            {
+              "t": "WebSocketProvider / 소켓을 유지해 이벤트를 실시간으로 받는 provider"
+            },
+            {
+              "t": "FallbackProvider / 여러 provider 응답을 정족수로 비교하는 방식"
+            },
+            {
+              "t": "getDefaultProvider / 여러 공개 노드를 자동으로 묶어 붙는 함수"
+            },
+            {
+              "t": "Network / 붙은 체인의 chainId를 확인하는 기능"
+            },
+            {
+              "t": "Query Methods / 잔액·블록·영수증을 provider로 조회하는 함수들"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Signers",
+          "anchor": "4-signers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Signer Concept / Provider와의 역할 분리"
+            },
+            {
+              "t": "Wallet / 개인키 하나로 서명 가능한 지갑을 만드는 방법"
+            },
+            {
+              "t": "HD Wallet / 니모닉 하나로 여러 계정을 파생하는 지갑"
+            },
+            {
+              "t": "JsonRpcSigner / 노드가 관리하는 계정을 signer로 감싸는 방식"
+            },
+            {
+              "t": "Encrypted JSON Wallet / 비밀번호로 지갑을 암호화해 파일로 저장하는 방식"
+            },
+            {
+              "t": "connect / 같은 지갑을 다른 provider에 다시 붙이는 함수"
+            },
+            {
+              "t": "signMessage / 임의 문자열에 EIP-191 규격으로 서명하는 함수"
+            },
+            {
+              "t": "signTypedData / 구조화된 데이터에 EIP-712 규격으로 서명하는 함수"
+            },
+            {
+              "t": "Signature Verification / 서명에서 서명자 주소를 역산해 검증하는 방법"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Working with Data",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Utilities",
+          "anchor": "5-utilities",
+          "subs": [],
+          "items": [
+            {
+              "t": "Unit Conversion / ether 단위와 최소 단위를 서로 변환하는 함수들"
+            },
+            {
+              "t": "BigInt Arithmetic / v6부터 금액을 네이티브 BigInt로 다루는 방식"
+            },
+            {
+              "t": "FixedNumber / 소수점을 그대로 보존하는 고정소수점 타입"
+            },
+            {
+              "t": "Byte Utilities / 16진 문자열과 바이트 배열을 다루는 함수들"
+            },
+            {
+              "t": "Hashing / 문자열·데이터를 keccak256으로 해시하는 함수들"
+            },
+            {
+              "t": "Address Utilities / 주소 형식을 검증하고 체크섬을 맞추는 함수들"
+            },
+            {
+              "t": "String Encoding / 문자열을 UTF-8 바이트로 주고받는 함수"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "ABI Coder and Interface",
+          "anchor": "6-abi-coder-and-interface",
+          "subs": [],
+          "items": [
+            {
+              "t": "Human-Readable ABI / 함수 시그니처를 문자열 배열로 적는 방식"
+            },
+            {
+              "t": "Interface Object / ABI를 인코딩·디코딩 단위로 감싼 객체"
+            },
+            {
+              "t": "encodeFunctionData and decodeFunctionResult / 함수 호출 데이터를 인코딩·디코딩하는 함수 쌍"
+            },
+            {
+              "t": "parseLog and parseTransaction / 로그와 트랜잭션을 ABI 기준으로 해석하는 함수"
+            },
+            {
+              "t": "AbiCoder / 함수 없이 타입 값만 직접 인코딩·디코딩하는 도구"
+            },
+            {
+              "t": "Fragment / ABI 조각을 함수·이벤트 단위로 표현한 객체"
+            },
+            {
+              "t": "Custom Error Decoding / 컨트랙트가 정의한 커스텀 revert 에러를 해석하는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Contracts",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Contract Interaction",
+          "anchor": "7-contract-interaction",
+          "subs": [],
+          "items": [
+            {
+              "t": "new Contract(address, abi, runner) / 주소와 ABI를 묶어 호출 가능한 객체를 만드는 생성자"
+            },
+            {
+              "t": "Read Call / view 함수 직접 호출"
+            },
+            {
+              "t": "Write Transaction / 상태를 바꾸는 트랜잭션을 보내고 응답을 받는 호출"
+            },
+            {
+              "t": "tx.wait / 트랜잭션이 블록에 담겨 확정될 때까지 기다리는 함수"
+            },
+            {
+              "t": "Overrides / value·gasLimit·nonce 같은 호출 옵션을 덮어쓰는 값"
+            },
+            {
+              "t": "estimateGas and staticCall / 실제 전송 없이 가스·결과를 미리 확인하는 방법"
+            },
+            {
+              "t": "Ambiguous Method / 오버로드가 겹칠 때 전체 시그니처로 고르는 방법"
+            },
+            {
+              "t": "connect / 같은 컨트랙트를 다른 signer·provider로 바꿔 쓰는 함수"
+            },
+            {
+              "t": "getFunction / 이름이 겹칠 때 메서드를 동적으로 골라내는 함수"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Contract Deployment",
+          "anchor": "8-contract-deployment",
+          "subs": [],
+          "items": [
+            {
+              "t": "ContractFactory / 배포에 필요한 bytecode와 ABI를 묶는 객체"
+            },
+            {
+              "t": "deploy / 생성자 인자를 넣어 배포 트랜잭션을 보내는 함수"
+            },
+            {
+              "t": "waitForDeployment and getAddress / 배포 확정을 기다린 뒤 주소를 얻는 절차"
+            },
+            {
+              "t": "Artifact Integration / abi, bytecode 공급"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Events and Filters",
+          "anchor": "9-events-and-filters",
+          "subs": [],
+          "items": [
+            {
+              "t": "queryFilter / fromBlock·toBlock 범위로 지난 로그를 조회하는 함수"
+            },
+            {
+              "t": "contract.filters / 이벤트 필터 객체를 생성하는 헬퍼"
+            },
+            {
+              "t": "contract.on, off, once / 이벤트 리스너를 등록·해제·1회 등록하는 메서드"
+            },
+            {
+              "t": "Provider Event / 새 블록·펜딩 트랜잭션을 감지하는 이벤트"
+            },
+            {
+              "t": "Log Structure / 인덱싱된 topics와 나머지 data로 나뉜 로그 형식"
+            },
+            {
+              "t": "Polling vs WebSocket Subscription / 이벤트를 주기 조회할지 구독할지 고르는 방식"
+            },
+            {
+              "t": "Reorg Handling / confirmations 기준"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Transactions and Real-World Use",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Transactions",
+          "anchor": "10-transactions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Transaction Object / to·value·data·nonce로 구성된 트랜잭션 필드"
+            },
+            {
+              "t": "EIP-1559 Fees / 기본료와 우선순위 팁으로 수수료를 나누는 방식"
+            },
+            {
+              "t": "getFeeData / 현재 네트워크의 권장 가스 수수료를 조회하는 함수"
+            },
+            {
+              "t": "populateTransaction / 서명 전 트랜잭션 필드를 자동으로 채우는 함수"
+            },
+            {
+              "t": "Serialization / 트랜잭션을 서명 가능한 문자열로 직렬화하는 방법"
+            },
+            {
+              "t": "Replacement Transaction / 같은 nonce로 다시 보내 대체하는 방법"
+            },
+            {
+              "t": "Error Interpretation / 실패 이유를 CALL_EXCEPTION 코드로 해석하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "dApp Integration",
+          "anchor": "11-dapp-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Wallet Connection / eth_requestAccounts로 지갑 연결을 요청하는 방법"
+            },
+            {
+              "t": "Chain Switching / 지갑에 네트워크 전환·추가를 요청하는 방법"
+            },
+            {
+              "t": "Wallet Event Handling / 계정·체인이 바뀌면 Provider를 다시 만드는 처리"
+            },
+            {
+              "t": "Read Provider vs Wallet Signer / 조회용과 서명용 연결을 분리하는 방식"
+            },
+            {
+              "t": "ENS / 사람이 읽는 이름과 주소를 서로 변환하는 기능"
+            },
+            {
+              "t": "Error Codes / 거부·잔액 부족 등 실패 원인을 표준 코드로 구분하는 방식"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Advanced and Production",
+          "anchor": "12-advanced-and-production",
+          "subs": [],
+          "items": [
+            {
+              "t": "Custom Network Registration / 지원 안 하는 체인을 직접 등록하는 방법"
+            },
+            {
+              "t": "Batch · Multicall Pattern / 여러 호출을 한 요청으로 묶어 보내는 방식"
+            },
+            {
+              "t": "Nonce Manager Pattern / 동시 전송 시 nonce를 직렬로 관리하는 방식"
+            },
+            {
+              "t": "Rate Limit · Retry Strategy / 요청 실패 시 재시도하는 전략"
+            },
+            {
+              "t": "Tree Shaking / 안 쓰는 모듈을 번들에서 제거해 크기를 줄이는 기법"
+            },
+            {
+              "t": "Migration from v5 to v6 / 이름 변경과 BigInt 전환을 반영해 옮기는 작업"
+            },
+            {
+              "t": "viem Comparison / 타입 안전성을 강조한 대안 라이브러리와 비교",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Blockchain",
+      "ref": "software/role-based/blockchain"
+    },
+    {
+      "label": "Solidity",
+      "ref": "software/skill-based/Blockchain/solidity"
+    },
+    {
+      "label": "web3.js",
+      "ref": "software/skill-based/Blockchain/web3js"
+    },
+    {
+      "label": "Hardhat",
+      "ref": "software/skill-based/Blockchain/hardhat"
+    },
+    {
+      "label": "Javascript",
+      "ref": "software/skill-based/Languages/javascript"
+    },
+    {
+      "label": "React",
+      "ref": "software/skill-based/Frameworks/react"
+    }
+  ]
+}

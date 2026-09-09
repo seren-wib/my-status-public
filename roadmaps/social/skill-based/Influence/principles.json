@@ -1,0 +1,100 @@
+{
+  "title": "Persuasion Principles AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "How Persuasion Works",
+          "anchor": "1-how-persuasion-works",
+          "subs": [],
+          "items": [
+            {
+              "t": "Two Routes / ELM — central route vs peripheral route"
+            },
+            {
+              "t": "Elaboration Likelihood / 관여도·능력이 어느 경로를 탈지 가른다"
+            },
+            {
+              "t": "Route Durability / 중심 경로로 바뀐 태도가 더 오래간다"
+            },
+            {
+              "t": "Matching Route to Audience / 청중 상태에 맞춘 경로 선택"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Cialdini's Levers",
+          "anchor": "2-cialdinis-levers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cialdini's Principles / reciprocity, scarcity, social proof, authority, liking, commitment"
+            },
+            {
+              "t": "Reciprocity and Concession / 받으면 갚고, 양보엔 양보로 (rejection-then-retreat)"
+            },
+            {
+              "t": "Commitment and Consistency / 작은 약속이 큰 행동을 부른다"
+            },
+            {
+              "t": "Unity / 같은 편이라는 정체성 (7번째 원칙)"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Attitude Change",
+          "anchor": "3-attitude-change",
+          "subs": [],
+          "items": [
+            {
+              "t": "Attitude vs Behavior / 태도와 행동 사이의 간극"
+            },
+            {
+              "t": "Cognitive Dissonance / 행동이 거꾸로 태도를 바꾼다"
+            },
+            {
+              "t": "Self-Perception / 자기 행동을 관찰해 태도를 추론"
+            },
+            {
+              "t": "Inoculation / 약한 반론을 미리 접종해 태도 방어"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Reactance and Limits",
+          "anchor": "4-reactance-and-limits",
+          "subs": [],
+          "items": [
+            {
+              "t": "Psychological Reactance / 강요는 역효과를 부른다"
+            },
+            {
+              "t": "Sleeper Effect / 출처는 잊혀도 메시지는 남는다"
+            },
+            {
+              "t": "Boomerang / 설득이 오히려 반대를 굳히는 경우"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    }
+  ]
+}

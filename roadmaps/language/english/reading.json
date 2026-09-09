@@ -1,0 +1,374 @@
+{
+  "title": "Reading AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Starting to Read (A1~A2)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Signs and Labels",
+          "anchor": "1-signs-and-labels",
+          "subs": [],
+          "items": [
+            {
+              "t": "Street Sign Hunt / 하루 동안 마주친 영어 표지판·간판 10개 뜻 확인하기"
+            },
+            {
+              "t": "English Menu Pick / 영어 메뉴판에서 모르는 메뉴 하나 뜻 파악해 골라보기"
+            },
+            {
+              "t": "Product Label Read / 집에 있는 수입품 라벨 3개 읽고 용도·주의사항 파악하기"
+            },
+            {
+              "t": "Phone in English / 폰 언어를 영어로 바꿔 일주일 버티기",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "First Readers",
+          "anchor": "2-first-readers",
+          "subs": [
+            {
+              "title": "Reader Series",
+              "items": [
+                {
+                  "t": "Oxford Bookworms / Starter~1단계에서 시작해 시리즈로 이어 읽기"
+                },
+                {
+                  "t": "Penguin Readers / Level 1부터 시작해 시리즈로 이어 읽기"
+                },
+                {
+                  "t": "Cambridge English Readers / Starter부터 시작해 시리즈로 이어 읽기"
+                }
+              ],
+              "choice": true
+            }
+          ],
+          "items": [
+            {
+              "t": "Picture Book / 영어 그림책 한 권 사전 없이 끝까지 읽기"
+            },
+            {
+              "t": "Graded Reader Level 1 / 초급 리더 한 권 끝까지 읽기"
+            },
+            {
+              "t": "Korean Retell / 읽은 리더 줄거리를 한국어 3문장으로 요약하기"
+            },
+            {
+              "t": "Second Reader Timed / 같은 레벨 한 권 더 읽으며 걸린 시간 기록하기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Very Short Texts",
+          "anchor": "3-very-short-texts",
+          "subs": [],
+          "items": [
+            {
+              "t": "Short Joke Pack / 아주 짧은 영어 농담 5편 읽고 웃긴 포인트 설명하기"
+            },
+            {
+              "t": "SNS Post Read / 영어 SNS 게시물 10개 읽고 모르는 표현 적기"
+            },
+            {
+              "t": "Chat Log Read / 영어 댓글·단체방 대화 한 흐름 읽고 무슨 상황인지 설명하기"
+            },
+            {
+              "t": "Reading Word Log / 읽다 만난 모르는 단어 노트 100개 채우기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Short Texts (B1)",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Learner News",
+          "anchor": "4-learner-news",
+          "subs": [],
+          "items": [
+            {
+              "t": "First News Article / 학습자용 뉴스 기사 하나 읽고 한 줄 요약하기"
+            },
+            {
+              "t": "Headline Prediction / 헤드라인만 보고 내용 예측 후 본문으로 확인하기"
+            },
+            {
+              "t": "Five W Table / 기사 하나에서 누가·언제·어디서·무엇을 표로 뽑기"
+            },
+            {
+              "t": "Two-Week News Habit / 학습자용 뉴스 하루 1건 2주 연속 읽기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Blogs and Forums",
+          "anchor": "5-blogs-and-forums",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hobby Blog Post / 내 취미 분야 영어 블로그 글 한 편 완독하기"
+            },
+            {
+              "t": "Forum Thread / 영어 포럼 스레드 하나 읽고 쟁점 파악하기 (예: 레딧)"
+            },
+            {
+              "t": "Comment Slang Harvest / 댓글 20개 읽고 슬랭·축약 표현 5개 정리하기"
+            },
+            {
+              "t": "How-to Follow / 영어 하우투·레시피 글 보고 실제로 따라 하기"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Intermediate Readers",
+          "anchor": "6-intermediate-readers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Graded Reader Level 3 / 중급 리더 한 권 완독하기"
+            },
+            {
+              "t": "Chapter Summary Run / 챕터마다 영어 한 문장 요약 달며 한 권 읽기"
+            },
+            {
+              "t": "Context Guess Routine / 모르는 단어를 문맥으로 추측 후 확인하는 방식으로 한 권 읽기"
+            },
+            {
+              "t": "Second Word Log / 단어 노트 100개 더 채워 200개 만들기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Practical Reading (B2)",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Authentic Articles",
+          "anchor": "7-authentic-articles",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Original Article / 원어민 대상 기사 원문 하나 완독하기"
+            },
+            {
+              "t": "Two-Source Compare / 같은 사건을 두 매체 기사로 읽고 논조 차이 말하기"
+            },
+            {
+              "t": "Fact vs Opinion / 기사에서 사실 문장과 의견 문장 구분해 표시하기"
+            },
+            {
+              "t": "Weekly Article Routine / 원문 기사 주 3건 한 달 유지하기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Manuals and Docs",
+          "anchor": "8-manuals-and-docs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Device Manual / 쓰는 기기 영어 설명서 보고 기능 하나 설정 성공하기"
+            },
+            {
+              "t": "Official Docs Task / 영어 공식 문서만 보고 설치·설정 하나 끝내기"
+            },
+            {
+              "t": "Help Center Solve / 영어 FAQ·헬프센터에서 내 문제 답 찾아 해결하기"
+            },
+            {
+              "t": "Terms Scan / 영어 약관에서 환불·해지 조항만 찾아 읽기"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Easy Fiction",
+          "anchor": "9-easy-fiction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Young Adult Novel / 쉬운 원서 소설 한 권 완독하기 (예: YA·아동청소년물)"
+            },
+            {
+              "t": "No-Dictionary Chapter / 사전 없이 한 챕터 읽고 이해한 만큼 줄거리 말하기"
+            },
+            {
+              "t": "Character Map / 읽는 소설 인물 관계도 그리며 완독하기"
+            },
+            {
+              "t": "Reading Speed Check / 원서 한 페이지 읽는 시간 재고 한 달 뒤 재측정하기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Deep Reading (C1)",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Essays and Commentary",
+          "anchor": "10-essays-and-commentary",
+          "subs": [],
+          "items": [
+            {
+              "t": "Long-form Essay / 장문 에세이 한 편 읽고 논지 3문장 요약하기"
+            },
+            {
+              "t": "Columnist Follow / 칼럼니스트 한 명 정해 5편 읽고 관점 정리하기"
+            },
+            {
+              "t": "Counter-argument Hunt / 논평 읽으며 반박 가능한 지점 2개 적기"
+            },
+            {
+              "t": "Editorial Compare / 같은 이슈 사설 두 편 입장 비교하기"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Full Novels",
+          "anchor": "11-full-novels",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Full Novel / 원어민 대상 소설 한 권 완독하기"
+            },
+            {
+              "t": "Genre Switch Novel / 다른 장르 원서 한 권 더 완독하기"
+            },
+            {
+              "t": "Annotated Read / 밑줄·메모 달며 원서 한 권 읽기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Professional Reading",
+          "anchor": "12-professional-reading",
+          "subs": [],
+          "items": [
+            {
+              "t": "English-Only Docs Study / 전공·개발 문서 하나를 번역 없이 원문으로 학습하기"
+            },
+            {
+              "t": "Abstract Sprint / 관심 분야 논문 초록 5편 읽고 각 한 줄 요약하기"
+            },
+            {
+              "t": "Full Paper Read / 논문 한 편 처음부터 끝까지 읽기"
+            },
+            {
+              "t": "English Search Habit / 궁금한 것을 영어로 검색해 영어 자료로 해결 10회 하기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "A Native Reader (C2)",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Literature and Classics",
+          "anchor": "13-literature-and-classics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Modern Classic / 현대 고전 소설 한 권 완독하기"
+            },
+            {
+              "t": "Pre-1900 Classic / 19세기 이전 고전 한 권 옛 문체 그대로 완독하기"
+            },
+            {
+              "t": "Short Story Pick / 단편집 한 권 읽고 최고의 단편과 이유 말하기"
+            },
+            {
+              "t": "Poetry Aloud / 영시 5편 읽고 한 편은 소리 내어 읽기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Satire and Humor",
+          "anchor": "14-satire-and-humor",
+          "subs": [],
+          "items": [
+            {
+              "t": "Satire Article Set / 풍자 기사 5편 읽고 풍자 대상 짚기 (예: The Onion)"
+            },
+            {
+              "t": "Meme Context Decode / 영어 밈·만평 10개 보고 웃긴 이유 설명하기"
+            },
+            {
+              "t": "Wordplay Spotting / 글 속 말장난·이중의미 3개 찾아 해설하기"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Register and Style",
+          "anchor": "15-register-and-style",
+          "subs": [],
+          "items": [
+            {
+              "t": "Formal-Informal Pair / 같은 내용의 격식·비격식 글 비교해 차이 5개 뽑기"
+            },
+            {
+              "t": "Email Register Read / 격식 이메일과 친구 메시지 읽고 어투 신호 정리하기"
+            },
+            {
+              "t": "Author Voice Compare / 작가 두 명 문체 차이를 예문 들어 설명하기"
+            },
+            {
+              "t": "UK-US Text Spotting / 영국식·미국식 표기·어휘 차이 10개 글에서 수집하기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Grammar",
+      "ref": "language/english/grammar"
+    },
+    {
+      "label": "Foundations",
+      "ref": "language/english/foundations"
+    },
+    {
+      "label": "Listening",
+      "ref": "language/english/listening"
+    },
+    {
+      "label": "Writing",
+      "ref": "language/english/writing"
+    }
+  ]
+}

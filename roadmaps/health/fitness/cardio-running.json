@@ -1,0 +1,98 @@
+{
+  "title": "Cardio and Running AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Starting Out",
+          "anchor": "1-starting-out",
+          "subs": [],
+          "items": [
+            {
+              "t": "Walk-Run Intervals / 걷기 4분·뛰기 1분 반복으로 30분 채우기 1회"
+            },
+            {
+              "t": "Twice a Week / 주 2회 유산소를 2주 연속 유지"
+            },
+            {
+              "t": "Comfort Check / 달린 다음날 무릎·정강이 상태 기록해 강도 조절"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Measuring",
+          "anchor": "2-measuring",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cooper Test / 12분 최대 달리기 거리 측정해 첫 기록 남기기"
+            },
+            {
+              "t": "Heart Rate Zones / 최대심박 추정치(220-나이)로 내 존2 범위 계산"
+            },
+            {
+              "t": "Zone 2 Session / 대화 가능한 강도로 30분 유지 1회"
+            },
+            {
+              "t": "Resting Heart Rate / 아침 안정 시 심박수 1주간 측정해 평균 내기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Building Endurance",
+          "anchor": "3-building-endurance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Weekly Volume / 주간 달리기 시간을 4주에 걸쳐 조금씩 늘리기"
+            },
+            {
+              "t": "5K Finish / 쉬지 않고 5km 완주"
+            },
+            {
+              "t": "Route Variety / 코스 2개 이상 만들어 지루함 대비"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Speed and Form",
+          "anchor": "4-speed-and-form",
+          "subs": [],
+          "items": [
+            {
+              "t": "Interval Session / 빠르게 1분·천천히 2분 반복 세션 1회"
+            },
+            {
+              "t": "Cadence Count / 1분간 발걸음 수 세어 기록, 보폭 줄여 재측정"
+            },
+            {
+              "t": "Cooper Retest / 4주 이상 훈련 후 쿠퍼 테스트 재측정해 변화 확인"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Program Design",
+      "ref": "health/fitness/program-design"
+    },
+    {
+      "label": "Sleep Hygiene",
+      "ref": "health/sleep/sleep-hygiene"
+    },
+    {
+      "label": "Nutrition Basics",
+      "ref": "health/nutrition/nutrition-basics"
+    }
+  ]
+}

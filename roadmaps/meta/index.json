@@ -1,0 +1,82 @@
+[
+  {
+    "path": "habits/habit-breaking",
+    "title": "Habit Breaking AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 18
+  },
+  {
+    "path": "habits/habit-formation",
+    "title": "Habit Formation AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 17
+  },
+  {
+    "path": "habits/tracking-recovery",
+    "title": "Tracking and Recovery AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "learning/deliberate-practice",
+    "title": "Deliberate Practice AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 20
+  },
+  {
+    "path": "learning/memory-retention",
+    "title": "Memory Retention AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 22
+  },
+  {
+    "path": "learning/metacognition",
+    "title": "Metacognition AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  },
+  {
+    "path": "learning/reading-notes",
+    "title": "Reading and Notes AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 4,
+    "items": 18
+  },
+  {
+    "path": "time-management/focus",
+    "title": "Focus AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "time-management/planning",
+    "title": "Planning AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 21
+  },
+  {
+    "path": "time-management/prioritization",
+    "title": "Prioritization AI 생성",
+    "ai": true,
+    "parts": 1,
+    "sections": 5,
+    "items": 19
+  }
+]

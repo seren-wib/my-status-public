@@ -1,0 +1,605 @@
+{
+  "title": "Playwright AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Playwright",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Playwright?",
+          "anchor": "1-what-is-playwright",
+          "subs": [
+            {
+              "title": "Overview of Playwright / What is it?",
+              "items": [
+                {
+                  "t": "End-to-End Browser Automation / 실제 브라우저로 사용자 흐름을 끝까지 검증하는 방식"
+                },
+                {
+                  "t": "Cross-Browser / 엔진 셋을 같은 코드로 돌리는 구조"
+                },
+                {
+                  "t": "Single API, Multi-Language Bindings / 한 API를 JS·Python·Java·.NET에서 쓰는 구조"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "E2E Testing / 브라우저를 띄워 화면 흐름을 검증하는 용도"
+                },
+                {
+                  "t": "Component Testing / 프레임워크 컴포넌트를 마운트해 단독 검증하는 용도"
+                },
+                {
+                  "t": "API Testing / UI 없이 HTTP 요청·응답만 검증하는 용도"
+                },
+                {
+                  "t": "Browser Automation / 테스트 밖에서 페이지를 자동 조작하는 용도"
+                }
+              ]
+            },
+            {
+              "title": "Playwright vs Other Tools",
+              "items": [
+                {
+                  "t": "vs Cypress / 브라우저 안에서 도는 인프로세스 방식과의 차이"
+                },
+                {
+                  "t": "vs Selenium / W3C WebDriver 표준 기반과의 차이"
+                },
+                {
+                  "t": "vs Puppeteer / CDP 저수준 라이브러리와의 차이"
+                },
+                {
+                  "t": "When to choose Playwright? / 멀티 엔진·자동 대기가 필요할 때 고르는 기준"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "npm init playwright / 스캐폴딩까지 한 번에 끝내는 설치 명령",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Manual Install / 러너 패키지를 직접 받아 붙이는 설치 방법"
+                },
+                {
+                  "t": "Other Language Bindings / 파이썬·자바·닷넷에서도 같은 API를 쓰는 방법",
+                  "tags": [
+                    "선택"
+                  ]
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Project Structure",
+              "items": [
+                {
+                  "t": "playwright.config / 브라우저·타임아웃·리포터를 설정하는 파일"
+                },
+                {
+                  "t": "tests Directory Layout / 테스트 파일을 모아두는 기본 폴더 구조"
+                },
+                {
+                  "t": "Browser Binaries / playwright install로 받는 실행용 브라우저 바이너리"
+                }
+              ]
+            },
+            {
+              "title": "Running",
+              "items": [
+                {
+                  "t": "Running Tests / npx playwright test로 실행하는 기본 명령"
+                },
+                {
+                  "t": "Headed vs Headless / 창을 띄워 보는지 백그라운드로 도는지 차이"
+                },
+                {
+                  "t": "UI Mode / 타임라인과 결과를 화면으로 보며 디버깅하는 모드"
+                },
+                {
+                  "t": "Test Filtering / 이름·파일·줄 번호로 실행 범위를 좁히는 방법"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Test Anatomy",
+          "anchor": "3-test-anatomy",
+          "subs": [],
+          "items": [
+            {
+              "t": "test and expect Imports / 테스트 작성에 쓰는 기본 함수 두 개"
+            },
+            {
+              "t": "Grouping / test.describe로 관련 테스트를 묶는 방법"
+            },
+            {
+              "t": "Navigation / page.goto로 페이지를 이동시키는 방법"
+            },
+            {
+              "t": "Per-Test Isolation / 테스트마다 새 컨텍스트를 띄우는 격리 방식"
+            },
+            {
+              "t": "Codegen / 조작을 녹화해 코드로 재생하는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Working with Elements",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Locators",
+          "anchor": "4-locators",
+          "subs": [
+            {
+              "title": "Recommended Locators",
+              "items": [
+                {
+                  "t": "Role-based / getByRole로 접근성 역할 기준으로 찾는 방법"
+                },
+                {
+                  "t": "User-facing / getByText·getByLabel 등 화면 문구로 찾는 방법"
+                },
+                {
+                  "t": "Test ID / getByTestId로 전용 속성값으로 찾는 방법"
+                },
+                {
+                  "t": "CSS and XPath Selectors / 구조 기반으로 찾는 비권장 선택자"
+                }
+              ]
+            },
+            {
+              "title": "Locator Manipulation",
+              "items": [
+                {
+                  "t": "Chaining and Filtering / filter·and·or로 조건을 좁혀가는 방법"
+                },
+                {
+                  "t": "Lists / first·last·nth로 여러 요소 중 하나를 고르는 방법"
+                },
+                {
+                  "t": "Strictness Mode / 로케이터가 요소 하나만 가리키게 강제하는 규칙"
+                },
+                {
+                  "t": "Locator vs ElementHandle / 재평가되는 참조와 고정 참조의 차이"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 5,
+          "title": "Actions",
+          "anchor": "5-actions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Click and Input / click·fill·press로 하는 기본 조작"
+            },
+            {
+              "t": "Checkbox and Radio / check·uncheck로 상태를 강제하는 방법"
+            },
+            {
+              "t": "Dropdown / selectOption으로 옵션을 고르는 방법"
+            },
+            {
+              "t": "File Upload / setInputFiles로 파일을 주입하는 방법"
+            },
+            {
+              "t": "Drag and Drop / 요소를 끌어다 놓는 동작을 재현하는 기능"
+            },
+            {
+              "t": "Low-level Input / mouse·keyboard API로 하는 좌표 단위 조작"
+            },
+            {
+              "t": "Actionability Checks / 클릭 전 보임·활성 상태를 자동 확인하는 절차"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Assertions",
+          "anchor": "6-assertions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Auto-retrying Assertions / 조건 충족까지 자동 재시도하는 단언"
+            },
+            {
+              "t": "Non-retrying Assertions / 값을 즉시 한 번만 비교하는 단언"
+            },
+            {
+              "t": "Negation / not으로 조건 반대를 확인하는 방법"
+            },
+            {
+              "t": "Soft Assertions / 실패해도 테스트를 계속 진행시키는 단언"
+            },
+            {
+              "t": "Per-Assertion Timeout / 단언마다 재시도 제한 시간을 따로 두는 설정"
+            },
+            {
+              "t": "Custom Matchers / 직접 정의해 쓰는 전용 단언 함수",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Auto-waiting and Timeouts",
+          "anchor": "7-auto-waiting-and-timeouts",
+          "subs": [],
+          "items": [
+            {
+              "t": "Auto-waiting Mechanism / 조작 전 요소 준비를 자동으로 기다리는 기본 동작"
+            },
+            {
+              "t": "Timeout Types / 테스트·단언·동작·이동마다 따로인 제한 시간"
+            },
+            {
+              "t": "Event Waiting / waitForURL·waitForResponse로 특정 이벤트를 기다리는 방법"
+            },
+            {
+              "t": "waitForLoadState / 페이지 로드 단계까지 기다리는 함수"
+            },
+            {
+              "t": "Anti-pattern / 고정 시간 sleep으로 기다리는 나쁜 습관"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Structuring Tests",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Fixtures and Hooks",
+          "anchor": "8-fixtures-and-hooks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Built-in Fixtures / page·context·browser 등 기본 제공 값"
+            },
+            {
+              "t": "Custom Fixtures / test.extend로 직접 만드는 픽스처"
+            },
+            {
+              "t": "Worker-scoped Fixtures / 워커 하나당 한 번만 만들어지는 픽스처"
+            },
+            {
+              "t": "Hooks / beforeEach·afterEach 등 전후 실행 지점"
+            },
+            {
+              "t": "Automatic Fixtures / 명시 안 해도 매 테스트에 자동 적용되는 픽스처"
+            },
+            {
+              "t": "Fixture Override / 같은 이름 픽스처를 재정의하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Browser Context and State",
+          "anchor": "9-browser-context-and-state",
+          "subs": [],
+          "items": [
+            {
+              "t": "BrowserContext Isolation / 쿠키·스토리지를 컨텍스트별로 격리하는 구조"
+            },
+            {
+              "t": "Context Options / viewport·locale 등 컨텍스트 생성 옵션"
+            },
+            {
+              "t": "Permissions and Device Emulation / 권한·기기 사양을 가짜로 부여하는 기능"
+            },
+            {
+              "t": "Storage State Reuse / storageState로 로그인 상태를 재사용하는 방법"
+            },
+            {
+              "t": "Authentication Setup Project / 로그인만 먼저 끝내 상태를 저장하는 프로젝트"
+            },
+            {
+              "t": "Multiple User Roles / 역할별 로그인 상태를 따로 관리하는 방법"
+            },
+            {
+              "t": "Multiple Pages and Popups / 새 탭·팝업이 뜬 상황을 다루는 방법"
+            },
+            {
+              "t": "Frames and iframes / 중첩된 문서 안 요소에 접근하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Network",
+          "anchor": "10-network",
+          "subs": [],
+          "items": [
+            {
+              "t": "Request Interception / page.route로 네트워크 요청을 가로채는 방법"
+            },
+            {
+              "t": "Response Mocking / route.fulfill로 가짜 응답을 돌려주는 방법"
+            },
+            {
+              "t": "Request Modification / route.continue로 요청을 바꿔 통과시키는 방법"
+            },
+            {
+              "t": "Aborting Requests / 특정 요청 자체를 막아버리는 방법"
+            },
+            {
+              "t": "HAR Record and Replay / 네트워크 기록을 저장했다 재생하는 기능"
+            },
+            {
+              "t": "WebSocket Routing / 웹소켓 메시지를 가로채고 조작하는 기능",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Test Design Patterns",
+          "anchor": "11-test-design-patterns",
+          "subs": [],
+          "items": [
+            {
+              "t": "Page Object Model / 화면 요소·동작을 클래스로 캡슐화하는 패턴"
+            },
+            {
+              "t": "Component Object / 화면 일부 조각만 객체로 묶는 단위"
+            },
+            {
+              "t": "Test Data Management / Factory·Seed로 테스트용 데이터를 만드는 방법"
+            },
+            {
+              "t": "API-based Setup instead of UI / 화면 조작 대신 API로 사전 상태를 세팅하는 방법"
+            },
+            {
+              "t": "Avoiding Inter-test Dependency / 테스트끼리 순서·상태에 의존 안 하게 하는 원칙"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Advanced Features",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Debugging",
+          "anchor": "12-debugging",
+          "subs": [],
+          "items": [
+            {
+              "t": "Playwright Inspector / 단계별로 멈춰가며 로케이터를 확인하는 도구"
+            },
+            {
+              "t": "Trace Viewer / 실패한 테스트를 타임라인으로 되감아 보는 도구"
+            },
+            {
+              "t": "Debug Mode / PWDEBUG 환경변수로 켜는 디버그 모드"
+            },
+            {
+              "t": "VS Code Extension / 에디터에서 테스트를 실행·디버깅하는 확장"
+            },
+            {
+              "t": "Failure Artifacts / 실패한 테스트만 골라 trace·영상을 남기는 설정"
+            },
+            {
+              "t": "Console and Page Error Capture / 브라우저 콘솔·에러를 테스트에서 잡는 방법"
+            },
+            {
+              "t": "Verbose API Logs / 내부 호출까지 다 찍는 상세 로그 모드"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Visual and Accessibility Testing",
+          "anchor": "13-visual-and-accessibility-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Screenshot Assertion / toHaveScreenshot으로 기준 이미지와 비교하는 단언"
+            },
+            {
+              "t": "Baseline Management / update-snapshots로 기준 이미지를 갱신하는 방법"
+            },
+            {
+              "t": "Masking and Diff Threshold / 비교 제외 영역과 허용 오차를 정하는 설정"
+            },
+            {
+              "t": "Accessibility Scan / axe-core 엔진으로 접근성 위반을 검사하는 기능"
+            },
+            {
+              "t": "ARIA Snapshot / 접근성 트리 구조를 텍스트로 비교하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "API Testing",
+          "anchor": "14-api-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "APIRequestContext / 브라우저 없이 HTTP 요청만 보내는 컨텍스트"
+            },
+            {
+              "t": "Standalone API Tests / UI 없이 API만 검증하는 테스트"
+            },
+            {
+              "t": "Mixing UI and API in One Test / 한 테스트 안에서 API로 세팅하고 UI로 검증하는 방식"
+            },
+            {
+              "t": "Auth Token Reuse / API로 받은 인증 토큰을 테스트 전반에 재사용하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Component Testing",
+          "anchor": "15-component-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Experimental CT Runner / 컴포넌트 테스트 전용 실험적 실행기"
+            },
+            {
+              "t": "Mounting / React·Vue·Svelte 컴포넌트를 격리해 띄우는 방법"
+            },
+            {
+              "t": "Props and Event Assertions / 전달한 props와 발생한 이벤트를 검증하는 방법"
+            },
+            {
+              "t": "CT vs E2E Tradeoffs / 속도·범위 사이에서 무엇을 포기할지의 선택"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Operations and CI",
+      "sections": [
+        {
+          "no": 16,
+          "title": "Configuration",
+          "anchor": "16-configuration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Projects and Browser Matrix / 여러 브라우저·설정 조합을 프로젝트로 나누는 구조"
+            },
+            {
+              "t": "Project Dependencies / 다른 프로젝트가 먼저 끝나야 실행되는 의존 관계"
+            },
+            {
+              "t": "webServer Option / 테스트 전 서버를 자동으로 띄워주는 설정"
+            },
+            {
+              "t": "Shared Options / baseURL·use로 전체에 적용하는 공통 옵션"
+            },
+            {
+              "t": "Global Setup and Teardown / 전체 실행 전후 한 번씩 도는 훅"
+            },
+            {
+              "t": "Environment-specific Config / 개발·스테이징·운영별로 갈리는 설정"
+            }
+          ]
+        },
+        {
+          "no": 17,
+          "title": "Parallelism and Retries",
+          "anchor": "17-parallelism-and-retries",
+          "subs": [],
+          "items": [
+            {
+              "t": "Workers and Parallel Execution / 프로세스를 나눠 테스트를 동시에 돌리는 방식"
+            },
+            {
+              "t": "Serial and Parallel Mode / describe.configure로 순차·병렬을 정하는 방법"
+            },
+            {
+              "t": "Sharding across Machines / 테스트를 여러 머신에 나눠 돌리는 방법"
+            },
+            {
+              "t": "Retries / 재시도 횟수와 실패 때 trace를 남길지 정하는 설정"
+            },
+            {
+              "t": "Blob Report Merging / 샤딩된 결과 리포트를 하나로 합치는 방법"
+            }
+          ]
+        },
+        {
+          "no": 18,
+          "title": "CI Integration and Reporting",
+          "anchor": "18-ci-integration-and-reporting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Official Docker Image / 브라우저까지 미리 깐 CI용 공식 이미지"
+            },
+            {
+              "t": "GitHub Actions Workflow / CI에서 테스트를 자동 실행하는 설정 예시"
+            },
+            {
+              "t": "Reporters / list·html·json 등 결과 출력 형식"
+            },
+            {
+              "t": "Artifact Upload / trace·video를 CI 산출물로 올리는 방법"
+            },
+            {
+              "t": "Flaky Test Detection / 재시도로 통과한 불안정 테스트를 표시하는 기능"
+            },
+            {
+              "t": "Annotations / skip·fixme 등으로 테스트 상태를 표시하는 방법"
+            },
+            {
+              "t": "Tagging and Test Selection / 태그를 붙여 원하는 테스트만 골라 돌리는 방법"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Qa",
+      "ref": "software/role-based/qa"
+    },
+    {
+      "label": "Cypress",
+      "ref": "software/skill-based/Testing/cypress"
+    },
+    {
+      "label": "Puppeteer",
+      "ref": "software/skill-based/Testing/puppeteer"
+    },
+    {
+      "label": "Javascript",
+      "ref": "software/skill-based/Languages/javascript"
+    },
+    {
+      "label": "Typescript",
+      "ref": "software/skill-based/Languages/typescript"
+    },
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "title": "Maven AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Maven",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Maven?",
+          "anchor": "1-what-is-maven",
+          "subs": [
+            {
+              "title": "Overview of Maven / What is it?",
+              "items": [
+                {
+                  "t": "Build Automation Tool / 빌드·테스트·배포를 자동으로 처리하는 도구"
+                },
+                {
+                  "t": "Project Object Model (POM) / 프로젝트 정보를 XML로 선언하는 모델"
+                },
+                {
+                  "t": "Convention over Configuration / 설정보다 관례를 앞세우는 설계 원칙"
+                },
+                {
+                  "t": "Declarative Dependency Management / 좌표만 적으면 해결되는 의존성 선언 방식"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "Compile, Test, Package / 소스를 빌드해 산출물로 묶는 흐름"
+                },
+                {
+                  "t": "Dependency Resolution / 선언한 좌표로 라이브러리를 내려받는 과정"
+                },
+                {
+                  "t": "Artifact Publishing / 빌드 결과물을 저장소에 올리는 작업"
+                },
+                {
+                  "t": "Multi-module Project Management / 여러 모듈을 부모 POM 하나로 묶는 방법"
+                }
+              ]
+            },
+            {
+              "title": "Maven vs Other Build Tools",
+              "items": [
+                {
+                  "t": "Maven vs Ant / 선언형 POM과 절차형 스크립트의 차이"
+                },
+                {
+                  "t": "Maven vs Gradle / XML 선언 방식과 코드형 빌드의 차이"
+                },
+                {
+                  "t": "When to choose Maven? / 표준 관례를 그대로 따를 때 유리한 이유"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "SDKMAN and Homebrew / 버전 관리형 패키지 매니저로 설치하는 방법",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Binary Download + PATH / 압축을 풀고 경로를 직접 등록하는 방법"
+                },
+                {
+                  "t": "Maven Wrapper / mvnw로 팀 전체가 같은 버전을 쓰게 고정하는 방법",
+                  "tags": [
+                    "추천"
+                  ]
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Environment Verification",
+              "items": [
+                {
+                  "t": "mvn -v / 설치된 버전과 JDK 경로를 확인하는 명령"
+                },
+                {
+                  "t": "JAVA_HOME and MAVEN_HOME / JDK와 설치 경로를 잡는 환경 변수"
+                },
+                {
+                  "t": "Local Repository / 받은 아티팩트를 홈 디렉터리에 쌓아두는 캐시"
+                }
+              ]
+            },
+            {
+              "title": "First Project",
+              "items": [
+                {
+                  "t": "Archetype / 정해진 뼈대에서 새 프로젝트를 찍어내는 방법"
+                },
+                {
+                  "t": "Standard Directory Layout / 소스·테스트·리소스를 정해진 위치에 두는 구조"
+                },
+                {
+                  "t": "mvn compile, test, package / 단계별로 빌드를 실행하는 명령들"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "POM Basics",
+          "anchor": "3-pom-basics",
+          "subs": [
+            {
+              "title": "Coordinate System",
+              "items": [
+                {
+                  "t": "GAV / 조직·아티팩트·버전으로 좌표를 식별하는 체계"
+                },
+                {
+                  "t": "Packaging / jar·war·pom 중 산출물 형식을 정하는 값"
+                },
+                {
+                  "t": "SNAPSHOT vs Release Version / 개발 중 버전과 고정 배포 버전의 구분"
+                }
+              ]
+            },
+            {
+              "title": "POM Structure",
+              "items": [
+                {
+                  "t": "Project Metadata / 이름·설명·라이선스를 적는 항목"
+                },
+                {
+                  "t": "Properties / 버전·경로 값을 변수로 빼두는 영역"
+                },
+                {
+                  "t": "Build Section / 빌드에 쓸 플러그인을 선언하는 영역"
+                },
+                {
+                  "t": "Effective POM / 상속·기본값까지 합쳐진 최종 POM을 보는 명령"
+                }
+              ]
+            },
+            {
+              "title": "Inheritance and Aggregation",
+              "items": [
+                {
+                  "t": "Super POM / 모든 POM이 기본으로 상속하는 최상위 정의"
+                },
+                {
+                  "t": "Parent POM / relativePath로 위치를 잡는 부모 POM"
+                },
+                {
+                  "t": "Aggregation / 여러 하위 모듈을 한 빌드로 묶는 방법"
+                },
+                {
+                  "t": "Inheritance vs Aggregation Distinction / 설정 상속과 모듈 묶음의 차이"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Dependency Management",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Dependencies",
+          "anchor": "4-dependencies",
+          "subs": [
+            {
+              "title": "Declaration",
+              "items": [
+                {
+                  "t": "dependencies and dependency / 의존성 목록과 개별 항목을 적는 태그"
+                },
+                {
+                  "t": "Optional Dependency / 전이되지 않게 표시하는 선택적 의존성"
+                },
+                {
+                  "t": "Type and Classifier / 같은 좌표에서 변형 산출물을 구분하는 값"
+                }
+              ]
+            },
+            {
+              "title": "Dependency Scope",
+              "items": [
+                {
+                  "t": "compile / 컴파일·실행 모두에 포함되는 기본 스코프"
+                },
+                {
+                  "t": "provided / 컴파일엔 필요하나 실행 땐 컨테이너가 제공하는 스코프"
+                },
+                {
+                  "t": "runtime / 컴파일엔 불필요하고 실행 시에만 필요한 스코프"
+                },
+                {
+                  "t": "test / 테스트 컴파일·실행에만 포함되는 스코프"
+                },
+                {
+                  "t": "system / 로컬 경로의 jar를 직접 지정하는 스코프"
+                },
+                {
+                  "t": "import / BOM의 dependencyManagement를 상속하는 스코프"
+                }
+              ]
+            },
+            {
+              "title": "Resolution Rules",
+              "items": [
+                {
+                  "t": "Transitive Dependency / 의존성이 딸려오는 그 의존성의 의존성"
+                },
+                {
+                  "t": "Nearest-Wins Mediation / 트리에서 더 가까운 버전을 고르는 규칙"
+                },
+                {
+                  "t": "Exclusions / 특정 전이 의존성을 빼는 설정"
+                },
+                {
+                  "t": "dependencyManagement / 버전을 한 곳에서 통일해 선언하는 영역"
+                },
+                {
+                  "t": "BOM / 여러 라이브러리 버전을 한 세트로 묶어 관리하는 목록"
+                }
+              ]
+            },
+            {
+              "title": "Diagnostics",
+              "items": [
+                {
+                  "t": "mvn dependency:tree / 의존성 관계를 트리로 보여주는 명령"
+                },
+                {
+                  "t": "mvn dependency:analyze / 쓰지 않거나 누락된 의존성을 찾는 명령"
+                },
+                {
+                  "t": "Version Conflict Strategy / 버전 충돌을 해결하는 전략"
+                },
+                {
+                  "t": "Maven Enforcer Plugin / 버전 수렴·환경 조건을 강제하는 플러그인"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 5,
+          "title": "Repositories",
+          "anchor": "5-repositories",
+          "subs": [
+            {
+              "title": "Repository System",
+              "items": [
+                {
+                  "t": "Local Repository / 저장소 계층에서 가장 먼저 찾는 캐시 위치"
+                },
+                {
+                  "t": "Central Repository / 메이븐이 기본으로 참조하는 공개 저장소"
+                },
+                {
+                  "t": "Remote and Custom Repository / 사내망 등에 직접 지정하는 저장소"
+                },
+                {
+                  "t": "Mirrors / 저장소 요청을 다른 곳으로 대신 받는 설정"
+                },
+                {
+                  "t": "Update Policy / SNAPSHOT 갱신 주기"
+                }
+              ]
+            },
+            {
+              "title": "settings.xml",
+              "items": [
+                {
+                  "t": "servers and Credentials / 저장소 인증 정보를 저장하는 설정"
+                },
+                {
+                  "t": "profiles and activeProfiles / 환경별 설정을 정의하고 활성화하는 태그"
+                },
+                {
+                  "t": "Password Encryption / 저장소 비밀번호를 암호화해 저장하는 방법"
+                },
+                {
+                  "t": "Offline Mode / 원격 저장소 없이 로컬 캐시만 쓰는 옵션"
+                }
+              ]
+            },
+            {
+              "title": "Repository Manager",
+              "items": [
+                {
+                  "t": "Nexus / 사내에 아티팩트를 호스팅하는 저장소 도구"
+                },
+                {
+                  "t": "Artifactory / 여러 저장소 유형을 통합 관리하는 도구"
+                },
+                {
+                  "t": "Proxy, Hosted, Group Repository / 역할별로 나뉜 저장소 유형 세 가지"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Build Lifecycle and Plugins",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Build Lifecycle",
+          "anchor": "6-build-lifecycle",
+          "subs": [
+            {
+              "title": "The Three Lifecycles",
+              "items": [
+                {
+                  "t": "default / 빌드·테스트·배포를 처리하는 기본 라이프사이클"
+                },
+                {
+                  "t": "clean / 이전 빌드 산출물을 지우는 라이프사이클"
+                },
+                {
+                  "t": "site / 프로젝트 문서 사이트를 만드는 라이프사이클"
+                }
+              ]
+            },
+            {
+              "title": "Default Phase Order",
+              "items": [
+                {
+                  "t": "validate / 프로젝트 구조가 올바른지 확인하는 단계"
+                },
+                {
+                  "t": "compile / 소스 코드를 컴파일하는 단계"
+                },
+                {
+                  "t": "test / 테스트 코드를 실행하는 단계"
+                },
+                {
+                  "t": "package / 컴파일 결과를 jar·war로 묶는 단계"
+                },
+                {
+                  "t": "verify / 패키징 결과가 유효한지 검증하는 단계"
+                },
+                {
+                  "t": "install / 산출물을 로컬 저장소에 등록하는 단계"
+                },
+                {
+                  "t": "deploy / 산출물을 원격 저장소에 올리는 단계"
+                }
+              ]
+            },
+            {
+              "title": "Execution Model",
+              "items": [
+                {
+                  "t": "Phase vs Goal / 생명주기 단계와 실제 실행 작업의 구분"
+                },
+                {
+                  "t": "Goal Binding / 플러그인 목표를 특정 단계에 연결하는 설정"
+                },
+                {
+                  "t": "Packaging Default Bindings / 패키징 타입마다 정해진 기본 목표 연결"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 7,
+          "title": "Core Plugins",
+          "anchor": "7-core-plugins",
+          "subs": [],
+          "items": [
+            {
+              "t": "maven-compiler-plugin / 자바 버전을 지정해 컴파일하는 플러그인"
+            },
+            {
+              "t": "maven-surefire-plugin / test 단계에서 단위 테스트를 돌리는 플러그인"
+            },
+            {
+              "t": "maven-failsafe-plugin / verify 단계에서 통합 테스트를 돌리는 플러그인"
+            },
+            {
+              "t": "maven-resources-plugin / 리소스 파일의 변수를 값으로 치환하는 플러그인"
+            },
+            {
+              "t": "maven-jar-plugin / jar 매니페스트에 실행 클래스를 지정하는 플러그인"
+            },
+            {
+              "t": "maven-shade-plugin / 의존성을 한 jar에 합치고 패키지를 재배치하는 플러그인"
+            },
+            {
+              "t": "maven-assembly-plugin / 원하는 형태로 배포 묶음을 구성하는 플러그인"
+            },
+            {
+              "t": "maven-install-plugin and maven-deploy-plugin / 로컬·원격 저장소에 등록하는 플러그인"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Profiles",
+          "anchor": "8-profiles",
+          "subs": [],
+          "items": [
+            {
+              "t": "profiles / 조건에 따라 켜지는 설정 묶음을 정의하는 태그"
+            },
+            {
+              "t": "Activation / 속성·JDK·OS·파일 조건으로 프로파일을 켜는 방법"
+            },
+            {
+              "t": "activeByDefault Pitfall / 다른 프로파일이 켜지면 무시되는 함정"
+            },
+            {
+              "t": "Profile Activation / -P 옵션으로 프로파일을 직접 켜는 방법"
+            },
+            {
+              "t": "Per-Environment Config Split / 환경별로 설정을 나눠 관리하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Custom Plugin",
+          "anchor": "9-custom-plugin",
+          "subs": [],
+          "items": [
+            {
+              "t": "Mojo and AbstractMojo / 플러그인 목표 하나를 구현하는 클래스 단위"
+            },
+            {
+              "t": "Annotation / 목표 이름과 파라미터를 선언하는 방법"
+            },
+            {
+              "t": "maven-plugin-api and maven-plugin-annotations / 커스텀 플러그인 개발에 쓰는 라이브러리"
+            },
+            {
+              "t": "Plugin Descriptor Generation / 플러그인 메타데이터를 자동 생성하는 과정"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Multi-Module and Release",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Multi-module Project",
+          "anchor": "10-multi-module-project",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reactor / 여러 모듈의 빌드 순서를 계산하는 엔진"
+            },
+            {
+              "t": "Module Build Order / 모듈 간 의존관계로 정해지는 빌드 순서"
+            },
+            {
+              "t": "Inter-module Dependency / 한 모듈이 다른 모듈을 참조하는 관계"
+            },
+            {
+              "t": "Partial Build / 특정 모듈과 그 의존 모듈만 빌드하는 옵션"
+            },
+            {
+              "t": "Parallel Build / 여러 모듈을 스레드로 동시에 빌드하는 옵션"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Testing / Quality",
+          "anchor": "11-testing-quality",
+          "subs": [],
+          "items": [
+            {
+              "t": "Test Execution Control / 테스트 실행이나 컴파일 자체를 건너뛰는 옵션"
+            },
+            {
+              "t": "JaCoCo / 테스트가 코드를 얼마나 실행했는지 재는 도구"
+            },
+            {
+              "t": "Checkstyle, PMD, SpotBugs / 코드 스타일·품질·버그 패턴을 검사하는 도구들"
+            },
+            {
+              "t": "SonarQube Integration / 정적 분석 결과를 대시보드로 모으는 연동"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Release / Publishing",
+          "anchor": "12-release-publishing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Versioning Strategy / 의미 있는 규칙으로 버전을 올리는 방식"
+            },
+            {
+              "t": "distributionManagement / 배포·스냅샷 저장소 주소를 지정하는 태그"
+            },
+            {
+              "t": "maven-release-plugin / 버전 태깅과 배포를 자동화하는 플러그인"
+            },
+            {
+              "t": "Maven Central Publishing / 서명·소스·문서까지 갖춰 올리는 절차"
+            },
+            {
+              "t": "versions-maven-plugin / 여러 모듈의 버전을 한 번에 갱신하는 플러그인"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Real-World Operations",
+      "sections": [
+        {
+          "no": 13,
+          "title": "CI Integration",
+          "anchor": "13-ci-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Wrapper Version Pinning / mvnw로 팀 전체의 메이븐 버전을 고정하는 방법"
+            },
+            {
+              "t": "Batch Mode / 대화형 출력을 없애 로그를 줄이는 옵션"
+            },
+            {
+              "t": "Local Repository Caching / CI 실행 사이에 .m2 캐시를 재사용하는 방법"
+            },
+            {
+              "t": "Reproducible Builds / 빌드 시각을 고정해 항상 같은 산출물을 만드는 설정"
+            },
+            {
+              "t": "Docker Multi-stage Build / 빌드 단계와 실행 단계를 이미지로 분리하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Build Performance",
+          "anchor": "14-build-performance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Parallel Build Tuning / 스레드 수를 조절해 빌드 속도를 맞추는 작업"
+            },
+            {
+              "t": "Incremental Compile Limits / 메이븐이 변경분만 다시 빌드하지 못하는 한계"
+            },
+            {
+              "t": "Maven Daemon / mvnd 데몬을 띄워 재시작 비용을 없애는 도구"
+            },
+            {
+              "t": "Dependency Prefetch / 오프라인 빌드 전에 의존성을 미리 받는 명령"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Troubleshooting",
+          "anchor": "15-troubleshooting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Debug Output / 상세 로그와 스택 트레이스를 보는 옵션"
+            },
+            {
+              "t": "Forced SNAPSHOT Update / 캐시를 무시하고 스냅샷을 새로 받는 옵션"
+            },
+            {
+              "t": "Corrupted Repository Recovery / 손상된 로컬 저장소를 지우고 복구하는 방법"
+            },
+            {
+              "t": "Unpinned Plugin Version Drift / 버전을 안 고정해 빌드 결과가 흔들리는 문제"
+            },
+            {
+              "t": "Classpath Order Diagnosis / 클래스패스 순서로 생기는 충돌을 진단하는 방법"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Ecosystem",
+          "anchor": "16-ecosystem",
+          "subs": [],
+          "items": [
+            {
+              "t": "Spring Boot Maven Plugin / 실행 가능한 jar로 다시 묶는 목표"
+            },
+            {
+              "t": "Jib / 도커 데몬 없이 컨테이너 이미지를 만드는 플러그인"
+            },
+            {
+              "t": "Flatten Plugin / 상속·변수를 걷어내 배포용 POM을 단순화하는 플러그인"
+            },
+            {
+              "t": "Maven Toolchains / 프로젝트마다 다른 JDK 버전을 지정하는 방법"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Java",
+      "ref": "software/skill-based/Languages/java"
+    },
+    {
+      "label": "Gradle",
+      "ref": "software/skill-based/Build-Tools/gradle"
+    },
+    {
+      "label": "Spring Boot",
+      "ref": "software/skill-based/Frameworks/spring-boot"
+    },
+    {
+      "label": "JUnit",
+      "ref": "software/skill-based/Testing/junit"
+    },
+    {
+      "label": "Jenkins",
+      "ref": "software/skill-based/Infra-DevOps/jenkins"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    }
+  ]
+}

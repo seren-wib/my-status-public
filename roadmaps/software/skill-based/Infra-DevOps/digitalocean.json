@@ -1,0 +1,422 @@
+{
+  "title": "DigitalOcean AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Getting Started with DigitalOcean",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Introduction",
+          "anchor": "1-introduction",
+          "subs": [
+            {
+              "title": "Overview",
+              "items": [
+                {
+                  "t": "Developer-Centric Cloud / 개발자 편의를 우선하는 단순한 포지션"
+                },
+                {
+                  "t": "Region / 데이터센터 위치를 가리키는 코드"
+                },
+                {
+                  "t": "Positioning vs AWS and GCP / 서비스 폭 대신 단순함을 택한 자리"
+                },
+                {
+                  "t": "Suitable Workloads / 소규모 서비스와 사이드 프로젝트에 적합"
+                }
+              ]
+            },
+            {
+              "title": "Accounts and Organizations",
+              "items": [
+                {
+                  "t": "Team and Project / 계정을 나누는 조직 구성 단위"
+                },
+                {
+                  "t": "Billing / 시간 과금이 월 상한에서 멈추는 방식"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Interfaces",
+              "items": [
+                {
+                  "t": "Control Panel / 브라우저에서 리소스를 클릭으로 다루는 화면"
+                },
+                {
+                  "t": "doctl CLI / 터미널에서 리소스를 다루는 공식 CLI",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "API and Client Libraries / 코드에서 직접 호출해 붙이는 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "First Exercise",
+              "items": [
+                {
+                  "t": "SSH Key Registration / 접속용 공개키를 계정에 등록하는 절차"
+                },
+                {
+                  "t": "Droplet Creation and Access / 서버를 만들고 SSH로 접속하는 순서"
+                },
+                {
+                  "t": "Basic Firewall Setup / 포트를 열고 닫는 최소한의 방화벽 설정"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Core Infrastructure",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Droplets",
+          "anchor": "3-droplets",
+          "subs": [],
+          "items": [
+            {
+              "t": "Droplet Plan / CPU와 메모리 비중으로 나뉜 사양 등급"
+            },
+            {
+              "t": "Shared vs Dedicated vCPU / vCPU를 나눠 쓰는지 독점하는지 구분"
+            },
+            {
+              "t": "Image / 배포판·마켓플레이스·커스텀 중에서 고르는 원본"
+            },
+            {
+              "t": "Cloud-init / 첫 부팅 때 실행할 설정을 스크립트로 주입"
+            },
+            {
+              "t": "Snapshot vs Backup / 수동 캡처와 자동 주기 저장의 차이"
+            },
+            {
+              "t": "Resize / 플랜을 올려 수직으로만 늘리는 확장"
+            },
+            {
+              "t": "Metadata Service / Droplet 내부에서 자기 정보를 조회하는 API"
+            },
+            {
+              "t": "Droplet Console and Recovery Mode / SSH가 막혔을 때 쓰는 웹 콘솔 진입"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Networking",
+          "anchor": "4-networking",
+          "subs": [],
+          "items": [
+            {
+              "t": "VPC / 사설 IP 대역으로 Droplet을 묶는 네트워크"
+            },
+            {
+              "t": "Reserved IP / 장애 시 다른 Droplet에 옮겨 붙는 고정 IP"
+            },
+            {
+              "t": "Cloud Firewall / 인바운드·아웃바운드 규칙을 거는 방화벽"
+            },
+            {
+              "t": "Load Balancer / 헬스체크와 세션 고정을 지원하는 분산기"
+            },
+            {
+              "t": "Load Balancer TLS / 로드밸런서에 인증서를 붙이는 설정"
+            },
+            {
+              "t": "DNS / 도메인과 레코드를 직접 관리하는 기능"
+            },
+            {
+              "t": "IPv6 / 사설 네트워크에서도 쓸 수 있는 주소 체계"
+            },
+            {
+              "t": "Bandwidth Pool / 포함 대역폭을 넘으면 과금되는 한도"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Storage",
+          "anchor": "5-storage",
+          "subs": [],
+          "items": [
+            {
+              "t": "Volumes / Droplet에 붙여 늘릴 수 있는 블록 스토리지"
+            },
+            {
+              "t": "Spaces / 파일을 키로 넣고 꺼내는 S3 호환 저장소"
+            },
+            {
+              "t": "Spaces CDN / Spaces 파일을 엣지에 캐싱해 배포"
+            },
+            {
+              "t": "Spaces Access Key / Spaces에 접근할 키와 시크릿 발급"
+            },
+            {
+              "t": "Backup Policy / 스냅샷을 주기적으로 자동 생성하는 정책"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Managed Platform",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Managed Databases",
+          "anchor": "6-managed-databases",
+          "subs": [],
+          "items": [
+            {
+              "t": "Supported Engines / 관리형으로 제공되는 DB 엔진 목록"
+            },
+            {
+              "t": "Cluster / 주 노드와 대기 노드로 구성된 단위"
+            },
+            {
+              "t": "Connection Pool / PgBouncer로 연결 수를 줄이는 풀링"
+            },
+            {
+              "t": "Read Replica / 읽기 부하를 나눠 받는 복제본"
+            },
+            {
+              "t": "Trusted Source / 지정한 소스만 DB에 접근하게 제한"
+            },
+            {
+              "t": "Backup / 특정 시점으로 되돌리는 PITR 지원"
+            },
+            {
+              "t": "Migration / 기존 DB를 관리형으로 옮기는 절차"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "App Platform",
+          "anchor": "7-app-platform",
+          "subs": [],
+          "items": [
+            {
+              "t": "PaaS Model / 저장소에 push하면 자동 배포되는 모델"
+            },
+            {
+              "t": "Component Type / 앱을 구성하는 역할별 단위"
+            },
+            {
+              "t": "App Spec / 앱 구성을 통째로 적는 YAML 파일"
+            },
+            {
+              "t": "Build / Buildpack이나 Dockerfile로 이미지 생성"
+            },
+            {
+              "t": "Environment Variable / 값을 암호화해 저장하는 Secret 옵션"
+            },
+            {
+              "t": "Autoscaling / 인스턴스 크기와 개수를 자동 조절"
+            },
+            {
+              "t": "Custom Domain / 연결하면 TLS를 자동 발급하는 기능"
+            },
+            {
+              "t": "Droplet vs App Platform Decision Criteria / 둘 중 무엇을 쓸지 가르는 기준"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Kubernetes and Containers",
+          "anchor": "8-kubernetes-and-containers",
+          "subs": [],
+          "items": [
+            {
+              "t": "DOKS / 컨트롤 플레인을 대신 관리해주는 쿠버네티스"
+            },
+            {
+              "t": "Node Pool / 노드 그룹 단위로 자동 확장하는 설정"
+            },
+            {
+              "t": "Container Registry / 이미지를 저장하는 DOCR 사설 저장소"
+            },
+            {
+              "t": "CSI Driver / 쿠버네티스에서 Volumes를 붙이는 드라이버"
+            },
+            {
+              "t": "Load Balancer Integration / 어노테이션으로 로드밸런서를 연동"
+            },
+            {
+              "t": "1-Click App / Ingress·Cert-manager를 원클릭 설치"
+            },
+            {
+              "t": "Cluster Upgrade / 새 노드를 먼저 띄워 무중단 전환"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Functions and Serverless",
+          "anchor": "9-functions-and-serverless",
+          "subs": [],
+          "items": [
+            {
+              "t": "DigitalOcean Functions / 네임스페이스와 트리거로 묶는 서버리스"
+            },
+            {
+              "t": "Execution Limits / 실행 시간과 메모리에 걸린 상한"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Operations",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Automation",
+          "anchor": "10-automation",
+          "subs": [],
+          "items": [
+            {
+              "t": "doctl Scripting / doctl 명령을 스크립트로 자동화"
+            },
+            {
+              "t": "Terraform digitalocean Provider / 리소스를 코드로 선언해 관리",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "API Token / 권한 범위와 만료 기한을 가진 토큰"
+            },
+            {
+              "t": "Ansible / 서버 설정을 코드로 맞추는 도구",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "CI/CD Integration / GitHub Actions에서 배포까지 연결"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Monitoring",
+          "anchor": "11-monitoring",
+          "subs": [],
+          "items": [
+            {
+              "t": "Monitoring Agent / Droplet에 심어 지표를 수집하는 에이전트"
+            },
+            {
+              "t": "Metric / CPU·메모리·디스크·대역폭 등 수집 지표"
+            },
+            {
+              "t": "Alert Policy / 임계치를 넘으면 알림을 보내는 규칙"
+            },
+            {
+              "t": "Uptime Check / 외부에서 주기적으로 접속을 확인"
+            },
+            {
+              "t": "Log Collection / 로그를 외부 도구로 내보내 모으기"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Security",
+          "anchor": "12-security",
+          "subs": [],
+          "items": [
+            {
+              "t": "SSH Hardening / 비밀번호 로그인을 막고 키만 허용"
+            },
+            {
+              "t": "Deny-by-Default Firewall Policy / 허용한 것 외엔 전부 막는 원칙"
+            },
+            {
+              "t": "Private Networking First / 외부 노출 대신 사설망을 우선 사용"
+            },
+            {
+              "t": "Team Permissions / 팀원에게 역할별로 권한을 부여"
+            },
+            {
+              "t": "TLS Certificates / Let's Encrypt로 인증서를 자동 갱신"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Cost and Scaling",
+          "anchor": "13-cost-and-scaling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pricing Structure / 시간 과금이 월 상한에서 멈추는 구조"
+            },
+            {
+              "t": "Snapshot and Volume Retention Cost / 보관 용량만큼 쌓이는 비용"
+            },
+            {
+              "t": "Bandwidth Overage Cost / 포함량 초과분에 붙는 비용"
+            },
+            {
+              "t": "Vertical vs Horizontal Scaling Decision / 사양을 올릴지 대수를 늘릴지 선택"
+            },
+            {
+              "t": "Scaling Ceiling / 규모 커지면 대형 클라우드로 갈아탈 시점"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Aws",
+      "ref": "software/skill-based/Infra-DevOps/aws"
+    },
+    {
+      "label": "Kubernetes",
+      "ref": "software/skill-based/Infra-DevOps/kubernetes"
+    },
+    {
+      "label": "Linux",
+      "ref": "software/skill-based/Infra-DevOps/linux"
+    },
+    {
+      "label": "Terraform",
+      "ref": "software/skill-based/Infra-DevOps/terraform"
+    },
+    {
+      "label": "Nginx",
+      "ref": "software/skill-based/Infra-DevOps/nginx"
+    },
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    }
+  ]
+}

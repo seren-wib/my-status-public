@@ -1,0 +1,352 @@
+{
+  "title": "Ancient AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The Birth of Civilization and the Ancient Near East",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Neolithic Revolution",
+          "anchor": "1-neolithic-revolution",
+          "subs": [],
+          "items": [
+            {
+              "t": "Agricultural Origins / 정착 농경의 시작과 잉여 생산의 발생"
+            },
+            {
+              "t": "Domestication of Animals / 가축화가 바꾼 식량·노동·이동"
+            },
+            {
+              "t": "Early Settlements / 차탈회윅형 초기 취락과 도시 이전 단계"
+            },
+            {
+              "t": "Emergence of Social Stratification / 잉여의 분배에서 계층이 갈라지는 과정"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Mesopotamia",
+          "anchor": "2-mesopotamia",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sumerian City-States / 관개 농업과 도시국가 체제의 성립"
+            },
+            {
+              "t": "Invention of Cuneiform / 문자의 회계적 기원과 기록 국가의 등장"
+            },
+            {
+              "t": "Akkadian Empire / 최초의 영역 제국과 정복 통치의 한계"
+            },
+            {
+              "t": "Code of Hammurabi / 성문법의 구조와 신분별 차등 처벌"
+            },
+            {
+              "t": "Assyrian Military Empire / 상비군·강제 이주로 유지한 광역 지배"
+            },
+            {
+              "t": "Neo-Babylonian Revival / 아시리아 붕괴 후 재편과 유대 포로기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Ancient Egypt",
+          "anchor": "3-ancient-egypt",
+          "subs": [],
+          "items": [
+            {
+              "t": "Nile and State Formation / 범람 주기와 통일 왕조의 성립"
+            },
+            {
+              "t": "Old Kingdom Pyramid State / 피라미드 건설이 요구한 동원 체제"
+            },
+            {
+              "t": "Middle and New Kingdom / 재통일과 시리아·누비아로의 팽창"
+            },
+            {
+              "t": "Amarna Reform / 일신 개혁의 시도와 뒤이은 반동"
+            },
+            {
+              "t": "Egyptian Afterlife and Priesthood / 사후관과 신관층이 정치·경제에 미친 영향"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Levant and Iran",
+          "anchor": "4-levant-and-iran",
+          "subs": [],
+          "items": [
+            {
+              "t": "Phoenician Trade Network / 지중해 교역과 알파벳의 확산"
+            },
+            {
+              "t": "Hebrew Kingdoms and Monotheism / 왕국의 성립·분열과 유일신 신앙의 형성"
+            },
+            {
+              "t": "Achaemenid Persia / 사트라피 행정과 관용 정책으로 유지한 대제국"
+            },
+            {
+              "t": "Royal Road and Imperial Infrastructure / 도로·역참·화폐가 만든 통합"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "The Greek World",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Aegean Origins",
+          "anchor": "5-aegean-origins",
+          "subs": [],
+          "items": [
+            {
+              "t": "Minoan and Mycenaean Civilization / 궁전 경제와 선문자 기록 체계"
+            },
+            {
+              "t": "Bronze Age Collapse / 기원전 12세기 체제 붕괴의 연쇄"
+            },
+            {
+              "t": "Dark Age and Greek Colonization / 암흑기 이후 폴리스 형성과 식민 활동"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Polis and Democracy",
+          "anchor": "6-polis-and-democracy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hoplite Phalanx and Citizenship / 중장보병 전술과 시민권의 결합"
+            },
+            {
+              "t": "Spartan Militarized Society / 헬로트 지배 위에 세운 이중 왕정"
+            },
+            {
+              "t": "Athenian Democratic Reforms / 솔론·클레이스테네스를 거친 참정권 확대"
+            },
+            {
+              "t": "Persian Wars / 전쟁의 전개와 그리스 자의식의 형성"
+            },
+            {
+              "t": "Delian League to Athenian Empire / 동맹이 제국으로 변질되는 과정"
+            },
+            {
+              "t": "Peloponnesian War / 장기전이 드러낸 폴리스 체제의 한계"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Greek Thought and Culture",
+          "anchor": "7-greek-thought-and-culture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pre-Socratic Natural Philosophy / 신화에서 자연 설명으로의 전환"
+            },
+            {
+              "t": "Sophists and the Socratic Turn / 논변술과 진리 추구의 대립"
+            },
+            {
+              "t": "Plato and Aristotle / 이데아론과 경험적 분류 체계로 갈라진 두 갈래"
+            },
+            {
+              "t": "Birth of Historiography / 헤로도토스·투키디데스가 세운 서술 기준"
+            },
+            {
+              "t": "Tragedy and Civic Ritual / 비극 공연이 수행한 정치적 기능"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Hellenistic World",
+          "anchor": "8-hellenistic-world",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rise of Macedon / 군제 개혁과 그리스 세계의 강제 통합"
+            },
+            {
+              "t": "Alexander's Conquests / 원정의 경로와 페르시아 통치 체제의 흡수"
+            },
+            {
+              "t": "Successor Kingdoms / 디아도코이 분열과 셋으로 갈린 왕국들"
+            },
+            {
+              "t": "Hellenistic Syncretism / 그리스·오리엔트 문화 융합과 코이네의 확산"
+            },
+            {
+              "t": "Alexandria and Hellenistic Science / 무세이온을 중심으로 한 학문 축적"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "India and China",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Ancient India",
+          "anchor": "9-ancient-india",
+          "subs": [],
+          "items": [
+            {
+              "t": "Indus Valley Civilization / 계획 도시와 미해독 문자, 쇠퇴를 둘러싼 논쟁"
+            },
+            {
+              "t": "Vedic Society and Varna / 아리아 이주와 신분 질서의 형성"
+            },
+            {
+              "t": "Rise of Buddhism and Jainism / 브라만교 비판에서 나온 새로운 종교 운동"
+            },
+            {
+              "t": "Mauryan Empire and Ashoka / 통일 제국의 통치술과 다르마 정책"
+            },
+            {
+              "t": "Gupta Golden Age / 수학·천문학의 성취와 힌두교 재편"
+            },
+            {
+              "t": "Indian Ocean Trade / 계절풍을 이용한 인도·로마 간 교역"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Ancient China",
+          "anchor": "10-ancient-china",
+          "subs": [],
+          "items": [
+            {
+              "t": "Shang Oracle Bones / 갑골문이 드러내는 왕권과 제사 체계"
+            },
+            {
+              "t": "Zhou Feudal Order and Mandate of Heaven / 봉건 질서와 천명 사상의 정치적 기능"
+            },
+            {
+              "t": "Spring and Autumn to Warring States / 분열기의 부국강병 경쟁과 사회 변동"
+            },
+            {
+              "t": "Hundred Schools of Thought / 유가·법가·도가의 문제의식 차이"
+            },
+            {
+              "t": "Qin Unification / 군현제·문자 통일의 성과와 단명한 이유"
+            },
+            {
+              "t": "Han Bureaucratic Empire / 유교의 국교화와 관료제의 정착"
+            },
+            {
+              "t": "Formation of the Silk Road / 흉노 대응과 서역 진출이 연 교역로"
+            },
+            {
+              "t": "Han Collapse and Three Kingdoms / 호족·환관 정치와 분열의 시작"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Rome",
+      "sections": [
+        {
+          "no": 11,
+          "title": "Roman Republic",
+          "anchor": "11-roman-republic",
+          "subs": [],
+          "items": [
+            {
+              "t": "From Kingdom to Republic / 왕정 축출과 공화정 기구의 성립"
+            },
+            {
+              "t": "Patrician-Plebeian Conflict / 신분 투쟁이 만든 호민관과 성문법"
+            },
+            {
+              "t": "Punic Wars / 카르타고와의 세 차례 전쟁과 지중해 패권 장악"
+            },
+            {
+              "t": "Consequences of Conquest / 대농장 확대와 자영농 몰락"
+            },
+            {
+              "t": "Gracchan Reform to Civil Wars / 개혁 실패 뒤 군벌 정치로의 이행"
+            },
+            {
+              "t": "Fall of the Republic / 1인 독재의 등장과 공화정의 형해화"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Roman Empire",
+          "anchor": "12-roman-empire",
+          "subs": [],
+          "items": [
+            {
+              "t": "Augustan Principate / 공화정 외피를 쓴 1인 지배 체제의 설계"
+            },
+            {
+              "t": "Pax Romana / 도로·법·화폐로 유지한 두 세기의 통합"
+            },
+            {
+              "t": "Romanization and Citizenship / 속주 통치와 시민권의 전면 확대"
+            },
+            {
+              "t": "Roman Law / 시민법에서 만민법으로의 확장과 후대 영향"
+            },
+            {
+              "t": "Third Century Crisis / 군인황제 시대의 재정·방어 동시 붕괴"
+            },
+            {
+              "t": "Diocletian and Constantine / 사분치제·전제군주정과 수도 이전"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Late Antiquity",
+          "anchor": "13-late-antiquity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rise of Christianity / 박해받던 종파가 국교가 되기까지"
+            },
+            {
+              "t": "Church Councils and Doctrine / 니케아 이후 교리 정립과 분열"
+            },
+            {
+              "t": "Germanic Migrations / 이동의 압력과 제국 내 정착 방식"
+            },
+            {
+              "t": "Division and Fall of the West / 동서 분할과 476년이 갖는 의미"
+            },
+            {
+              "t": "Continuity versus Decline Debate / '멸망'인가 '변형'인가를 둘러싼 해석"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Medieval",
+      "ref": "academics/history/medieval/overview"
+    },
+    {
+      "label": "Korean History",
+      "ref": "academics/history/korea/overview"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "title": "Dark Patterns AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Deceptive Design",
+          "anchor": "1-deceptive-design",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dark Pattern Concept / 사용자 손해를 설계로 유도"
+            },
+            {
+              "t": "Choice Architecture Abuse / 넛지의 악용"
+            },
+            {
+              "t": "Default Exploitation / 기본값으로 결정 몰기"
+            },
+            {
+              "t": "Asymmetry by Design / 승낙은 쉽게 취소는 어렵게"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Sneaking Costs",
+          "anchor": "2-sneaking-costs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hidden Costs / 결제 직전 비용 노출"
+            },
+            {
+              "t": "Drip Pricing / 단계별로 요금 추가"
+            },
+            {
+              "t": "Sneak into Basket / 몰래 담긴 항목"
+            },
+            {
+              "t": "Bait and Switch / 미끼와 바꿔치기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Coercing Continuity",
+          "anchor": "3-coercing-continuity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Forced Continuity / 무료 후 자동 과금"
+            },
+            {
+              "t": "Roach Motel / 가입은 쉽고 해지는 미로"
+            },
+            {
+              "t": "Nagging / 반복 요청으로 지치게 하기"
+            },
+            {
+              "t": "Forced Action / 원치 않는 동의 끼워팔기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Pressure and Shame",
+          "anchor": "4-pressure-and-shame",
+          "subs": [],
+          "items": [
+            {
+              "t": "Confirmshaming / 거절 선택지에 수치심"
+            },
+            {
+              "t": "Fake Urgency / 가짜 카운트다운·재고"
+            },
+            {
+              "t": "Fake Social Proof / 조작된 인기 신호"
+            },
+            {
+              "t": "Visual Interference / 오도하는 색·크기·배치"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Execution Risks",
+          "anchor": "5-execution-risks",
+          "subs": [],
+          "items": [
+            {
+              "t": "Regulatory Line / GDPR·FTC의 규제 경계"
+            },
+            {
+              "t": "Trust Erosion / 브랜드 신뢰 붕괴 비용"
+            },
+            {
+              "t": "Pattern Literacy / 사용자가 패턴을 알면 무력화"
+            },
+            {
+              "t": "Metric Illusion / 전환율은 오르고 잔존율은 죽는 함정"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Persuasion Principles",
+      "ref": "social/skill-based/Influence/principles"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    },
+    {
+      "label": "Cognitive Load",
+      "ref": "social/skill-based/Manipulation/cognitive-load"
+    }
+  ]
+}

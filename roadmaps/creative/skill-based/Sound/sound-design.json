@@ -1,0 +1,113 @@
+{
+  "title": "Sound Design AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Recording and Foley",
+          "anchor": "1-recording-and-foley",
+          "subs": [],
+          "items": [
+            {
+              "t": "Field Recording / 밖에서 소리 10종을 녹음해 이름 붙여 라이브러리에 넣기"
+            },
+            {
+              "t": "Footstep Foley / 발소리 3종(흙·나무·금속) 직접 녹음해 만들기"
+            },
+            {
+              "t": "Prop Substitution / 실제와 다른 물건으로 원하는 소리 만들어내기 (뼈 부러지는 소리 등)"
+            },
+            {
+              "t": "Mic Placement / 같은 소리를 근접·거리 두 위치로 녹음해 차이 남기기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Synthesis",
+          "anchor": "2-synthesis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Subtractive Patch / 오실레이터·필터·엔벨로프로 레이저 발사음 하나 만들기"
+            },
+            {
+              "t": "Noise Based Effects / 노이즈를 깎아 바람·증기·폭발음 만들기"
+            },
+            {
+              "t": "FM Metallic Tones / FM으로 금속성 알림음·UI 벨 소리 만들기"
+            },
+            {
+              "t": "Envelope Shaping / 같은 소스로 짧은 타격음과 긴 지속음 두 버전 만들기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Ambience",
+          "anchor": "3-ambience",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ambience Bed / 한 장소의 배경음을 30초 루프로 이음새 없이 만들기"
+            },
+            {
+              "t": "Layered Environment / 베드·중간층·단발음 3층으로 숲 앰비언스 구성"
+            },
+            {
+              "t": "Indoor vs Outdoor / 같은 소스로 실내·야외 두 공간감 버전 만들기"
+            },
+            {
+              "t": "Loop Point Editing / 루프 이음새 클릭 없애고 반복 재생으로 검수"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Game and Video SFX",
+          "anchor": "4-game-and-video-sfx",
+          "subs": [],
+          "items": [
+            {
+              "t": "UI Sound Set / 클릭·확인·취소·오류 4종 UI 사운드 세트 만들기"
+            },
+            {
+              "t": "Impact Layering / 타격음을 어택·바디·꼬리 3레이어로 합성"
+            },
+            {
+              "t": "Variation Set / 같은 동작용 변주 5개를 만들어 반복 티 안 나게 하기"
+            },
+            {
+              "t": "Sync to Picture / 영상 클립 하나에 효과음을 프레임 단위로 붙이기"
+            },
+            {
+              "t": "Asset Naming and Export / 명명 규칙 정해 포맷·길이 맞춰 내보내기"
+            },
+            {
+              "t": "Loudness Consistency / 세트 전체 음량을 고르게 맞춰 재검수"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Mixing",
+      "ref": "creative/skill-based/Sound/mixing"
+    },
+    {
+      "label": "Arrangement",
+      "ref": "creative/skill-based/Sound/arrangement"
+    },
+    {
+      "label": "Editing",
+      "ref": "creative/skill-based/Video/editing"
+    }
+  ]
+}

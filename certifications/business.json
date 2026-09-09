@@ -1,0 +1,89 @@
+{
+ "domain": "business",
+ "title": "사업 자격증",
+ "count": 5,
+ "categories": [
+  {
+   "title": "사무·실무",
+   "certs": [
+    {
+     "id": "computer-proficiency-1",
+     "name": "컴퓨터활용능력 1급",
+     "roadmaps": [
+      "business/skill-based/Operations/operations",
+      "business/skill-based/Marketing/growth-analytics"
+     ],
+     "note": "스프레드시트로 숫자를 굴리는 건 운영·지표 항목의 실물 도구. 자격 자체보다 실기 훈련이 남음",
+     "issuer": "대한상공회의소",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "필기(컴퓨터일반·스프레드시트·데이터베이스) + 실기(엑셀·액세스) · 상시",
+     "renewal": "없음"
+    },
+    {
+     "id": "distribution-manager-2",
+     "name": "유통관리사 2급",
+     "roadmaps": [
+      "business/skill-based/Marketing",
+      "business/skill-based/Sales/sales-process"
+     ],
+     "note": null,
+     "issuer": "대한상공회의소",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "유통물류일반·상권분석·유통마케팅·유통정보 · 연 3회",
+     "renewal": "없음"
+    },
+    {
+     "id": "social-survey-analyst-2",
+     "name": "사회조사분석사 2급",
+     "roadmaps": [
+      "business/skill-based/Validation/customer-research",
+      "academics/math/statistics",
+      "academics/psychology/social-psychology"
+     ],
+     "note": "설문 설계와 표본 오차를 손으로 계산하는 유일한 국가자격. 고객 검증 항목의 이론 뒷면이자 academics 쪽 진입로 — 자격증은 파일 하나에만 실으므로 여기가 본체",
+     "issuer": "한국산업인력공단",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "조사방법론 I·II·사회통계 필기 + 실기 작업형 · 연 3회",
+     "renewal": "없음"
+    }
+   ]
+  },
+  {
+   "title": "전문·프로젝트",
+   "certs": [
+    {
+     "id": "management-consultant",
+     "name": "경영지도사",
+     "roadmaps": [
+      "business/skill-based/Operations",
+      "business/role-based/founder",
+      "academics/economics/microeconomics"
+     ],
+     "note": "국가전문자격이라 난도와 기간이 위 사무자격과 급이 다름. 연 1회뿐",
+     "issuer": "한국산업인력공단",
+     "region": "국내",
+     "eligibility": "제한 없음(1차), 2차·면접 후 등록 시 실무수습 요건",
+     "exam": "1차 객관식 5과목 + 2차 논술(인적자원·재무·생산·마케팅 중 분야 선택) + 면접 · 연 1회",
+     "renewal": "없음(등록 유지 교육)"
+    },
+    {
+     "id": "pmp",
+     "name": "PMP",
+     "roadmaps": [
+      "business/skill-based/Operations/operations",
+      "business/skill-based/Operations/hiring-team"
+     ],
+     "note": "경력 36개월이 응시 요건이라 학생 단계에선 착수 불가. 순서상 가장 뒤",
+     "issuer": "Project Management Institute",
+     "region": "해외",
+     "eligibility": "학사 + 프로젝트 관리 실무 36개월 + 35시간 교육(학사 미만은 요건 상향)",
+     "exam": "객관식·사례형 · 상시, 영어 또는 한국어",
+     "renewal": "3년(PDU 60점)"
+    }
+   ]
+  }
+ ]
+}

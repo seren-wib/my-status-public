@@ -1,0 +1,418 @@
+{
+  "title": "Mediator AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Reading the Conflict",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Conflict Anatomy",
+          "anchor": "1-conflict-anatomy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Conflict Typology / 이해·가치·구조·관계 갈등의 분류"
+            },
+            {
+              "t": "Issue vs Position vs Interest / 쟁점·입장·이익의 3층 분리"
+            },
+            {
+              "t": "Manifest vs Latent Conflict / 드러난 갈등과 잠복 갈등"
+            },
+            {
+              "t": "Conflict Cycle / 잠복→인지→감정→행동→결과의 순환 (Pondy)"
+            },
+            {
+              "t": "Attribution Asymmetry / 내 행동은 상황 탓, 상대 행동은 성격 탓"
+            },
+            {
+              "t": "Conflict Escalation Stages / 경직·논쟁에서 위협·파괴까지의 9단계 (Glasl)"
+            },
+            {
+              "t": "Irreversibility Threshold / 갈등이 되돌릴 수 없어지는 문턱과 그 징후"
+            },
+            {
+              "t": "Structural Violence / 제도가 만드는 비가시적 폭력 (Galtung)"
+            },
+            {
+              "t": "Observation",
+              "delegate": "social/skill-based/Reading/observation"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Parties and Stakes",
+          "anchor": "2-parties-and-stakes",
+          "subs": [],
+          "items": [
+            {
+              "t": "Stakeholder Mapping / 당사자·대리인·관중의 구분"
+            },
+            {
+              "t": "Constituency Pressure / 뒤에 선 지지층이 당사자를 강경하게 만드는 힘"
+            },
+            {
+              "t": "Power Asymmetry Diagnosis / 자원·정보·시간의 비대칭 진단"
+            },
+            {
+              "t": "Spoiler Identification / 합의가 깨져야 이득을 보는 행위자"
+            },
+            {
+              "t": "Hidden Party / 테이블 밖에서 결정을 좌우하는 주체"
+            },
+            {
+              "t": "Cost of Continuation / 갈등 지속 비용의 양측 추정"
+            },
+            {
+              "t": "Realistic Group Conflict / 자원 경쟁이 만드는 집단 적대 (Sherif)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Emotion and Listening",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Emotional Processing",
+          "anchor": "3-emotional-processing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Arousal Before Content / 각성 상태에서 내용 논의가 무의미한 이유"
+            },
+            {
+              "t": "Venting Design / 발언 욕구를 절차 안으로 흡수하기"
+            },
+            {
+              "t": "Apology Structure / 인정·책임·보상·재발방지의 4요소"
+            },
+            {
+              "t": "De-escalation",
+              "delegate": "social/skill-based/Conflict/de-escalation"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Third-party Listening",
+          "anchor": "4-third-party-listening",
+          "subs": [],
+          "items": [
+            {
+              "t": "Active Listening / 반영·요약·확인의 순환"
+            },
+            {
+              "t": "Reframing Utterance / 공격적 발화를 중립 언어로 되돌려주기"
+            },
+            {
+              "t": "Loop of Understanding / 당사자가 인정할 때까지 반복하는 요약"
+            },
+            {
+              "t": "Balanced Airtime / 발언 시간의 균형 관리"
+            },
+            {
+              "t": "Private Disclosure Handling / 코커스에서 들은 정보의 취급 규칙"
+            },
+            {
+              "t": "Listening",
+              "delegate": "social/skill-based/Relating/listening"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Process Design",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Entry and Mandate",
+          "anchor": "5-entry-and-mandate",
+          "subs": [],
+          "items": [
+            {
+              "t": "Invitation vs Imposition / 자발적 중재와 강제 중재의 차이"
+            },
+            {
+              "t": "Mediator Mandate / 권한 범위와 결정권 없음의 명시"
+            },
+            {
+              "t": "Ground Rules / 절차 규칙의 합의와 집행"
+            },
+            {
+              "t": "Confidentiality Regime / 비밀유지의 범위와 예외"
+            },
+            {
+              "t": "Impartiality Declaration / 이해관계 공개와 회피 기준"
+            },
+            {
+              "t": "Convening Sequence / 누구를 먼저 만나 판을 여는가"
+            },
+            {
+              "t": "Interests-Rights-Power / 이익·권리·힘 3접근과 각각의 비용 (Ury-Brett-Goldberg)"
+            },
+            {
+              "t": "ADR Spectrum / 협상·조정·중재·소송으로 갈수록 통제권이 이동하는 구조"
+            },
+            {
+              "t": "Ripeness Theory / 상호 피해 교착과 출구 인식이 만드는 개입 적기 (Zartman)"
+            },
+            {
+              "t": "Mutually Hurting Stalemate / 양측이 모두 아픈 교착의 판정"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Process Architecture",
+          "anchor": "6-process-architecture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Caucus vs Joint Session / 분리 회동과 합동 회의의 용법"
+            },
+            {
+              "t": "Agenda Sequencing / 쉬운 쟁점 선행이 만드는 합의 관성"
+            },
+            {
+              "t": "Single Text Procedure / 하나의 초안을 함께 고쳐 나가는 절차"
+            },
+            {
+              "t": "Issue Bundling / 쟁점을 묶고 쪼개는 것이 결과를 바꾸는 방식"
+            },
+            {
+              "t": "Time Structuring / 회기·휴회·마감의 배치"
+            },
+            {
+              "t": "Information Symmetrization / 사실 인정의 공통 기반 만들기"
+            },
+            {
+              "t": "Forcing Event / 인위적 시한을 세워 결정을 강제하는 설계"
+            },
+            {
+              "t": "Dispute System Design / 개별 사건이 아니라 제도로 갈등을 처리하는 설계"
+            },
+            {
+              "t": "Procedural Justice / 절차 공정성 인식이 결과 수용을 만드는 기제 (Thibaut-Walker)"
+            },
+            {
+              "t": "Shuttle Diplomacy / 당사자를 분리해 왕복 중개하는 구조"
+            },
+            {
+              "t": "Multi-track Diplomacy / 공식·비공식 경로의 병행 운용"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Mediation Models and Neutrality",
+          "anchor": "7-mediation-models-and-neutrality",
+          "subs": [],
+          "items": [
+            {
+              "t": "Facilitative Mediation / 절차만 관리하고 내용에 개입하지 않는 모델"
+            },
+            {
+              "t": "Evaluative Mediation / 중재자가 사안의 강약을 평가해 제시하는 모델"
+            },
+            {
+              "t": "Transformative Mediation / 합의보다 역량강화와 상호인정을 목표로 (Bush-Folger)"
+            },
+            {
+              "t": "Narrative Mediation / 갈등 서사의 해체와 재구성"
+            },
+            {
+              "t": "Neutrality vs Impartiality / 무관심과 공평의 구분, 그리고 관리"
+            },
+            {
+              "t": "Biased Mediator Paradox / 편향된 중재자가 더 효과적인 조건"
+            },
+            {
+              "t": "Bias Self-audit / 자기 편향의 탐지와 보정 기록"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Reaching Agreement",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Reframing and Option Generation",
+          "anchor": "8-reframing-and-option-generation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Problem Reframing / 상호 비난에서 공동 문제로의 재정의"
+            },
+            {
+              "t": "Interest Translation / 입장 언어를 이익 언어로 변환"
+            },
+            {
+              "t": "Option Generation Without Commitment / 평가와 분리된 안 만들기"
+            },
+            {
+              "t": "Objective Criteria / 외부 기준을 판정자로 세우기"
+            },
+            {
+              "t": "Package Construction / 개별 양보를 묶음으로 재구성"
+            },
+            {
+              "t": "Contingent Agreement / 미래 이견을 조건부 조항으로 우회"
+            },
+            {
+              "t": "Superordinate Goal / 상위 목표가 집단 갈등을 녹이는 조건 (Sherif)"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Closing the Gap",
+          "anchor": "9-closing-the-gap",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reality Testing / 각자의 대안이 실제로 나은지 검증시키기"
+            },
+            {
+              "t": "BATNA Confrontation / 결렬 시나리오를 직시하게 하는 개입"
+            },
+            {
+              "t": "Proposal Ownership / 중재자의 안을 당사자의 안으로 넘기기"
+            },
+            {
+              "t": "Mediator's Proposal / 동시 수락 여부만 묻는 최종안 방식"
+            },
+            {
+              "t": "Deadlock Breaking / 교착 타개 수단의 선택과 순서"
+            },
+            {
+              "t": "Closure Ritual / 합의 확인과 공표의 절차"
+            },
+            {
+              "t": "Mediator Leverage / 중립자가 동원하는 자원·보증·압박의 종류"
+            },
+            {
+              "t": "Spoiler Management / 합의 파괴자의 포섭·격리·배제"
+            },
+            {
+              "t": "De-escalation",
+              "delegate": "social/skill-based/Conflict/de-escalation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Implementation and Prevention",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Agreement Durability",
+          "anchor": "10-agreement-durability",
+          "subs": [],
+          "items": [
+            {
+              "t": "Agreement Specificity / 모호한 문구가 재발을 부르는 구조"
+            },
+            {
+              "t": "Implementation Schedule / 이행 일정과 책임자의 명시"
+            },
+            {
+              "t": "Monitoring Design / 이행 감시의 주체와 지표"
+            },
+            {
+              "t": "Non-compliance Response / 위반 시 절차의 사전 합의"
+            },
+            {
+              "t": "Escrow and Guarantee / 담보·보증인이 신뢰를 대체하는 구조"
+            },
+            {
+              "t": "Review Clause / 재협상 조항이 파기를 막는 이유"
+            },
+            {
+              "t": "Settlement Durability Forecast / 합의가 깨질 확률을 사전에 가늠하는 근거"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Relationship Repair",
+          "anchor": "11-relationship-repair",
+          "subs": [],
+          "items": [
+            {
+              "t": "Relational vs Substantive Outcome / 합의와 관계는 별개의 성과"
+            },
+            {
+              "t": "Trust Rebuilding Sequence / 신뢰 회복의 단계와 속도"
+            },
+            {
+              "t": "Narrative Reconciliation / 서로 다른 사건 서사의 공존 설계"
+            },
+            {
+              "t": "Recurrence Prevention / 재발 조건의 제거와 규칙화"
+            },
+            {
+              "t": "Reintegration / 갈등 이후 집단 복귀의 절차"
+            },
+            {
+              "t": "Restorative Justice / 처벌이 아니라 피해 회복을 중심에 두는 절차"
+            },
+            {
+              "t": "Reconciliation Process / 진실규명·사면·기억의 설계"
+            },
+            {
+              "t": "Positive Peace / 폭력의 부재를 넘어선 평화 개념 (Galtung)"
+            },
+            {
+              "t": "Empathy",
+              "delegate": "social/skill-based/Relating/empathy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Group Reading",
+      "ref": "social/skill-based/Reading/group-reading"
+    },
+    {
+      "label": "Listening",
+      "ref": "social/skill-based/Relating/listening"
+    },
+    {
+      "label": "Empathy",
+      "ref": "social/skill-based/Relating/empathy"
+    },
+    {
+      "label": "De-escalation",
+      "ref": "social/skill-based/Conflict/de-escalation"
+    },
+    {
+      "label": "Boundary Defense",
+      "ref": "social/skill-based/Conflict/boundary-defense"
+    },
+    {
+      "label": "Group Dynamics",
+      "ref": "social/skill-based/GroupInfluence/group-dynamics"
+    }
+  ]
+}

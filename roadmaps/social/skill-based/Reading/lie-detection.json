@@ -1,0 +1,117 @@
+{
+  "title": "Deception Detection AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Deception Research",
+          "anchor": "1-deception-research",
+          "subs": [],
+          "items": [
+            {
+              "t": "Nonverbal Signals · 신호의 한계",
+              "delegate": "social/skill-based/Reading/nonverbal"
+            },
+            {
+              "t": "Verbal Content Analysis",
+              "delegate": "social/skill-based/Reading/inference"
+            },
+            {
+              "t": "Detection Accuracy Research / 평균 정확도 54%, Bond & DePaulo"
+            },
+            {
+              "t": "Weak Cues Meta-analysis / DePaulo, 뚜렷한 거짓 단서는 없음"
+            },
+            {
+              "t": "No Single Tell / 피노키오의 코는 없다"
+            },
+            {
+              "t": "Liar's Advantage / 준비된 거짓말이 진실보다 매끄러움"
+            },
+            {
+              "t": "Everyday Lying Research / 일상 거짓말의 빈도와 종류"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Cognitive Approaches",
+          "anchor": "2-cognitive-approaches",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cognitive Load / 거짓말의 인지 비용"
+            },
+            {
+              "t": "Unanticipated Questions / 준비하지 못한 질문의 효과"
+            },
+            {
+              "t": "Reverse Order Recall / 역순 회상 요구"
+            },
+            {
+              "t": "Verifiable Details / 확인 가능한 세부 정보 요구"
+            },
+            {
+              "t": "Strategic Evidence Use / 아는 사실을 늦게 꺼내 진술과 대조"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Statement Consistency",
+          "anchor": "3-statement-consistency",
+          "subs": [],
+          "items": [
+            {
+              "t": "Statement-Evidence Comparison / 진술과 확보된 사실 대조"
+            },
+            {
+              "t": "Consistency over Retellings / 반복 진술 간 비교"
+            },
+            {
+              "t": "Criteria-Based Content Analysis / 진술 타당도 평가 기준",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Discredited Tools / polygraph·SCAN·음성 스트레스 분석의 타당도 문제"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Judgment Costs",
+          "anchor": "4-judgment-costs",
+          "subs": [],
+          "items": [
+            {
+              "t": "False Positive Cost / 오판이 관계에 남기는 비용"
+            },
+            {
+              "t": "Confrontation Timing / 확신 전 추궁의 위험"
+            },
+            {
+              "t": "Acting on Probabilities / 단정 없이 행동만 조정하기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    },
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    }
+  ]
+}

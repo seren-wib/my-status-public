@@ -1,0 +1,142 @@
+{
+  "title": "Escalation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Stage Transitions",
+          "anchor": "1-stage-transitions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Stage Sequence / 접점에서 데이트, 배타적 관계, 정의까지의 흐름"
+            },
+            {
+              "t": "Pace Mismatch / 두 사람의 속도가 다를 때 맞추는 쪽"
+            },
+            {
+              "t": "Reversibility / 되돌릴 수 있는 진전과 없는 진전 구분"
+            },
+            {
+              "t": "Context Shift / 만나는 장소·상황을 바꿔 단계를 옮기기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Testing the Waters",
+          "anchor": "2-testing-the-waters",
+          "subs": [],
+          "items": [
+            {
+              "t": "Low-cost Probe / 거절 비용이 낮은 형태로 의사 타진"
+            },
+            {
+              "t": "Direct Ask / 돌려 말하기보다 분명한 제안이 나은 경우"
+            },
+            {
+              "t": "Reading the Answer / 즉답·유보·화제 전환이 각각 뜻하는 것"
+            },
+            {
+              "t": "Soft No Recognition / 완곡한 거절을 거절로 받기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Consent",
+          "anchor": "3-consent",
+          "subs": [],
+          "items": [
+            {
+              "t": "Explicit Consent / 추론이 아니라 확인으로 얻는 동의"
+            },
+            {
+              "t": "Ongoing and Revocable / 동의는 계속 유지돼야 하고 언제든 철회됨"
+            },
+            {
+              "t": "Absence of No Is Not Yes / 침묵·무반응·얼어붙음은 동의가 아님"
+            },
+            {
+              "t": "Capacity Conditions / 취기·수면·위계 아래에서는 동의가 성립하지 않음"
+            },
+            {
+              "t": "Checking In / 진행 중에 확인하는 말과 그 타이밍"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Rejection and Recovery",
+          "anchor": "4-rejection-and-recovery",
+          "subs": [],
+          "items": [
+            {
+              "t": "Accepting No / 즉시 수용, 재협상·설득 시도 금지"
+            },
+            {
+              "t": "Rejection Attribution / 거절을 자기 가치 판정으로 번역하지 않기"
+            },
+            {
+              "t": "Preserving the Relation / 거절 이후 관계를 어떤 형태로 남길지"
+            },
+            {
+              "t": "Persistence Myth / 밀어붙이면 넘어온다는 통념이 실제로 만드는 결과"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Defining the Relationship",
+          "anchor": "5-defining-the-relationship",
+          "subs": [],
+          "items": [
+            {
+              "t": "Timing the Talk / 관계 정의 대화를 꺼낼 시점"
+            },
+            {
+              "t": "Naming Expectations / 배타성·연락 빈도·기대치를 말로 정하기"
+            },
+            {
+              "t": "Disagreement Outcome / 합의가 안 될 때 정리하는 선택"
+            },
+            {
+              "t": "Post-definition Drift / 정의한 뒤에도 재확인이 필요한 이유"
+            },
+            {
+              "t": "Trust and Bonding",
+              "delegate": "social/skill-based/Relating/bonding"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Bonding",
+      "ref": "social/skill-based/Relating/bonding"
+    },
+    {
+      "label": "Nonverbal Signals",
+      "ref": "social/skill-based/Reading/nonverbal"
+    },
+    {
+      "label": "Tension",
+      "ref": "social/skill-based/Seduction/tension"
+    },
+    {
+      "label": "Attraction",
+      "ref": "social/skill-based/Seduction/attraction"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    }
+  ]
+}

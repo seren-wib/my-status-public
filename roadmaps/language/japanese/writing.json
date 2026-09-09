@@ -1,0 +1,366 @@
+{
+  "title": "Writing AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Warming Up the Hand (N5)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Tracing and Copying",
+          "anchor": "1-tracing-and-copying",
+          "subs": [],
+          "items": [
+            {
+              "t": "Kana Handwriting / 히라가나·가타카나 전부 손으로 써 한 장 완성"
+            },
+            {
+              "t": "Name Kanji Copying / 내 이름·주소에 쓰는 한자 따라 쓰기"
+            },
+            {
+              "t": "Sentence Copying / 교재 예문 10개 필사"
+            },
+            {
+              "t": "Typing Setup / 일본어 입력기 설치해 가나 문장 타이핑 연습"
+            },
+            {
+              "t": "Genkouyoushi Practice / 원고지 양식 규칙에 맞춰 한 단락 옮겨 쓰기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "My Information Sentences",
+          "anchor": "2-my-information-sentences",
+          "subs": [],
+          "items": [
+            {
+              "t": "Self Data Sentences / 이름·나이·직업·사는 곳을 문장으로 완성해 쓰기"
+            },
+            {
+              "t": "Like and Dislike / 좋아하는 것·싫어하는 것 각 3문장 쓰기"
+            },
+            {
+              "t": "Weekly Schedule Sentences / 내 일주일 일정을 문장 7개로 쓰기"
+            },
+            {
+              "t": "Form Filling / 회원가입식 간단한 양식을 일본어로 채우기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Three Sentence Self Introduction",
+          "anchor": "3-three-sentence-self-introduction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Three Sentence Intro / 세 문장 자기소개 완성해 남기기"
+            },
+            {
+              "t": "Intro Expansion / 자기소개에 취미 문장 하나 덧붙여 다시 쓰기"
+            },
+            {
+              "t": "Handwritten Card / 자기소개를 손글씨 카드 한 장으로 정서"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Everyday Writing (N4)",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Japanese Diary",
+          "anchor": "4-japanese-diary",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Diary Entry / 오늘 일기 3문장을 일본어로 쓰기"
+            },
+            {
+              "t": "One Week Diary / 일기 1주 연속 쓰기",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Past Tense Diary / 어제 일기를 과거형만으로 다시 쓰기"
+            },
+            {
+              "t": "Diary Self Correction / 1주치 일기 다시 읽고 이상한 문장 스스로 고치기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "SNS Short Posts",
+          "anchor": "5-sns-short-posts",
+          "subs": [],
+          "items": [
+            {
+              "t": "First JP Post / 일본어로 SNS 짧은 글 1개 올리기(비공개 가능)"
+            },
+            {
+              "t": "Photo Caption / 사진에 일본어 캡션 달기 5회"
+            },
+            {
+              "t": "Tone Imitation / 일본 SNS 말투 관찰해 비슷한 톤으로 한 줄 쓰기"
+            },
+            {
+              "t": "Reply Writing / 일본어 게시물에 댓글 한 줄 달아보기"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Messages",
+          "anchor": "6-messages",
+          "subs": [],
+          "items": [
+            {
+              "t": "Chat Exchange / 메신저로 일본어 대화 10턴 주고받기"
+            },
+            {
+              "t": "Invitation Set / 약속 제안·수락·거절 메시지 세트 쓰기"
+            },
+            {
+              "t": "Thanks and Apology / 감사·사과 짧은 메시지 각 1개 쓰기"
+            },
+            {
+              "t": "Late Notice / 늦는다고 알리는 메시지를 상대별(친구·격식)로 2개 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Structured Writing (N3)",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Paragraph with Claim",
+          "anchor": "7-paragraph-with-claim",
+          "subs": [],
+          "items": [
+            {
+              "t": "Claim Paragraph / 주장 1개+이유 2개 구조로 문단 하나 쓰기"
+            },
+            {
+              "t": "Connector Polish / 접속 표현(だから·しかし 등) 넣어 문단 매끄럽게 고치기"
+            },
+            {
+              "t": "Opposing Paragraph / 같은 주제를 반대 주장으로 문단 쓰기"
+            },
+            {
+              "t": "Paragraph Routine / 주 2문단 쓰기를 4주 유지"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Review Writing",
+          "anchor": "8-review-writing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Anime Review / 본 작품 감상문 300자 쓰기"
+            },
+            {
+              "t": "Book Review / 읽은 책·만화 감상문 쓰기"
+            },
+            {
+              "t": "Place Review / 가게·장소 리뷰를 일본어로 쓰기"
+            },
+            {
+              "t": "Emotion Word Swap / 감상문의 반복 표현(面白かった 등)을 다른 감정 표현으로 바꿔 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Summarizing",
+          "anchor": "9-summarizing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Article Summary / 쉬운 기사 한 편을 3문장으로 요약"
+            },
+            {
+              "t": "Episode Summary / 에피소드 줄거리를 5문장으로 요약"
+            },
+            {
+              "t": "Summary Compression / 내 요약을 절반 길이로 다시 줄이기"
+            },
+            {
+              "t": "Summary Comparison / 원문과 대조해 요약에서 빠뜨린 핵심 체크"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Formal Writing (N2)",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Formal Email",
+          "anchor": "10-formal-email",
+          "subs": [],
+          "items": [
+            {
+              "t": "First Formal Email / 문의 이메일 한 통을 형식(宛名·結び) 갖춰 쓰기"
+            },
+            {
+              "t": "Upward Email / 선생·상사에게 보내는 메일 상황 설정해 쓰기"
+            },
+            {
+              "t": "Apology Email / 일정 변경을 알리고 사과하는 메일 쓰기"
+            },
+            {
+              "t": "Email Rewrite / 반말 메시지를 격식 메일로 변환해 쓰기",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Keigo Requests",
+          "anchor": "11-keigo-requests",
+          "subs": [],
+          "items": [
+            {
+              "t": "Request Letter / 경어로 부탁하는 문의문 쓰기"
+            },
+            {
+              "t": "Inquiry Form / 고객센터 문의 글을 상황 만들어 쓰기"
+            },
+            {
+              "t": "Written Refusal / 정중히 거절하는 답장 쓰기"
+            },
+            {
+              "t": "Seasonal Greeting Card / 계절 인사장(연하장 등) 격식 갖춰 쓰기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Expository Writing",
+          "anchor": "12-expository-writing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Process Explanation / 절차 설명문(만드는 법 등) 한 편 쓰기"
+            },
+            {
+              "t": "Comparison Piece / 두 대상을 비교하는 설명문 쓰기"
+            },
+            {
+              "t": "Data Description / 숫자·순위 근거를 넣은 설명 문단 쓰기"
+            },
+            {
+              "t": "Culture Explanation / 한국 문화 하나를 일본인에게 설명하는 글 쓰기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "A Native Pen (N1 · Beyond)",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Essay",
+          "anchor": "13-essay",
+          "subs": [],
+          "items": [
+            {
+              "t": "Opinion Essay / 800자 의견 에세이 한 편 완성"
+            },
+            {
+              "t": "Overnight Revision / 하루 묵혔다 다시 읽고 퇴고 1회"
+            },
+            {
+              "t": "Timed Essay / 60분 제한 두고 에세이 초안 완성"
+            },
+            {
+              "t": "Feedback Cycle / 원어민 첨삭 받아 고친 최종본 남기기"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Style Switching",
+          "anchor": "14-style-switching",
+          "subs": [],
+          "items": [
+            {
+              "t": "Da-tai Conversion / 같은 글을 だ体로 통일해 다시 쓰기"
+            },
+            {
+              "t": "Desu-tai Check / です体 버전과 나란히 두고 문체 어긋난 문장 0 확인"
+            },
+            {
+              "t": "Casual Written Voice / 같은 내용을 SNS체·구어체로 재작성"
+            },
+            {
+              "t": "Voice Imitation / 좋아하는 작가·칼럼 문체 흉내내 한 단락 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Long Form",
+          "anchor": "15-long-form",
+          "subs": [],
+          "items": [
+            {
+              "t": "Two Thousand Characters / 2000자 이상 긴 글 한 편 완성"
+            },
+            {
+              "t": "Serial Writing / 한 주제로 연재 글 3편 쓰기"
+            },
+            {
+              "t": "Short Fiction / 짧은 이야기 한 편 쓰기",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Portfolio Piece / 제일 잘 쓴 글 골라 퇴고해 작업물로 보관"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Kanji",
+      "ref": "language/japanese/kanji"
+    },
+    {
+      "label": "Grammar",
+      "ref": "language/japanese/grammar"
+    },
+    {
+      "label": "Reading",
+      "ref": "language/japanese/reading"
+    }
+  ]
+}

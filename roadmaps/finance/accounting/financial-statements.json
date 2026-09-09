@@ -1,0 +1,116 @@
+{
+  "title": "Financial Statements AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Getting the Filings",
+          "anchor": "1-getting-the-filings",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pick One Company / 상장기업 하나 골라 최근 사업보고서 원문 내려받기"
+            },
+            {
+              "t": "Statement Locate / 사업보고서에서 손익계산서·재무상태표·현금흐름표 위치를 찾아 표시"
+            },
+            {
+              "t": "Notes Cross-check / 주석에서 매출 구성이나 차입금 조건 하나를 찾아 본표 숫자와 연결"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Reading the Three Statements",
+          "anchor": "2-reading-the-three-statements",
+          "subs": [],
+          "items": [
+            {
+              "t": "Income Statement Walk / 매출부터 당기순이익까지 무엇이 단계마다 빠지는지 한 장 요약"
+            },
+            {
+              "t": "Balance Sheet Split / 자산·부채·자본을 항목별로 나눠 큰 덩어리 셋 짚어내기"
+            },
+            {
+              "t": "Cash Flow Three Ways / 영업·투자·재무 현금흐름의 부호 조합을 읽고 회사 상태 한 줄로 진단"
+            },
+            {
+              "t": "Statements Linked / 순이익이 자본 항목과 현금흐름표 첫 줄로 어떻게 이어지는지 직접 추적"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Quality of Earnings",
+          "anchor": "3-quality-of-earnings",
+          "subs": [],
+          "items": [
+            {
+              "t": "Profit Versus Cash / 당기순이익과 영업현금흐름 차이를 계산하고 원인 항목 찾기"
+            },
+            {
+              "t": "Receivables Trend / 매출채권·재고 증가율을 매출 증가율과 나란히 놓고 표로 정리"
+            },
+            {
+              "t": "One-off Items / 일회성 이익·손실을 걷어낸 조정 이익 직접 계산"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Ratios by Hand",
+          "anchor": "4-ratios-by-hand",
+          "subs": [],
+          "items": [
+            {
+              "t": "ROE Decomposition / ROE를 순이익률·자산회전율·레버리지로 분해해 계산"
+            },
+            {
+              "t": "Debt and Liquidity / 부채비율·유동비율 직접 계산하고 업종 평균과 비교"
+            },
+            {
+              "t": "Margin Trend / 3개년 영업이익률을 계산해 추세 한 장으로 정리"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Comparing Two",
+          "anchor": "5-comparing-two",
+          "subs": [],
+          "items": [
+            {
+              "t": "Two Company Table / 같은 업종 두 기업의 비율을 한 표에 놓고 차이 설명"
+            },
+            {
+              "t": "Red Flag Hunt / 한 기업에서 의심 신호 3개를 근거와 함께 적기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Stocks",
+      "ref": "finance/investing/stocks"
+    },
+    {
+      "label": "Bookkeeping",
+      "ref": "finance/accounting/bookkeeping"
+    },
+    {
+      "label": "Business Tax",
+      "ref": "finance/tax/business-tax"
+    },
+    {
+      "label": "Macroeconomics",
+      "ref": "academics/economics/macroeconomics"
+    }
+  ]
+}

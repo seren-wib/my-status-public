@@ -1,0 +1,74 @@
+{
+ "domain": "health",
+ "title": "건강 자격증",
+ "count": 4,
+ "categories": [
+  {
+   "title": "국가전문자격",
+   "certs": [
+    {
+     "id": "sports-instructor-2",
+     "name": "생활스포츠지도사 2급",
+     "roadmaps": [
+      "health/fitness/strength-training",
+      "health/fitness/program-design",
+      "health/fitness/cardio-running"
+     ],
+     "note": "연 1회뿐이고 실기·구술과 연수까지 통과해야 발급. 종목을 하나 골라야 함",
+     "issuer": "국민체육진흥공단 (문화체육관광부)",
+     "region": "국내",
+     "eligibility": "만 18세 이상, 제한 없음",
+     "exam": "필기(스포츠교육학·운동생리학 등 7과목 중 5과목 선택) + 실기·구술 + 연수 90시간 · 연 1회",
+     "renewal": "없음"
+    },
+    {
+     "id": "health-exercise-specialist",
+     "name": "건강운동관리사",
+     "roadmaps": [
+      "health/fitness/program-design",
+      "health/nutrition/nutrition-basics"
+     ],
+     "note": "전공 학위가 응시 요건 — 해당 전공이 아니면 지도에만 두고 넘어갈 것",
+     "issuer": "국민체육진흥공단",
+     "region": "국내",
+     "eligibility": "체육·운동 관련 학과 학사 학위(전공 요건)",
+     "exam": "필기 8과목 + 실기·구술 + 연수 · 연 1회",
+     "renewal": "없음"
+    }
+   ]
+  },
+  {
+   "title": "해외 트레이너 인증",
+   "certs": [
+    {
+     "id": "nsca-cpt",
+     "name": "NSCA-CPT",
+     "roadmaps": [
+      "health/fitness/program-design",
+      "health/fitness/strength-training"
+     ],
+     "note": "전공 요건이 없어 국내 건강운동관리사보다 진입이 열려 있음",
+     "issuer": "National Strength and Conditioning Association",
+     "region": "해외",
+     "eligibility": "만 18세 이상, 고졸 이상, 유효한 CPR/AED 자격",
+     "exam": "객관식(운동과학·평가·프로그램 설계·안전) · 상시, 영어 또는 한국어",
+     "renewal": "3년(보수교육 학점)"
+    },
+    {
+     "id": "acsm-cpt",
+     "name": "ACSM-CPT",
+     "roadmaps": [
+      "health/fitness/program-design",
+      "health/fitness/cardio-running"
+     ],
+     "note": "PHYSIQUE 백분위 산출에 쓰는 ACSM 표준표를 만드는 그 학회",
+     "issuer": "American College of Sports Medicine",
+     "region": "해외",
+     "eligibility": "만 18세 이상, 고졸 이상, 유효한 CPR/AED 자격",
+     "exam": "객관식 · 상시, 영어",
+     "renewal": "3년(보수교육 학점)"
+    }
+   ]
+  }
+ ]
+}

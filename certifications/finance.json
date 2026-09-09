@@ -1,0 +1,194 @@
+{
+ "domain": "finance",
+ "title": "재정 자격증",
+ "count": 12,
+ "categories": [
+  {
+   "title": "금융투자협회 자격",
+   "certs": [
+    {
+     "id": "investment-asset-manager",
+     "name": "투자자산운용사",
+     "roadmaps": [
+      "finance/investing/portfolio",
+      "finance/investing/stocks",
+      "finance/investing/foundations"
+     ],
+     "note": "응시 제한이 없는 것 중 내용이 가장 두꺼움. 자산배분·성과평가가 portfolio 로드맵과 직결",
+     "issuer": "금융투자협회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "금융상품·투자운용·직무윤리 100문항 · 연 3회 내외",
+     "renewal": "없음(금융회사 등록 시 보수교육)"
+    },
+    {
+     "id": "securities-solicitor",
+     "name": "증권투자권유대행인",
+     "roadmaps": [
+      "finance/investing/foundations",
+      "finance/investing/stocks"
+     ],
+     "note": null,
+     "issuer": "금융투자협회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "증권·투자권유 100문항 · 연 3회 내외",
+     "renewal": "없음"
+    },
+    {
+     "id": "fund-solicitor",
+     "name": "펀드투자권유대행인",
+     "roadmaps": [
+      "finance/investing/etf",
+      "finance/investing/foundations"
+     ],
+     "note": null,
+     "issuer": "금융투자협회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "펀드·투자권유 100문항 · 연 3회 내외",
+     "renewal": "없음"
+    },
+    {
+     "id": "derivatives-solicitor",
+     "name": "파생상품투자권유대행인",
+     "roadmaps": [
+      "finance/investing/trading",
+      "finance/investing/foundations"
+     ],
+     "note": null,
+     "issuer": "금융투자협회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "파생상품·투자권유 100문항 · 연 3회 내외",
+     "renewal": "없음"
+    },
+    {
+     "id": "financial-investment-analyst",
+     "name": "금융투자분석사",
+     "roadmaps": [
+      "finance/investing/stocks",
+      "finance/accounting/financial-statements"
+     ],
+     "note": null,
+     "issuer": "금융투자협회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "증권분석·가치평가·재무분석 · 연 1~2회",
+     "renewal": "없음"
+    }
+   ]
+  },
+  {
+   "title": "재무설계",
+   "certs": [
+    {
+     "id": "afpk",
+     "name": "AFPK",
+     "roadmaps": [
+      "finance/personal-finance",
+      "finance/investing/foundations",
+      "finance/tax/income-tax"
+     ],
+     "note": "개인 재무설계 전 범위를 한 번에 훑는 구조라 personal-finance 로드맵과 거의 겹침",
+     "issuer": "한국FPSB",
+     "region": "국내",
+     "eligibility": "지정 교육과정 이수",
+     "exam": "재무설계·보험·투자·세금·은퇴·상속 · 연 3회",
+     "renewal": "2년(계속교육 + 회비)"
+    },
+    {
+     "id": "cfp",
+     "name": "CFP",
+     "roadmaps": [
+      "finance/personal-finance",
+      "finance/investing/portfolio",
+      "finance/tax"
+     ],
+     "note": null,
+     "issuer": "FPSB (국내 한국FPSB)",
+     "region": "해외",
+     "eligibility": "AFPK 취득 + 지정 교육과정 이수, 인증 시 실무경력 요건",
+     "exam": "재무설계 6개 영역 사례형 · 연 2회",
+     "renewal": "2년(계속교육 + 회비)"
+    },
+    {
+     "id": "cfa",
+     "name": "CFA",
+     "roadmaps": [
+      "finance/investing/portfolio",
+      "finance/accounting/financial-statements",
+      "academics/economics"
+     ],
+     "note": "3레벨 합산 수년짜리. 재무·회계·윤리를 영어로 통과해야 해 language 로드맵과도 물림",
+     "issuer": "CFA Institute",
+     "region": "해외",
+     "eligibility": "학사 학위 또는 최종학년 재학(Level I 응시 기준), 최종 인증은 실무 4000시간",
+     "exam": "Level I~III · 레벨별 연 1~4회, 영어",
+     "renewal": "없음(회원 유지비)"
+    }
+   ]
+  },
+  {
+   "title": "회계·세무 실무",
+   "certs": [
+    {
+     "id": "jaekyung-manager",
+     "name": "재경관리사",
+     "roadmaps": [
+      "finance/accounting/financial-statements",
+      "finance/accounting/bookkeeping",
+      "finance/tax"
+     ],
+     "note": null,
+     "issuer": "삼일회계법인",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "재무회계·세무회계·원가관리회계 · 연 6회 내외",
+     "renewal": "없음"
+    },
+    {
+     "id": "computerized-accounting-1",
+     "name": "전산회계 1급",
+     "roadmaps": [
+      "finance/accounting/bookkeeping"
+     ],
+     "note": "장부를 직접 찍어보는 시험이라 bookkeeping 항목의 실증(s:1) 재료가 됨",
+     "issuer": "한국세무사회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "이론 + 실무(회계 프로그램 입력) · 연 6회",
+     "renewal": "없음"
+    },
+    {
+     "id": "at-fat-tat",
+     "name": "AT 자격 FAT·TAT",
+     "roadmaps": [
+      "finance/accounting/bookkeeping",
+      "finance/tax/business-tax"
+     ],
+     "note": null,
+     "issuer": "한국공인회계사회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "FAT(회계실무) · TAT(세무실무) 각 1·2급, 실무 프로그램 기반 · 연 6회 내외",
+     "renewal": "없음"
+    },
+    {
+     "id": "tax-accounting",
+     "name": "세무회계",
+     "roadmaps": [
+      "finance/tax/income-tax",
+      "finance/tax/business-tax"
+     ],
+     "note": null,
+     "issuer": "한국세무사회",
+     "region": "국내",
+     "eligibility": "제한 없음",
+     "exam": "재무회계·세법 1·2·3급 · 연 4회 내외",
+     "renewal": "없음"
+    }
+   ]
+  }
+ ]
+}

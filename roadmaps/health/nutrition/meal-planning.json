@@ -1,0 +1,80 @@
+{
+  "title": "Meal Planning AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Current Pattern",
+          "anchor": "1-current-pattern",
+          "subs": [],
+          "items": [
+            {
+              "t": "One Week Photo Log / 일주일 먹은 것 전부 사진·메모로 남기기"
+            },
+            {
+              "t": "Pattern Findings / 결식·야식·폭식 패턴 찾아 세 줄로 정리"
+            },
+            {
+              "t": "Food Budget / 한 달 식비 실제 지출 뽑아 상한 정하기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Planning",
+          "anchor": "2-planning",
+          "subs": [],
+          "items": [
+            {
+              "t": "Weekly Menu / 일주일 식단 미리 짜서 실제로 따라가기"
+            },
+            {
+              "t": "Shopping List / 식단 기준 장보기 목록 만들어 그대로 장보기"
+            },
+            {
+              "t": "Three Cooked Meals / 단백질 들어간 한 끼를 직접 3회 조리"
+            },
+            {
+              "t": "Batch Prep / 한 번에 2~3끼 분량 만들어 나눠 먹기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Sustaining",
+          "anchor": "3-sustaining",
+          "subs": [],
+          "items": [
+            {
+              "t": "Eating Out Rule / 외식·배달 때 고르는 기준 3개 정해 1주 적용"
+            },
+            {
+              "t": "Two Week Routine / 짠 식단 루틴을 2주 유지하고 이탈 기록"
+            },
+            {
+              "t": "Monthly Review / 한 달 뒤 식비·체감·유지율 돌아보고 식단 수정"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Nutrition Basics",
+      "ref": "health/nutrition/nutrition-basics"
+    },
+    {
+      "label": "Budgeting",
+      "ref": "finance/personal-finance/budgeting"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "title": "Comics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Story",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Premise and Plot",
+          "anchor": "1-premise-and-plot",
+          "subs": [],
+          "items": [
+            {
+              "t": "One-line Premise / 한 편을 한 줄 로그라인으로"
+            },
+            {
+              "t": "Story Structure",
+              "delegate": "creative/skill-based/Writing/story-structure"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Cast",
+          "anchor": "2-cast",
+          "subs": [],
+          "items": [
+            {
+              "t": "Character Sheet / 주인공 삼면도 한 장"
+            },
+            {
+              "t": "Cast Lineup / 등장인물 키 비교 정렬도"
+            },
+            {
+              "t": "Silhouette Test / 실루엣만으로 구분되는지 검증"
+            },
+            {
+              "t": "Character",
+              "delegate": "creative/skill-based/Writing/character"
+            },
+            {
+              "t": "Figure",
+              "delegate": "creative/skill-based/Drawing/figure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Staging",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Script",
+          "anchor": "3-script",
+          "subs": [],
+          "items": [
+            {
+              "t": "Panel Script / 컷 단위 지문·대사 대본"
+            },
+            {
+              "t": "Dialogue and Scene",
+              "delegate": "creative/skill-based/Writing/dialogue-scene"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Layout",
+          "anchor": "4-layout",
+          "subs": [],
+          "items": [
+            {
+              "t": "Thumbnail Layout / 전 페이지 콘티 축소본"
+            },
+            {
+              "t": "Panel Flow Check / 시선 이동 순서를 화살표로 확인"
+            },
+            {
+              "t": "Turn Beat / 페이지 넘김·스크롤 구간에 놓을 한 컷 지정"
+            },
+            {
+              "t": "Balloon Placement / 말풍선 자리 미리 잡기"
+            },
+            {
+              "t": "Composition",
+              "delegate": "creative/skill-based/Drawing/composition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Artwork",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Drawing the Pages",
+          "anchor": "5-drawing-the-pages",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rough Pencils / 전 페이지 러프"
+            },
+            {
+              "t": "Inking Pass / 선화 마무리"
+            },
+            {
+              "t": "Tone or Flat Color / 톤·평면 채색"
+            },
+            {
+              "t": "Background Pass / 배경 채워 넣기"
+            },
+            {
+              "t": "Sketching",
+              "delegate": "creative/skill-based/Drawing/sketching"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Lettering",
+          "anchor": "6-lettering",
+          "subs": [],
+          "items": [
+            {
+              "t": "Typesetting / 대사 식자"
+            },
+            {
+              "t": "Sound Effects / 효과음 손글씨"
+            },
+            {
+              "t": "Reading Test / 대사·그림 겹치는 곳 없는지 통독"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Finishing",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Revision",
+          "anchor": "7-revision",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reader Pass / 남에게 읽히고 막힌 컷 표시"
+            },
+            {
+              "t": "Retake List / 다시 그릴 컷 목록"
+            },
+            {
+              "t": "Redraw / 목록대로 재작화"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Publishing",
+          "anchor": "8-publishing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Export for Platform / 연재 규격에 맞춰 내보내기"
+            },
+            {
+              "t": "Upload One Episode / 한 편 공개"
+            },
+            {
+              "t": "Episode Retrospective / 회차 회고 한 문단"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Sketching",
+      "ref": "creative/skill-based/Drawing/sketching"
+    },
+    {
+      "label": "Figure",
+      "ref": "creative/skill-based/Drawing/figure"
+    },
+    {
+      "label": "Composition",
+      "ref": "creative/skill-based/Drawing/composition"
+    },
+    {
+      "label": "Story Structure",
+      "ref": "creative/skill-based/Writing/story-structure"
+    },
+    {
+      "label": "Character",
+      "ref": "creative/skill-based/Writing/character"
+    },
+    {
+      "label": "Dialogue and Scene",
+      "ref": "creative/skill-based/Writing/dialogue-scene"
+    }
+  ]
+}

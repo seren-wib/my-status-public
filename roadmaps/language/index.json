@@ -1,0 +1,106 @@
+[
+  {
+    "path": "english/foundations",
+    "title": "Foundations AI 생성",
+    "ai": true,
+    "parts": 3,
+    "sections": 9,
+    "items": 45
+  },
+  {
+    "path": "english/grammar",
+    "title": "Grammar AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 20,
+    "items": 83
+  },
+  {
+    "path": "english/listening",
+    "title": "Listening AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 62
+  },
+  {
+    "path": "english/reading",
+    "title": "Reading AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 61
+  },
+  {
+    "path": "english/speaking",
+    "title": "Speaking AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 65
+  },
+  {
+    "path": "english/writing",
+    "title": "Writing AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 14,
+    "items": 60
+  },
+  {
+    "path": "japanese/foundations",
+    "title": "Foundations AI 생성",
+    "ai": true,
+    "parts": 3,
+    "sections": 10,
+    "items": 41
+  },
+  {
+    "path": "japanese/grammar",
+    "title": "Grammar AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 21,
+    "items": 77
+  },
+  {
+    "path": "japanese/kanji",
+    "title": "Kanji AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 72
+  },
+  {
+    "path": "japanese/listening",
+    "title": "Listening AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 63
+  },
+  {
+    "path": "japanese/reading",
+    "title": "Reading AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 62
+  },
+  {
+    "path": "japanese/speaking",
+    "title": "Speaking AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 62
+  },
+  {
+    "path": "japanese/writing",
+    "title": "Writing AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 60
+  }
+]

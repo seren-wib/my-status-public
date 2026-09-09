@@ -1,0 +1,200 @@
+{
+  "title": "Song AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Conception",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Song Concept",
+          "anchor": "1-song-concept",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reference Track List / 참고곡 5곡과 각각 훔칠 지점"
+            },
+            {
+              "t": "Key and Tempo Decision / 조성·템포 정하기"
+            },
+            {
+              "t": "Music Fundamentals",
+              "delegate": "creative/skill-based/Sound/music-fundamentals"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Hook First",
+          "anchor": "2-hook-first",
+          "subs": [],
+          "items": [
+            {
+              "t": "Hook Recording / 후렴 멜로디 흥얼거려 녹음"
+            },
+            {
+              "t": "Chord Bed / 후렴에 코드 붙이기"
+            },
+            {
+              "t": "Composing",
+              "delegate": "creative/skill-based/Sound/composing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "The Skeleton",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Structure",
+          "anchor": "3-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Verse Melody / 벌스 멜로디 완성"
+            },
+            {
+              "t": "Bridge or Break / 전환 구간 하나 만들기"
+            },
+            {
+              "t": "Demo Take / 목소리와 반주만으로 러프 데모 한 번"
+            },
+            {
+              "t": "Composing",
+              "delegate": "creative/skill-based/Sound/composing"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Lyrics",
+          "anchor": "4-lyrics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Theme Line / 곡이 말하려는 한 문장"
+            },
+            {
+              "t": "Hook Lyric / 후렴 가사 확정"
+            },
+            {
+              "t": "Verse Lyric / 벌스 가사 채우기"
+            },
+            {
+              "t": "Prosody Check / 말 강세와 멜로디 강박 맞추기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Arrangement · Recording",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Arrangement",
+          "anchor": "5-arrangement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Instrument Roster / 쓸 악기 목록 확정"
+            },
+            {
+              "t": "Section Dynamics / 구간별 밀도 차이 만들기"
+            },
+            {
+              "t": "Intro and Outro / 도입·마무리 붙이기"
+            },
+            {
+              "t": "Arrangement",
+              "delegate": "creative/skill-based/Sound/arrangement"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Recording",
+          "anchor": "6-recording",
+          "subs": [],
+          "items": [
+            {
+              "t": "Guide Track / 클릭에 맞춘 가이드 녹음"
+            },
+            {
+              "t": "Vocal Takes / 보컬 3테이크 이상 녹음 후 편집"
+            },
+            {
+              "t": "Instrument Tracking / 악기 트랙 녹음·입력"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Finishing",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Mix and Master",
+          "anchor": "7-mix-and-master",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rough Mix / 러프 믹스 한 번"
+            },
+            {
+              "t": "Final Bounce / 마스터 파일 내보내기"
+            },
+            {
+              "t": "Mixing",
+              "delegate": "creative/skill-based/Sound/mixing"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Release",
+          "anchor": "8-release",
+          "subs": [],
+          "items": [
+            {
+              "t": "Release One Track / 한 곡 공개"
+            },
+            {
+              "t": "Song Retrospective / 다음 곡에서 바꿀 한 가지"
+            },
+            {
+              "t": "Mixing",
+              "delegate": "creative/skill-based/Sound/mixing"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Music Fundamentals",
+      "ref": "creative/skill-based/Sound/music-fundamentals"
+    },
+    {
+      "label": "Composing",
+      "ref": "creative/skill-based/Sound/composing"
+    },
+    {
+      "label": "Arrangement",
+      "ref": "creative/skill-based/Sound/arrangement"
+    },
+    {
+      "label": "Mixing",
+      "ref": "creative/skill-based/Sound/mixing"
+    }
+  ]
+}

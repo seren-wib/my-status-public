@@ -1,0 +1,109 @@
+{
+  "title": "Bonding AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Rapport",
+          "anchor": "1-rapport",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rapport Basics / 편안함·리듬의 일치"
+            },
+            {
+              "t": "Matching and Mirroring / 자연스러운 맞춤 — 과하면 역효과"
+            },
+            {
+              "t": "Shared Experience / 함께 겪기로 쌓는 유대"
+            },
+            {
+              "t": "Humor and Play / 농담·장난으로 거리 좁히기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Self-disclosure",
+          "anchor": "2-self-disclosure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reciprocal Disclosure / 호혜적 자기개방"
+            },
+            {
+              "t": "Gradual Depth / 점진적 깊이 조절"
+            },
+            {
+              "t": "Disclosure Matching / 상대 개방 수준에 맞추기"
+            },
+            {
+              "t": "Oversharing Risk / 과도한 개방의 역효과"
+            },
+            {
+              "t": "Fast-friends Escalation / 질문 사다리로 친밀 가속"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Building Trust",
+          "anchor": "3-building-trust",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reliability / 말과 행동의 일치·꾸준함"
+            },
+            {
+              "t": "Confidentiality / 비밀 지키기"
+            },
+            {
+              "t": "Benevolence Signals / 선의의 신호"
+            },
+            {
+              "t": "Trust in Small Steps / 작은 신뢰부터 쌓기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Conflict and Repair",
+          "anchor": "4-conflict-and-repair",
+          "subs": [],
+          "items": [
+            {
+              "t": "Rupture and Repair / 균열과 회복의 순환"
+            },
+            {
+              "t": "Repair Attempts / 회복 시도 알아채고 받기"
+            },
+            {
+              "t": "Apology and Accountability / 사과와 책임"
+            },
+            {
+              "t": "Boundaries / 경계 세우기"
+            },
+            {
+              "t": "Forgiveness / 용서와 재신뢰"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Empathy",
+      "ref": "social/skill-based/Relating/empathy"
+    },
+    {
+      "label": "Networking",
+      "ref": "social/skill-based/Relating/networking"
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "title": "Google BigQuery AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to BigQuery",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is BigQuery?",
+          "anchor": "1-what-is-bigquery",
+          "subs": [
+            {
+              "title": "Overview of BigQuery / What is it?",
+              "items": [
+                {
+                  "t": "Serverless Cloud Data Warehouse / 띄워 둘 서버 없이 쓰는 분석 창고"
+                },
+                {
+                  "t": "Columnar Analytical Store / 열 단위로 저장해 필요한 컬럼만 읽는 구조"
+                },
+                {
+                  "t": "Separation of Storage and Compute / 저장과 연산을 따로 늘리는 구조"
+                },
+                {
+                  "t": "Google Cloud Native Service / GCP 프로젝트에 바로 딸린 관리형 서비스"
+                }
+              ]
+            },
+            {
+              "title": "Core Use Cases",
+              "items": [
+                {
+                  "t": "Large-scale Analytics and BI / 대용량 집계를 대시보드에 바로 연결하는 용도"
+                },
+                {
+                  "t": "Log and Event Analytics / 로그·이벤트를 쌓아두고 바로 조회하는 용도"
+                },
+                {
+                  "t": "Data Lake Query Engine / GCS에 있는 파일을 테이블처럼 조회하는 용도"
+                },
+                {
+                  "t": "ML on Warehouse Data / 창고 안 데이터에 SQL로 모델을 적용하는 용도"
+                }
+              ]
+            },
+            {
+              "title": "BigQuery vs Other Platforms",
+              "items": [
+                {
+                  "t": "BigQuery vs Snowflake / 컴퓨트 분리 방식을 Redshift까지 넣어 비교"
+                },
+                {
+                  "t": "Serverless vs Provisioned Cluster Model / 서버 대기 없는 방식과 클러스터 예약 방식의 차이"
+                },
+                {
+                  "t": "When to choose BigQuery? / 스캔량 과금이 유리해지는 워크로드 조건"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Access Methods",
+              "items": [
+                {
+                  "t": "Cloud Console / GCP 콘솔 안에서 쿼리 짜는 BigQuery Studio 화면",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "bq CLI / 터미널에서 쓰는 명령줄 도구"
+                },
+                {
+                  "t": "Client Libraries / Python·Java 등 언어별로 붙이는 라이브러리"
+                },
+                {
+                  "t": "BigQuery API / REST 호출로 직접 붙이는 방법"
+                }
+              ]
+            },
+            {
+              "title": "Initial Configuration",
+              "items": [
+                {
+                  "t": "GCP Project Setup / 인스턴스 없이 프로젝트에 데이터셋부터 만드는 절차"
+                },
+                {
+                  "t": "Sandbox and Free Tier Limits / 가입만으로 쓰는 무료 스캔량 한도"
+                },
+                {
+                  "t": "Public Datasets / 구글이 미리 올려둔 공개 테이블 모음"
+                },
+                {
+                  "t": "Location and Region Selection / 데이터셋을 만들 때 고정하는 저장 리전"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Architecture and Data Model",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Architecture",
+          "anchor": "3-architecture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dremel Query Engine / 쿼리를 트리로 나눠 병렬로 흩어 돌리는 엔진"
+            },
+            {
+              "t": "Colossus Distributed Storage / 컴퓨트와 분리된 구글 내부 분산 저장소"
+            },
+            {
+              "t": "Jupiter Network / 스토리지와 컴퓨트를 빠르게 잇는 데이터센터망"
+            },
+            {
+              "t": "Borg Compute Orchestration / 쿼리에 컴퓨트 자원을 배분하는 내부 스케줄러"
+            },
+            {
+              "t": "Slot / 쿼리가 나눠 쓰는 연산 단위"
+            },
+            {
+              "t": "Query Stages and Shuffle / 쿼리를 단계로 나누고 중간 결과를 재분배하는 과정"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Resource Model",
+          "anchor": "4-resource-model",
+          "subs": [],
+          "items": [
+            {
+              "t": "Project, Dataset, Table Hierarchy / 프로젝트-데이터셋-테이블로 이어지는 계층"
+            },
+            {
+              "t": "Dataset Location and Constraints / 데이터셋에 고정되는 리전과 그로 인한 제약"
+            },
+            {
+              "t": "Table Naming and Qualification / 프로젝트.데이터셋.테이블로 이름을 완전히 쓰는 규칙"
+            },
+            {
+              "t": "Labels / 리소스에 붙여 비용·용도를 구분하는 태그"
+            },
+            {
+              "t": "Quotas and Limits / 프로젝트별로 걸리는 요청·스캔 한도"
+            },
+            {
+              "t": "INFORMATION_SCHEMA / 메타데이터를 SQL로 조회하는 시스템 뷰"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Storage",
+          "anchor": "5-storage",
+          "subs": [],
+          "items": [
+            {
+              "t": "Capacitor Columnar Format / 구글 내부 열 지향 저장 포맷"
+            },
+            {
+              "t": "Logical vs Physical Storage Billing / 압축 전후 크기 중 무엇으로 과금할지 고르는 방식"
+            },
+            {
+              "t": "Active vs Long-term Storage / 90일 안 바뀐 테이블에 싸게 매기는 보관 등급"
+            },
+            {
+              "t": "Table Snapshots and Clones / 특정 시점을 읽기전용·쓰기가능으로 복제해두는 기능"
+            },
+            {
+              "t": "Time Travel Window / 최근 며칠간 과거 상태를 조회할 수 있는 기간"
+            },
+            {
+              "t": "Fail-safe Period / 타임트래블 지난 뒤 구글만 복구 가능한 유예 기간"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "GoogleSQL Specifics",
+          "anchor": "6-googlesql-specifics",
+          "subs": [
+            {
+              "title": "BigQuery-Specific Syntax",
+              "items": [
+                {
+                  "t": "Standard SQL vs Legacy SQL / 표준 문법과 구버전 BigQuery 문법의 차이"
+                },
+                {
+                  "t": "Table Wildcards / _TABLE_SUFFIX로 여러 테이블을 한 번에 조회하는 표기"
+                },
+                {
+                  "t": "Table Decorators and FOR SYSTEM_TIME AS OF / 과거 시점 테이블 상태를 지정해 조회하는 구문"
+                },
+                {
+                  "t": "Scripting / DECLARE·SET·BEGIN END로 SQL에 절차를 넣는 기능"
+                },
+                {
+                  "t": "Multi-statement Transactions / 여러 DML문을 하나의 원자 단위로 묶는 기능"
+                },
+                {
+                  "t": "Parameterized Queries / 값을 자리표시자로 넘겨 재사용하는 쿼리 작성법"
+                }
+              ]
+            },
+            {
+              "title": "Data Types",
+              "items": [
+                {
+                  "t": "BigQuery Types / STRUCT·ARRAY·JSON·GEOGRAPHY 같은 전용 타입"
+                },
+                {
+                  "t": "Numeric Types / 정밀도가 다른 고정소수점 숫자 타입"
+                },
+                {
+                  "t": "Timestamp vs Datetime Semantics / 시간대를 포함하는지로 갈리는 두 시간 타입"
+                }
+              ]
+            },
+            {
+              "title": "Extended Functions",
+              "items": [
+                {
+                  "t": "Approximate Aggregation / 정확도를 조금 버리고 스캔을 줄이는 집계 함수"
+                },
+                {
+                  "t": "Analytic Function Pitfalls at Scale / 대용량에서 윈도우 함수가 스캔·셔플을 키우는 함정"
+                },
+                {
+                  "t": "Geospatial Functions / 위경도 데이터를 다루는 함수 모음",
+                  "tags": [
+                    "선택"
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 7,
+          "title": "Nested and Repeated Data",
+          "anchor": "7-nested-and-repeated-data",
+          "subs": [],
+          "items": [
+            {
+              "t": "STRUCT / 레거시 이름이 RECORD인 중첩 필드 타입"
+            },
+            {
+              "t": "ARRAY / REPEATED 모드로 한 컬럼에 값을 여러 개 담는 타입"
+            },
+            {
+              "t": "UNNEST and Correlated Join / 중첩 배열을 행으로 펼쳐 바깥 쿼리와 잇는 구문"
+            },
+            {
+              "t": "Denormalization over Star Schema / 조인 대신 중첩 필드로 미리 뭉쳐두는 설계"
+            },
+            {
+              "t": "JSON Type vs String Parsing / JSON을 타입으로 둘지 문자열로 파싱할지의 차이"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Table Types",
+          "anchor": "8-table-types",
+          "subs": [],
+          "items": [
+            {
+              "t": "Native Table / BigQuery 저장소 안에 데이터를 직접 담는 테이블"
+            },
+            {
+              "t": "External Table / GCS·Drive·Bigtable 데이터를 옮기지 않고 참조하는 테이블"
+            },
+            {
+              "t": "BigLake Table / 외부 데이터에 세밀한 접근 제어를 얹은 테이블"
+            },
+            {
+              "t": "Object Table / GCS 비정형 파일을 메타데이터로 참조하는 테이블",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Views / 원본 테이블 접근권 없이 결과만 공개하는 인가된 뷰"
+            },
+            {
+              "t": "Materialized Views / 쿼리 결과를 미리 계산해두고 변경분만 갱신하는 뷰"
+            },
+            {
+              "t": "Search Index / 텍스트 검색을 빠르게 하려고 미리 만드는 색인",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Data Ingestion and Pipelines",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Data Loading",
+          "anchor": "9-data-loading",
+          "subs": [
+            {
+              "title": "Batch Ingestion",
+              "items": [
+                {
+                  "t": "Load Job / GCS 파일을 통째로 테이블에 적재하는 작업"
+                },
+                {
+                  "t": "Supported Formats / CSV·JSON·Avro·Parquet·ORC 등 적재 가능 형식"
+                },
+                {
+                  "t": "Schema Auto-detection / 파일 내용을 보고 컬럼 스키마를 자동 추론하는 기능"
+                },
+                {
+                  "t": "Write Disposition / 적재할 때 기존 데이터를 지울지 이어붙일지 정하는 옵션"
+                },
+                {
+                  "t": "Schema Evolution / 컬럼 추가·제약 완화로 스키마를 점진적으로 바꾸는 방법"
+                }
+              ]
+            },
+            {
+              "title": "Managed Transfers",
+              "items": [
+                {
+                  "t": "Data Transfer Service / 외부 SaaS 데이터를 주기적으로 자동 적재하는 서비스"
+                },
+                {
+                  "t": "Federated Query / Cloud SQL·Spanner를 옮기지 않고 조회하는 쿼리"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 10,
+          "title": "Streaming and CDC",
+          "anchor": "10-streaming-and-cdc",
+          "subs": [],
+          "items": [
+            {
+              "t": "Storage Write API / 스트리밍 삽입을 대체하는 고성능 쓰기 API",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Legacy streamingInsert / 행 단위로 바로 삽입하던 구버전 스트리밍 방식"
+            },
+            {
+              "t": "Streaming Buffer Behavior / 스트리밍으로 들어온 데이터가 잠시 머무는 버퍼 동작"
+            },
+            {
+              "t": "Exactly-once Semantics / 같은 레코드가 중복 적재되지 않도록 보장하는 방식"
+            },
+            {
+              "t": "Datastream / 원본 DB 변경분을 실시간으로 복제해오는 CDC 서비스"
+            },
+            {
+              "t": "Change Data Capture Tables / _CHANGE_TYPE 컬럼으로 삽입·수정·삭제를 구분하는 테이블"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Transformation and Scheduling",
+          "anchor": "11-transformation-and-scheduling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Scheduled Queries / 저장한 쿼리를 정해진 주기로 자동 실행하는 기능"
+            },
+            {
+              "t": "Stored Procedures and Table Functions / 절차를 저장해 재호출하거나 결과를 테이블로 반환하는 기능"
+            },
+            {
+              "t": "User-Defined Functions / SQL이나 JavaScript로 직접 만드는 함수"
+            },
+            {
+              "t": "Remote Functions / Cloud Run 코드를 SQL에서 호출하는 함수"
+            },
+            {
+              "t": "Dataform / SQL 변환 파이프라인을 버전 관리로 개발하는 도구",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "dbt on BigQuery / dbt로 BigQuery 위에서 SQL 변환을 관리하는 방식"
+            },
+            {
+              "t": "Dataflow / Apache Beam 파이프라인으로 변환 후 적재하는 연동"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Performance and Cost",
+      "sections": [
+        {
+          "no": 12,
+          "title": "Query Performance",
+          "anchor": "12-query-performance",
+          "subs": [
+            {
+              "title": "Data Layout",
+              "items": [
+                {
+                  "t": "Partitioned Tables / 시간·적재시각·정수 범위로 나눠 스캔을 줄이는 테이블"
+                },
+                {
+                  "t": "Partition Pruning / 필터에 안 걸리는 파티션은 아예 안 읽게 막는 기능"
+                },
+                {
+                  "t": "Clustered Tables / 지정한 컬럼 순서로 정렬해 읽을 블록을 줄이는 테이블"
+                },
+                {
+                  "t": "Partitioning vs Clustering Choice / 날짜로 자를지 컬럼 정렬로 좁힐지 고르는 기준"
+                }
+              ]
+            },
+            {
+              "title": "Execution Analysis",
+              "items": [
+                {
+                  "t": "Query Execution Plan / 쿼리가 단계별로 어떻게 실행됐는지 보여주는 계획"
+                },
+                {
+                  "t": "Slot Utilization and Contention / 쿼리끼리 슬롯을 나눠 쓰며 생기는 경합 정도"
+                },
+                {
+                  "t": "Data Skew and Shuffle Spill / 한쪽에 쏠린 데이터가 셔플 중 디스크로 넘치는 현상"
+                },
+                {
+                  "t": "Join Strategies / 작은 테이블을 뿌리거나 해시로 맞춰 조인하는 방식"
+                }
+              ]
+            },
+            {
+              "title": "Tuning Techniques",
+              "items": [
+                {
+                  "t": "Avoiding SELECT * / 필요한 컬럼만 골라 읽는 바이트를 줄이는 습관"
+                },
+                {
+                  "t": "Filter Pushdown Awareness / 필터가 스캔 전에 걸리도록 쿼리를 짜는 감각"
+                },
+                {
+                  "t": "Materialized View Rewrite / 쿼리를 자동으로 뷰 결과로 바꿔 스캔을 줄이는 최적화"
+                },
+                {
+                  "t": "BI Engine Acceleration / 자주 쓰는 데이터를 메모리에 올려 대시보드를 가속하는 기능"
+                },
+                {
+                  "t": "Query Result Cache / 동일한 쿼리 결과를 재사용해 스캔을 건너뛰는 캐시"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 13,
+          "title": "Pricing and Cost Control",
+          "anchor": "13-pricing-and-cost-control",
+          "subs": [
+            {
+              "title": "Pricing Models",
+              "items": [
+                {
+                  "t": "On-demand / 읽은 바이트 양만큼 매기는 기본 과금 방식",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Capacity Pricing / 슬롯을 미리 예약해 정액으로 매기는 과금 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Cost Management",
+              "items": [
+                {
+                  "t": "Reservations / 예약한 슬롯을 프로젝트에 배정하고 자동으로 늘리는 설정"
+                },
+                {
+                  "t": "Dry Run / 실행 없이 읽을 바이트 양을 미리 계산하는 기능"
+                },
+                {
+                  "t": "Custom Cost Controls / 쿼리당 과금 바이트 상한과 할당량을 거는 설정"
+                },
+                {
+                  "t": "Storage Cost Optimization / 파티션에 만료 기간을 걸어 저장 비용을 줄이는 방법"
+                },
+                {
+                  "t": "Cost Attribution / 라벨과 작업 기록으로 비용을 팀·용도별로 나누는 방법"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Operations and Extensions",
+      "sections": [
+        {
+          "no": 14,
+          "title": "Security and IAM",
+          "anchor": "14-security-and-iam",
+          "subs": [],
+          "items": [
+            {
+              "t": "IAM Roles / 미리 정의되거나 직접 만든 권한 묶음"
+            },
+            {
+              "t": "Resource-level Access / 데이터셋·테이블·컬럼 단위로 나눠 거는 접근 권한"
+            },
+            {
+              "t": "Column-level Security / 정책 태그로 특정 컬럼만 숨기거나 막는 보안"
+            },
+            {
+              "t": "Row-level Security / 조건에 맞는 행만 보이게 제한하는 보안"
+            },
+            {
+              "t": "Data Masking / 민감한 값을 조회 시 가리거나 바꿔 보여주는 기능"
+            },
+            {
+              "t": "Encryption / 고객이 직접 관리하는 키로 암호화하는 옵션"
+            },
+            {
+              "t": "VPC Service Controls / 네트워크 경계 밖으로 데이터가 못 나가게 막는 설정"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Governance and Monitoring",
+          "anchor": "15-governance-and-monitoring",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dataplex / 데이터 자산을 검색·분류해두는 카탈로그"
+            },
+            {
+              "t": "Data Lineage / 데이터가 어느 테이블·작업을 거쳐왔는지 추적하는 기록"
+            },
+            {
+              "t": "Data Quality Checks / 정해진 규칙으로 데이터 이상을 자동 점검하는 기능"
+            },
+            {
+              "t": "Audit Logs / 누가 무엇을 조회·변경했는지 남는 로그"
+            },
+            {
+              "t": "Job Monitoring / 프로젝트 단위로 실행된 작업 이력을 조회하는 뷰"
+            },
+            {
+              "t": "Cloud Monitoring Metrics and Alerts / 슬롯 사용량 같은 지표를 보고 알림을 거는 기능"
+            },
+            {
+              "t": "Analytics Hub / 테이블을 복사 없이 다른 프로젝트와 공유하는 기능"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Analytics Extensions",
+          "anchor": "16-analytics-extensions",
+          "subs": [],
+          "items": [
+            {
+              "t": "BigQuery ML / CREATE MODEL 구문으로 SQL 안에서 모델을 학습하는 기능"
+            },
+            {
+              "t": "Model Types / 선형·부스티드 트리·K-means 등 지원 모델 종류"
+            },
+            {
+              "t": "Model Evaluation and Prediction / 학습한 모델 성능을 재고 새 데이터에 적용하는 절차"
+            },
+            {
+              "t": "Vertex AI Integration / BigQuery 데이터를 Vertex AI 모델과 바로 잇는 연동"
+            },
+            {
+              "t": "Vector Search and Embeddings / 임베딩을 저장해 유사도로 찾는 기능",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "BigQuery DataFrames / Pandas 문법으로 짜면 BigQuery 쿼리로 바뀌는 API"
+            },
+            {
+              "t": "Looker Studio Connection / BigQuery 데이터를 Looker Studio에 바로 연결하는 기능"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Sql",
+      "ref": "software/skill-based/Languages/sql"
+    },
+    {
+      "label": "Data Engineer",
+      "ref": "software/role-based/data-engineer"
+    },
+    {
+      "label": "Snowflake",
+      "ref": "software/skill-based/Data-DB/snowflake"
+    },
+    {
+      "label": "Data Analyst",
+      "ref": "software/role-based/data-analyst"
+    },
+    {
+      "label": "Machine Learning",
+      "ref": "software/role-based/machine-learning"
+    },
+    {
+      "label": "Kafka",
+      "ref": "software/skill-based/Data-DB/kafka"
+    }
+  ]
+}

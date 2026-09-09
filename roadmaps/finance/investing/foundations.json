@@ -1,0 +1,141 @@
+{
+  "title": "Investing Foundations AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Account and Orders",
+          "anchor": "1-account-and-orders",
+          "subs": [],
+          "items": [
+            {
+              "t": "Brokerage Account / 국내 증권사 계좌 개설하고 입금까지 완료"
+            },
+            {
+              "t": "Market and Limit Order / 시장가·지정가로 각각 한 번씩 주문 넣고 체결가 비교"
+            },
+            {
+              "t": "Order Book Read / 호가창 잔량 보고 체결 예상가를 적은 뒤 실제 체결과 대조"
+            },
+            {
+              "t": "Reserved Order / 예약주문 또는 조건부 주문 하나 걸어 결과 확인"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Costs",
+          "anchor": "2-costs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fee Table Lookup / 내 증권사 수수료·유관기관비용을 조회해 표로 정리"
+            },
+            {
+              "t": "Real Trade Cost / 실제 체결 1건의 수수료·거래세 합계를 원 단위로 계산"
+            },
+            {
+              "t": "FX Cost Compare / 환전 우대율 적용 전후 환전 비용을 내 금액으로 계산해 비교"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Return Math",
+          "anchor": "3-return-math",
+          "subs": [],
+          "items": [
+            {
+              "t": "Realized Return / 내 보유 종목 수익률을 수수료·세금 포함해 직접 계산"
+            },
+            {
+              "t": "Compound Scenario / 월 적립액으로 10년 복리 시나리오 직접 계산"
+            },
+            {
+              "t": "CAGR from My Account / 내 계좌 잔고 이력으로 연평균수익률 산출"
+            },
+            {
+              "t": "Real Return Adjust / 명목 수익률을 물가상승률 조회해 실질 수익률로 환산"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Risk Felt",
+          "anchor": "4-risk-felt",
+          "subs": [],
+          "items": [
+            {
+              "t": "Volatility Calc / 관심 종목 1년치 일간 수익률로 변동성 직접 계산"
+            },
+            {
+              "t": "Max Drawdown / 과거 데이터로 최대낙폭 구간과 회복 기간 산출"
+            },
+            {
+              "t": "Crash Replay / 과거 급락 구간에 내 현재 투자금 대입해 손실액 계산"
+            },
+            {
+              "t": "Loss Tolerance Number / 견딜 수 있는 손실 금액을 숫자로 적어 확정"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "My Rules",
+          "anchor": "5-my-rules",
+          "subs": [],
+          "items": [
+            {
+              "t": "Emergency Fund Line / 투자에 넣지 않을 생활비 하한을 정해 계좌 분리"
+            },
+            {
+              "t": "Investment Policy Note / 목표·기간·비중·금지사항을 담은 내 투자 원칙 한 장 작성"
+            },
+            {
+              "t": "Trade Journal Start / 매매 5건을 이유·결과까지 남기는 일지 시작"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "ETF",
+      "ref": "finance/investing/etf"
+    },
+    {
+      "label": "Stocks",
+      "ref": "finance/investing/stocks"
+    },
+    {
+      "label": "Trading",
+      "ref": "finance/investing/trading"
+    },
+    {
+      "label": "Portfolio",
+      "ref": "finance/investing/portfolio"
+    },
+    {
+      "label": "Income Tax",
+      "ref": "finance/tax/income-tax"
+    },
+    {
+      "label": "Budgeting",
+      "ref": "finance/personal-finance/budgeting"
+    },
+    {
+      "label": "Macroeconomics",
+      "ref": "academics/economics/macroeconomics"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "title": "Framing AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "What a Frame Does",
+          "anchor": "1-what-a-frame-does",
+          "subs": [],
+          "items": [
+            {
+              "t": "Framing Effect / 같은 사실, 다른 틀, 다른 판단"
+            },
+            {
+              "t": "Frame Selection / 강조할 측면을 고르는 일"
+            },
+            {
+              "t": "Reframing / 상대가 세운 틀을 바꿔치기"
+            },
+            {
+              "t": "Frame Control / 논의의 틀을 먼저 잡는 쪽이 유리"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Loss and Gain",
+          "anchor": "2-loss-and-gain",
+          "subs": [],
+          "items": [
+            {
+              "t": "Loss Aversion / 손실이 이득보다 크게 느껴진다"
+            },
+            {
+              "t": "Loss vs Gain Framing / 손실·이득 프레임의 선택 기준"
+            },
+            {
+              "t": "Goal Framing / 행동의 득실을 어떻게 붙이나"
+            },
+            {
+              "t": "Endowment and Status Quo / 가진 것·현상 유지 편향 활용"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Anchoring and Contrast",
+          "anchor": "3-anchoring-and-contrast",
+          "subs": [],
+          "items": [
+            {
+              "t": "Anchoring / 첫 기준점이 이후 판단을 끌어당김"
+            },
+            {
+              "t": "Contrast Effect / 비교 대상을 놓아 인식을 조정"
+            },
+            {
+              "t": "Decoy Option / 미끼 선택지로 원하는 쪽 유도"
+            },
+            {
+              "t": "Numeric Anchors / 숫자·범위로 기대치를 설정"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Metaphor and Language",
+          "anchor": "4-metaphor-and-language",
+          "subs": [],
+          "items": [
+            {
+              "t": "Conceptual Metaphor / 추상을 구체 틀로 이해시키기"
+            },
+            {
+              "t": "Word Choice / 같은 것을 부르는 다른 이름"
+            },
+            {
+              "t": "Narrative Frame / 사실을 이야기 구조에 얹기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Social Proof",
+          "anchor": "5-social-proof",
+          "subs": [],
+          "items": [
+            {
+              "t": "Social Proof / 남들이 그렇게 한다는 신호"
+            },
+            {
+              "t": "Descriptive vs Injunctive Norms / 실제 행동 규범 vs 당위 규범"
+            },
+            {
+              "t": "Similarity and Reference Group / 나와 닮은 다수가 더 세다"
+            },
+            {
+              "t": "Consensus Cues / 다수·인기·품절 신호의 설계"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Argumentation",
+      "ref": "social/skill-based/Influence/argumentation"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    },
+    {
+      "label": "Story Structure",
+      "ref": "creative/skill-based/Writing/story-structure"
+    }
+  ]
+}

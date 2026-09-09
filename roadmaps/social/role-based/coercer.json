@@ -1,0 +1,336 @@
+{
+  "title": "Coercer AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Securing Leverage",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Dependence and Alternatives",
+          "anchor": "1-dependence-and-alternatives",
+          "subs": [],
+          "items": [
+            {
+              "t": "Dependence Asymmetry / 누가 더 아쉬운가가 힘의 기울기"
+            },
+            {
+              "t": "Loss Aversion Weighting / 잃는 쪽 계산이 더 크게 잡히는 편향"
+            },
+            {
+              "t": "Retaliation Capacity / 상대의 보복 능력과 그 사거리"
+            },
+            {
+              "t": "Leverage",
+              "delegate": "social/skill-based/Coercion/leverage"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Leverage Acquisition",
+          "anchor": "2-leverage-acquisition",
+          "subs": [],
+          "items": [
+            {
+              "t": "Leverage Types / 자원·정보·시간·관계·규범"
+            },
+            {
+              "t": "Leverage Verification / 실제로 작동하는지의 사전 확인"
+            },
+            {
+              "t": "Hostage and Repeated Game / 인질 구조와 반복게임의 억지력"
+            },
+            {
+              "t": "Leverage",
+              "delegate": "social/skill-based/Coercion/leverage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Threat Design",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Threat Anatomy",
+          "anchor": "3-threat-anatomy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Specificity Trade-off / 구체적 위협의 압력과 모호한 위협의 여지"
+            },
+            {
+              "t": "Reversibility / 되돌릴 수 있는 위협과 없는 위협"
+            },
+            {
+              "t": "Threat Cost to Self / 실행이 나에게 지우는 비용"
+            },
+            {
+              "t": "General vs Immediate Deterrence / 상시 억지와 즉시 억지"
+            },
+            {
+              "t": "Denial vs Punishment / 거부에 의한 억지와 처벌에 의한 억지"
+            },
+            {
+              "t": "Threat Construction",
+              "delegate": "social/skill-based/Coercion/threat"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Demand Design",
+          "anchor": "4-demand-design",
+          "subs": [],
+          "items": [
+            {
+              "t": "Demand Creep / 요구가 늘면 상대가 저항으로 돌아서는 지점"
+            },
+            {
+              "t": "Coercive Diplomacy Conditions / 강압 외교의 성공 조건 (George·Art)"
+            },
+            {
+              "t": "Threat Construction",
+              "delegate": "social/skill-based/Coercion/threat"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Signaling and Channel",
+          "anchor": "5-signaling-and-channel",
+          "subs": [],
+          "items": [
+            {
+              "t": "Implicit vs Explicit / 암시와 명시의 선택 기준"
+            },
+            {
+              "t": "Threat Construction",
+              "delegate": "social/skill-based/Coercion/threat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Establishing Credibility",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Credibility Conditions",
+          "anchor": "6-credibility-conditions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Interest Asymmetry / 더 절실한 쪽의 위협이 더 믿긴다"
+            },
+            {
+              "t": "Rationality of Irrationality / 비합리로 보이는 것이 주는 협상력"
+            },
+            {
+              "t": "Brinkmanship / 위험의 조작으로 상대를 굽히는 벼랑끝 전술"
+            },
+            {
+              "t": "Extended Deterrence / 제3자를 위한 억지의 신뢰성 문제"
+            },
+            {
+              "t": "Reputation across Rounds / 반복 상호작용에서 평판이 자산이 되는 조건"
+            },
+            {
+              "t": "Threat Construction",
+              "delegate": "social/skill-based/Coercion/threat"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Commitment Devices",
+          "anchor": "7-commitment-devices",
+          "subs": [],
+          "items": [
+            {
+              "t": "Tripwire / 자동 발동 조건을 미리 심어두기"
+            },
+            {
+              "t": "Bargaining Model of War / 정보 비대칭과 공약 문제로 본 충돌 (Fearon)"
+            },
+            {
+              "t": "Ultimatum",
+              "delegate": "social/skill-based/Coercion/ultimatum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Ultimatum and Enforcement",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Ultimatum Structure",
+          "anchor": "8-ultimatum-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Ultimatum Game Findings / 불공정 제안이 손해를 감수하고 거부되는 실험 결과"
+            },
+            {
+              "t": "Sequential Ultimatum Risk / 반복된 통첩의 신뢰성 감가"
+            },
+            {
+              "t": "Golden Bridge / 물러날 길을 남겨두는 고전 원칙"
+            },
+            {
+              "t": "Point of No Return / 통첩 이후 되돌릴 수 없는 지점"
+            },
+            {
+              "t": "Ultimatum",
+              "delegate": "social/skill-based/Coercion/ultimatum"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Enforcement",
+          "anchor": "9-enforcement",
+          "subs": [],
+          "items": [
+            {
+              "t": "Partial Enforcement / 일부만 실행해 신뢰성만 확보하는 계산"
+            },
+            {
+              "t": "Escalation Dominance / 모든 단계에서 우위를 쥔 쪽의 구조적 이점"
+            },
+            {
+              "t": "Boundary Defense",
+              "delegate": "social/skill-based/Conflict/boundary-defense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Managing Blowback",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Blowback",
+          "anchor": "10-blowback",
+          "subs": [],
+          "items": [
+            {
+              "t": "Reactance / 자유가 위협받을 때 나오는 반발 (Brehm)"
+            },
+            {
+              "t": "Rally Effect / 외부 압박이 내부 결속을 키우는 현상"
+            },
+            {
+              "t": "Resentment Debt / 굴복이 남기는 원한의 축적"
+            },
+            {
+              "t": "Compliance vs Internalization / 겉순응과 실제 수용의 차이"
+            },
+            {
+              "t": "Chicken Game Structure / 양보 회피가 만드는 상호 파국 구조"
+            },
+            {
+              "t": "Deterrence Failure Analysis / 억지가 실패하는 전형적 조건"
+            },
+            {
+              "t": "De-escalation",
+              "delegate": "social/skill-based/Conflict/de-escalation"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Off-ramp and Aftermath",
+          "anchor": "11-off-ramp-and-aftermath",
+          "subs": [],
+          "items": [
+            {
+              "t": "Off-ramp Design / 압박을 푸는 시점과 절차"
+            },
+            {
+              "t": "Positive Inducement Mix / 채찍과 당근의 배합 비율"
+            },
+            {
+              "t": "Reputation Aftercost / 강압자로 알려진 뒤의 거래 비용"
+            },
+            {
+              "t": "Coercion vs Negotiation / 압박이 협상을 대체할 때 잃는 것"
+            },
+            {
+              "t": "Firebreak / 확전을 멈추는 문턱의 존재와 그 유지"
+            },
+            {
+              "t": "De-escalation",
+              "delegate": "social/skill-based/Conflict/de-escalation"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Legal Boundary",
+          "anchor": "12-legal-boundary",
+          "subs": [],
+          "items": [
+            {
+              "t": "Coercion Offense Elements / 강요죄 구성요건 — 폭행·협박과 의무 없는 일"
+            },
+            {
+              "t": "Criminal Intimidation Elements / 협박죄 구성요건과 해악 고지의 범위"
+            },
+            {
+              "t": "Extortion Threshold / 정당한 권리 행사와 공갈의 경계"
+            },
+            {
+              "t": "Duress as Defense / 강압이 상대 행위의 면책 사유가 되는 지점"
+            },
+            {
+              "t": "Legitimate Pressure Test / 정당한 압박과 강요를 가르는 판단 기준"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Leverage",
+      "ref": "social/skill-based/Coercion/leverage"
+    },
+    {
+      "label": "Threat Construction",
+      "ref": "social/skill-based/Coercion/threat"
+    },
+    {
+      "label": "Ultimatum",
+      "ref": "social/skill-based/Coercion/ultimatum"
+    },
+    {
+      "label": "Intent Inference",
+      "ref": "social/skill-based/Reading/inference"
+    },
+    {
+      "label": "Negotiation",
+      "ref": "social/skill-based/Influence/negotiation"
+    },
+    {
+      "label": "Boundary Defense",
+      "ref": "social/skill-based/Conflict/boundary-defense"
+    },
+    {
+      "label": "De-escalation",
+      "ref": "social/skill-based/Conflict/de-escalation"
+    }
+  ]
+}

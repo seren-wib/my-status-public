@@ -1,0 +1,152 @@
+{
+  "title": "Defense AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Detection Mindset",
+          "anchor": "1-detection-mindset",
+          "subs": [],
+          "items": [
+            {
+              "t": "Feeling as Signal / 찜찜함을 데이터로 취급"
+            },
+            {
+              "t": "Manipulation Tells / 급함·죄책감·고립의 공통 신호"
+            },
+            {
+              "t": "Consistency Check / 말과 행동·기록 대조"
+            },
+            {
+              "t": "Name the Tactic / 기법에 이름을 붙이면 힘이 빠진다"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Reclaiming Tempo",
+          "anchor": "2-reclaiming-tempo",
+          "subs": [],
+          "items": [
+            {
+              "t": "Slow Down / 결정 속도를 되찾기"
+            },
+            {
+              "t": "Buy Time / 생각할 시간 요구하기"
+            },
+            {
+              "t": "Third Option / 예·아니오 밖의 선택 만들기"
+            },
+            {
+              "t": "Sleep on It / 중대 결정은 하루 미루기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Information Hygiene",
+          "anchor": "3-information-hygiene",
+          "subs": [],
+          "items": [
+            {
+              "t": "External Verification / 독립된 출처로 교차 검증"
+            },
+            {
+              "t": "Reality Anchoring / 기록·일지로 gaslighting 방어"
+            },
+            {
+              "t": "Source Diversity / 정보 출처 다변화"
+            },
+            {
+              "t": "Frame Refusal / 상대가 깐 프레임 거부하기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Interrogation Defense",
+          "anchor": "4-interrogation-defense",
+          "subs": [],
+          "items": [
+            {
+              "t": "Leading Question Defense / 유도신문 알아채고 되묻기"
+            },
+            {
+              "t": "Presupposition Spotting / 질문에 숨은 전제 걸러내기"
+            },
+            {
+              "t": "Elicitation Countermeasures / 유도 대화에 정보 안 흘리기"
+            },
+            {
+              "t": "Cold Reading Defense / 구체성 요구로 콜드리딩 무력화"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Relational Boundaries",
+          "anchor": "5-relational-boundaries",
+          "subs": [],
+          "items": [
+            {
+              "t": "Boundary Setting / 경계를 말로 세우기"
+            },
+            {
+              "t": "Guilt Immunity / 죄책감 유도에 반응 안 하기"
+            },
+            {
+              "t": "Support Network / 고립을 깨는 외부 관계"
+            },
+            {
+              "t": "Exit Options / 대안 확보가 최고의 방어"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "When You Are Wrong",
+          "anchor": "6-when-you-are-wrong",
+          "subs": [],
+          "items": [
+            {
+              "t": "False Accusation Cost / 오판으로 관계 해치는 비용"
+            },
+            {
+              "t": "Probabilistic Response / 단정 말고 행동만 조정"
+            },
+            {
+              "t": "Documentation / 패턴 누적 기록"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Elicitation",
+      "ref": "social/skill-based/Reading/elicitation"
+    },
+    {
+      "label": "Cold Reading",
+      "ref": "social/skill-based/Reading/cold-reading"
+    },
+    {
+      "label": "Information Control",
+      "ref": "social/skill-based/Manipulation/information-control"
+    },
+    {
+      "label": "Relational Exploitation",
+      "ref": "social/skill-based/Manipulation/relational-exploitation"
+    },
+    {
+      "label": "Dark Patterns",
+      "ref": "social/skill-based/Manipulation/dark-patterns"
+    }
+  ]
+}

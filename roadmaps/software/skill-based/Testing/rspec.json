@@ -1,0 +1,549 @@
+{
+  "title": "RSpec AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to RSpec",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is RSpec?",
+          "anchor": "1-what-is-rspec",
+          "subs": [
+            {
+              "title": "Overview / What is it?",
+              "items": [
+                {
+                  "t": "BDD Testing Framework for Ruby / 행동을 문장으로 기술하는 루비 테스트 프레임워크"
+                },
+                {
+                  "t": "Minitest vs RSpec / 내장형과 DSL형으로 갈리는 문체·확장성 차이"
+                },
+                {
+                  "t": "rspec-core, rspec-expectations, rspec-mocks / 실행·매처·더블로 나뉜 3대 gem 구성"
+                },
+                {
+                  "t": "Executable Specification Concept / 명세 자체가 실행되는 테스트라는 개념"
+                }
+              ]
+            },
+            {
+              "title": "Testing Fundamentals",
+              "items": [
+                {
+                  "t": "Unit vs Integration vs System / 범위가 좁을수록 빠르고 넓을수록 느린 계층"
+                },
+                {
+                  "t": "Test Pyramid / 단위를 많이, 시스템 테스트를 적게 두는 배분 원칙"
+                },
+                {
+                  "t": "Given-When-Then / 준비-실행-검증 3단으로 나누는 서술 구조"
+                },
+                {
+                  "t": "TDD and BDD Cycle / 동작을 문장으로 먼저 적고 구현으로 가는 순서"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation and Configuration",
+              "items": [
+                {
+                  "t": "Gemfile / group :test에 넣어 테스트에서만 쓰게 하는 방법"
+                },
+                {
+                  "t": "rspec --init / 기본 설정 파일들을 생성하는 초기화 명령"
+                },
+                {
+                  "t": ".rspec and spec_helper.rb / 실행 옵션과 공통 설정을 나눠 두는 두 파일"
+                },
+                {
+                  "t": "rails_helper.rb / Rails 환경까지 로드하는 spec_helper 확장판",
+                  "tags": [
+                    "선택"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Running",
+              "items": [
+                {
+                  "t": "rspec CLI / 스펙을 실행하는 커맨드라인 도구"
+                },
+                {
+                  "t": "File and Line Number / 파일 경로나 특정 줄만 콕 집어 실행하는 방법"
+                },
+                {
+                  "t": "Formatter / progress·documentation 등 출력 형식을 고르는 옵션"
+                },
+                {
+                  "t": "--fail-fast and --only-failures / 첫 실패에서 멈추거나 이전 실패만 재실행"
+                },
+                {
+                  "t": "Random Order and Seed / 실행 순서를 섞고 seed로 재현하는 방식"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "First Spec",
+          "anchor": "3-first-spec",
+          "subs": [],
+          "items": [
+            {
+              "t": "spec/ Directory Layout / 스펙 파일을 기능별로 정리하는 폴더 구조"
+            },
+            {
+              "t": "_spec.rb Naming / 파일명 규칙으로 테스트 파일을 자동 인식시키는 방법"
+            },
+            {
+              "t": "describe and it / 최소 구성으로 짜는 스펙 한 벌"
+            },
+            {
+              "t": "Reading Failure Output / 실패 메시지에서 기대값·실제값을 읽는 법"
+            },
+            {
+              "t": "Pending and Skipped Example / 보류·제외 상태로 실행에서 빼는 방법"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Writing Specs",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Example Group Structure",
+          "anchor": "4-example-group-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "describe and context / 검증 대상과 조건을 나누는 관용적 그룹 이름"
+            },
+            {
+              "t": "it, specify, example / 같은 기능을 갖는 예제 선언 별칭 셋"
+            },
+            {
+              "t": "Nested Group Design / describe를 겹쳐 조건을 좁혀가는 설계"
+            },
+            {
+              "t": "Description Writing Convention / 문장으로 읽히게 짓는 설명 작성법"
+            },
+            {
+              "t": "aggregate_failures / 한 예제 안 여러 실패를 한번에 모아 보는 기능"
+            },
+            {
+              "t": "One Expectation per Example Debate / 예제당 검증 하나로 제한할지의 논쟁"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Expectations / Matchers",
+          "anchor": "5-expectations-matchers",
+          "subs": [],
+          "items": [
+            {
+              "t": "expect(...).to and not_to / 성립·불성립을 검증하는 두 방향 문법"
+            },
+            {
+              "t": "Equality Matchers / eq·eql·equal·be로 갈리는 동등성 비교 수준"
+            },
+            {
+              "t": "Predicate Matchers / valid?·has_key?를 매처처럼 쓰는 방식"
+            },
+            {
+              "t": "Collection Matchers / include·match_array·all로 배열·집합 검증"
+            },
+            {
+              "t": "Error Matchers / 예외 발생과 심볼 throw를 검증하는 매처"
+            },
+            {
+              "t": "Change Matcher / 실행 전후 값 변화량·전이를 검증하는 매처"
+            },
+            {
+              "t": "Output and Yield Matchers / 표준출력·블록 yield 여부를 검증"
+            },
+            {
+              "t": "Compound Matchers / 매처를 and·or로 묶어 조건을 합성"
+            },
+            {
+              "t": "Defining Custom Matchers / 도메인에 맞는 매처를 직접 정의하는 방법"
+            },
+            {
+              "t": "Migrating should Syntax to expect Syntax / 구식 should 문법을 expect로 전환"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Hooks / Helper",
+          "anchor": "6-hooks-helper",
+          "subs": [],
+          "items": [
+            {
+              "t": "before, after, around / 실행 전후·감싸기로 나뉜 3종 훅"
+            },
+            {
+              "t": "Hook Scope / example·context·suite로 갈리는 훅 적용 범위"
+            },
+            {
+              "t": "Helper Method / spec/support에 공용 메서드를 모아두는 관례"
+            },
+            {
+              "t": "Shared Examples / it_behaves_like로 명세를 재사용하는 방법"
+            },
+            {
+              "t": "Shared Context / include_context로 공통 설정을 불러오는 방법"
+            },
+            {
+              "t": "Metadata and Tag Filtering / 태그를 붙여 원하는 예제만 골라 실행"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "let / subject",
+          "anchor": "7-let-subject",
+          "subs": [],
+          "items": [
+            {
+              "t": "let and let! / 지연 평가와 즉시 평가를 가르는 두 헬퍼"
+            },
+            {
+              "t": "Understanding Lazy Evaluation / 호출되는 순간에야 값이 계산되는 원리"
+            },
+            {
+              "t": "subject and named subject / 암묵적 대상과 이름 붙인 대상의 차이"
+            },
+            {
+              "t": "is_expected.to / subject를 생략하고 바로 검증하는 축약 문법"
+            },
+            {
+              "t": "Instance Variable vs let / @var 대신 let을 쓰는 이유"
+            },
+            {
+              "t": "Over-Abstraction and Mystery Guest / 값의 출처가 안 보이게 되는 안티패턴"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Test Doubles",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Doubles / Stubs",
+          "anchor": "8-doubles-stubs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Test Double Types / Dummy·Stub·Spy·Fake·Mock 다섯 유형"
+            },
+            {
+              "t": "double and instance_double / 자유형과 실제 클래스로 검증하는 더블 차이"
+            },
+            {
+              "t": "Verifying Double / class_double·object_double로 확장한 검증형 더블"
+            },
+            {
+              "t": "allow(...).to receive / 특정 메서드 호출에 응답을 미리 정해두는 문법"
+            },
+            {
+              "t": "and_return, and_raise, and_call_original / 반환·예외·원본 호출로 갈리는 응답"
+            },
+            {
+              "t": "Argument Constraints / with로 특정 인자일 때만 반응하게 제한"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Message Expectations",
+          "anchor": "9-message-expectations",
+          "subs": [],
+          "items": [
+            {
+              "t": "expect(...).to receive / 호출됐는지 자체를 검증하는 메시지 기대"
+            },
+            {
+              "t": "Spy / have_received로 사후에 호출 여부를 확인하는 방식"
+            },
+            {
+              "t": "Count Constraint / once·twice·exactly·at_least로 호출 횟수 제한"
+            },
+            {
+              "t": "Argument Matching / anything·hash_including으로 느슨하게 매칭"
+            },
+            {
+              "t": "Partial Double / 실제 객체 일부 메서드만 스텁으로 바꿔치기"
+            },
+            {
+              "t": "Mocking Overuse Warning and London vs Chicago School / 목 과용 문제와 두 유파의 입장 차이"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Rails and External Dependencies",
+      "sections": [
+        {
+          "no": 10,
+          "title": "rspec-rails",
+          "anchor": "10-rspec-rails",
+          "subs": [
+            {
+              "title": "Spec Type",
+              "items": [
+                {
+                  "t": "Model Spec / 모델의 검증·연관관계를 확인하는 스펙"
+                },
+                {
+                  "t": "Request Spec / HTTP 요청·응답을 통째로 검증하는 스펙"
+                },
+                {
+                  "t": "System Spec / Capybara로 브라우저 흐름까지 검증하는 스펙"
+                },
+                {
+                  "t": "Job and Mailer Spec / 비동기 작업과 메일 발송을 검증하는 스펙"
+                },
+                {
+                  "t": "Controller and View Spec / Request·System에 밀려 지양되는 스펙"
+                }
+              ]
+            },
+            {
+              "title": "Rails-specific",
+              "items": [
+                {
+                  "t": "type Metadata and Inferred Type / 파일 위치로 스펙 종류를 자동 추론"
+                },
+                {
+                  "t": "Transactional Fixture / 각 테스트를 트랜잭션으로 감싸 롤백하는 방식"
+                },
+                {
+                  "t": "DatabaseCleaner Strategies / truncation 등으로 DB를 정리하는 전략"
+                },
+                {
+                  "t": "ActiveJob and ActionMailer Test Helper / 잡 실행·메일 발송을 검증하는 헬퍼"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 11,
+          "title": "Test Data",
+          "anchor": "11-test-data",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fixture vs Factory / 정적 데이터와 동적 생성 중 택하는 방식",
+              "choice_inline": true
+            },
+            {
+              "t": "FactoryBot / build·create로 메모리·DB에 객체를 만드는 gem",
+              "tags": [
+                "추천"
+              ]
+            },
+            {
+              "t": "Trait, Association, Sequence / 변형·연관·고유값을 다루는 팩토리 기능"
+            },
+            {
+              "t": "build_stubbed / DB 저장 없이 저장된 것처럼 흉내내는 방식"
+            },
+            {
+              "t": "Faker / 랜덤한 가짜 데이터를 생성하는 라이브러리"
+            },
+            {
+              "t": "Factory Overuse and Slow Tests / 팩토리 남용이 테스트를 느리게 만드는 문제"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "External Systems",
+          "anchor": "12-external-systems",
+          "subs": [],
+          "items": [
+            {
+              "t": "HTTP Stubbing / WebMock으로 외부 요청을 가짜로 응답시키는 방법"
+            },
+            {
+              "t": "Cassette-Based Replay / VCR로 실제 응답을 녹화해 재생하는 방식"
+            },
+            {
+              "t": "Time Control / TimeHelpers·Timecop으로 시간을 고정·이동"
+            },
+            {
+              "t": "File and Storage Fake / 파일·스토리지 접근을 가짜로 대체하는 방법"
+            },
+            {
+              "t": "External Service Adapter Isolation / 외부 서비스 호출을 어댑터 뒤로 감추는 설계"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Quality and Operations",
+      "sections": [
+        {
+          "no": 13,
+          "title": "Execution Control",
+          "anchor": "13-execution-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "Seed Reproduction / 같은 seed로 실행 순서를 재현하는 방법"
+            },
+            {
+              "t": "focus and Filtering / 특정 예제만 골라 집중 실행하는 방법"
+            },
+            {
+              "t": "Profiling / --profile로 느린 예제 상위 목록을 뽑는 기능"
+            },
+            {
+              "t": "Parallel Execution / parallel_tests·flatware로 프로세스 분산"
+            },
+            {
+              "t": "Bisect / --bisect로 실패 재현에 필요한 최소 조합 탐색"
+            },
+            {
+              "t": "Persistence File / --only-failures가 참조하는 실패 기록 파일"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Advanced Techniques",
+          "anchor": "14-advanced-techniques",
+          "subs": [],
+          "items": [
+            {
+              "t": "Property-based Testing / rantly로 무작위 입력을 생성해 검증",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Approval and Snapshot Testing / 출력 전체를 저장해두고 비교하는 방식"
+            },
+            {
+              "t": "Mutation Testing / mutant로 코드를 일부러 망가뜨려 검증력 측정"
+            },
+            {
+              "t": "Contract Testing / Pact로 소비자·제공자 간 계약을 검증",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Flaky Spec Causes / 순서 의존·시간·전역 상태로 생기는 불안정"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Coverage / Lint",
+          "anchor": "15-coverage-lint",
+          "subs": [],
+          "items": [
+            {
+              "t": "SimpleCov / 실행된 코드 비율을 측정하는 커버리지 도구"
+            },
+            {
+              "t": "Line vs Branch Coverage / 줄 단위와 분기 단위로 재는 커버리지 차이"
+            },
+            {
+              "t": "Coverage Target Trap / 수치만 채우는 무의미한 테스트로 흐르는 함정"
+            },
+            {
+              "t": "RuboCop / rubocop-rspec으로 스펙 코드 스타일까지 검사"
+            },
+            {
+              "t": "Spec Style Consistency / 팀 전체 스펙의 문체·구조를 통일하는 일"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "CI Integration",
+          "anchor": "16-ci-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Suite Split Execution / 전체 스펙을 여러 묶음으로 나눠 실행하는 방법"
+            },
+            {
+              "t": "JUnit XML Formatter / CI가 읽는 JUnit 형식으로 결과를 출력"
+            },
+            {
+              "t": "Test Sharding / 러너 여러 개에 스펙을 나눠 병렬 처리"
+            },
+            {
+              "t": "Retry Strategy / rspec-retry로 실패 예제를 자동 재시도"
+            },
+            {
+              "t": "Slow Spec Management / 느린 스펙을 찾아내 별도로 관리하는 방법"
+            },
+            {
+              "t": "Local Boot Acceleration / Spring으로 앱 로딩을 미리 띄워두는 가속",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Qa",
+      "ref": "software/role-based/qa"
+    },
+    {
+      "label": "Ruby",
+      "ref": "software/skill-based/Languages/ruby"
+    },
+    {
+      "label": "Ruby On Rails",
+      "ref": "software/skill-based/Frameworks/ruby-on-rails"
+    },
+    {
+      "label": "Backend",
+      "ref": "software/role-based/backend"
+    },
+    {
+      "label": "Code Review",
+      "ref": "software/skill-based/CS-Theory/code-review"
+    },
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    }
+  ]
+}

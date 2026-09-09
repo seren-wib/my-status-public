@@ -1,0 +1,122 @@
+{
+  "title": "Intent Inference AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Incentive Analysis",
+          "anchor": "1-incentive-analysis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Observation Basics",
+              "delegate": "social/skill-based/Reading/observation"
+            },
+            {
+              "t": "Position vs Interest / 겉으로 내세우는 주장과 실제 이익 구분"
+            },
+            {
+              "t": "Revealed Preference / 말이 아니라 행동이 선호를 드러냄"
+            },
+            {
+              "t": "Cui Bono / 이 상황에서 누가 이득을 보는가"
+            },
+            {
+              "t": "Costly Signals / 비용을 치른 신호만 신뢰"
+            },
+            {
+              "t": "Constraint Mapping / 상대가 할 수 없는 것 파악"
+            },
+            {
+              "t": "Alternatives / 상대가 가진 다른 선택지, BATNA"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Behavioral Evidence",
+          "anchor": "2-behavioral-evidence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Word-Deed Consistency / 말과 행동의 불일치 추적"
+            },
+            {
+              "t": "Pattern over Time / 일회 관찰보다 반복 패턴"
+            },
+            {
+              "t": "Target Selection / 상대의 선택 대상이 상대를 드러냄, victimology의 응용"
+            },
+            {
+              "t": "Stable vs Learned Behavior / 안 변하는 습성과 학습된 행동 구분, MO vs signature"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Verbal Content Analysis",
+          "anchor": "3-verbal-content-analysis",
+          "subs": [],
+          "items": [
+            {
+              "t": "Distancing Language / 주어 생략, 수동태, 3인칭화"
+            },
+            {
+              "t": "Detail Level Shifts / 특정 구간만 뭉뚱그리거나 과잉 상세"
+            },
+            {
+              "t": "Hedging and Qualifiers / 아마, 솔직히, 기억으로는"
+            },
+            {
+              "t": "Unprompted Justification / 묻지 않은 해명"
+            },
+            {
+              "t": "Pronoun Usage / 나·우리·그들 사이의 전환"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Hypothesis Discipline",
+          "anchor": "4-hypothesis-discipline",
+          "subs": [],
+          "items": [
+            {
+              "t": "Competing Hypotheses / 설명 가설을 여러 개 나란히 두기, ACH"
+            },
+            {
+              "t": "Disconfirming Evidence / 반증 증거부터 찾기"
+            },
+            {
+              "t": "Base Rates / 사전 확률 무시 금지"
+            },
+            {
+              "t": "Hanlon's Razor / 악의를 가정하기 전에 무능·우연 고려"
+            },
+            {
+              "t": "Prediction as Test / 추론을 예측으로 바꿔 검증"
+            },
+            {
+              "t": "Calibration / 자기 정답률 추적"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Deception Detection",
+      "ref": "social/skill-based/Reading/lie-detection"
+    }
+  ]
+}

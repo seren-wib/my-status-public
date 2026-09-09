@@ -1,0 +1,247 @@
+# OpenTelemetry `AI 생성`
+
+> AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22
+
+# PART 1 · Introduction to OpenTelemetry
+
+## 1. What is OpenTelemetry?
+
+### Overview of OpenTelemetry / What is it?
+
+- [ ] Vendor-neutral Telemetry Standard / 어느 회사 제품에도 안 묶이는 계측 규격
+- [ ] CNCF Project / OpenTracing과 OpenCensus를 합친 내력
+- [ ] Specification, API, SDK / 규격 문서와 언어별 구현을 나눠 둔 층
+- [ ] Backend-agnostic Export / 받는 쪽이 무엇이든 같은 형식으로 내보내는 성질
+
+### Why It Is Needed
+
+- [ ] Avoiding Vendor Lock-in / 계측 코드를 다시 안 짜고 업체를 바꾸는 이유
+- [ ] Decoupling Instrumentation from Backend / 계측하는 코드와 받는 제품을 떼어 놓는 구조
+- [ ] Standardized Correlation Across Signals / 세 신호를 같은 id로 이어 붙이는 규격
+
+### Signals
+
+- [ ] Traces / 요청 하나가 서비스들을 거쳐 간 경로 신호
+- [ ] Metrics / 일정 간격으로 모아 수치로 줄인 신호
+- [ ] Logs / 시각과 본문을 가진 개별 사건 기록 신호
+- [ ] Baggage / 스팬과 함께 서비스 경계를 넘겨 나르는 값
+- [ ] Profiles / 실행 시간이 어느 코드에 쌓였는지 보는 네 번째 신호 `선택`
+
+## 2. Architecture
+
+### Components
+
+- [ ] API / 구현 없이 계측 코드가 부르는 호출 규격
+- [ ] SDK / API 뒤에 끼워 실제로 신호를 만드는 구현체
+- [ ] Instrumentation Library / 프레임워크에 계측을 미리 붙여 둔 꾸러미
+- [ ] Exporter / SDK가 만든 신호를 밖으로 내보내는 출구
+- [ ] Collector / 신호를 받아 가공해 다시 내보내는 별도 프로세스
+
+### Deployment Modes `택 1`
+
+- [ ] Agent / 앱 옆이나 노드마다 하나씩 붙여 두는 배치 `추천`
+- [ ] Gateway / 여러 앱의 신호를 한곳으로 모으는 독립 배치
+- [ ] Direct Export / Collector 없이 SDK가 바로 보내는 배치
+
+### Specification
+
+- [ ] Specification / 규격 조항마다 붙는 안정성 등급 표시
+- [ ] Semantic Conventions / 속성 이름을 서비스마다 안 갈리게 정한 표준
+- [ ] OTLP Protocol / 신호를 실어 나르는 gRPC와 HTTP 전송 규격
+
+## 3. Context / Propagation
+
+- [ ] Context API / 현재 실행 흐름에 값을 매달아 두는 창구
+- [ ] Span Context / 스팬을 가리키는 두 id와 플래그 묶음
+- [ ] W3C Trace Context / trace id를 HTTP 헤더로 넘기는 표준 규격
+- [ ] B3 / Zipkin·Jaeger 쪽 헤더도 함께 읽는 전파기
+- [ ] Baggage Propagation / 스팬 밖 값을 헤더에 실어 뒤 서비스로 넘기는 방법
+- [ ] Cross-process vs Cross-thread Context / 프로세스 경계와 스레드 경계에서 갈리는 전달 방식
+
+---
+
+# PART 2 · Instrumentation
+
+## 4. Traces
+
+### Data Model
+
+- [ ] Span / 작업 한 구간을 부모 자식으로 잇는 기본 단위
+- [ ] Span Kind / 호출의 어느 쪽인지 표시하는 다섯 구분
+- [ ] Span Attributes / 스팬 하나에 붙이는 키와 값 표시
+- [ ] Span Events / 스팬 구간 안에서 일어난 시점 있는 사건
+- [ ] Span Links / 부모 자식이 아닌 다른 추적의 스팬을 잇는 연결
+- [ ] Status / 스팬이 성공인지 실패인지 표시하는 결과 값
+
+### SDK Configuration
+
+- [ ] TracerProvider / 트레이서를 만들어 내보내는 설정 뿌리
+- [ ] Span Processor / 끝난 스팬을 하나씩 보낼지 모아 보낼지 정하는 층
+- [ ] Resource / 신호를 낸 주체가 무엇인지 붙이는 고정 속성 묶음
+- [ ] ID Generator / trace id와 span id를 만들어 내는 방식
+
+### Sampling
+
+- [ ] Head Sampling / 추적 시작 시점에 보관 여부를 정하는 방식
+- [ ] AlwaysOn and AlwaysOff Sampler / 전부 남기거나 전부 버리는 양 끝 표본기
+- [ ] Tail Sampling / 추적이 다 모인 뒤에 보관 여부를 정하는 방식
+- [ ] Sampling Decision Propagation / 앞 서비스의 표본 결정을 뒤로 물려주는 규칙
+
+## 5. Metrics
+
+### Instrument
+
+- [ ] Counter and UpDownCounter / 늘기만 하는 값과 오르내리는 값을 세는 계기
+- [ ] Asynchronous Observable Instruments / 부를 때마다 현재 값을 되묻는 계기
+- [ ] Histogram and Exponential Histogram / 값을 구간별로 나눠 분포로 담는 계기
+- [ ] Gauge / 그 순간의 값 하나만 그대로 담는 계기
+
+### Pipeline
+
+- [ ] MeterProvider / 계기를 만들어 내보내는 메트릭 쪽 설정 뿌리
+- [ ] View / 계기가 낸 값의 집계 방식과 속성을 손보는 선언
+- [ ] Temporality / 값을 구간 증가분으로 볼지 누적으로 볼지 정하는 기준
+- [ ] Metric Reader / 모아 둔 값을 일정 간격이나 호출로 꺼내는 부품
+- [ ] Cardinality Limit / 속성 조합이 불어날 때 계열 수를 잘라내는 상한
+
+### Compatibility
+
+- [ ] Prometheus Exporter / 기존 Prometheus 형식으로 맞춰 내보내는 다리
+- [ ] OTLP Metrics / 메트릭을 OTLP 규격 그대로 실어 보내는 방식
+
+## 6. Logs
+
+- [ ] Log Data Model / 로그 한 줄을 규격 필드로 정의한 구조
+- [ ] Severity, Body, Attributes / 로그 한 건을 이루는 등급·본문·속성 필드
+- [ ] Logs Bridge API / 기존 로깅 라이브러리를 규격에 붙이는 연결 층
+- [ ] Logging Library Appender / 언어별 로거 출력에 끼워 넣는 부착 부품
+- [ ] Trace Correlation / 로그에 trace id를 실어 추적과 붙이는 방법
+- [ ] Collector-Based Log Collection / 앱 대신 Collector가 파일에서 로그를 걷는 방식
+
+## 7. Instrumentation
+
+### Approach `택 1`
+
+- [ ] Zero-code / 코드를 안 고치고 실행 시점에 계측을 붙이는 방식 `추천`
+- [ ] Manual Instrumentation / 코드 안에서 직접 스팬과 계기를 만드는 방식
+- [ ] Library Native Instrumentation / 라이브러리가 스스로 계측을 품고 나오는 방식
+
+### By Language
+
+- [ ] Java / 실행 인자로 에이전트 jar를 붙이는 방법
+- [ ] Node.js / 앱보다 먼저 계측 모듈을 올리는 방법
+- [ ] Python / 실행 명령을 감싸 계측을 얹는 방법
+- [ ] Go / 자동 주입이 안 돼 직접 짜거나 커널에서 보는 방법
+- [ ] .NET / 환경 변수로 계측을 끼워 넣는 방법
+
+### In Practice
+
+- [ ] Scoping Instrumentation / 어디까지 계측할지 범위를 정하는 기준
+- [ ] Where to Add Custom Spans / 직접 만든 스팬을 어느 지점에 둘지 고르는 기준
+- [ ] Attribute Design / 값 종류가 무한히 불어나는 속성을 피하는 기준
+- [ ] Instrumentation Scope / 그 신호를 어느 라이브러리가 냈는지 표시하는 이름
+
+## 8. Semantic Conventions
+
+- [ ] Resource Attributes / 서비스 이름·버전·환경을 적는 표준 키
+- [ ] HTTP Conventions / 요청 메서드와 경로와 상태 코드의 표준 키
+- [ ] Database Conventions / 질의문과 대상 시스템 이름을 적는 표준 키
+- [ ] Messaging Conventions / 큐 이름과 보낸 쪽 받는 쪽을 적는 표준 키
+- [ ] RPC and gRPC Conventions / 서비스와 메서드 이름을 적는 표준 키
+- [ ] Cloud, Kubernetes, Host Conventions / 실행 위치와 노드 정보를 적는 표준 키
+- [ ] Exception Conventions / 예외 형·메시지·스택을 스팬에 적는 표준 키
+- [ ] Schema URL / 속성 이름이 바뀐 규약 판을 가리키는 주소
+- [ ] Custom Attribute Namespace Rules / 직접 만든 속성이 표준과 안 부딪히게 하는 규칙
+
+---
+
+# PART 3 · Collector
+
+## 9. Collector Basics
+
+- [ ] Distribution / 부품을 얼마나 담았는지로 갈리는 배포판
+- [ ] Config Structure / 부품 선언과 사용 선언을 나눠 적는 설정 뼈대
+- [ ] Pipeline / 신호 종류마다 따로 엮는 처리 경로
+- [ ] Deployment Mode / 앱 옆에 둘지 중앙에 둘지 정하는 배치
+
+## 10. Collector Components
+
+### Receiver
+
+- [ ] otlp / OTLP로 들어오는 신호를 받는 입구
+- [ ] prometheus / Prometheus 형식 메트릭을 읽어 오는 입구
+- [ ] filelog / 로그 파일을 따라 읽어 들이는 입구
+- [ ] jaeger and zipkin / 옛 추적 규격으로 오는 신호를 받는 입구
+- [ ] hostmetrics and kubeletstats / 노드와 컨테이너 사용량을 직접 읽는 입구
+
+### Processor
+
+- [ ] batch / 신호를 모아 한 번에 넘겨 전송 횟수를 줄이는 부품
+- [ ] memory_limiter / 메모리가 차면 받기를 거절해 죽는 것을 막는 부품
+- [ ] resource and attributes / 속성을 넣고 고치고 지우는 부품
+- [ ] filter / 조건에 걸리는 신호를 통째로 버리는 부품
+- [ ] transform / 전용 질의문으로 신호 필드를 고쳐 쓰는 부품
+- [ ] tail_sampling / 추적이 다 모인 뒤 조건을 보고 고르는 부품
+- [ ] k8sattributes / 파드와 네임스페이스 정보를 신호에 붙이는 부품
+
+### Exporter
+
+- [ ] otlp and otlphttp / OTLP를 gRPC와 HTTP로 내보내는 출구
+- [ ] prometheus and prometheusremotewrite / 메트릭을 Prometheus 쪽 규격으로 넘기는 출구
+- [ ] debug / 내보낼 신호를 표준 출력에 찍어 보는 출구
+- [ ] Vendor Exporter / 특정 업체 규격으로 바로 보내는 출구
+- [ ] file and kafka / 파일이나 메시지 큐로 신호를 흘려보내는 출구
+
+### Extension / Connector
+
+- [ ] health_check, pprof, zpages / 파이프라인 밖에서 상태를 들여다보는 부가 기능
+- [ ] Connector / 한 파이프라인 출력을 다른 신호로 바꿔 잇는 부품
+
+## 11. Collector Operations
+
+- [ ] Scaling / 같은 추적을 한 인스턴스로 몰아 나눠 받는 방법
+- [ ] Sending Queue / 못 보낸 신호를 쌓아 두고 다시 보내는 대기열
+- [ ] memory_limiter Tuning / 한계치와 급증 여유를 정하는 기준
+- [ ] Internal Telemetry / Collector가 자기 처리량과 누락을 내보내는 기능
+- [ ] Custom Build / 필요한 부품만 골라 실행 파일을 짜는 방법
+- [ ] OpenTelemetry Operator / 파드에 계측을 자동으로 끼워 넣는 확장
+
+---
+
+# PART 4 · Adoption and Operations
+
+## 12. Backend Integration
+
+- [ ] OTLP Endpoint Configuration / 보낼 주소와 인증 헤더를 지정하는 설정
+- [ ] Jaeger and Tempo / 추적을 받아 담아 두는 오픈소스 수신처
+- [ ] Prometheus and Mimir / 메트릭을 받아 담아 두는 오픈소스 수신처
+- [ ] Loki and Elasticsearch / 로그를 받아 담아 두는 오픈소스 수신처
+- [ ] SaaS Backend / 저장과 화면을 함께 파는 유료 수신처
+- [ ] Backend Switching Scenario / 코드를 안 건드리고 수신처만 바꾸는 절차
+
+## 13. Adoption Strategy
+
+- [ ] Running Alongside an Existing Vendor Agent / 기존 업체 에이전트와 한동안 같이 돌리는 방법
+- [ ] Jaeger and Zipkin / 옛 추적 시스템에서 옮겨 오는 이관 순서
+- [ ] Deciding Whether to Replace Prometheus Scrape / 기존 메트릭 수집을 대체할지 남길지 가르는 기준
+- [ ] Incremental Adoption Order / 신호를 한 종류씩 늘려 가는 도입 순서
+- [ ] SDK Stability Check / 언어별 구현이 쓸 만한 단계인지 보는 기준
+
+## 14. Cost and Quality Management
+
+- [ ] Sampling Strategy Design / 남길 추적과 버릴 추적을 가르는 기준 설계
+- [ ] Attribute Drop and Redaction / 필요 없거나 민감한 속성을 지우는 처리
+- [ ] PII Removal / 개인 정보를 내보내기 전에 걸러 내는 방법
+- [ ] Data Volume Estimation / 신호가 만들 데이터 양과 비용을 미리 재는 방법
+- [ ] Telemetry Quality Check / 부모 없는 스팬 같은 끊긴 추적을 찾는 점검
+
+---
+
+# 이 로드맵 밖
+
+- 데브옵스 전반 `software/role-based/devops.md`
+- 메트릭 저장·쿼리 `software/skill-based/Infra-DevOps/prometheus.md`
+- 시각화 `software/skill-based/Infra-DevOps/grafana.md`
+- SaaS 백엔드 `software/skill-based/Infra-DevOps/datadog.md`, `new-relic.md`
+- Kubernetes `software/skill-based/Infra-DevOps/kubernetes.md`
+- 분산 시스템 설계 `software/skill-based/CS-Theory/system-design.md`

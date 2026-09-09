@@ -1,0 +1,428 @@
+{
+  "title": "Caddy AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Caddy",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Caddy?",
+          "anchor": "1-what-is-caddy",
+          "subs": [
+            {
+              "title": "Overview",
+              "items": [
+                {
+                  "t": "Single Binary Web Server / 의존성 없이 실행 파일 하나로 도는 구조"
+                },
+                {
+                  "t": "Automatic HTTPS / 인증서 발급과 갱신을 자동으로 처리하는 기능"
+                },
+                {
+                  "t": "Caddyfile / 실제로는 JSON 설정으로 변환되는 사람용 문법"
+                },
+                {
+                  "t": "Comparison with Nginx and Apache / 손잡이 대신 안전한 기본값을 미리 깐 설계"
+                }
+              ]
+            },
+            {
+              "title": "Main Use Cases",
+              "items": [
+                {
+                  "t": "Static Site Hosting / 루트 지정만으로 끝나는 정적 파일 서빙"
+                },
+                {
+                  "t": "Reverse Proxy / 백엔드 앞단에서 요청을 그대로 넘기는 용도"
+                },
+                {
+                  "t": "Internal Service TLS Automation / 내부망 서비스도 자동 인증서로 묶는 용도"
+                },
+                {
+                  "t": "Sidecar and Container Edge / 컨테이너 옆에 붙어 TLS·라우팅을 맡는 배치"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Installation and Running",
+          "anchor": "2-installation-and-running",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "Package Manager / 배포판 저장소로 설치하는 방법",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Docker Image / 공식 이미지로 컨테이너에서 실행"
+                },
+                {
+                  "t": "Static Binary / xcaddy로 플러그인 포함해 직접 빌드"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "Running",
+              "items": [
+                {
+                  "t": "caddy run and caddy start / 포그라운드 실행과 데몬 실행의 차이"
+                },
+                {
+                  "t": "Service Management / systemd 유닛으로 상시 구동시키는 방법"
+                },
+                {
+                  "t": "Config Reload / 연결을 끊지 않고 설정을 다시 읽는 방법"
+                },
+                {
+                  "t": "Config Validation / 적용 전 문법 오류를 미리 검사하는 명령"
+                },
+                {
+                  "t": "Formatting / Caddyfile을 표준 형식으로 정렬하는 명령"
+                },
+                {
+                  "t": "One-off Commands / 설정 파일 없이 즉석에서 띄우는 명령"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Caddyfile Basics",
+          "anchor": "3-caddyfile-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Caddyfile Structure / 사이트 주소와 지시어 블록으로 이뤄진 구성"
+            },
+            {
+              "t": "Site Address / 스킴·호스트·포트로 매칭 범위를 정하는 줄"
+            },
+            {
+              "t": "Global Options Block / 사이트 밖에서 서버 전역값을 설정하는 블록"
+            },
+            {
+              "t": "Directive Execution Order / 작성 순서와 무관하게 미리 정해진 순서로 실행"
+            },
+            {
+              "t": "Snippet / 반복되는 블록을 이름 붙여 import로 재사용"
+            },
+            {
+              "t": "Placeholder / 요청 정보를 변수처럼 꺼내 쓰는 표기"
+            },
+            {
+              "t": "Environment Variable Substitution / 설정값을 환경변수로 대체하는 기능"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Configuration and Routing",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Matchers and Routing",
+          "anchor": "4-matchers-and-routing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Matcher / 경로·호스트·헤더로 요청을 골라내는 조건"
+            },
+            {
+              "t": "Named Matcher / @기호로 조건을 이름 붙여 재사용"
+            },
+            {
+              "t": "Path Matching Rules / 와일드카드와 정확 일치를 구분하는 규칙"
+            },
+            {
+              "t": "route, handle, handle_path / 우선순위 처리 방식이 서로 다른 세 지시어"
+            },
+            {
+              "t": "redir and rewrite / 클라이언트를 보낼지 내부에서만 바꿀지의 차이"
+            },
+            {
+              "t": "error and handle_errors / 오류를 강제로 낼지 발생한 오류를 처리할지의 차이"
+            },
+            {
+              "t": "respond / 백엔드 없이 그 자리에서 바로 응답하는 지시어"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Serving Content",
+          "anchor": "5-serving-content",
+          "subs": [],
+          "items": [
+            {
+              "t": "file_server / 디렉터리 목록·숨김 규칙을 갖는 정적 서빙"
+            },
+            {
+              "t": "root / 파일을 찾을 기준 디렉터리를 지정하는 지시어"
+            },
+            {
+              "t": "try_files / 파일이 없으면 대체 경로로 넘기는 지시어"
+            },
+            {
+              "t": "templates / 응답 본문에 템플릿 문법을 적용하는 기능",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "encode / gzip·zstd로 응답을 압축하는 지시어"
+            },
+            {
+              "t": "header / 응답 헤더를 추가·수정·삭제하는 지시어"
+            },
+            {
+              "t": "Cache-Control Configuration / 캐시 정책 헤더를 지정하는 설정"
+            },
+            {
+              "t": "php_fastcgi / PHP-FPM으로 요청을 넘기는 축약 지시어"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Reverse Proxy",
+          "anchor": "6-reverse-proxy",
+          "subs": [],
+          "items": [
+            {
+              "t": "reverse_proxy / 백엔드 주소로 요청을 그대로 넘기는 지시어"
+            },
+            {
+              "t": "Header Handling / 업스트림으로 오가는 헤더를 조작하는 방법"
+            },
+            {
+              "t": "Load Balancing Policy / 여러 업스트림에 요청을 분배하는 방식"
+            },
+            {
+              "t": "Health Check / 업스트림 생사를 능동·수동으로 확인하는 방식"
+            },
+            {
+              "t": "Timeout / 업스트림 연결·응답 대기 시간을 정하는 설정"
+            },
+            {
+              "t": "WebSocket / 별도 설정 없이 프로토콜 업그레이드를 처리"
+            },
+            {
+              "t": "Upstream TLS / 백엔드와의 연결도 TLS로 감싸는 설정"
+            },
+            {
+              "t": "gRPC Proxy / HTTP/2 기반 gRPC 트래픽을 프록시하는 기능",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "TLS Automation",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Automatic HTTPS",
+          "anchor": "7-automatic-https",
+          "subs": [],
+          "items": [
+            {
+              "t": "How Automatic HTTPS Works / 도메인만 적으면 인증서를 알아서 받아오는 원리"
+            },
+            {
+              "t": "Automatic HTTP to HTTPS Redirect / 별도 설정 없이 HTTP를 HTTPS로 넘기는 기본값"
+            },
+            {
+              "t": "ACME Challenge / 도메인 소유를 증명해 인증서를 받는 방식"
+            },
+            {
+              "t": "DNS Provider Plugin / DNS-01로 와일드카드 인증서를 받게 하는 확장"
+            },
+            {
+              "t": "Local HTTPS / 자체 CA로 내부망에도 인증서를 발급하는 기능"
+            },
+            {
+              "t": "Automatic Renewal / 만료 전 알아서 갱신하고 실패하면 재시도"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "TLS Configuration",
+          "anchor": "8-tls-configuration",
+          "subs": [],
+          "items": [
+            {
+              "t": "tls Directive / 자동 발급 대신 인증서를 직접 지정하는 지시어"
+            },
+            {
+              "t": "CA Selection / 인증서를 발급받을 CA를 바꾸는 설정"
+            },
+            {
+              "t": "Protocol and Cipher Tuning / TLS 버전과 암호 스위트를 제한하는 설정"
+            },
+            {
+              "t": "Client Authentication / 클라이언트 인증서로 상호 인증하는 기능"
+            },
+            {
+              "t": "On-Demand TLS / 목록에 없는 도메인도 요청 시점에 발급"
+            },
+            {
+              "t": "Certificate Storage / 인증서 저장소를 여러 인스턴스가 공유하는 설정"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Extension and Operations",
+      "sections": [
+        {
+          "no": 9,
+          "title": "JSON Config and API",
+          "anchor": "9-json-config-and-api",
+          "subs": [],
+          "items": [
+            {
+              "t": "JSON Config Structure / apps 아래 http·servers·routes로 내려가는 구조"
+            },
+            {
+              "t": "Caddyfile to JSON Adaptation / Caddyfile을 실제 설정 JSON으로 변환하는 명령"
+            },
+            {
+              "t": "Admin API / 재시작 없이 설정을 조회·교체하는 API"
+            },
+            {
+              "t": "Config Persistence / API로 바뀐 설정을 디스크에 자동 저장"
+            },
+            {
+              "t": "Admin Endpoint Hardening / 관리 API 접근을 로컬로 제한하는 조치"
+            },
+            {
+              "t": "When to Use JSON / 정적 파일 대신 API로 동적 제어할 때 쓰는 방식"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Plugins",
+          "anchor": "10-plugins",
+          "subs": [],
+          "items": [
+            {
+              "t": "xcaddy / 원하는 모듈을 넣어 바이너리를 다시 빌드하는 도구"
+            },
+            {
+              "t": "Module Structure / 플러그인이 네임스페이스로 등록되는 구조"
+            },
+            {
+              "t": "Common Plugins / DNS 발급·보안·속도 제한 등 자주 쓰는 확장"
+            },
+            {
+              "t": "Plugin Maintenance Risk / 서드파티 모듈이라 업데이트가 끊길 위험"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Security and Access Control",
+          "anchor": "11-security-and-access-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "basic_auth / 비밀번호 해시로 거는 기본 인증 지시어"
+            },
+            {
+              "t": "forward_auth / 인증 판단을 외부 서비스에 위임하는 지시어"
+            },
+            {
+              "t": "IP-Based Access Control / 출발지 IP로 접근을 허용·차단하는 방식"
+            },
+            {
+              "t": "Rate Limiting / 플러그인으로 요청 빈도를 제한하는 기능",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Security Headers / HSTS·CSP 같은 보안 응답 헤더를 붙이는 설정"
+            },
+            {
+              "t": "request_body / 요청 본문 크기 상한을 거는 지시어"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Operations",
+          "anchor": "12-operations",
+          "subs": [],
+          "items": [
+            {
+              "t": "log / 접근 로그 출력 대상과 형식을 지정하는 지시어"
+            },
+            {
+              "t": "Log Level / debug 모드로 로그 상세도를 올리는 설정"
+            },
+            {
+              "t": "Metrics / Prometheus가 긁어갈 지표 엔드포인트를 노출"
+            },
+            {
+              "t": "Container Deployment / Caddyfile 마운트와 인증서 볼륨 영속화"
+            },
+            {
+              "t": "Certificate Data Backup / 발급된 인증서가 쌓이는 디렉터리를 보존"
+            },
+            {
+              "t": "Common Problems / 인증서 발급 실패·포트 권한 등 흔한 장애"
+            },
+            {
+              "t": "Migration Mapping from Nginx / location을 matcher·handle로 옮기는 대응표"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Nginx",
+      "ref": "software/skill-based/Infra-DevOps/nginx"
+    },
+    {
+      "label": "Apache HTTP Server",
+      "ref": "software/skill-based/Infra-DevOps/apache-httpd"
+    },
+    {
+      "label": "Docker",
+      "ref": "software/skill-based/Infra-DevOps/docker"
+    },
+    {
+      "label": "Linux",
+      "ref": "software/skill-based/Infra-DevOps/linux"
+    },
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+# Webpack `AI 생성`
+
+> AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22
+
+# PART 1 · Introduction to Webpack
+
+## 1. What is Webpack?
+
+### Overview of Webpack / What is it?
+
+- [ ] Static Module Bundler / 진입점부터 파일을 전부 미리 묶는 방식
+- [ ] Dependency Graph Construction / import를 따라가 의존 그래프를 만드는 과정
+- [ ] Everything is a Module / CSS·이미지까지 모듈로 보고 그래프에 넣는 관점
+- [ ] Loader / 파일 확장자별 변환을 꽂는 확장 지점
+
+### When to Use
+
+- [ ] Complex Custom Build Pipeline / 표준 설정으로 안 되는 커스텀 빌드가 필요한 경우
+- [ ] Legacy Browser Support / 구형 브라우저용 폴리필·트랜스파일이 필요한 경우
+- [ ] Micro Frontend / 따로 빌드한 앱을 실행 시점에 끌어와 합치는 방식
+- [ ] Existing Project Maintenance / 이미 webpack으로 굳어진 기존 프로젝트를 유지하는 경우
+
+### Webpack vs Others
+
+- [ ] Webpack vs Rollup / 앱 번들링과 라이브러리 번들링의 강점 차이
+- [ ] Webpack vs Vite / 전체 번들 방식과 네이티브 ESM 서빙의 차이
+- [ ] Rspack / Rust로 다시 짠 설정 호환 대체 번들러 `선택`
+
+## 2. Getting Started
+
+- [ ] Installation / 코어와 명령줄 패키지를 함께 받는 설치 방법
+- [ ] Zero Config Defaults / 설정 없이 src/index.js를 dist/main.js로 뽑는 기본값
+- [ ] npm script Integration / package.json 스크립트로 빌드 명령을 실행하는 방법
+- [ ] Reading Build Output / 빌드 후 찍히는 stats 로그를 해석하는 방법
+
+## 3. Config Structure
+
+### Basic Skeleton
+
+- [ ] Config Structure / entry·output·module 등 설정 파일의 기본 골격
+- [ ] mode / 개발·운영·미지정 중 빌드 최적화 기준을 고르는 옵션
+- [ ] Config Type / 설정을 객체 대신 함수·프로미스로도 쓸 수 있는 형식
+
+### Entry / Output
+
+- [ ] Entry Type / 진입점을 하나·여러 개·동적으로 두는 방식
+- [ ] Output Naming / 해시·이름 placeholder로 출력 파일명을 짓는 규칙
+- [ ] output.path and publicPath / 디스크 경로와 런타임 URL 접두사를 나누는 옵션
+- [ ] clean / 빌드 전에 output 디렉터리를 비우는 옵션
+- [ ] Library Output / 번들을 라이브러리로 내보낼 때 쓰는 옵션
+
+### Resolve
+
+- [ ] resolve / 확장자 생략·별칭·탐색 경로를 정하는 옵션
+- [ ] mainFields / package.json에서 어느 필드를 진입점으로 볼지 우선순위
+- [ ] resolve.fallback / 브라우저에서 빠진 Node 코어 모듈을 대신 채우는 옵션
+- [ ] externals / 특정 모듈을 번들에 안 넣고 외부 참조로 남기는 옵션
+
+### Config Splitting
+
+- [ ] Common, Dev, Prod Config / 환경별로 설정 파일을 쪼개는 방법
+- [ ] webpack-merge / 공통 설정과 환경별 설정을 합치는 라이브러리
+- [ ] env Argument / CLI에서 --env로 설정 함수에 값을 넘기는 방법
+
+---
+
+# PART 2 · Module Processing
+
+## 4. Module Graph
+
+- [ ] Module Type / 모듈 문법 종류에 따라 처리 방식이 갈리는 기준
+- [ ] Dependency Graph Build Process / 진입점부터 재귀적으로 그래프를 완성하는 과정
+- [ ] Module, Chunk, Bundle / 원본 파일과 출력 덩어리를 가르는 단위
+- [ ] Runtime / 모듈 로딩·연결을 담당하는 manifest 코드
+- [ ] module.rules Matching / 파일 경로로 어떤 loader를 적용할지 매칭하는 규칙
+
+## 5. Loaders
+
+### Concepts
+
+- [ ] Loader Execution Order / use 배열을 오른쪽에서 왼쪽으로 적용하는 순서
+- [ ] Chaining / 여러 loader를 use 배열로 순서대로 잇는 방법
+- [ ] Pitching Loader / 본 실행 전 오른쪽에서 왼쪽 역순으로 도는 단계
+- [ ] enforce / 일반 순서보다 먼저·나중에 강제 실행하는 옵션
+
+### JS / TS
+
+- [ ] babel-loader / 타겟 브라우저 기준으로 최신 문법을 변환하는 loader
+- [ ] ts-loader vs Separate Type Check / 변환과 타입 검사를 같이 할지 분리할지 선택
+- [ ] Faster Alternatives / 네이티브 컴파일러로 babel보다 빠른 대안 loader
+- [ ] thread-loader / 무거운 loader 작업을 워커 풀로 병렬화하는 도구
+
+### Styles
+
+- [ ] style-loader vs MiniCssExtractPlugin.loader / CSS를 JS로 주입할지 파일로 뺄지 차이
+- [ ] css-loader / @import·CSS Modules 처리를 맡는 loader
+- [ ] postcss-loader / autoprefixer 등 플러그인으로 CSS를 후처리하는 loader
+- [ ] sass-loader and less-loader / Sass·Less 전처리기를 CSS로 컴파일하는 loader
+
+### Asset
+
+- [ ] Asset Modules / 파일을 별도 loader 없이 다루는 내장 자산 처리
+- [ ] parser.dataUrlCondition / 자산을 인라인할지 파일로 뺄지 가르는 크기 기준
+- [ ] Legacy Loader Replacement / 구버전에서 자산을 다루던 loader를 대체하는 기능
+
+### Custom Loader `선택`
+
+- [ ] Loader Signature / 소스를 입력받아 변환 결과를 반환하는 함수 형태
+- [ ] this.callback / 비동기 loader가 결과를 나중에 넘기는 방법
+- [ ] Loader Options Validation / 스키마로 loader 옵션 값을 검증하는 절차
+
+## 6. Plugins
+
+### Concepts
+
+- [ ] Plugin vs Loader Roles / 파일 변환과 빌드 전반 개입의 역할 차이
+- [ ] Compiler and Compilation / 전체 빌드와 한 번의 컴파일을 나타내는 객체
+- [ ] Tapable Hook / 동기·비동기 방식으로 훅에 콜백을 등록하는 API
+
+### Commonly Used Plugins
+
+- [ ] HtmlWebpackPlugin / 번들 경로를 넣은 HTML을 자동 생성하는 플러그인
+- [ ] MiniCssExtractPlugin / CSS를 JS에서 분리해 별도 파일로 뽑는 플러그인
+- [ ] DefinePlugin and EnvironmentPlugin / 빌드 시점에 전역 상수·환경 변수를 주입하는 플러그인
+- [ ] CopyWebpackPlugin / 정적 파일을 가공 없이 출력 폴더로 복사하는 플러그인
+- [ ] ProvidePlugin / import 없이 전역처럼 모듈을 자동 주입하는 플러그인
+- [ ] BundleAnalyzerPlugin / 번들 구성을 트리맵으로 시각화하는 플러그인
+- [ ] ForkTsCheckerWebpackPlugin / 타입 검사를 별도 프로세스로 떼어내는 플러그인
+
+### Custom Plugin `선택`
+
+- [ ] apply(compiler) / 플러그인이 컴파일러 훅에 접근하는 진입 메서드
+- [ ] Hook Selection / 원하는 시점에 맞는 컴파일 훅을 고르는 방법
+- [ ] Asset Manipulation / 컴파일 단계에서 출력 자산을 직접 조작하는 방법
+
+---
+
+# PART 3 · Optimization
+
+## 7. Code Splitting
+
+- [ ] Entry Point Splitting / 진입점을 여러 개 둬서 번들을 나누는 방법
+- [ ] Dynamic Import / import()로 필요할 때만 청크를 불러오는 방법
+- [ ] Magic Comments / import 안에 주석으로 청크 옵션을 지정하는 방법
+- [ ] SplitChunksPlugin / 공통 코드를 규칙에 따라 별도 청크로 분리하는 기능
+- [ ] Vendor and Common Chunk / 라이브러리와 공통 코드를 캐시용으로 분리하는 전략
+- [ ] runtimeChunk / manifest 코드를 별도 청크로 떼어 캐시 무효화를 줄이는 옵션
+
+## 8. Bundle Optimization
+
+- [ ] Tree Shaking / 안 쓰는 export를 정적 분석으로 제거하는 최적화
+- [ ] Minification / JS·CSS 코드를 압축해 용량을 줄이는 과정
+- [ ] Scope Hoisting / 모듈들을 함수 하나로 합쳐 오버헤드를 줄이는 최적화
+- [ ] DefinePlugin Dead Code Elimination / 상수 치환 후 안 쓰는 분기를 지우는 최적화
+- [ ] Long-term Caching / 내용 해시로 바뀐 파일만 캐시를 깨는 전략
+- [ ] Bundle Analysis / stats.json으로 번들 크기 원인을 분석하는 방법
+
+## 9. Build Performance
+
+- [ ] Persistent Cache / 빌드 결과를 디스크에 남겨 재빌드를 줄이는 캐시
+- [ ] Loader Scope Narrowing / include·exclude로 loader 적용 범위를 좁히는 방법
+- [ ] Resolve Cost Reduction / 확장자·경로 탐색 비용을 줄이는 설정
+- [ ] Parallelization / 변환·압축 작업을 여러 프로세스로 나누는 방법
+- [ ] DllPlugin / 안 바뀌는 의존성을 미리 컴파일해 재사용하는 방법 `선택`
+- [ ] Profiling / 어느 단계가 느린지 시간을 측정하는 방법
+
+---
+
+# PART 4 · Developer Experience
+
+## 10. Dev Server / HMR
+
+- [ ] webpack-dev-server / 메모리에서 서빙하며 즉시 반영하는 개발 서버
+- [ ] devServer.proxy / 개발 서버에서 API 요청을 백엔드로 우회하는 옵션
+- [ ] Hot Module Replacement Flow / 새로고침 없이 바뀐 모듈만 교체하는 과정
+- [ ] module.hot API / 모듈 교체를 받아들이고 정리하는 저수준 API
+- [ ] React Fast Refresh Integration / 상태를 유지한 채 컴포넌트만 교체하는 통합
+- [ ] Live Reload Fallback / HMR이 안 될 때 전체 새로고침으로 대체하는 방식
+
+## 11. Source Maps
+
+- [ ] devtool Option Combinations / 정확도와 빌드 속도를 맞바꾸는 소스맵 옵션
+- [ ] Dev vs Prod Recommendations / 개발은 속도, 운영은 정확도 위주로 고르는 기준
+- [ ] hidden-source-map and nosources-source-map / 소스맵을 숨기거나 원본 코드만 빼는 옵션
+- [ ] Error Tracking Integration / 소스맵을 업로드해 운영 에러 위치를 복원하는 연동
+
+## 12. Multi-target Build
+
+- [ ] target / 실행 환경에 맞춰 번들 방식을 바꾸는 옵션
+- [ ] Library Build Configuration / 배포용 패키지로 빌드하는 설정
+- [ ] SSR Bundle / 서버 번들에서 node_modules를 외부 처리하는 방법
+- [ ] Multi-config Parallel Build / 설정 배열로 여러 타겟을 한 번에 빌드하는 방법
+
+---
+
+# PART 5 · Extensions and Operations
+
+## 13. Module Federation
+
+- [ ] Host and Remote / 앱을 가져오는 쪽과 내보내는 쪽을 가르는 개념
+- [ ] ModuleFederationPlugin / 내보낼·가져올 모듈과 공유 라이브러리를 설정하는 플러그인
+- [ ] Shared Dependency Negotiation / 앱 간 겹치는 라이브러리 버전을 조율하는 과정
+- [ ] Runtime Remote Loading / 실행 시점에 원격 앱을 동적으로 불러오는 방식
+- [ ] Micro Frontend Limits / 공유 상태·버전 충돌 등 마이크로 프론트엔드의 한계
+
+## 14. Migration / Upgrade
+
+- [ ] Webpack 4 → 5 Breaking Changes / Asset Modules 도입 등 5의 주요 변경점
+- [ ] Deprecated Loader Cleanup / 더는 안 쓰는 구버전 loader를 정리하는 작업
+- [ ] Config Slimming Strategy / 불필요해진 설정을 줄여 관리 부담을 낮추는 전략
+- [ ] Vite and Rspack / 다른 도구로 이관할지 판단하는 기준
+
+## 15. CI / Deployment
+
+- [ ] Production Build Reproducibility / 같은 입력이면 항상 같은 결과가 나오게 하는 성질
+- [ ] Cache Directory CI Caching / CI에서 캐시 디렉터리를 보존해 빌드를 줄이는 방법
+- [ ] Asset Manifest / 해시가 붙은 파일명을 원래 이름과 매핑하는 목록
+- [ ] CDN publicPath Configuration / 자산 URL을 CDN 경로로 향하게 하는 설정
+- [ ] Size Budget / 번들 크기가 기준을 넘으면 경고·에러를 내는 옵션
+
+## 16. Troubleshooting
+
+- [ ] stats Option Tracing / stats 옵션으로 빌드 내부를 자세히 들여다보는 방법
+- [ ] Circular Dependency Detection / 모듈끼리 서로 참조하는 순환을 찾아내는 방법
+- [ ] Duplicate Package / 같은 패키지 여러 버전이 겹칠 때 alias로 고정하는 방법
+- [ ] Heap Exhaustion / 큰 빌드에서 메모리 부족 시 힙 크기를 늘리는 옵션
+
+---
+
+# 이 로드맵 밖
+
+- 프론트엔드 전반 `software/role-based/frontend.md`
+- JavaScript `software/skill-based/Languages/javascript.md`
+- 대체 번들러 `software/skill-based/Build-Tools/vite.md`
+- Transform / Minify 엔진 `software/skill-based/Build-Tools/esbuild.md`
+- React `software/skill-based/Frameworks/react.md`
+- CI 파이프라인 `software/skill-based/Infra-DevOps/gitlab-ci.md`

@@ -1,0 +1,419 @@
+{
+  "title": "Cult Leader AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Recruitment",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Recruitment Targeting",
+          "anchor": "1-recruitment-targeting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Meaning Deficit / 의미와 목적의 결핍이 교리가 들어갈 자리"
+            },
+            {
+              "t": "Idealism as Entry / 이타적 동기가 오히려 포섭 경로가 되는 이유"
+            },
+            {
+              "t": "Demographic Skew / 신규 가입자의 연령·계층 분포가 말해주는 것"
+            },
+            {
+              "t": "Network Recruitment / 기존 성원의 사회망을 타고 번지는 경로"
+            },
+            {
+              "t": "Screening Out / 통제되지 않을 지원자를 걸러내는 기준"
+            },
+            {
+              "t": "Target Assessment",
+              "delegate": "social/skill-based/Manipulation/target-assessment"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "First Contact",
+          "anchor": "2-first-contact",
+          "subs": [],
+          "items": [
+            {
+              "t": "Front Organization / 목적을 감춘 외곽 조직의 기능"
+            },
+            {
+              "t": "Collective Love Bombing / 과잉 애정 집중이 집단 규모로 수행될 때"
+            },
+            {
+              "t": "Staged Disclosure / 정체와 요구를 단계적으로만 공개하는 원칙"
+            },
+            {
+              "t": "Retreat Format / 합숙·수련회가 만드는 환경 통제의 첫 층"
+            },
+            {
+              "t": "Sleep and Diet Manipulation / 수면·식이 조정이 피암시성에 미치는 영향"
+            },
+            {
+              "t": "Peer Pairing / 신입에게 동반자를 붙이는 구조"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Initiation",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Entry Rituals",
+          "anchor": "3-entry-rituals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Initiation Severity / 진입 비용이 클수록 애착이 커지는 구조 (Aronson-Mills)"
+            },
+            {
+              "t": "Public Declaration / 공개 선언이 되돌리기를 막는 기제"
+            },
+            {
+              "t": "Name and Dress Change / 이름·복장 변경이 자아를 갈아끼우는 절차"
+            },
+            {
+              "t": "Confession Ritual / 자백이 통제 자료이자 결속 의례가 되는 이중 기능"
+            },
+            {
+              "t": "Group Synchrony / 합창·구호·동작 동기화가 만드는 일체감"
+            },
+            {
+              "t": "Threshold Ceremony / 통과의례가 이전 자아와 긋는 경계"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Commitment Escalation",
+          "anchor": "4-commitment-escalation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sunk Cost Lock-in / 투입된 시간과 돈이 이탈을 막는 구조"
+            },
+            {
+              "t": "Effort Justification / 고생을 스스로 정당화하게 두는 것이 최적인 이유"
+            },
+            {
+              "t": "Donation Structure / 재산 이전을 단계적으로 정상화하는 절차"
+            },
+            {
+              "t": "Time Monopoly / 일과 전체를 채워 외부 여백을 없애기"
+            },
+            {
+              "t": "Labor Extraction / 무급 노동이 헌신으로 번역되는 구조"
+            },
+            {
+              "t": "Cognitive Dissonance Engine / 불협화가 오히려 헌신을 키우는 순환 (Festinger)"
+            },
+            {
+              "t": "Compliance Rehearsal / 예행연습이 최종 명령에 대한 저항을 지우는 기제"
+            },
+            {
+              "t": "Execution Design",
+              "delegate": "social/skill-based/Manipulation/execution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Doctrine",
+      "sections": [
+        {
+          "no": 5,
+          "title": "Doctrine Architecture",
+          "anchor": "5-doctrine-architecture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Cosmology Construction / 기원·의미·종말을 한 체계로 봉합하기"
+            },
+            {
+              "t": "Loaded Language / 사고를 멈추는 상투구와 내부 전용 어휘 (Lifton)"
+            },
+            {
+              "t": "Sacred Science / 교리를 검증 불가한 절대 진리로 세우기"
+            },
+            {
+              "t": "Knowledge Tiering / 단계별로만 공개되는 비의의 구조"
+            },
+            {
+              "t": "Doctrine over Person / 개인 경험보다 교리가 우선한다는 규칙"
+            },
+            {
+              "t": "Prophecy Design / 검증 가능한 예언과 불가능한 예언의 배분"
+            },
+            {
+              "t": "Mystical Manipulation / 예정된 우연을 연출해 필연으로 읽히게 하기"
+            },
+            {
+              "t": "Millenarian Narrative / 종말·구원 서사가 헌신을 최대화하는 구조"
+            },
+            {
+              "t": "Revolutionary Suicide Framing / 집단 자살을 저항 행위로 재정의한 논리"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Sealing the Worldview",
+          "anchor": "6-sealing-the-worldview",
+          "subs": [],
+          "items": [
+            {
+              "t": "Unfalsifiability / 반증 가능성을 제거하는 서술 방식"
+            },
+            {
+              "t": "Outside Information Framing / 외부 정보를 사전에 오염으로 규정"
+            },
+            {
+              "t": "Persecution Narrative / 비판을 예언 성취로 흡수하는 구조"
+            },
+            {
+              "t": "Thought-terminating Cliché / 의심이 시작되는 지점에서 끊는 정형구"
+            },
+            {
+              "t": "Doubt as Personal Flaw / 의심을 개인의 결함으로 귀속시키기"
+            },
+            {
+              "t": "Failed Prophecy Reframing / 예언 실패 후 신념이 오히려 강해지는 기제 (Festinger)"
+            },
+            {
+              "t": "Dispensing of Existence / 존재 자격의 배분까지 가는 마지막 기준"
+            },
+            {
+              "t": "Siege Mentality / 포위 인식이 폭력을 자기방어로 번역하는 구조"
+            },
+            {
+              "t": "Fragile Apocalyptic Dynamic / 외부 압력과 내부 종말론의 상호작용"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Internal Control",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Hierarchy and Authority",
+          "anchor": "7-hierarchy-and-authority",
+          "subs": [],
+          "items": [
+            {
+              "t": "Charismatic Center / 지도자 개인에게 권위가 집중되는 구조"
+            },
+            {
+              "t": "Inner Circle / 측근 층의 기능과 지도자 접근권의 통제"
+            },
+            {
+              "t": "Rank Advancement / 승급 체계가 만드는 내부 경쟁"
+            },
+            {
+              "t": "Delegated Enforcement / 통제를 성원끼리 수행하게 하는 구조"
+            },
+            {
+              "t": "Leader Infallibility / 지도자의 오류를 시험·시련으로 번역하는 규칙"
+            },
+            {
+              "t": "Succession Problem / 후계 부재가 조직에 남기는 취약점"
+            },
+            {
+              "t": "Routinization of Charisma / 카리스마가 제도로 굳는 과정과 그 위기"
+            },
+            {
+              "t": "Obedience Extension / 권위 복종 실험이 집단 상황으로 확장되는 지점 (Milgram)"
+            },
+            {
+              "t": "Situational Power / 역할과 상황이 행동을 결정한다는 주장과 재검증 논란 (Zimbardo)"
+            },
+            {
+              "t": "Endangered Charisma / 지도자 권위가 위협받을 때의 급진화 (Wessinger)"
+            },
+            {
+              "t": "Collapse Modes / 지도자 사망·분열·법적 해체의 경로 비교"
+            },
+            {
+              "t": "Charisma",
+              "delegate": "social/skill-based/Presence/charisma"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Behavior and Information Control",
+          "anchor": "8-behavior-and-information-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "BITE Model / 행동·정보·사고·감정 통제의 4축 (Hassan)"
+            },
+            {
+              "t": "Milieu Control / 물리·정보 환경 전체의 관리 (Lifton)"
+            },
+            {
+              "t": "Mutual Surveillance / 성원 상호 감시와 보고 체계"
+            },
+            {
+              "t": "Confession Records / 자백 기록의 보관이 갖는 억제력"
+            },
+            {
+              "t": "Communication Rationing / 외부 연락의 빈도와 내용 제한"
+            },
+            {
+              "t": "Phobia Indoctrination / 외부 세계에 대한 공포를 심는 절차"
+            },
+            {
+              "t": "Eight Criteria of Thought Reform / 환경통제·신비조작·순수요구 등 8기준 (Lifton)"
+            },
+            {
+              "t": "Singer's Conditions / 사고개조 성립의 6조건과 비자발성 논쟁 (Singer)"
+            },
+            {
+              "t": "Brainwashing Debate / 세뇌 개념의 학술적 비판과 그 잔존"
+            },
+            {
+              "t": "Coercive Control Continuum / 1:1 강압 통제와 집단 통제의 연속성 (Stark)"
+            },
+            {
+              "t": "Total Institution / 폐쇄 조직이 자아를 재구성하는 구조 (Goffman)"
+            },
+            {
+              "t": "Information Control",
+              "delegate": "social/skill-based/Manipulation/information-control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Preventing Defection",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Exit Cost Engineering",
+          "anchor": "9-exit-cost-engineering",
+          "subs": [],
+          "items": [
+            {
+              "t": "Alternative Severance / 가족·친구 관계를 끊는 순서"
+            },
+            {
+              "t": "Economic Dependence / 재산·주거·직업을 조직에 묶기"
+            },
+            {
+              "t": "Skill Atrophy / 외부 생존 능력이 퇴화하도록 두는 구조"
+            },
+            {
+              "t": "Second-generation Membership / 조직 내 출생자가 갖는 이탈 불가능성"
+            },
+            {
+              "t": "Shunning Threat / 이탈 시 관계 전면 단절의 예고"
+            },
+            {
+              "t": "Custody Leverage / 자녀 양육이 지렛대가 되는 구조"
+            },
+            {
+              "t": "Exit Typology / 이탈의 형태별 분류 — 표류·추방·탈출"
+            },
+            {
+              "t": "Post-cult Trauma / 탈퇴자에게 남는 인지·정서 후유증 연구"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Dissent Suppression",
+          "anchor": "10-dissent-suppression",
+          "subs": [],
+          "items": [
+            {
+              "t": "Doubt Detection / 이탈 징후의 조기 신호"
+            },
+            {
+              "t": "Rehabilitation Process / 의심자를 재교육으로 되돌리는 절차"
+            },
+            {
+              "t": "Public Humiliation / 공개 비판이 억제력으로 작동하는 구조"
+            },
+            {
+              "t": "Apostate Framing / 탈퇴자를 배신자로 재정의하는 서사"
+            },
+            {
+              "t": "Litigation and Harassment / 비판자에 대한 법적·사회적 압박"
+            },
+            {
+              "t": "Information Quarantine / 이탈 사실 자체를 내부에 감추기"
+            },
+            {
+              "t": "Floating and Trigger / 탈퇴 후 옛 상태로 되돌아가는 현상"
+            },
+            {
+              "t": "Exit Counseling versus Deprogramming / 자발적 상담과 강제 해제의 윤리·법적 차이"
+            },
+            {
+              "t": "Testimony Reliability / 탈퇴자 증언의 신뢰도와 편향 논쟁"
+            },
+            {
+              "t": "Externalized Violence / 폭력이 조직 밖을 향할 때의 조건"
+            },
+            {
+              "t": "Cult versus Sect versus New Religious Movement / 분류 개념의 차이와 낙인 문제"
+            },
+            {
+              "t": "Legal Boundary / 규제와 종교의 자유가 충돌하는 지점"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Execution Design",
+      "ref": "social/skill-based/Manipulation/execution"
+    },
+    {
+      "label": "Relational Exploitation",
+      "ref": "social/skill-based/Manipulation/relational-exploitation"
+    },
+    {
+      "label": "Information Control",
+      "ref": "social/skill-based/Manipulation/information-control"
+    },
+    {
+      "label": "Target Assessment",
+      "ref": "social/skill-based/Manipulation/target-assessment"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    },
+    {
+      "label": "Group Dynamics",
+      "ref": "social/skill-based/GroupInfluence/group-dynamics"
+    },
+    {
+      "label": "Crowd Psychology",
+      "ref": "social/skill-based/GroupInfluence/crowd-psychology"
+    },
+    {
+      "label": "Charisma",
+      "ref": "social/skill-based/Presence/charisma"
+    }
+  ]
+}

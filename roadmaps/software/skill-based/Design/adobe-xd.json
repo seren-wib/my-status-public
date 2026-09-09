@@ -1,0 +1,390 @@
+{
+  "title": "Adobe XD AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Adobe XD",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Adobe XD?",
+          "anchor": "1-what-is-adobe-xd",
+          "subs": [
+            {
+              "title": "Overview of Adobe XD / What is it?",
+              "items": [
+                {
+                  "t": "UI/UX Design & Prototyping Tool / 화면을 설계하고 인터랙션을 시험하는 도구"
+                },
+                {
+                  "t": "Adobe Creative Cloud Integration / CC 통합"
+                },
+                {
+                  "t": "Design, Prototype, Share Mode / 작업 단계별로 화면이 나뉘는 구조"
+                }
+              ]
+            },
+            {
+              "title": "Adoption Decision",
+              "items": [
+                {
+                  "t": "Maintenance Mode Status / 신규 기능 개발 중단 상태 인지"
+                },
+                {
+                  "t": "Adobe CC Workflow Advantage / 워크플로우 연계 시 이점"
+                },
+                {
+                  "t": "Figma Migration Path / 이관 경로 검토"
+                }
+              ]
+            },
+            {
+              "title": "Getting Started",
+              "items": [
+                {
+                  "t": "Installation / Creative Cloud Desktop"
+                },
+                {
+                  "t": "Document Creation / Preset Size 선택"
+                },
+                {
+                  "t": "Cloud Document vs Local File / 클라우드 저장과 로컬 저장 방식 선택"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "XD Interface",
+          "anchor": "2-xd-interface",
+          "subs": [
+            {
+              "title": "Interface Layout",
+              "items": [
+                {
+                  "t": "Toolbar / 도형·펜 등 작업 도구 모음"
+                },
+                {
+                  "t": "Layers Panel / 레이어 목록으로 구조 관리"
+                },
+                {
+                  "t": "Assets Panel / 색상·문자·컴포넌트 스타일 저장소"
+                },
+                {
+                  "t": "Property Inspector / 선택 요소의 속성 편집 창"
+                },
+                {
+                  "t": "Plugins Panel / 설치한 플러그인 목록과 실행"
+                }
+              ]
+            },
+            {
+              "title": "Basic Operations",
+              "items": [
+                {
+                  "t": "Zoom and Pan / 화면 확대·축소와 이동"
+                },
+                {
+                  "t": "Selection / 객체 선택 후 그룹으로 묶거나 해제"
+                },
+                {
+                  "t": "Align & Distribute / 요소 정렬과 균등 간격 배치"
+                },
+                {
+                  "t": "Smart Guides / 정렬 시 자동으로 뜨는 안내선"
+                },
+                {
+                  "t": "Keyboard Shortcut / 단축키로 작업 속도 높이기",
+                  "tags": [
+                    "추천"
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 3,
+          "title": "Artboards & Layout",
+          "anchor": "3-artboards-layout",
+          "subs": [],
+          "items": [
+            {
+              "t": "Artboard Creation / 기기별 프리셋 크기로 화면 생성"
+            },
+            {
+              "t": "Artboard Scroll / 뷰포트 높이 지정해 스크롤 화면 제작"
+            },
+            {
+              "t": "Layout Grid / 정사각형 격자로 배치 기준선 표시"
+            },
+            {
+              "t": "Responsive Resize / 크기 변경 시 요소 비율 자동 조정"
+            },
+            {
+              "t": "Constraints / 위치·너비·높이 고정 여부 설정"
+            },
+            {
+              "t": "Stack / 요소를 자동 정렬하고 여백 지정"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Design",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Shapes & Vector",
+          "anchor": "4-shapes-vector",
+          "subs": [],
+          "items": [
+            {
+              "t": "Basic Shapes / 사각형·원·다각형·선 등 기본 도형"
+            },
+            {
+              "t": "Corner Radius / 모서리마다 다른 둥글기 적용"
+            },
+            {
+              "t": "Pen Tool / Path 편집"
+            },
+            {
+              "t": "Boolean Operation / 도형을 합치고 빼고 겹쳐서 결합"
+            },
+            {
+              "t": "Mask with Shape / 도형 모양대로 이미지·레이어 가리기"
+            },
+            {
+              "t": "Image Fill / 이미지를 가져와 도형 안에 채우고 자르기"
+            },
+            {
+              "t": "Blur / 배경·오브젝트에 흐림 효과 적용"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Text & Styling",
+          "anchor": "5-text-styling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Text Tool / 한 줄 입력과 영역 텍스트 구분"
+            },
+            {
+              "t": "Font / Adobe Fonts 연동"
+            },
+            {
+              "t": "Paragraph Settings / 줄 간격·자간 등 문단 서식 조정"
+            },
+            {
+              "t": "Fill, Border, Shadow / 채우기·테두리·그림자로 도형 꾸미기"
+            },
+            {
+              "t": "Gradient / 선형·방사형으로 색 전환 표현"
+            },
+            {
+              "t": "Opacity and Blend Mode / 투명도와 합성 방식으로 레이어 겹치기"
+            },
+            {
+              "t": "Registering Styles to Assets / Color & Character Style을 Assets에 등록"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Repeat Grid & Components",
+          "anchor": "6-repeat-grid-components",
+          "subs": [
+            {
+              "title": "Repeat Grid",
+              "items": [
+                {
+                  "t": "Repeat Grid Creation / Spacing 조절"
+                },
+                {
+                  "t": "Bulk Data Fill / Text, Image 드래그 삽입"
+                }
+              ]
+            },
+            {
+              "title": "Component",
+              "items": [
+                {
+                  "t": "Component Creation / 원본과 인스턴스 구분해 컴포넌트 생성"
+                },
+                {
+                  "t": "Instance Override / 인스턴스만 원본과 다르게 수정"
+                },
+                {
+                  "t": "Component State / 호버·토글 등 상태별 디자인 지정"
+                },
+                {
+                  "t": "Nested Component / 컴포넌트를 겹쳐 상태를 함께 관리"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Prototyping",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Prototyping",
+          "anchor": "7-prototyping",
+          "subs": [],
+          "items": [
+            {
+              "t": "Prototype Mode / Wire 연결"
+            },
+            {
+              "t": "Trigger / 탭·드래그·시간·음성 등 인터랙션 시작 조건"
+            },
+            {
+              "t": "Action / 전환·오버레이·스크롤 등 트리거 결과 동작"
+            },
+            {
+              "t": "Easing / 전환 속도 곡선과 재생 시간 설정"
+            },
+            {
+              "t": "Home Screen Assignment / 시작 화면 지정"
+            },
+            {
+              "t": "Fixed Element / 스크롤해도 제자리에 남는 요소"
+            },
+            {
+              "t": "Preview / 데스크톱·모바일 화면으로 미리보기"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Auto-Animate & Advanced Interaction",
+          "anchor": "8-auto-animate-advanced-interaction",
+          "subs": [],
+          "items": [
+            {
+              "t": "Auto-Animate Principle / 동일 레이어 이름 매칭"
+            },
+            {
+              "t": "Micro-interaction Build / 마이크로 인터랙션 제작"
+            },
+            {
+              "t": "Drag Gesture Prototype / 드래그로 반응하는 인터랙션 제작"
+            },
+            {
+              "t": "Overlay + Scroll Combination / 오버레이 위에 스크롤을 겹쳐 쓰기"
+            },
+            {
+              "t": "Voice Prototype / 음성 명령으로 화면 전환 시연",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Component State Interaction / State 기반 인터랙션"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Sharing and Collaboration",
+      "sections": [
+        {
+          "no": 9,
+          "title": "Share & Handoff",
+          "anchor": "9-share-handoff",
+          "subs": [],
+          "items": [
+            {
+              "t": "Share Mode / Link 생성"
+            },
+            {
+              "t": "Link View Setting / 리뷰·개발·발표 등 링크 용도 설정"
+            },
+            {
+              "t": "Comment / 화면 지점에 핀 꽂아 댓글 남기기"
+            },
+            {
+              "t": "Design Spec / Measurement, CSS 추출"
+            },
+            {
+              "t": "Asset Export / PNG·SVG·PDF 등 형식으로 내보내기"
+            },
+            {
+              "t": "Export Scale / 1x·2x·3x 배율과 OS별 프리셋 지정"
+            },
+            {
+              "t": "Coediting / 여러 명이 동시에 한 문서 편집",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Plugins & the Adobe Ecosystem",
+          "anchor": "10-plugins-the-adobe-ecosystem",
+          "subs": [],
+          "items": [
+            {
+              "t": "Plugin Installation and Use / 설치와 활용"
+            },
+            {
+              "t": "Creative Cloud Library Integration / 라이브러리 연동"
+            },
+            {
+              "t": "Photoshop / Illustrator Asset 가져오기"
+            },
+            {
+              "t": "After Effects Integration / 애프터이펙트로 애니메이션 정교화",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "UI Kit Usage / 머티리얼·iOS 등 기성 UI 키트 활용"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Ux Design",
+      "ref": "software/role-based/ux-design"
+    },
+    {
+      "label": "Product Design",
+      "ref": "software/role-based/product-design"
+    },
+    {
+      "label": "Design System",
+      "ref": "software/skill-based/CS-Theory/design-system"
+    },
+    {
+      "label": "Figma",
+      "ref": "software/skill-based/Design/figma"
+    },
+    {
+      "label": "Frontend",
+      "ref": "software/role-based/frontend"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Nonverbal Signals AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Facial Signals",
+          "anchor": "1-facial-signals",
+          "subs": [],
+          "items": [
+            {
+              "t": "Observation Basics",
+              "delegate": "social/skill-based/Reading/observation"
+            },
+            {
+              "t": "Basic Emotions / Ekman의 표정-정서 대응"
+            },
+            {
+              "t": "Microexpressions / 순간 누출, 보편성 논쟁 포함"
+            },
+            {
+              "t": "Genuine vs Social Smile / Duchenne smile"
+            },
+            {
+              "t": "Facial Asymmetry / 억지 표정의 비대칭"
+            },
+            {
+              "t": "Gaze Direction / 관심의 방향, 시선 회피=거짓 미신 주의"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Body and Gesture",
+          "anchor": "2-body-and-gesture",
+          "subs": [],
+          "items": [
+            {
+              "t": "Posture and Orientation / 몸통·발이 향하는 방향"
+            },
+            {
+              "t": "Illustrators / 말을 보조하는 손짓의 증감"
+            },
+            {
+              "t": "Pacifying Behaviors / 목·얼굴 만지기 등 자기 진정 행동"
+            },
+            {
+              "t": "Blocking Behaviors / 물건·팔로 몸 가리기"
+            },
+            {
+              "t": "Proxemics / 거리와 편안함의 상관"
+            },
+            {
+              "t": "Postural Mirroring / 라포의 신호인 자세 동조"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Voice",
+          "anchor": "3-voice",
+          "subs": [],
+          "items": [
+            {
+              "t": "Pitch and Tone Shifts / 특정 주제에서의 변화"
+            },
+            {
+              "t": "Speech Rate Changes / 빨라짐과 느려짐"
+            },
+            {
+              "t": "Response Latency / 답변까지 걸리는 시간"
+            },
+            {
+              "t": "Pause Patterns / 어디서 머뭇거리는가"
+            },
+            {
+              "t": "Paralinguistic Leakage / 한숨·헛기침·웃음의 위치"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Limits of Nonverbal Reading",
+          "anchor": "4-limits-of-nonverbal-reading",
+          "subs": [],
+          "items": [
+            {
+              "t": "Body Language Myths / 팔짱=방어 같은 단일 해석 미신"
+            },
+            {
+              "t": "Individual Differences / 사람마다 다른 기본값"
+            },
+            {
+              "t": "Cultural Differences / 시선·거리·제스처의 문화차"
+            },
+            {
+              "t": "Stress vs Deception / 스트레스 신호는 거짓 신호가 아님"
+            },
+            {
+              "t": "Channel Reliability / 얼굴보다 몸·목소리가 통제가 덜 됨"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Deception Detection",
+      "ref": "social/skill-based/Reading/lie-detection"
+    }
+  ]
+}

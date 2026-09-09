@@ -1,0 +1,132 @@
+{
+  "title": "Prioritization AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Sorting",
+          "anchor": "1-sorting",
+          "subs": [],
+          "items": [
+            {
+              "t": "Urgency versus Importance / 내 목록을 4분면에 배치해 비중 확인"
+            },
+            {
+              "t": "Opportunity Cost / 한 건을 고를 때 포기하는 것을 적어 비교"
+            },
+            {
+              "t": "Value per Hour / 작업별 산출 대비 소요 시간 계산"
+            },
+            {
+              "t": "Pareto Cut / 결과 대부분을 낸 소수 작업 식별하고 나머지 삭제"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Limiting",
+          "anchor": "2-limiting",
+          "subs": [],
+          "items": [
+            {
+              "t": "WIP Limit / 동시 진행 항목 수 상한 정하고 초과 시 착수 금지"
+            },
+            {
+              "t": "Little's Law / 대기 항목 수와 처리율로 완료까지 걸리는 시간 계산"
+            },
+            {
+              "t": "Queue Aging / 오래 묵은 항목의 나이 재서 착수·폐기 판정"
+            },
+            {
+              "t": "Single Tasking Trial / 한 번에 하나만 하는 조건으로 하루 돌려 처리량 비교"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Declining",
+          "anchor": "3-declining",
+          "subs": [],
+          "items": [
+            {
+              "t": "Saying No / 거절 문장 준비해 실제 요청 한 건 거절"
+            },
+            {
+              "t": "Commitment Audit / 이미 승낙한 것 전부 나열해 유지·해지 판정"
+            },
+            {
+              "t": "Sunk Cost Exit / 아까워서 붙잡고 있던 것 하나 중단"
+            },
+            {
+              "t": "Scope Cut / 완성 기준을 낮춰 끝낸 사례 만들기"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Constraint",
+          "anchor": "4-constraint",
+          "subs": [],
+          "items": [
+            {
+              "t": "Bottleneck Identification / 내 흐름에서 막히는 단계 하나 지목"
+            },
+            {
+              "t": "Constraint Relief / 병목에만 자원 몰고 앞뒤 단계 속도 조절"
+            },
+            {
+              "t": "Batching / 같은 종류 잡무를 묶어 한 블록에 처리"
+            },
+            {
+              "t": "Automation or Delegation / 반복 작업 하나를 자동화하거나 넘기기"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Trade-off Record",
+          "anchor": "5-trade-off-record",
+          "subs": [],
+          "items": [
+            {
+              "t": "Decision Log / 우선순위 결정과 근거를 남겨 사후 검토"
+            },
+            {
+              "t": "Reversibility Test / 되돌릴 수 있는 결정은 빠르게, 아닌 건 느리게 판정"
+            },
+            {
+              "t": "Regret Check / 3개월 뒤 그 결정을 다시 평가해 기록"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Planning",
+      "ref": "meta/time-management/planning"
+    },
+    {
+      "label": "Focus",
+      "ref": "meta/time-management/focus"
+    },
+    {
+      "label": "Budgeting",
+      "ref": "finance/personal-finance/budgeting"
+    },
+    {
+      "label": "Market Testing",
+      "ref": "business/skill-based/Validation/market-testing"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    }
+  ]
+}

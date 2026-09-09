@@ -1,0 +1,405 @@
+{
+  "title": "Kanji AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-26",
+  "parts": [
+    {
+      "no": 1,
+      "title": "The First 100 Characters (N5)",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Kanji Basics",
+          "anchor": "1-kanji-basics",
+          "subs": [],
+          "items": [
+            {
+              "t": "Stroke Order Rules / 한자 획순 원칙(가로 먼저·바깥 먼저) 익혀 따라 쓰기"
+            },
+            {
+              "t": "Stroke Count / 획수 세는 규칙 익혀 한자 10자 획수 세어 보기"
+            },
+            {
+              "t": "Basic Radicals / 기초 부수 20개 뜻 확인하며 손으로 쓰기"
+            },
+            {
+              "t": "Kanji Anatomy / 한자를 부수+나머지로 쪼개 보는 연습 10자"
+            },
+            {
+              "t": "On Kun Intro / 日·人·生의 음독·훈독 예시 단어 각각 읽어 두 읽기 체감"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "N5 Kanji Set",
+          "anchor": "2-n5-kanji-set",
+          "subs": [],
+          "items": [
+            {
+              "t": "N5 Kanji Deck / N5 한자 약 100자 덱 만들어 1회독"
+            },
+            {
+              "t": "N5 Writing Pass / N5 한자 100자 획순대로 한 번씩 손으로 쓰기"
+            },
+            {
+              "t": "Number Kanji / 一~万 숫자 한자로 가격·개수 읽기"
+            },
+            {
+              "t": "Weekday Kanji / 요일 한자(月~日+曜日) 달력에서 읽기"
+            },
+            {
+              "t": "Time Kanji / 時·分·半 든 시각 표현 읽기"
+            },
+            {
+              "t": "Date Reading / 오늘 날짜·내 생일을 한자 표기로 쓰고 읽기"
+            },
+            {
+              "t": "N5 Deck Accuracy / N5 덱 정답률 90% 달성"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "N5 in the Wild",
+          "anchor": "3-n5-in-the-wild",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sign Spotting / 駅·出口·入口 등 표지판 한자 사진에서 읽기"
+            },
+            {
+              "t": "Direction Kanji / 上·下·左·右·中·外 든 안내 표시 읽기"
+            },
+            {
+              "t": "Simple Sentences / N5 한자 섞인 짧은 문장 10개 읽기"
+            },
+            {
+              "t": "N5 Vocabulary Deck / N5 한자로 된 단어 50개 덱에 추가해 1회독"
+            },
+            {
+              "t": "SRS Routine / 덱 복습을 하루 루틴으로 2주 연속 유지",
+              "tags": [
+                "추천"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Everyday Kanji (N4, ~300 characters)",
+      "sections": [
+        {
+          "no": 4,
+          "title": "N4 Kanji Set",
+          "anchor": "4-n4-kanji-set",
+          "subs": [],
+          "items": [
+            {
+              "t": "N4 Kanji Deck / N4 추가 한자 약 170자 덱 만들어 1회독"
+            },
+            {
+              "t": "N4 Writing Pass / N4 한자 한 번씩 손으로 쓰기"
+            },
+            {
+              "t": "Radical Grouping / N4까지의 한자를 부수별로 묶어 재정리"
+            },
+            {
+              "t": "Kanji Typing / 한자 단어 20개 타이핑 변환으로 입력"
+            },
+            {
+              "t": "N4 Deck Accuracy / N4 덱 정답률 90% 달성"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Reading Both Ways",
+          "anchor": "5-reading-both-ways",
+          "subs": [],
+          "items": [
+            {
+              "t": "On Kun Sorting / 단어 30개를 음독·훈독으로 분류해 읽기"
+            },
+            {
+              "t": "Okurigana Practice / 오쿠리가나 붙는 동사·형용사(食べる·新しい) 읽고 쓰기"
+            },
+            {
+              "t": "Multi Reading Words / 같은 한자 다른 읽기(生きる·生まれる·先生) 구분해 읽기"
+            },
+            {
+              "t": "Rendaku Words / 연탁 일어나는 단어(はな+ひ→はなび) 골라 읽기"
+            },
+            {
+              "t": "Verb Kanji Families / 같은 한자 쓰는 동사 짝(行く·行う) 읽기 구분"
+            },
+            {
+              "t": "Counter Kanji / 개수·사람·날짜 세는 단위 한자(個·人·日) 붙여 읽기"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Everyday Exposure",
+          "anchor": "6-everyday-exposure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sign Hunt / 간판·포스터 사진 10장에서 아는 한자 전부 읽기"
+            },
+            {
+              "t": "Menu Decoding / 식당 메뉴의 한자 단어 읽고 뜻 추측하기"
+            },
+            {
+              "t": "Label Reading / 식품 포장 라벨의 한자 표기 읽기"
+            },
+            {
+              "t": "Handwritten Memo / 장보기 메모를 한자 섞어 손으로 쓰기"
+            },
+            {
+              "t": "Review Backlog Zero / 밀린 복습 카드 0장 상태 만들기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Where Reading Breaks Open (N3, ~650 characters)",
+      "sections": [
+        {
+          "no": 7,
+          "title": "N3 Kanji Set",
+          "anchor": "7-n3-kanji-set",
+          "subs": [],
+          "items": [
+            {
+              "t": "N3 Kanji Deck / N3 추가 한자 약 350자 덱 만들어 1회독"
+            },
+            {
+              "t": "Deck Split / 350자를 주 단위 묶음으로 쪼개 순환 일정 만들기"
+            },
+            {
+              "t": "Unknown Kanji Log / 읽다 막힌 한자를 모아 덱에 추가하는 습관 만들기"
+            },
+            {
+              "t": "N3 Deck Accuracy / N3 덱 정답률 90% 달성"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Word Building Patterns",
+          "anchor": "8-word-building-patterns",
+          "subs": [],
+          "items": [
+            {
+              "t": "Two Kanji Compounds / 2자 한자어 구조(수식·병렬·동목)로 뜻 추측 20개"
+            },
+            {
+              "t": "Prefix Suffix Kanji / 접두·접미 한자(不·未·的·性) 붙은 단어 만들어 읽기"
+            },
+            {
+              "t": "Antonym Pairs / 반의 한자 짝(強弱·長短·左右) 20쌍 읽기"
+            },
+            {
+              "t": "Compound Verb Reading / 복합동사(取り出す·見つける) 읽기"
+            },
+            {
+              "t": "Meaning Guess Drill / 처음 보는 한자어 20개 뜻 추측 후 사전 확인해 적중률 기록"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Reading Without Furigana",
+          "anchor": "9-reading-without-furigana",
+          "subs": [],
+          "items": [
+            {
+              "t": "Graded Reader / 후리가나 없는 단계별 읽기책 한 편 완독"
+            },
+            {
+              "t": "Easy News Article / 학습자용 쉬운 뉴스 기사 한 편 완독"
+            },
+            {
+              "t": "Furigana Off / 학습 앱·만화의 후리가나 끄고 한 챕터 읽기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "The Threshold of the Newspaper (N2, ~1000 characters)",
+      "sections": [
+        {
+          "no": 10,
+          "title": "N2 Kanji Set",
+          "anchor": "10-n2-kanji-set",
+          "subs": [],
+          "items": [
+            {
+              "t": "N2 Kanji Deck / N2 추가 한자 약 370자 덱 만들어 1회독"
+            },
+            {
+              "t": "Handwriting Review / 헷갈리는 N2 한자 50자 골라 손으로 쓰기"
+            },
+            {
+              "t": "N2 Deck Accuracy / N2 덱 정답률 90% 달성"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Headlines",
+          "anchor": "11-headlines",
+          "subs": [],
+          "items": [
+            {
+              "t": "Headline Reading / 뉴스 헤드라인 10개 소리 내어 읽기"
+            },
+            {
+              "t": "Headline Vocabulary / 헤드라인 빈출 한자어를 덱에 추가해 1회독"
+            },
+            {
+              "t": "Country Abbreviations / 뉴스 국가 약칭(米·英·独·韓) 읽기"
+            },
+            {
+              "t": "Category Headlines / 정치·경제·사회 분야별 헤드라인 각 5개 읽기"
+            },
+            {
+              "t": "Article Paragraph / 기사 본문 한 단락 사전 없이 읽고 요지 말하기"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Homophones and Lookalikes",
+          "anchor": "12-homophones-and-lookalikes",
+          "subs": [],
+          "items": [
+            {
+              "t": "Homophone Pairs / 동음이의 짝(意外·以外, 機会·機械) 문장에 넣어 구분"
+            },
+            {
+              "t": "Lookalike Kanji / 닮은꼴 짝(未·末, 微·徴) 구분해 쓰기"
+            },
+            {
+              "t": "Kanji Choice Quiz / 문맥에 맞는 한자 고르기 문제 20개 풀기"
+            },
+            {
+              "t": "Four Character Idioms / 사자성어 20개 읽고 뜻 확인"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Mastering Jōyō Kanji (N1 · 2136 characters)",
+      "sections": [
+        {
+          "no": 13,
+          "title": "N1 Kanji Set",
+          "anchor": "13-n1-kanji-set",
+          "subs": [],
+          "items": [
+            {
+              "t": "N1 Kanji Deck / N1 추가 한자 약 1000자 덱 만들어 1회독"
+            },
+            {
+              "t": "Joyo Coverage Check / 상용 2136자 대비 내 덱 누락분 찾아 채우기"
+            },
+            {
+              "t": "Rare Reading Hunt / 기사에서 처음 보는 읽기 10개 수집해 덱에 추가"
+            },
+            {
+              "t": "N1 Deck Accuracy / N1 덱 정답률 90% 달성"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Full Text Reading",
+          "anchor": "14-full-text-reading",
+          "subs": [],
+          "items": [
+            {
+              "t": "Newspaper Article / 신문 기사 한 편 후리가나 없이 완독"
+            },
+            {
+              "t": "Column Summary / 사설·칼럼 한 편 읽고 요지 한 줄 요약"
+            },
+            {
+              "t": "Novel Chapter / 소설 한 챕터 후리가나 없이 읽기"
+            }
+          ]
+        },
+        {
+          "no": 15,
+          "title": "Writing by Hand",
+          "anchor": "15-writing-by-hand",
+          "subs": [],
+          "items": [
+            {
+              "t": "Handwritten Sentences / 한자 섞인 문장 10개 손글씨로 쓰기"
+            },
+            {
+              "t": "Dictation / 들은 문장을 한자 포함해 받아쓰기"
+            },
+            {
+              "t": "Diary Entry / 일기 한 편 한자 섞어 손으로 쓰기"
+            }
+          ]
+        },
+        {
+          "no": 16,
+          "title": "Proper Nouns",
+          "anchor": "16-proper-nouns",
+          "subs": [],
+          "items": [
+            {
+              "t": "Place Names / 도도부현 47개 지명 읽기 도전"
+            },
+            {
+              "t": "Station Names / 노선도에서 역 이름 20개 읽기"
+            },
+            {
+              "t": "Personal Names / 흔한 성씨 20개(佐藤·鈴木·高橋) 읽기"
+            },
+            {
+              "t": "Irregular Readings / 숙자훈 단어(今日·大人·時計) 읽기"
+            },
+            {
+              "t": "Kanken Sample / 한자검정(漢検) 기출 샘플 한 회분 풀어 보기",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Foundations",
+      "ref": "language/japanese/foundations"
+    },
+    {
+      "label": "Grammar",
+      "ref": "language/japanese/grammar"
+    },
+    {
+      "label": "Reading",
+      "ref": "language/japanese/reading"
+    },
+    {
+      "label": "Writing",
+      "ref": "language/japanese/writing"
+    }
+  ]
+}

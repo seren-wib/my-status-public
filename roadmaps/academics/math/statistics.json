@@ -1,0 +1,373 @@
+{
+  "title": "Statistics AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Descriptive Statistics",
+      "sections": [
+        {
+          "no": 1,
+          "title": "Data and Variables",
+          "anchor": "1-data-and-variables",
+          "subs": [],
+          "items": [
+            {
+              "t": "Variable Types / 범주형·순서형·연속형을 나누고 그에 맞게 다루기"
+            },
+            {
+              "t": "Sampling Methods / 표본추출 방식과 각 방식이 놓치는 것"
+            },
+            {
+              "t": "Sources of Bias / 선택편향·생존편향이 생기는 지점 사례로 찾기"
+            },
+            {
+              "t": "Handling Missing and Outliers / 결측·이상치 처리 기준을 정하고 근거 대기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Summarizing One Variable",
+          "anchor": "2-summarizing-one-variable",
+          "subs": [],
+          "items": [
+            {
+              "t": "Measures of Center / 평균·중앙값·최빈값 중 뭐가 언제 왜곡되는지"
+            },
+            {
+              "t": "Measures of Spread / 분산·표준편차·IQR 계산과 해석"
+            },
+            {
+              "t": "Distribution Shape / 왜도·첨도로 분포 모양을 말로 설명"
+            },
+            {
+              "t": "Standardization / z점수로 척도가 다른 값을 비교"
+            },
+            {
+              "t": "Visual Summaries / 같은 데이터를 히스토그램·상자그림 두 방식으로 보기"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Relationships Between Variables",
+          "anchor": "3-relationships-between-variables",
+          "subs": [],
+          "items": [
+            {
+              "t": "Covariance and Correlation / 상관계수 계산과 그것이 못 잡는 관계"
+            },
+            {
+              "t": "Correlation Is Not Causation / 허위상관 예시를 직접 하나 만들기"
+            },
+            {
+              "t": "Contingency Tables / 교차표에서 조건부 비율 읽기"
+            },
+            {
+              "t": "Simpson's Paradox / 심슨의 역설을 숫자로 재현"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Probability",
+      "sections": [
+        {
+          "no": 4,
+          "title": "Probability Foundations",
+          "anchor": "4-probability-foundations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Sample Space and Events / 문제를 표본공간·사건으로 옮겨 적기"
+            },
+            {
+              "t": "Probability Axioms / 공리에서 기본 정리 유도"
+            },
+            {
+              "t": "Counting for Probability / 순열·조합으로 확률 세기"
+            },
+            {
+              "t": "Conditional Probability / 조건부확률 계산과 표기 정리"
+            },
+            {
+              "t": "Independence / 독립과 배반을 혼동하지 않게 판정"
+            },
+            {
+              "t": "Law of Total Probability / 전확률 공식으로 경우 나눠 계산"
+            },
+            {
+              "t": "Bayes' Theorem / 베이즈 정리로 진단검사 문제 풀고 직관 교정"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Random Variables",
+          "anchor": "5-random-variables",
+          "subs": [],
+          "items": [
+            {
+              "t": "Random Variable as Function / 확률변수로 추상화하기"
+            },
+            {
+              "t": "PMF, PDF, CDF / 세 함수의 관계와 변환"
+            },
+            {
+              "t": "Expectation / 기댓값 계산과 선형성 활용"
+            },
+            {
+              "t": "Variance and Moments / 분산·적률의 계산"
+            },
+            {
+              "t": "Joint and Marginal Distributions / 결합분포에서 주변·조건부 뽑기"
+            },
+            {
+              "t": "Covariance of Random Variables / 확률변수 간 공분산과 상관"
+            },
+            {
+              "t": "Transformation of Variables / 변수 변환 후 분포 구하기"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Distributions",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Discrete Distributions",
+          "anchor": "6-discrete-distributions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Bernoulli and Binomial / 이항분포를 쓸 상황 판정하고 계산"
+            },
+            {
+              "t": "Poisson / 포아송 근사와 그 적용 조건"
+            },
+            {
+              "t": "Geometric and Negative Binomial / 첫 성공까지의 분포들"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Continuous Distributions",
+          "anchor": "7-continuous-distributions",
+          "subs": [],
+          "items": [
+            {
+              "t": "Uniform and Exponential / 균등·지수분포와 무기억성 확인"
+            },
+            {
+              "t": "Normal Distribution / 정규분포 계산과 68-95-99.7 감각"
+            },
+            {
+              "t": "Sampling Distribution / 표본통계량의 분포를 시뮬레이션으로 만들어보기"
+            },
+            {
+              "t": "Central Limit Theorem / 중심극한정리가 성립하는 조건과 시뮬레이션 확인"
+            },
+            {
+              "t": "Law of Large Numbers / 대수의 법칙과 CLT를 구분해서 설명"
+            },
+            {
+              "t": "t, Chi-square, F / 추론에 쓰이는 세 분포가 어디서 나오는지"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Inference",
+      "sections": [
+        {
+          "no": 8,
+          "title": "Estimation",
+          "anchor": "8-estimation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Point Estimation / 추정량의 불편성·일치성 확인"
+            },
+            {
+              "t": "Maximum Likelihood / 최대우도추정을 직접 유도해서 풀기"
+            },
+            {
+              "t": "Standard Error / 표준오차와 표준편차를 구분해서 쓰기"
+            },
+            {
+              "t": "Confidence Interval / 신뢰구간을 구성하고 올바르게 해석"
+            },
+            {
+              "t": "Bootstrap / 붓스트랩으로 구간을 만들어 이론값과 비교"
+            }
+          ]
+        },
+        {
+          "no": 9,
+          "title": "Hypothesis Testing",
+          "anchor": "9-hypothesis-testing",
+          "subs": [],
+          "items": [
+            {
+              "t": "Null and Alternative / 실제 질문을 가설 한 쌍으로 세우기"
+            },
+            {
+              "t": "p-value / p값의 정의와 흔한 오독 세 가지 지적"
+            },
+            {
+              "t": "Type I and II Errors / 두 오류와 유의수준의 관계"
+            },
+            {
+              "t": "Power and Sample Size / 검정력 계산과 필요한 표본크기 산출"
+            },
+            {
+              "t": "t-tests / 일표본·이표본·대응표본을 골라 쓰기"
+            },
+            {
+              "t": "ANOVA / 분산분석과 사후검정"
+            },
+            {
+              "t": "Chi-square Tests / 적합도·독립성 검정"
+            },
+            {
+              "t": "Nonparametric Tests / 가정이 깨질 때의 대안 검정"
+            },
+            {
+              "t": "Multiple Comparisons / 다중비교 보정과 p-해킹 인지"
+            },
+            {
+              "t": "Effect Size / 효과크기를 유의성과 함께 보고하기"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Bayesian View",
+          "anchor": "10-bayesian-view",
+          "subs": [],
+          "items": [
+            {
+              "t": "Prior, Likelihood, Posterior / 세 요소로 믿음 갱신을 한 번 계산"
+            },
+            {
+              "t": "Conjugate Priors / 켤레사전분포로 계산이 닫히는 예"
+            },
+            {
+              "t": "Credible vs Confidence Interval / 두 구간의 해석 차이를 말로 구분"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Regression and Modeling",
+      "sections": [
+        {
+          "no": 11,
+          "title": "Linear Regression",
+          "anchor": "11-linear-regression",
+          "subs": [],
+          "items": [
+            {
+              "t": "Simple Linear Regression / 단순회귀를 적합하고 계수를 해석"
+            },
+            {
+              "t": "Least Squares Derivation / 최소제곱 추정량 유도"
+            },
+            {
+              "t": "Model Assumptions / 선형성·독립성·등분산성·정규성 점검"
+            },
+            {
+              "t": "Residual Diagnostics / 잔차 그림으로 가정 위반 찾기"
+            },
+            {
+              "t": "Multiple Regression / 다중회귀에서 통제한다는 말의 뜻"
+            },
+            {
+              "t": "Multicollinearity / 다중공선성 진단과 대처"
+            },
+            {
+              "t": "R-squared and Model Fit / 결정계수의 쓸모와 함정"
+            },
+            {
+              "t": "Categorical Predictors and Interaction / 더미변수와 상호작용항 해석"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Beyond Linear",
+          "anchor": "12-beyond-linear",
+          "subs": [],
+          "items": [
+            {
+              "t": "Logistic Regression / 로지스틱 회귀와 오즈비 해석"
+            },
+            {
+              "t": "Regularized Regression / 릿지·라쏘가 계수에 하는 일"
+            },
+            {
+              "t": "Overfitting / 과적합을 훈련·검증 점수 차이로 확인"
+            },
+            {
+              "t": "Cross-validation / 교차검증 절차를 직접 돌려보기"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Study Design and Causality",
+          "anchor": "13-study-design-and-causality",
+          "subs": [],
+          "items": [
+            {
+              "t": "Experiment vs Observational / 실험과 관찰연구가 말할 수 있는 것의 차이"
+            },
+            {
+              "t": "Randomization and Control / 무작위 배정이 공짜로 주는 것"
+            },
+            {
+              "t": "Confounding / 교란변수 식별과 통제"
+            },
+            {
+              "t": "Causal Inference Basics / 인과 추론의 기본 도구 훑기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Linear Algebra",
+      "ref": "academics/math/linear-algebra"
+    },
+    {
+      "label": "Calculus",
+      "ref": "academics/math/calculus"
+    },
+    {
+      "label": "Discrete Mathematics",
+      "ref": "academics/math/discrete-math"
+    },
+    {
+      "label": "Cognitive Psychology",
+      "ref": "academics/psychology/cognitive"
+    },
+    {
+      "label": "Behavioral Economics",
+      "ref": "academics/economics/behavioral-economics"
+    }
+  ]
+}

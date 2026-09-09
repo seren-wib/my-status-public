@@ -1,0 +1,536 @@
+{
+  "title": "Sentry AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Getting Started with Sentry",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Sentry?",
+          "anchor": "1-what-is-sentry",
+          "subs": [
+            {
+              "title": "Overview of Sentry / What is it?",
+              "items": [
+                {
+                  "t": "Error and Crash Reporting Platform / 예외와 크래시를 모아 보여주는 도구 범주"
+                },
+                {
+                  "t": "Exception Aggregation / 같은 예외를 모아 하나로 보여주는 방식"
+                },
+                {
+                  "t": "Release-Centric Regression Tracking / 릴리스 기준으로 회귀 여부를 판단하는 방식"
+                },
+                {
+                  "t": "SaaS vs Self-hosted / 운영 주체에 따른 배포 형태 선택"
+                }
+              ]
+            },
+            {
+              "title": "Comparison with Other Tools",
+              "items": [
+                {
+                  "t": "Sentry vs Log Aggregation / 로그 전체 저장과 에러 추적의 차이"
+                },
+                {
+                  "t": "Sentry vs APM / 에러 중심과 성능 중심 도구의 차이"
+                },
+                {
+                  "t": "When to Use Sentry / 에러 추적이 필요해지는 시점"
+                }
+              ]
+            },
+            {
+              "title": "Core Concepts",
+              "items": [
+                {
+                  "t": "Event / 발생한 예외 하나를 담은 원시 기록"
+                },
+                {
+                  "t": "Issue and Group / 같은 원인의 이벤트를 묶은 단위"
+                },
+                {
+                  "t": "Fingerprint / 이벤트를 같은 Issue로 묶는 지문값"
+                },
+                {
+                  "t": "Organization, Team, Project / 조직 아래 팀과 프로젝트로 나뉘는 위계"
+                },
+                {
+                  "t": "DSN / SDK가 이벤트를 보낼 프로젝트 주소"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "SaaS / 설치 없이 바로 쓰는 호스팅형 운영",
+                  "tags": [
+                    "추천"
+                  ]
+                },
+                {
+                  "t": "Self-hosted / Docker Compose로 직접 띄워 운영하는 방식"
+                }
+              ],
+              "choice": true
+            },
+            {
+              "title": "SDK Initialization",
+              "items": [
+                {
+                  "t": "SDK Installation / init 호출에 DSN을 넣어 연결하는 과정"
+                },
+                {
+                  "t": "Environment and Release / 배포 환경과 버전을 태그로 구분하는 설정"
+                },
+                {
+                  "t": "sample_rate / 에러 이벤트를 보낼 비율을 정하는 값"
+                },
+                {
+                  "t": "Debug Mode / 연결 확인용 테스트 이벤트를 보내는 모드"
+                }
+              ]
+            },
+            {
+              "title": "SDKs by Platform",
+              "items": [
+                {
+                  "t": "Browser JavaScript / 브라우저에서 발생하는 예외를 잡는 SDK"
+                },
+                {
+                  "t": "Node.js / 서버 런타임 예외를 잡는 SDK"
+                },
+                {
+                  "t": "Python / Django·Flask 프레임워크용 예외 수집 SDK"
+                },
+                {
+                  "t": "Java / Spring 프레임워크용 예외 수집 SDK"
+                },
+                {
+                  "t": "Mobile / Android·iOS·React Native용 SDK"
+                },
+                {
+                  "t": "Go, PHP, Ruby, .NET / 그 외 언어별 공식 SDK 목록"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Error Tracking",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Event / Context",
+          "anchor": "3-event-context",
+          "subs": [
+            {
+              "title": "Event Structure",
+              "items": [
+                {
+                  "t": "Exception / 예외 종류와 스택트레이스를 담은 필드"
+                },
+                {
+                  "t": "Message Event / captureMessage로 보내는 비예외 로그"
+                },
+                {
+                  "t": "Level / fatal·error·warning·info 등 심각도 값"
+                },
+                {
+                  "t": "Culprit / 원인으로 지목된 함수나 트랜잭션 이름"
+                },
+                {
+                  "t": "Platform / 이벤트를 보낸 언어·SDK 정보"
+                }
+              ]
+            },
+            {
+              "title": "Context",
+              "items": [
+                {
+                  "t": "Tags / 이벤트를 검색·필터링할 키값 쌍"
+                },
+                {
+                  "t": "User Context / setUser로 넣는 겪은 사용자 정보"
+                },
+                {
+                  "t": "Extra and Contexts / 구조화된 부가 디버깅 정보"
+                },
+                {
+                  "t": "Breadcrumbs / 에러 전까지의 사용자 행동 발자국"
+                },
+                {
+                  "t": "Attachments / 스크린샷 등 재현용 첨부 파일"
+                },
+                {
+                  "t": "Scope / withScope로 태그·컨텍스트를 묶는 범위"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 4,
+          "title": "Grouping",
+          "anchor": "4-grouping",
+          "subs": [],
+          "items": [
+            {
+              "t": "Default Grouping / 스택트레이스와 예외 타입으로 자동 묶기"
+            },
+            {
+              "t": "Custom Fingerprint / fingerprint 배열로 묶음 기준을 직접 지정"
+            },
+            {
+              "t": "Server-side Fingerprint Rules / 서버에서 일괄 적용하는 묶음 규칙"
+            },
+            {
+              "t": "Stack Trace Rules / 내 코드 프레임만 골라 지문에 반영하는 규칙"
+            },
+            {
+              "t": "Merge and Unmerge Issues / 잘못 나뉘거나 뭉친 Issue를 재조정"
+            },
+            {
+              "t": "Diagnosing Over-Splitting and Over-Merging / 묶음이 과하게 쪼개지거나 뭉친 원인 진단"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Issue Workflow",
+          "anchor": "5-issue-workflow",
+          "subs": [],
+          "items": [
+            {
+              "t": "Issue State / 미해결·해결·보관 등 처리 상태"
+            },
+            {
+              "t": "Resolve in Next Release / 다음 배포에서 고쳐질 예정으로 표시"
+            },
+            {
+              "t": "Assign / 소유 규칙에 따라 담당자를 자동 지정"
+            },
+            {
+              "t": "Issue Search Query / is:·assigned: 같은 검색 문법"
+            },
+            {
+              "t": "Saved Search / 자주 쓰는 검색 조건 저장"
+            },
+            {
+              "t": "Regression Detection / 해결 표시된 Issue가 재발했는지 판정"
+            },
+            {
+              "t": "Delete & Discard / Issue 삭제와 향후 유입 차단의 차이"
+            }
+          ]
+        },
+        {
+          "no": 6,
+          "title": "Noise Control",
+          "anchor": "6-noise-control",
+          "subs": [],
+          "items": [
+            {
+              "t": "Inbound Filter / 브라우저 확장·구형 브라우저 잡음 차단"
+            },
+            {
+              "t": "ignoreErrors / 특정 에러 메시지를 전송 전에 제외"
+            },
+            {
+              "t": "beforeSend Hook / 전송 직전 이벤트를 가공·차단하는 콜백"
+            },
+            {
+              "t": "Rate Limiting / 급증한 이벤트를 자동으로 제한"
+            },
+            {
+              "t": "Client-side Sampling / SDK 단에서 미리 표본만 전송"
+            },
+            {
+              "t": "Quota / 플랜별 이벤트 전송 한도 관리"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Releases and Source Maps",
+      "sections": [
+        {
+          "no": 7,
+          "title": "Release",
+          "anchor": "7-release",
+          "subs": [],
+          "items": [
+            {
+              "t": "Release Creation / sentry-cli로 새 릴리스 버전을 등록"
+            },
+            {
+              "t": "Commit Integration / 릴리스에 커밋 목록을 연결"
+            },
+            {
+              "t": "Suspect Commits / 에러를 들여온 것으로 지목된 커밋"
+            },
+            {
+              "t": "Deploy Tracking / environment별 배포 시점 기록"
+            },
+            {
+              "t": "Release Health / 크래시 없는 세션 비율과 채택률 지표"
+            },
+            {
+              "t": "Session Tracking / 릴리스 건강도 계산의 기반 데이터 수집"
+            },
+            {
+              "t": "First Seen and Last Seen Release / 처음·마지막으로 발생한 릴리스 버전"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Source Maps / Symbolication",
+          "anchor": "8-source-maps-symbolication",
+          "subs": [
+            {
+              "title": "JavaScript",
+              "items": [
+                {
+                  "t": "Source Map Upload / sentry-cli나 번들러 플러그인으로 업로드"
+                },
+                {
+                  "t": "debug_id / 소스맵과 번들을 정확히 짝짓는 식별자"
+                },
+                {
+                  "t": "Matching release and dist / 이벤트와 소스맵을 잇는 두 키값 일치"
+                },
+                {
+                  "t": "Inline vs Hosted Source Map / 소스맵을 파일에 내장할지 따로 둘지"
+                },
+                {
+                  "t": "Upload Verification / Source Map Wizard로 업로드 상태 점검"
+                }
+              ]
+            },
+            {
+              "title": "Native / Mobile",
+              "items": [
+                {
+                  "t": "ProGuard / R8 난독화 매핑 파일 업로드"
+                },
+                {
+                  "t": "dSYM Upload / iOS 네이티브 심볼 파일 업로드"
+                },
+                {
+                  "t": "Debug Symbols / 네이티브 크래시를 코드 위치로 되돌리는 정보"
+                },
+                {
+                  "t": "Diagnosing Symbolication Failure / 심볼릭 복원이 실패하는 원인 진단"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 9,
+          "title": "CI/CD Integration",
+          "anchor": "9-cicd-integration",
+          "subs": [],
+          "items": [
+            {
+              "t": "sentry-cli / 릴리스·소스맵 작업을 자동화하는 CLI"
+            },
+            {
+              "t": "Bundler Plugin / Webpack·Vite·Rollup용 빌드 통합 플러그인"
+            },
+            {
+              "t": "GitHub Action / CI 파이프라인에 업로드 단계를 끼워 넣는 연동"
+            },
+            {
+              "t": "Auth Token / CI에서 쓰는 권한 범위 제한 토큰"
+            },
+            {
+              "t": "Automating Source Map Upload / 빌드마다 소스맵 업로드를 자동 실행"
+            },
+            {
+              "t": "Automatic Release Creation / 배포 시 릴리스 버전을 자동 생성"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Performance and Operations",
+      "sections": [
+        {
+          "no": 10,
+          "title": "Tracing / Performance",
+          "anchor": "10-tracing-performance",
+          "subs": [],
+          "items": [
+            {
+              "t": "Transaction and Span / 요청 전체와 그 안의 구간을 나타내는 단위"
+            },
+            {
+              "t": "Trace Propagation / sentry-trace 헤더로 트레이스를 이어 붙임"
+            },
+            {
+              "t": "tracePropagationTargets / 트레이스 헤더를 붙일 대상 URL 지정"
+            },
+            {
+              "t": "Web Vitals / 트레이싱에 곁들여 보는 프론트 성능 지표"
+            },
+            {
+              "t": "Performance Issue Detection / N+1 쿼리 등 느린 패턴 자동 탐지"
+            },
+            {
+              "t": "Trace Explorer / 느린 트랜잭션을 Issue처럼 묶어 보는 화면"
+            },
+            {
+              "t": "Frontend-Backend Trace Linking / 프론트 요청과 백엔드 처리를 한 트레이스로 연결"
+            },
+            {
+              "t": "OpenTelemetry Integration / OTel 계측 데이터를 그대로 받아들이는 연동"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Additional Products",
+          "anchor": "11-additional-products",
+          "subs": [],
+          "items": [
+            {
+              "t": "Session Replay / 에러 발생 전후 화면을 영상처럼 재생"
+            },
+            {
+              "t": "Profiling / 코드 실행 시간을 함수 단위로 측정"
+            },
+            {
+              "t": "Cron Monitoring / 예약 작업이 정시에 실행됐는지 check-in으로 확인"
+            },
+            {
+              "t": "Uptime Monitoring / 서비스 응답 여부를 주기적으로 점검"
+            },
+            {
+              "t": "User Feedback Widget / 에러 화면에서 사용자 제보를 직접 수집"
+            },
+            {
+              "t": "Logs / 이벤트 옆에 남기는 구조화 로그 스트림"
+            },
+            {
+              "t": "AI Issue Fix / Issue 원인과 수정안을 AI가 제시하는 기능"
+            }
+          ]
+        },
+        {
+          "no": 12,
+          "title": "Alerting and Integrations",
+          "anchor": "12-alerting-and-integrations",
+          "subs": [],
+          "items": [
+            {
+              "t": "Issue Alert vs Metric Alert / 이슈 발생 기준과 지표 임계값 기준 알림"
+            },
+            {
+              "t": "Alert Condition Composition / 여러 조건을 조합한 알림 규칙 구성"
+            },
+            {
+              "t": "Notification Setting / 개인·팀 단위로 나눈 알림 수신 설정"
+            },
+            {
+              "t": "Integration / Slack·Jira·PagerDuty로 보내는 연동"
+            },
+            {
+              "t": "GitHub and GitLab Integration / 커밋·PR과 Issue를 잇는 연동"
+            },
+            {
+              "t": "Issue Owners / 코드 소유자 파일로 담당자를 자동 배정"
+            },
+            {
+              "t": "Internal Integration / 조직 내부용 커스텀 웹훅 연동"
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Organization Management",
+          "anchor": "13-organization-management",
+          "subs": [],
+          "items": [
+            {
+              "t": "Project Separation Strategy / 서비스·팀 기준으로 프로젝트를 나누는 전략"
+            },
+            {
+              "t": "Environment Separation / 운영·스테이징 환경을 태그로 구분"
+            },
+            {
+              "t": "Member Role / 팀 단위 권한을 정하는 구성원 역할"
+            },
+            {
+              "t": "SSO and SCIM / 조직 계정 인증과 프로비저닝 연동",
+              "tags": [
+                "별도"
+              ]
+            },
+            {
+              "t": "Client-side Data Scrubbing / 개인정보를 SDK 단에서 먼저 지움"
+            },
+            {
+              "t": "Server-side Scrubbing Rule / 서버에 도달한 후 적용하는 마스킹 규칙"
+            },
+            {
+              "t": "Data Retention / 이벤트를 보관하는 기간 설정"
+            },
+            {
+              "t": "Sentry Web API / 데이터를 외부에서 조회·조작하는 API"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Frontend",
+      "ref": "software/role-based/frontend"
+    },
+    {
+      "label": "Backend",
+      "ref": "software/role-based/backend"
+    },
+    {
+      "label": "Devops",
+      "ref": "software/role-based/devops"
+    },
+    {
+      "label": "OpenTelemetry",
+      "ref": "software/skill-based/Infra-DevOps/opentelemetry"
+    },
+    {
+      "label": "Datadog",
+      "ref": "software/skill-based/Infra-DevOps/datadog"
+    },
+    {
+      "label": "GitLab CI/CD",
+      "ref": "software/skill-based/Infra-DevOps/gitlab-ci"
+    }
+  ]
+}

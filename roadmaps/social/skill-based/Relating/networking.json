@@ -1,0 +1,99 @@
+{
+  "title": "Networking AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Weak Ties",
+          "anchor": "1-weak-ties",
+          "subs": [],
+          "items": [
+            {
+              "t": "Strength of Weak Ties / 약한 연결의 힘"
+            },
+            {
+              "t": "Dormant Ties / 끊긴 관계 되살리기"
+            },
+            {
+              "t": "Diverse Network / 다양한 연결의 가치"
+            },
+            {
+              "t": "Bridging Connections / 서로 다른 집단 잇기"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Reciprocity",
+          "anchor": "2-reciprocity",
+          "subs": [],
+          "items": [
+            {
+              "t": "Give First / 먼저 주기"
+            },
+            {
+              "t": "Balanced Exchange / 주고받음의 균형"
+            },
+            {
+              "t": "Generosity without Ledger / 계산 없는 베풂"
+            },
+            {
+              "t": "Asking for Help / 부탁도 관계다"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Follow-up and Cadence",
+          "anchor": "3-follow-up-and-cadence",
+          "subs": [],
+          "items": [
+            {
+              "t": "Timely Follow-up / 때 맞춘 후속 연락"
+            },
+            {
+              "t": "Keeping in Touch / 이유 없이도 안부"
+            },
+            {
+              "t": "Remembering Details / 상대 정보 기억·활용"
+            },
+            {
+              "t": "Milestone Touchpoints / 계기마다 연결 — 생일·성취"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Maintenance Systems",
+          "anchor": "4-maintenance-systems",
+          "subs": [],
+          "items": [
+            {
+              "t": "Relationship Inventory / 관계 목록·우선순위"
+            },
+            {
+              "t": "Contact Cadence / 연락 주기 설계"
+            },
+            {
+              "t": "Lightweight CRM / 가벼운 기록 시스템"
+            },
+            {
+              "t": "Pruning and Drifting / 멀어짐 받아들이기"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Bonding",
+      "ref": "social/skill-based/Relating/bonding"
+    }
+  ]
+}

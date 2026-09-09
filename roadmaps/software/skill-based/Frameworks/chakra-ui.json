@@ -1,0 +1,452 @@
+{
+  "title": "Chakra UI AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-22",
+  "parts": [
+    {
+      "no": 1,
+      "title": "Introduction to Chakra UI",
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Chakra UI?",
+          "anchor": "1-what-is-chakra-ui",
+          "subs": [
+            {
+              "title": "Overview / What is it?",
+              "items": [
+                {
+                  "t": "React Component Library / 리액트 트리에 바로 끼우는 완성 컴포넌트 모음"
+                },
+                {
+                  "t": "Style Props-based API / 스타일 값을 컴포넌트 인자로 넘기는 설계"
+                },
+                {
+                  "t": "Ark UI / 컴포넌트 동작을 Zag.js 상태 기계로 정의한 층"
+                },
+                {
+                  "t": "Panda CSS Style Engine / v3가 스타일을 정적 CSS로 뽑는 내부 엔진"
+                }
+              ]
+            },
+            {
+              "title": "Comparison and Judgment",
+              "items": [
+                {
+                  "t": "Chakra UI vs MUI / 디자인 명세 유무로 갈리는 두 라이브러리의 차이"
+                },
+                {
+                  "t": "Chakra UI vs Tailwind Combination / 클래스와 props 스타일을 섞을 때의 판단"
+                },
+                {
+                  "t": "When to Choose Chakra UI / 이 라이브러리가 맞는 프로젝트를 가르는 기준"
+                }
+              ]
+            },
+            {
+              "title": "Versions",
+              "items": [
+                {
+                  "t": "v2 / Emotion 런타임 위에 스타일을 얹던 구버전 구조"
+                },
+                {
+                  "t": "v3 Changes / 스니펫과 슬롯 레시피로 바뀐 지점"
+                }
+              ]
+            }
+          ],
+          "items": []
+        },
+        {
+          "no": 2,
+          "title": "Getting Started",
+          "anchor": "2-getting-started",
+          "subs": [
+            {
+              "title": "Installation",
+              "items": [
+                {
+                  "t": "@chakra-ui/react / 컴포넌트와 스타일 시스템을 함께 받는 단일 패키지"
+                },
+                {
+                  "t": "Provider Setup / 앱 최상단에 스타일 시스템을 주입하는 감싸개"
+                },
+                {
+                  "t": "defaultSystem / 기본 토큰과 레시피가 미리 담긴 시스템 객체"
+                },
+                {
+                  "t": "CLI Snippet Addition / 부품 조립 코드를 내 소스로 받아오는 명령"
+                }
+              ]
+            },
+            {
+              "title": "Initial Setup",
+              "items": [
+                {
+                  "t": "Color Mode Initialization / 모드 상태를 next-themes에 맡기는 초기화"
+                },
+                {
+                  "t": "Framework Integration / Next.js·Vite마다 달라지는 프로바이더 배치"
+                }
+              ]
+            }
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "Style System",
+      "sections": [
+        {
+          "no": 3,
+          "title": "Style Props",
+          "anchor": "3-style-props",
+          "subs": [],
+          "items": [
+            {
+              "t": "Style Props Concept / CSS 속성 하나하나를 prop으로 넘기는 방식"
+            },
+            {
+              "t": "Shorthand / padding·margin을 한두 글자로 줄인 표기"
+            },
+            {
+              "t": "Token-aware Value / 숫자를 넘기면 테마 눈금 값으로 바뀌는 규칙"
+            },
+            {
+              "t": "Responsive Value / 화면 너비별 값을 배열이나 객체로 주는 문법"
+            },
+            {
+              "t": "Pseudo Props / 밑줄 접두사로 가상 클래스 상태에 스타일을 거는 표기"
+            },
+            {
+              "t": "Group, Peer Props, _groupHover, _peerChecked / 부모나 형제 상태에 따라 자기 스타일을 바꾸는 표기"
+            },
+            {
+              "t": "css Prop / style props로 안 되는 CSS를 넣는 통로"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Layout Primitives",
+          "anchor": "4-layout-primitives",
+          "subs": [],
+          "items": [
+            {
+              "t": "Box / 모든 style props를 받는 최소 단위 상자"
+            },
+            {
+              "t": "Flex, Stack, HStack, VStack / 가로·세로 배치와 사이 간격을 맡는 상자"
+            },
+            {
+              "t": "Grid and SimpleGrid / 열 수와 최소 너비로 격자를 잡는 상자"
+            },
+            {
+              "t": "Container, Center, Spacer / 최대 너비·가운데 정렬·빈 자리를 맡는 조각"
+            },
+            {
+              "t": "AspectRatio and Wrap / 비율 고정과 넘칠 때 줄바꿈을 맡는 상자"
+            },
+            {
+              "t": "Utility Component / 반복과 조건 분기를 JSX 안에서 줄이는 조각",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Tokens",
+          "anchor": "5-tokens",
+          "subs": [],
+          "items": [
+            {
+              "t": "Core Token vs Semantic Token / 원시 값과 용도 이름을 나눠 두는 두 층"
+            },
+            {
+              "t": "Color Palette / 한 컴포넌트의 색 계열을 통째로 바꾸는 지정"
+            },
+            {
+              "t": "Spacing and Sizing Scale / 간격과 크기를 정해진 눈금으로 고정하는 체계"
+            },
+            {
+              "t": "Typography Token / 글꼴·크기·행간을 묶어 이름 붙인 값"
+            },
+            {
+              "t": "Radius, Shadow, zIndex / 모서리·그림자·쌓임 순서를 값으로 통제하는 토큰"
+            },
+            {
+              "t": "Breakpoints / 반응형 값이 갈라지는 화면 너비 경계"
+            },
+            {
+              "t": "Conditions Definition / 상태 선택자에 내 이름을 붙여 두는 정의"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "Component Usage",
+      "sections": [
+        {
+          "no": 6,
+          "title": "Component API Structure",
+          "anchor": "6-component-api-structure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Compound Component / 한 컴포넌트를 여러 부품 태그로 쪼개 쓰는 구조"
+            },
+            {
+              "t": "asChild Prop / 자기 대신 자식 요소를 실제 태그로 쓰게 하는 지정"
+            },
+            {
+              "t": "Controlled vs Uncontrolled / 열림 상태를 밖에서 쥘지 안에 맡길지 가르는 기준"
+            },
+            {
+              "t": "Common Props / 컴포넌트마다 공통으로 뚫려 있는 변형 인자"
+            },
+            {
+              "t": "Portal Usage Rules / 겹침 요소를 body로 옮겨 잘림을 피하는 규칙"
+            }
+          ]
+        },
+        {
+          "no": 7,
+          "title": "Core Component Groups",
+          "anchor": "7-core-component-groups",
+          "subs": [],
+          "items": [
+            {
+              "t": "Form Components / 라벨·오류 문구까지 묶어 주는 입력 부품"
+            },
+            {
+              "t": "Overlay Components / 포커스 가둠과 바깥 클릭 닫기를 맡는 겹침 층"
+            },
+            {
+              "t": "Feedback Components / 진행과 결과를 화면에 알리는 표시 부품"
+            },
+            {
+              "t": "Navigation Components / 화살표 키 이동과 열림 하나를 관리하는 이동 부품"
+            },
+            {
+              "t": "Data Display / 값을 읽기 전용으로 늘어놓는 표시 부품"
+            },
+            {
+              "t": "Typography Components / 글자 크기와 색을 토큰으로 고정한 텍스트 부품"
+            }
+          ]
+        },
+        {
+          "no": 8,
+          "title": "Form Handling",
+          "anchor": "8-form-handling",
+          "subs": [],
+          "items": [
+            {
+              "t": "Field Structure / 라벨과 오류 문구를 id로 이어 붙이는 묶음"
+            },
+            {
+              "t": "react-hook-form Integration / 비제어 폼 라이브러리에 입력 부품을 물리는 방법"
+            },
+            {
+              "t": "Zod Validation / 스키마 검사 결과를 오류 문구로 옮기는 연결"
+            },
+            {
+              "t": "Native Element Delegation / asChild로 실제 input 요소에 넘기는 방법"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "Theming and Recipes",
+      "sections": [
+        {
+          "no": 9,
+          "title": "System Configuration",
+          "anchor": "9-system-configuration",
+          "subs": [],
+          "items": [
+            {
+              "t": "createSystem and defineConfig / 기본 시스템에 내 설정을 합쳐 만드는 함수"
+            },
+            {
+              "t": "Theme Extension / 기본 토큰 위에 내 값을 덧붙이는 자리"
+            },
+            {
+              "t": "globalCss / 시스템 안에서 전역 선택자 스타일을 두는 자리"
+            },
+            {
+              "t": "Preflight / 브라우저 기본 여백과 글꼴을 걷어내는 초기화"
+            },
+            {
+              "t": "Custom Condition / 데이터 속성으로 내 상태 선택자를 만드는 설정"
+            },
+            {
+              "t": "Cascade Layer Structure / 레이어로 스타일 우선순위를 층으로 나눈 구조"
+            }
+          ]
+        },
+        {
+          "no": 10,
+          "title": "Recipes",
+          "anchor": "10-recipes",
+          "subs": [],
+          "items": [
+            {
+              "t": "defineRecipe / 단일 요소 컴포넌트의 변형 규칙을 적는 정의"
+            },
+            {
+              "t": "defineSlotRecipe / 부품이 여럿인 컴포넌트를 부품별로 적는 정의"
+            },
+            {
+              "t": "base, variants, defaultVariants / 공통 스타일과 변형 목록·기본값을 나눠 적는 자리"
+            },
+            {
+              "t": "compoundVariants / 두 변형이 겹칠 때만 적용할 스타일 규칙"
+            },
+            {
+              "t": "useRecipe and useSlotRecipe / 레시피를 내 컴포넌트에서 직접 꺼내 쓰는 훅"
+            },
+            {
+              "t": "Overriding Built-in Component Recipes / 기본 제공 컴포넌트의 변형을 갈아끼우는 방법"
+            }
+          ]
+        },
+        {
+          "no": 11,
+          "title": "Color Mode & Theming",
+          "anchor": "11-color-mode-theming",
+          "subs": [],
+          "items": [
+            {
+              "t": "Light and Dark Semantic Token / 모드마다 다른 값을 한 이름에 묶는 토큰"
+            },
+            {
+              "t": "useColorMode and ColorModeButton / 현재 모드를 읽고 뒤집는 훅과 버튼"
+            },
+            {
+              "t": "SSR Flicker Prevention / 첫 그림에서 색이 한 번 튀는 것을 막는 방법"
+            },
+            {
+              "t": "Multi Brand Theme Composition / 브랜드마다 다른 토큰 묶음을 갈아 끼우는 구성"
+            },
+            {
+              "t": "Theme File Separation Strategy / 토큰과 레시피를 파일로 쪼개 두는 기준"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "Production",
+      "sections": [
+        {
+          "no": 12,
+          "title": "TypeScript & Tools",
+          "anchor": "12-typescript-tools",
+          "subs": [],
+          "items": [
+            {
+              "t": "chakra typegen / 내 토큰 이름을 prop 타입으로 뽑아내는 명령"
+            },
+            {
+              "t": "chakra() Factory / 내 태그에 style props를 붙여 주는 함수"
+            },
+            {
+              "t": "ESLint Rules / 잘못된 prop과 구버전 API를 잡는 검사 규칙",
+              "tags": [
+                "선택"
+              ]
+            },
+            {
+              "t": "Storybook Integration / 프로바이더를 데코레이터로 씌우는 연결",
+              "tags": [
+                "선택"
+              ]
+            }
+          ]
+        },
+        {
+          "no": 13,
+          "title": "Performance and SSR",
+          "anchor": "13-performance-and-ssr",
+          "subs": [],
+          "items": [
+            {
+              "t": "Bundle Size and Tree Shaking / 안 쓴 컴포넌트를 빌드에서 덜어내는 조건"
+            },
+            {
+              "t": "Runtime Style Cost / 렌더할 때마다 스타일 값을 계산하는 비용"
+            },
+            {
+              "t": "RSC / 서버 컴포넌트와 클라이언트를 가르는 경계"
+            },
+            {
+              "t": "Rerender Optimization / 매 렌더마다 새로 생기는 스타일 객체를 줄이는 방법"
+            },
+            {
+              "t": "Static CSS Extraction Strategy / 자주 쓰는 스타일을 빌드 때 미리 뽑는 전략"
+            }
+          ]
+        },
+        {
+          "no": 14,
+          "title": "Accessibility and Migration",
+          "anchor": "14-accessibility-and-migration",
+          "subs": [],
+          "items": [
+            {
+              "t": "Built-in Accessibility Scope / 라이브러리가 대신 처리해 주는 접근성 범위"
+            },
+            {
+              "t": "Focus Management and Keyboard Navigation / 포커스 순서와 키 이동을 넘겨받는 동작"
+            },
+            {
+              "t": "ARIA Attribute Customization / 자동으로 붙는 role과 aria 값을 바꾸는 방법"
+            },
+            {
+              "t": "v2 → v3 Migration / 구버전 코드를 자동 변환기로 옮기는 절차"
+            },
+            {
+              "t": "Deprecated API Cleanup / 사라진 prop과 컴포넌트를 걷어내는 정리"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "React",
+      "ref": "software/skill-based/Frameworks/react"
+    },
+    {
+      "label": "Nextjs",
+      "ref": "software/skill-based/Frameworks/nextjs"
+    },
+    {
+      "label": "Design System",
+      "ref": "software/skill-based/CS-Theory/design-system"
+    },
+    {
+      "label": "Css",
+      "ref": "software/skill-based/Languages/css"
+    },
+    {
+      "label": "Material UI (MUI)",
+      "ref": "software/skill-based/Frameworks/material-ui"
+    },
+    {
+      "label": "Typescript",
+      "ref": "software/skill-based/Languages/typescript"
+    }
+  ]
+}

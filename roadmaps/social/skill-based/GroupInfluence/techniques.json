@@ -1,0 +1,100 @@
+{
+  "title": "Propaganda Techniques AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Classic Device Sets",
+          "anchor": "1-classic-device-sets",
+          "subs": [],
+          "items": [
+            {
+              "t": "IPA Seven Devices / name-calling, glittering generalities, transfer, testimonial, plain folks, card stacking, bandwagon"
+            },
+            {
+              "t": "Selective Presentation / card stacking — 유리한 것만 보이고 불리한 것 은폐"
+            },
+            {
+              "t": "Association and Transfer / 권위·혐오 대상과 연결해 감정 전이"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Enemy and Blame",
+          "anchor": "2-enemy-and-blame",
+          "subs": [],
+          "items": [
+            {
+              "t": "Labeling / 명명·낙인으로 프레임 고정"
+            },
+            {
+              "t": "Scapegoating / 희생양 지목으로 불만 배출"
+            },
+            {
+              "t": "Dehumanization / 외집단 비인간화"
+            },
+            {
+              "t": "Whataboutism / 물타기로 책임 분산"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Emotion and Pressure",
+          "anchor": "3-emotion-and-pressure",
+          "subs": [],
+          "items": [
+            {
+              "t": "Fear Appeal / 공포 소구와 위협 강도 조절"
+            },
+            {
+              "t": "Anger Mobilization / 분노를 행동 에너지로 전환"
+            },
+            {
+              "t": "Hope and Utopia / 희망·유토피아 약속"
+            },
+            {
+              "t": "Bandwagon Pressure / 대세론·편승으로 동조 압력"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Manufactured Consensus",
+          "anchor": "4-manufactured-consensus",
+          "subs": [],
+          "items": [
+            {
+              "t": "Astroturfing / 풀뿌리 위장 여론 조작"
+            },
+            {
+              "t": "Sock Puppets / 다중 계정으로 다수 가장"
+            },
+            {
+              "t": "Fabricated Grassroots / 가짜 시민단체·자발성 연출"
+            },
+            {
+              "t": "Big Lie / 큰 거짓말과 반복"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Media Strategy",
+      "ref": "social/skill-based/GroupInfluence/media-strategy"
+    },
+    {
+      "label": "Framing",
+      "ref": "social/skill-based/Influence/framing"
+    }
+  ]
+}

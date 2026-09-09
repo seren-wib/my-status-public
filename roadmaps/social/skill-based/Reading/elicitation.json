@@ -1,0 +1,146 @@
+{
+  "title": "Elicitation AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-24",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "What is Elicitation?",
+          "anchor": "1-what-is-elicitation",
+          "subs": [],
+          "items": [
+            {
+              "t": "Passive Information Gathering",
+              "delegate": "social/skill-based/Reading/observation"
+            },
+            {
+              "t": "Elicitation vs Direct Questioning / 질문처럼 안 보이는 대화로 정보 획득"
+            },
+            {
+              "t": "Operating Condition / 심문당한다는 감각이 없어야 작동"
+            },
+            {
+              "t": "Collapse on Exposure / 의도가 드러나면 붕괴"
+            },
+            {
+              "t": "Everyday Contexts / 협상·면접·영업에서 이미 쓰이는 기술"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Psychological Levers",
+          "anchor": "2-psychological-levers",
+          "subs": [],
+          "items": [
+            {
+              "t": "Correction Reflex / 틀린 말을 정정하고 싶은 욕구"
+            },
+            {
+              "t": "Reciprocity / 받은 만큼 돌려주려는 경향"
+            },
+            {
+              "t": "Recognition Desire / 인정받고 과시하고 싶은 욕구"
+            },
+            {
+              "t": "Truth Bias / 상대가 나를 의심하지 않는다는 기본값"
+            },
+            {
+              "t": "Completion Urge / 침묵과 미완성을 채우려는 경향"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "Core Techniques",
+          "anchor": "3-core-techniques",
+          "subs": [],
+          "items": [
+            {
+              "t": "Deliberate False Statement / 일부러 틀리게 말해 정정 유도"
+            },
+            {
+              "t": "Disbelief / 못 믿겠다는 반응으로 증명 유도"
+            },
+            {
+              "t": "Bracketing / 범위를 던져 보정 유도"
+            },
+            {
+              "t": "Assumed Knowledge / 이미 아는 척해 확인 절차 생략시킴"
+            },
+            {
+              "t": "Quid Pro Quo / 내 정보를 먼저 흘려 교환 유도"
+            },
+            {
+              "t": "Flattery / 전문성 인정으로 설명 유도"
+            },
+            {
+              "t": "Reflective Statements / 상대 말끝 되풀이로 지속 유도"
+            },
+            {
+              "t": "Provocative Statement / 도발적 단정으로 반박 유도"
+            },
+            {
+              "t": "Feigned Ignorance / 모르는 척으로 설명 유도"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Conversation Management",
+          "anchor": "4-conversation-management",
+          "subs": [],
+          "items": [
+            {
+              "t": "Natural Entry and Exit / 화제 진입·이탈의 자연스러움"
+            },
+            {
+              "t": "Topic Fragmentation / 목표 정보를 여러 화제·시점에 분산"
+            },
+            {
+              "t": "Indirect Approach / 목표 주변부터 좁혀 들어가기"
+            },
+            {
+              "t": "Interview Structuring / 서술 먼저, 구체화는 나중 — cognitive interview의 원리"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Detection and Costs",
+          "anchor": "5-detection-and-costs",
+          "subs": [],
+          "items": [
+            {
+              "t": "Recognizing Elicitation / 내가 당하는 중임을 아는 단서"
+            },
+            {
+              "t": "Trust Cost / 발각 시 관계 자본 손실"
+            },
+            {
+              "t": "Ethical Boundary / 정보 획득과 기만의 경계"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Cold Reading",
+      "ref": "social/skill-based/Reading/cold-reading"
+    },
+    {
+      "label": "Defense",
+      "ref": "social/skill-based/Manipulation/defense"
+    }
+  ]
+}

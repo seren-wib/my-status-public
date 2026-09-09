@@ -1,0 +1,134 @@
+{
+  "title": "Impression Management AI 생성",
+  "ai": true,
+  "source": "AI가 작성한 로드맵 · roadmap.sh 원본 아님 · 2026-08-25",
+  "parts": [
+    {
+      "no": null,
+      "title": null,
+      "sections": [
+        {
+          "no": 1,
+          "title": "Dramaturgy",
+          "anchor": "1-dramaturgy",
+          "subs": [],
+          "items": [
+            {
+              "t": "Presentation of Self / 상호작용을 무대 위 공연으로 보는 관점, Goffman"
+            },
+            {
+              "t": "Front Stage / 관객 앞에서 유지하는 배역"
+            },
+            {
+              "t": "Back Stage / 배역을 내려놓는 영역, 노출되면 무대가 무너짐"
+            },
+            {
+              "t": "Given vs Given Off / 의도한 신호와 새어나간 신호"
+            },
+            {
+              "t": "Audience Segregation / 관객마다 다른 얼굴, 겹치는 순간의 파열"
+            }
+          ]
+        },
+        {
+          "no": 2,
+          "title": "Self-presentation Strategies",
+          "anchor": "2-self-presentation-strategies",
+          "subs": [],
+          "items": [
+            {
+              "t": "Strategic Self-presentation / ingratiation, self-promotion, exemplification, intimidation, supplication"
+            },
+            {
+              "t": "Liking vs Respect / 호감을 살 것인가 인정을 받을 것인가"
+            },
+            {
+              "t": "Self-monitoring / 상황에 맞춰 자기표현을 조정하는 성향 차이"
+            },
+            {
+              "t": "Authenticity Tradeoff / 연출과 진정성 사이의 긴장"
+            }
+          ]
+        },
+        {
+          "no": 3,
+          "title": "First Impression Design",
+          "anchor": "3-first-impression-design",
+          "subs": [],
+          "items": [
+            {
+              "t": "Warmth and Competence / 첫 판단이 걸리는 두 축, Fiske"
+            },
+            {
+              "t": "Appearance and Setting / 복장·소품·장소가 먼저 말한다"
+            },
+            {
+              "t": "Opening Script / 나를 한 문장으로 내놓는 설계"
+            },
+            {
+              "t": "Primacy Effect / 첫 정보가 이후 해석을 고정"
+            }
+          ]
+        },
+        {
+          "no": 4,
+          "title": "Consistency",
+          "anchor": "4-consistency",
+          "subs": [],
+          "items": [
+            {
+              "t": "Behavioral Consistency / 말과 행동의 누적 일치"
+            },
+            {
+              "t": "Cross-context Coherence / 관객이 달라도 무너지지 않는 선"
+            },
+            {
+              "t": "Overclaiming Risk / 감당 못 할 이미지는 부채가 된다"
+            },
+            {
+              "t": "Digital Footprint / 지워지지 않는 기록도 무대"
+            }
+          ]
+        },
+        {
+          "no": 5,
+          "title": "Repair",
+          "anchor": "5-repair",
+          "subs": [],
+          "items": [
+            {
+              "t": "Face and Facework / 체면 유지·회복 행위, Goffman"
+            },
+            {
+              "t": "Accounts / 해명·정당화·사과의 구분"
+            },
+            {
+              "t": "Apology Components / 인정·책임·보상·재발 방지"
+            },
+            {
+              "t": "Timing of Repair / 늦은 해명은 변명이 된다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outside": [
+    {
+      "label": "Reputation",
+      "ref": "social/skill-based/Presence/reputation"
+    },
+    {
+      "label": "Status Signaling",
+      "ref": "social/skill-based/Presence/status-signaling"
+    },
+    {
+      "label": "Observation",
+      "ref": "social/skill-based/Reading/observation"
+    },
+    {
+      "label": "Bonding",
+      "ref": "social/skill-based/Relating/bonding"
+    }
+  ]
+}

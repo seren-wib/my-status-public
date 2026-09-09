@@ -1,0 +1,754 @@
+[
+  {
+    "path": "skill-based/AI/chroma",
+    "title": "Chroma AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 74
+  },
+  {
+    "path": "skill-based/AI/langchain",
+    "title": "LangChain AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 128
+  },
+  {
+    "path": "skill-based/AI/llamaindex",
+    "title": "LlamaIndex AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 129
+  },
+  {
+    "path": "skill-based/AI/pinecone",
+    "title": "Pinecone AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 93
+  },
+  {
+    "path": "skill-based/AI/pytorch",
+    "title": "PyTorch AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 16,
+    "items": 126
+  },
+  {
+    "path": "skill-based/AI/qdrant",
+    "title": "Qdrant AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 93
+  },
+  {
+    "path": "skill-based/AI/tensorflow",
+    "title": "TensorFlow AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 16,
+    "items": 129
+  },
+  {
+    "path": "skill-based/AI/weaviate",
+    "title": "Weaviate AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 92
+  },
+  {
+    "path": "skill-based/Blockchain/ethersjs",
+    "title": "ethers.js AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 12,
+    "items": 80
+  },
+  {
+    "path": "skill-based/Blockchain/foundry",
+    "title": "Foundry AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 106
+  },
+  {
+    "path": "skill-based/Blockchain/hardhat",
+    "title": "Hardhat AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 101
+  },
+  {
+    "path": "skill-based/Blockchain/solidity",
+    "title": "Solidity AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 129
+  },
+  {
+    "path": "skill-based/Blockchain/web3js",
+    "title": "web3.js AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 12,
+    "items": 76
+  },
+  {
+    "path": "skill-based/Build-Tools/cmake",
+    "title": "CMake AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 109
+  },
+  {
+    "path": "skill-based/Build-Tools/esbuild",
+    "title": "esbuild AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 10,
+    "items": 66
+  },
+  {
+    "path": "skill-based/Build-Tools/gradle",
+    "title": "Gradle AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 126
+  },
+  {
+    "path": "skill-based/Build-Tools/maven",
+    "title": "Maven AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 123
+  },
+  {
+    "path": "skill-based/Build-Tools/vite",
+    "title": "Vite AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 112
+  },
+  {
+    "path": "skill-based/Build-Tools/webpack",
+    "title": "Webpack AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 116
+  },
+  {
+    "path": "skill-based/Data-DB/airflow",
+    "title": "Apache Airflow AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 18,
+    "items": 128
+  },
+  {
+    "path": "skill-based/Data-DB/bigquery",
+    "title": "Google BigQuery AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 122
+  },
+  {
+    "path": "skill-based/Data-DB/cassandra",
+    "title": "Apache Cassandra AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 107
+  },
+  {
+    "path": "skill-based/Data-DB/couchdb",
+    "title": "Apache CouchDB AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 14,
+    "items": 99
+  },
+  {
+    "path": "skill-based/Data-DB/databricks",
+    "title": "Databricks AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 123
+  },
+  {
+    "path": "skill-based/Data-DB/dbt",
+    "title": "dbt AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 101
+  },
+  {
+    "path": "skill-based/Data-DB/kafka",
+    "title": "Kafka AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 128
+  },
+  {
+    "path": "skill-based/Data-DB/mariadb",
+    "title": "MariaDB AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 95
+  },
+  {
+    "path": "skill-based/Data-DB/ms-sql",
+    "title": "Microsoft SQL Server AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 126
+  },
+  {
+    "path": "skill-based/Data-DB/mysql",
+    "title": "MySQL AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 128
+  },
+  {
+    "path": "skill-based/Data-DB/neo4j",
+    "title": "Neo4j AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 116
+  },
+  {
+    "path": "skill-based/Data-DB/oracle",
+    "title": "Oracle Database AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 130
+  },
+  {
+    "path": "skill-based/Data-DB/rabbitmq",
+    "title": "RabbitMQ AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 18,
+    "items": 120
+  },
+  {
+    "path": "skill-based/Data-DB/snowflake",
+    "title": "Snowflake AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 117
+  },
+  {
+    "path": "skill-based/Data-DB/spark",
+    "title": "Apache Spark AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 17,
+    "items": 126
+  },
+  {
+    "path": "skill-based/Data-DB/sqlite",
+    "title": "SQLite AI 생성",
+    "ai": true,
+    "parts": 3,
+    "sections": 10,
+    "items": 80
+  },
+  {
+    "path": "skill-based/Design/adobe-xd",
+    "title": "Adobe XD AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 10,
+    "items": 70
+  },
+  {
+    "path": "skill-based/Design/balsamiq",
+    "title": "Balsamiq AI 생성",
+    "ai": true,
+    "parts": 3,
+    "sections": 8,
+    "items": 58
+  },
+  {
+    "path": "skill-based/Design/figma",
+    "title": "Figma AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 109
+  },
+  {
+    "path": "skill-based/Design/sketch",
+    "title": "Sketch AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 11,
+    "items": 76
+  },
+  {
+    "path": "skill-based/Frameworks/astro",
+    "title": "Astro AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 106
+  },
+  {
+    "path": "skill-based/Frameworks/chakra-ui",
+    "title": "Chakra UI AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 14,
+    "items": 81
+  },
+  {
+    "path": "skill-based/Frameworks/express",
+    "title": "Express.js AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 103
+  },
+  {
+    "path": "skill-based/Frameworks/fastapi",
+    "title": "FastAPI AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 98
+  },
+  {
+    "path": "skill-based/Frameworks/flask",
+    "title": "Flask AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 103
+  },
+  {
+    "path": "skill-based/Frameworks/ktor",
+    "title": "Ktor AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 100
+  },
+  {
+    "path": "skill-based/Frameworks/material-ui",
+    "title": "Material UI (MUI) AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 86
+  },
+  {
+    "path": "skill-based/Frameworks/mobx",
+    "title": "MobX AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 71
+  },
+  {
+    "path": "skill-based/Frameworks/nestjs",
+    "title": "NestJS AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 98
+  },
+  {
+    "path": "skill-based/Frameworks/prisma",
+    "title": "Prisma AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 103
+  },
+  {
+    "path": "skill-based/Frameworks/quarkus",
+    "title": "Quarkus AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 122
+  },
+  {
+    "path": "skill-based/Frameworks/redux",
+    "title": "Redux AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 16,
+    "items": 94
+  },
+  {
+    "path": "skill-based/Frameworks/remix",
+    "title": "Remix AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 121
+  },
+  {
+    "path": "skill-based/Frameworks/sass",
+    "title": "Sass / SCSS AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 93
+  },
+  {
+    "path": "skill-based/Frameworks/sequelize",
+    "title": "Sequelize AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 16,
+    "items": 105
+  },
+  {
+    "path": "skill-based/Frameworks/shadcn-ui",
+    "title": "shadcn/ui AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 11,
+    "items": 72
+  },
+  {
+    "path": "skill-based/Frameworks/symfony",
+    "title": "Symfony AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 124
+  },
+  {
+    "path": "skill-based/Frameworks/tailwind",
+    "title": "Tailwind CSS AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 100
+  },
+  {
+    "path": "skill-based/Frameworks/typeorm",
+    "title": "TypeORM AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 98
+  },
+  {
+    "path": "skill-based/Frameworks/zustand",
+    "title": "Zustand AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 11,
+    "items": 55
+  },
+  {
+    "path": "skill-based/Game-Dev/godot",
+    "title": "Godot AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 109
+  },
+  {
+    "path": "skill-based/Game-Dev/unity",
+    "title": "Unity AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 15,
+    "items": 130
+  },
+  {
+    "path": "skill-based/Game-Dev/unreal-engine",
+    "title": "Unreal Engine AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 129
+  },
+  {
+    "path": "skill-based/Infra-DevOps/apache-httpd",
+    "title": "Apache HTTP Server AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 118
+  },
+  {
+    "path": "skill-based/Infra-DevOps/argocd",
+    "title": "Argo CD AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 102
+  },
+  {
+    "path": "skill-based/Infra-DevOps/azure",
+    "title": "Microsoft Azure AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 126
+  },
+  {
+    "path": "skill-based/Infra-DevOps/caddy",
+    "title": "Caddy AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 12,
+    "items": 82
+  },
+  {
+    "path": "skill-based/Infra-DevOps/circleci",
+    "title": "CircleCI AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 101
+  },
+  {
+    "path": "skill-based/Infra-DevOps/datadog",
+    "title": "Datadog AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 124
+  },
+  {
+    "path": "skill-based/Infra-DevOps/digitalocean",
+    "title": "DigitalOcean AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 77
+  },
+  {
+    "path": "skill-based/Infra-DevOps/gcp",
+    "title": "Google Cloud Platform AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 123
+  },
+  {
+    "path": "skill-based/Infra-DevOps/gitlab-ci",
+    "title": "GitLab CI/CD AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 100
+  },
+  {
+    "path": "skill-based/Infra-DevOps/grafana",
+    "title": "Grafana AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 12,
+    "items": 127
+  },
+  {
+    "path": "skill-based/Infra-DevOps/heroku",
+    "title": "Heroku AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 12,
+    "items": 80
+  },
+  {
+    "path": "skill-based/Infra-DevOps/jenkins",
+    "title": "Jenkins AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 108
+  },
+  {
+    "path": "skill-based/Infra-DevOps/new-relic",
+    "title": "New Relic AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 124
+  },
+  {
+    "path": "skill-based/Infra-DevOps/nginx",
+    "title": "Nginx AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 116
+  },
+  {
+    "path": "skill-based/Infra-DevOps/opentelemetry",
+    "title": "OpenTelemetry AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 14,
+    "items": 126
+  },
+  {
+    "path": "skill-based/Infra-DevOps/prometheus",
+    "title": "Prometheus AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 129
+  },
+  {
+    "path": "skill-based/Infra-DevOps/sentry",
+    "title": "Sentry AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 106
+  },
+  {
+    "path": "skill-based/Infra-DevOps/teamcity",
+    "title": "TeamCity AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 15,
+    "items": 105
+  },
+  {
+    "path": "skill-based/Infra-DevOps/travis-ci",
+    "title": "Travis CI AI 생성",
+    "ai": true,
+    "parts": 3,
+    "sections": 11,
+    "items": 63
+  },
+  {
+    "path": "skill-based/Infra-DevOps/vercel",
+    "title": "Vercel AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 13,
+    "items": 81
+  },
+  {
+    "path": "skill-based/Testing/appium",
+    "title": "Appium AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 101
+  },
+  {
+    "path": "skill-based/Testing/cypress",
+    "title": "Cypress AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 18,
+    "items": 106
+  },
+  {
+    "path": "skill-based/Testing/detox",
+    "title": "Detox AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 100
+  },
+  {
+    "path": "skill-based/Testing/jest",
+    "title": "Jest AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 18,
+    "items": 107
+  },
+  {
+    "path": "skill-based/Testing/junit",
+    "title": "JUnit AI 생성",
+    "ai": true,
+    "parts": 4,
+    "sections": 16,
+    "items": 103
+  },
+  {
+    "path": "skill-based/Testing/phpunit",
+    "title": "PHPUnit AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 98
+  },
+  {
+    "path": "skill-based/Testing/playwright",
+    "title": "Playwright AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 18,
+    "items": 115
+  },
+  {
+    "path": "skill-based/Testing/puppeteer",
+    "title": "Puppeteer AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 104
+  },
+  {
+    "path": "skill-based/Testing/pytest",
+    "title": "pytest AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 107
+  },
+  {
+    "path": "skill-based/Testing/rspec",
+    "title": "RSpec AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 104
+  },
+  {
+    "path": "skill-based/Testing/selenium",
+    "title": "Selenium AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 104
+  },
+  {
+    "path": "skill-based/Testing/vitest",
+    "title": "Vitest AI 생성",
+    "ai": true,
+    "parts": 5,
+    "sections": 16,
+    "items": 100
+  }
+]
